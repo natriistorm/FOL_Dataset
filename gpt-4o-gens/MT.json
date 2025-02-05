@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "context": "If a person exercises regularly, they maintain good cardiovascular health. Alice does not maintain good cardiovascular health.",
+        "question": "Does Alice exercise regularly?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "If a person exercises regularly, they maintain good cardiovascular health. Alice does maintain good cardiovascular health.",
+        "question": "Does Alice exercise regularly?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "Students who study daily tend to perform well on exams. Jake did not perform well on the exam.",
+        "question": "Does Jake study daily?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "Students who study daily tend to perform well on exams. Jake did perform well on the exam.",
+        "question": "Does Jake study daily?",
+        "answer": "yes"
+    },
+    {
+        "id": 5,
+        "context": "People who drink enough water have fewer headaches. Emma has frequent headaches.",
+        "question": "Does Emma drink enough water?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "People who drink enough water have fewer headaches. Emma does not have frequent headaches.",
+        "question": "Does Emma drink enough water?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "If an employee arrives on time every day, they receive a punctuality bonus. Mark did not receive a punctuality bonus.",
+        "question": "Does Mark arrive on time every day?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "If an employee arrives on time every day, they receive a punctuality bonus. Mark did receive a punctuality bonus.",
+        "question": "Does Mark arrive on time every day?",
+        "answer": "yes"
+    },
+    {
+        "id": 9,
+        "context": "People who get regular medical checkups detect illnesses early. Lisa did not detect her illness early.",
+        "question": "Does Lisa get regular medical checkups?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "People who get regular medical checkups detect illnesses early. Lisa did detect her illness early.",
+        "question": "Does Lisa get regular medical checkups?",
+        "answer": "yes"
+    },
+    {
+        "id": 11,
+        "context": "If someone practices an instrument consistently, they improve their skill. Alex has not improved their skill.",
+        "question": "Does Alex practice consistently?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "If someone practices an instrument consistently, they improve their skill. Alex has improved their skill.",
+        "question": "Does Alex practice consistently?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "If an individual follows a strict budget, they save money over time. Mia did not save money over time.",
+        "question": "Does Mia follow a strict budget?",
+        "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "If an individual follows a strict budget, they save money over time. Mia did save money over time.",
+        "question": "Does Mia follow a strict budget?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "If a dog is trained well, it follows commands reliably. Max does not follow commands reliably.",
+        "question": "Is Max trained well?",
+        "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "If a dog is trained well, it follows commands reliably. Max follows commands reliably.",
+        "question": "Is Max trained well?",
+        "answer": "yes"
+    },
+    {
+        "id": 17,
+        "context": "If a plant receives enough sunlight, it grows well. This plant did not grow well.",
+        "question": "Did this plant receive enough sunlight?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "If a plant receives enough sunlight, it grows well. This plant grew well.",
+        "question": "Did this plant receive enough sunlight?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "People who read often have a broad vocabulary. Sarah does not have a broad vocabulary.",
+        "question": "Does Sarah read often?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "People who read often have a broad vocabulary. Sarah has a broad vocabulary.",
+        "question": "Does Sarah read often?",
+        "answer": "yes"
+    }
+]

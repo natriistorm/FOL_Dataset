@@ -1,0 +1,122 @@
+[
+        {
+            "id": 1,
+            "context": "A student knew that if they studied diligently, they would perform well on exams. Performing well on exams would improve their chances of getting a scholarship.",
+            "question": "If Alex studies diligently, will they have a better chance of getting a scholarship?",
+            "answer": "yes"
+        },
+        {
+            "id": 2,
+            "context": "A student believed that if they watched TV instead of studying, they would not gain enough knowledge. Without enough knowledge, they would struggle to pass the exams.",
+            "question": "If Jordan watches TV instead of studying, will they pass their exams?",
+            "answer": "no"
+        },
+        {
+            "id": 3,
+            "context": "An entrepreneur knew that if they networked frequently, they would meet potential investors. Meeting investors would increase the chances of securing funding for their startup.",
+            "question": "If Mia networks frequently, will she have a higher chance of securing funding?",
+            "answer": "yes"
+        },
+        {
+            "id": 4,
+            "context": "An entrepreneur believed that if they avoided networking, they would miss opportunities to meet investors. Without meeting investors, their chances of securing funding would decrease.",
+            "question": "If Ryan avoids networking, will they secure funding?",
+            "answer": "no"
+        },
+        {
+            "id": 5,
+            "context": "A traveler knew that if they booked flights early, they would get cheaper tickets. Cheaper tickets would allow them to visit more destinations.",
+            "question": "If Emily books her flights early, will she be able to visit more destinations?",
+            "answer": "yes"
+        },
+        {
+            "id": 6,
+            "context": "A traveler believed that if they waited until the last minute to book flights, the prices would be too high. Expensive tickets would limit their ability to travel to multiple destinations.",
+            "question": "If Daniel waits until the last minute to book flights, will he be able to visit more destinations?",
+            "answer": "no"
+        },
+        {
+            "id": 7,
+            "context": "A scientist knew that if they conducted thorough experiments, they would gather strong evidence. Strong evidence would support their new scientific theory.",
+            "question": "If Sophia conducts thorough experiments, will she have strong evidence for her theory?",
+            "answer": "yes"
+        },
+        {
+            "id": 8,
+            "context": "A scientist suspected that if they skipped experiments, they would lack reliable data. Without reliable data, they could not support their scientific theory.",
+            "question": "If Oliver skips experiments, will he have strong evidence for his theory?",
+            "answer": "no"
+        },
+        {
+            "id": 9,
+            "context": "A chef knew that if they used fresh ingredients, the dishes would taste better. Tastier dishes would attract more customers to their restaurant.",
+            "question": "If Liam uses fresh ingredients, will more customers come to his restaurant?",
+            "answer": "yes"
+        },
+        {
+            "id": 10,
+            "context": "A chef suspected that if they used stale ingredients, the dishes would not taste good. Bad-tasting food would drive customers away from their restaurant.",
+            "question": "If Noah uses stale ingredients, will more customers come to his restaurant?",
+            "answer": "no"
+        },
+        {
+            "id": 11,
+            "context": "An athlete knew that if they trained consistently, they would improve their endurance. Better endurance would help them win races.",
+            "question": "If Zoe trains consistently, will she have a better chance of winning races?",
+            "answer": "yes"
+        },
+        {
+            "id": 12,
+            "context": "An athlete believed that if they skipped training, their endurance would decline. Without good endurance, they would struggle to win races.",
+            "question": "If Ethan skips training, will he have a better chance of winning races?",
+            "answer": "no"
+        },
+        {
+            "id": 13,
+            "context": "A business owner knew that if they provided excellent customer service, they would build strong customer loyalty. Strong customer loyalty would increase their sales.",
+            "question": "If Ava provides excellent customer service, will her sales increase?",
+            "answer": "yes"
+        },
+        {
+            "id": 14,
+            "context": "A business owner suspected that if they ignored customer complaints, customers would lose trust. Without customer trust, their sales would decline.",
+            "question": "If William ignores customer complaints, will his sales increase?",
+            "answer": "no"
+        },
+        {
+            "id": 15,
+            "context": "A writer knew that if they wrote every day, they would become more skilled. More skill in writing would increase their chances of publishing a book.",
+            "question": "If Olivia writes every day, will she have a higher chance of publishing a book?",
+            "answer": "yes"
+        },
+        {
+            "id": 16,
+            "context": "A writer believed that if they rarely wrote, their skills would not improve. Without improved skills, they would struggle to publish a book.",
+            "question": "If Elijah rarely writes, will he have a higher chance of publishing a book?",
+            "answer": "no"
+        },
+        {
+            "id": 17,
+            "context": "A gardener knew that if they watered plants regularly, the plants would grow well. Healthy plants would produce more vegetables.",
+            "question": "If Hannah waters her plants regularly, will they produce more vegetables?",
+            "answer": "yes"
+        },
+        {
+            "id": 18,
+            "context": "A gardener believed that if they neglected to water plants, the plants would wither. Weak and dry plants would not produce many vegetables.",
+            "question": "If Jacob neglects to water his plants, will they produce more vegetables?",
+            "answer": "no"
+        },
+        {
+            "id": 19,
+            "context": "A musician knew that if they rehearsed frequently, they would perform confidently. Confident performances would earn them more recognition.",
+            "question": "If Isabella rehearses frequently, will she gain more recognition?",
+            "answer": "yes"
+        },
+        {
+            "id": 20,
+            "context": "A musician believed that if they skipped rehearsals, they would feel unprepared. Unprepared performances would hurt their chances of gaining recognition.",
+            "question": "If Lucas skips rehearsals, will he gain more recognition?",
+            "answer": "no"
+        }
+    ]

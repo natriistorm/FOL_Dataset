@@ -1,0 +1,110 @@
+[
+    {
+        "id": 4,
+        "context": "In the corporate world, employees who work overtime meet tight deadlines. Those who network frequently expand their career opportunities. However, employees have limited hours in a day. They can either work overtime or they do not frequently network.",
+        "question": "Can we infer that Alex, an employee in the corporate world, either meets tight deadlines or does not expand career opportunities through networking?",
+        "answer": "yes"
+    },
+    {
+        "id": 5,
+        "context": "In the corporate world, employees who work overtime meet tight deadlines. Those who network frequently expand their career opportunities. However, employees have limited hours in a day. Some manage to work overtime while still networking frequently.",
+        "question": "Can we infer that Alex, an employee in the corporate world, either meets tight deadlines or does not expand career opportunities through networking?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "In sports, athletes who train intensively improve their performance. Those who rest adequately avoid injuries. However, due to time constraints, athletes can either train intensively or they do not rest adequately.",
+        "question": "Can we conclude that Jake, an athlete, either improves his performance or does not avoid injuries?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "In sports, athletes who train intensively improve their performance. Those who rest adequately avoid injuries. However, some athletes manage to train intensively while still resting adequately.",
+        "question": "Can we conclude that Jake, an athlete, either improves his performance or does not avoid injuries?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "In the art industry, painters who practice daily refine their technique. Those who explore different styles broaden their creativity. However, painters have limited time each day. They can either practice daily or they do not explore different styles frequently.",
+        "question": "Does this mean that Emma, a painter, either refines her technique or does not frequently explore different styles?",
+        "answer": "yes"
+    },
+    {
+        "id": 9,
+        "context": "In the art industry, painters who practice daily refine their technique. Those who explore different styles broaden their creativity. However, some painters manage to practice daily while also exploring different styles frequently.",
+        "question": "Does this mean that Emma, a painter, either refines her technique or does not frequently explore different styles?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "In academia, researchers who publish frequently build a strong reputation. Those who collaborate widely gain diverse perspectives. However, researchers have limited resources and time. They can either publish frequently or they do not collaborate widely.",
+        "question": "Can we say that Daniel, a researcher, either builds a strong reputation or does not gain diverse perspectives through collaboration?",
+        "answer": "yes"
+    },
+    {
+        "id": 11,
+        "context": "In academia, researchers who publish frequently build a strong reputation. Those who collaborate widely gain diverse perspectives. However, some researchers manage to publish frequently while also collaborating widely.",
+        "question": "Can we say that Daniel, a researcher, either builds a strong reputation or does not gain diverse perspectives through collaboration?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "In entrepreneurship, business owners who take financial risks achieve high profits. Those who maintain stable investments ensure long-term security. However, due to resource constraints, business owners can either take financial risks or they do not maintain stable investments.",
+        "question": "Can we conclude that Sarah, a business owner, either achieves high profits or does not maintain stable investments?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "In entrepreneurship, business owners who take financial risks achieve high profits. Those who maintain stable investments ensure long-term security. However, some business owners manage to take financial risks while also maintaining stable investments.",
+        "question": "Can we conclude that Sarah, a business owner, either achieves high profits or does not maintain stable investments?",
+        "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "In journalism, reporters who investigate deeply uncover hidden truths. Those who write frequently maintain audience engagement. However, reporters have limited time and resources. They can either investigate deeply or they do not write frequently.",
+        "question": "Does this mean that James, a journalist, either uncovers hidden truths or does not maintain audience engagement?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "In journalism, reporters who investigate deeply uncover hidden truths. Those who write frequently maintain audience engagement. However, some reporters manage to investigate deeply while also writing frequently.",
+        "question": "Does this mean that James, a journalist, either uncovers hidden truths or does not maintain audience engagement?",
+        "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "In programming, developers who focus on optimization improve performance. Those who experiment with new technologies stay ahead in the industry. However, developers have limited bandwidth. They can either focus on optimization or they do not experiment with new technologies.",
+        "question": "Can we infer that Lisa, a developer, either improves performance or does not stay ahead in the industry?",
+        "answer": "yes"
+    },
+    {
+        "id": 17,
+        "context": "In programming, developers who focus on optimization improve performance. Those who experiment with new technologies stay ahead in the industry. However, some developers manage to focus on optimization while also experimenting with new technologies.",
+        "question": "Can we infer that Lisa, a developer, either improves performance or does not stay ahead in the industry?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "In music, composers who experiment with different genres expand their artistic range. Those who perfect a single style master its nuances. However, composers have limited creative focus. They can either experiment with different genres or they do not perfect a single style.",
+        "question": "Does this mean that Daniel, a composer, either expands his artistic range or does not master the nuances of a single style?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "In music, composers who experiment with different genres expand their artistic range. Those who perfect a single style master its nuances. However, some composers manage to experiment with different genres while also perfecting a single style.",
+        "question": "Does this mean that Daniel, a composer, either expands his artistic range or does not master the nuances of a single style?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "In aviation, pilots who undergo frequent training enhance their flight skills. Those who take more flights gain real-world experience. However, pilots have limited time. They can either undergo frequent training or they do not take more flights.",
+        "question": "Can we conclude that Emma, a pilot, either enhances her flight skills or does not gain real-world experience?",
+        "answer": "yes"
+    },
+    {
+        "id": 21,
+        "context": "In aviation, pilots who undergo frequent training enhance their flight skills. Those who take more flights gain real-world experience. However, some pilots manage to undergo frequent training while also taking more flights.",
+        "question": "Can we conclude that Emma, a pilot, either enhances her flight skills or does not gain real-world experience?",
+        "answer": "no"
+    }
+]

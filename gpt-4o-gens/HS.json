@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "context": "If a student studies diligently, they will grasp the material well. When a student understands the material, they perform better in exams.",
+        "question": "Does it entail that if John studies diligently, he will perform better in exams?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If a student studies diligently, they will grasp the material well. However, external factors like stress can also impact exam performance.",
+        "question": "Does it entail that if John studies diligently, he will perform better in exams?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "When a person exercises regularly, their cardiovascular health improves. Improved cardiovascular health leads to increased stamina.",
+        "question": "Does it entail that if Sarah exercises regularly, her stamina will increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "When a person exercises regularly, their cardiovascular health improves. However, stamina also depends on other factors like diet and rest.",
+        "question": "Does it entail that if Sarah exercises regularly, her stamina will increase?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If a person drinks coffee late at night, they may have difficulty sleeping. Difficulty sleeping results in fatigue the next day.",
+        "question": "Does it entail that if Mark drinks coffee late at night, he will feel fatigued the next day?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If a person drinks coffee late at night, they may have difficulty sleeping. However, some individuals have a high tolerance for caffeine and may not experience fatigue.",
+        "question": "Does it entail that if Mark drinks coffee late at night, he will feel fatigued the next day?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "When a city experiences heavy rainfall, the streets often flood. Flooded streets lead to increased traffic congestion.",
+        "question": "Does it entail that if it rains heavily in New York, traffic congestion will increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "When a city experiences heavy rainfall, the streets often flood. However, New York has an advanced drainage system that prevents major flooding.",
+        "question": "Does it entail that if it rains heavily in New York, traffic congestion will increase?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If an author writes daily, their writing skills improve over time. Improved writing skills lead to better storytelling.",
+        "question": "Does it entail that if Lisa writes daily, her storytelling will improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If an author writes daily, their writing skills improve over time. However, storytelling also requires creativity, which may not improve solely through writing practice.",
+        "question": "Does it entail that if Lisa writes daily, her storytelling will improve?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a company invests in employee training, productivity increases. Higher productivity leads to greater company revenue.",
+        "question": "Does it entail that if XYZ Corp invests in employee training, its revenue will increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a company invests in employee training, productivity increases. However, revenue also depends on market conditions and external factors.",
+        "question": "Does it entail that if XYZ Corp invests in employee training, its revenue will increase?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "When a tree gets enough sunlight, it produces more leaves. More leaves enhance the tree’s ability to photosynthesize and grow taller.",
+        "question": "Does it entail that if this tree gets enough sunlight, it will grow taller?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "When a tree gets enough sunlight, it produces more leaves. However, growth also depends on soil quality and nutrients.",
+        "question": "Does it entail that if this tree gets enough sunlight, it will grow taller?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If a musician practices daily, their technical skills improve. Improved technical skills allow for more expressive performances.",
+        "question": "Does it entail that if Jake practices music daily, his performances will be more expressive?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If a musician practices daily, their technical skills improve. However, expressiveness also depends on emotional connection and interpretation, not just technique.",
+        "question": "Does it entail that if Jake practices music daily, his performances will be more expressive?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a software developer codes every day, their problem-solving ability improves. Improved problem-solving ability leads to more efficient code writing.",
+        "question": "Does it entail that if Tom codes every day, he will write more efficient code?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If a software developer codes every day, their problem-solving ability improves. However, efficiency also depends on experience with different projects and technologies.",
+        "question": "Does it entail that if Tom codes every day, he will write more efficient code?",
+        "answer": "no"
+    }
+]

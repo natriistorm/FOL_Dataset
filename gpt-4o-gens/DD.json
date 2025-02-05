@@ -1,0 +1,67 @@
+[
+    {
+        "id": 11,
+        "context": "If an athlete follows a strict training routine, they enhance their performance. Similarly, if they maintain a balanced diet, they improve their endurance. However, there are cases where they neither enhance their performance nor improve their endurance.",
+        "question": "Does it entail that for Alex, who strives for peak fitness, either they do not follow a strict training routine or they do not maintain a balanced diet?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If an athlete follows a strict training routine, they enhance their performance. Likewise, if they maintain a balanced diet, they improve their endurance. However, there are cases where they only enhance their performance without improving their endurance.",
+        "question": "Does it entail that for Alex, who strives for peak fitness, either they do not follow a strict training routine or they do not maintain a balanced diet?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a student studies consistently, they achieve academic success. Additionally, if they seek help when needed, they overcome learning obstacles. However, there are situations where they neither achieve academic success nor overcome learning obstacles.",
+        "question": "Does it entail that for Mia, who prioritizes her education, either she does not study consistently or she does not seek help when needed?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a student studies consistently, they achieve academic success. Likewise, if they seek help when needed, they overcome learning obstacles. However, there are situations where they only achieve academic success without overcoming learning obstacles.",
+        "question": "Does it entail that for Mia, who prioritizes her education, either she does not study consistently or she does not seek help when needed?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If an entrepreneur adapts to market changes, their business remains competitive. Additionally, if they invest in innovation, their company grows. However, there are cases where their business neither remains competitive nor grows.",
+        "question": "Does it entail that for Ryan, who wants a successful business, either he does not adapt to market changes or he does not invest in innovation?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If an entrepreneur adapts to market changes, their business remains competitive. Similarly, if they invest in innovation, their company grows. However, there are cases where their business remains competitive without growing.",
+        "question": "Does it entail that for Ryan, who wants a successful business, either he does not adapt to market changes or he does not invest in innovation?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a musician practices regularly, they improve their technical skills. Furthermore, if they experiment with different styles, they expand their creativity. However, there are instances where they neither improve their technical skills nor expand their creativity.",
+        "question": "Does it entail that for Sophia, who wants to be a versatile musician, either she does not practice regularly or she does not experiment with different styles?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If a musician practices regularly, they improve their technical skills. Similarly, if they experiment with different styles, they expand their creativity. However, there are cases where they improve their technical skills without expanding their creativity.",
+        "question": "Does it entail that for Sophia, who wants to be a versatile musician, either she does not practice regularly or she does not experiment with different styles?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If a scientist conducts thorough research, they produce reliable results. Moreover, if they collaborate with peers, they gain diverse insights. However, there are situations where they neither produce reliable results nor gain diverse insights.",
+        "question": "Does it entail that for Liam, who values scientific integrity, either he does not conduct thorough research or he does not collaborate with peers?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "If a scientist conducts thorough research, they produce reliable results. Similarly, if they collaborate with peers, they gain diverse insights. However, there are cases where they produce reliable results without gaining diverse insights.",
+        "question": "Does it entail that for Liam, who values scientific integrity, either he does not conduct thorough research or he does not collaborate with peers?",
+        "answer": "no"
+    }
+]    
+    
+    
+    
+    
+    

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "context": "At a renowned university, every professor was knowledgeable and approachable. The institution prided itself on maintaining high academic and interpersonal standards. However, exceptions were noted over time.",
+        "question": "Does it entail that there is at least one professor for which either being knowledgeable is not true or being approachable is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "At a renowned university, every professor was knowledgeable and approachable. The institution prided itself on maintaining high academic and interpersonal standards. This reputation remained unchallenged.",
+        "question": "Does it entail that there is at least one professor for which either being knowledgeable is not true or being approachable is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "Every product manufactured by the company was durable and eco-friendly. Consumers trusted the brand for its reliability and sustainability. However, some reports questioned these claims.",
+        "question": "Does it entail that there is at least one product for which either being durable is not true or being eco-friendly is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "Every product manufactured by the company was durable and eco-friendly. Consumers trusted the brand for its reliability and sustainability. No contradictions to this belief were ever found.",
+        "question": "Does it entail that there is at least one product for which either being durable is not true or being eco-friendly is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "In the city, every park was clean and safe. Residents often praised the local government for its maintenance efforts. Yet, some complaints surfaced regarding certain locations.",
+        "question": "Does it entail that there is at least one park for which either being clean is not true or being safe is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In the city, every park was clean and safe. Residents often praised the local government for its maintenance efforts. No issues were ever reported.",
+        "question": "Does it entail that there is at least one park for which either being clean is not true or being safe is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "Every employee in the company was efficient and hardworking. This was a core principle upheld by management. However, occasional lapses in performance were observed.",
+        "question": "Does it entail that there is at least one employee for which either being efficient is not true or being hardworking is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "Every employee in the company was efficient and hardworking. This was a core principle upheld by management. Performance reviews confirmed this to be true without exceptions.",
+        "question": "Does it entail that there is at least one employee for which either being efficient is not true or being hardworking is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "Every book in the library was well-organized and properly cataloged. The librarians took pride in maintaining order. Yet, occasional errors in cataloging were discovered.",
+        "question": "Does it entail that there is at least one book for which either being well-organized is not true or being properly cataloged is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "Every book in the library was well-organized and properly cataloged. The librarians took pride in maintaining order. No mistakes were ever found in the system.",
+        "question": "Does it entail that there is at least one book for which either being well-organized is not true or being properly cataloged is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "Each student in the advanced class was diligent and creative. The curriculum was designed to foster these qualities. However, some students struggled in one aspect or another.",
+        "question": "Does it entail that there is at least one student for which either being diligent is not true or being creative is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "Each student in the advanced class was diligent and creative. The curriculum was designed to foster these qualities. All students consistently demonstrated both attributes.",
+        "question": "Does it entail that there is at least one student for which either being diligent is not true or being creative is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "Every bridge in the city was structurally sound and well-maintained. Engineers regularly inspected them to ensure safety. Yet, reports surfaced about occasional maintenance lapses.",
+        "question": "Does it entail that there is at least one bridge for which either being structurally sound is not true or being well-maintained is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "Every bridge in the city was structurally sound and well-maintained. Engineers regularly inspected them to ensure safety. No reports of issues ever arose.",
+        "question": "Does it entail that there is at least one bridge for which either being structurally sound is not true or being well-maintained is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "All homes in the neighborhood were spacious and energy-efficient. The development was designed to meet these standards. However, some houses failed to meet expectations.",
+        "question": "Does it entail that there is at least one home for which either being spacious is not true or being energy-efficient is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "All homes in the neighborhood were spacious and energy-efficient. The development was designed to meet these standards. Inspections confirmed this was true for every house.",
+        "question": "Does it entail that there is at least one home for which either being spacious is not true or being energy-efficient is not true or both?",
+        "answer": "no"
+    }
+]

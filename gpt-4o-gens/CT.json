@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "context": "In a school, every student who studies diligently scores well on exams. Every student who studies diligently also understands concepts better.",
+        "question": "Does it entail that if a student studies diligently at the school, then they score well on exams and understand concepts better?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In a school, every student who studies diligently scores well on exams. Some students who study diligently do not understand concepts better.",
+        "question": "Does it entail that if a student studies diligently at the school, then they score well on exams and understand concepts better?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "In a company, every employee who completes training gains new skills. Every employee who completes training also gets a promotion.",
+        "question": "Does it entail that if an employee completes training at the company, then they gain new skills and get a promotion?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "In a company, every employee who completes training gains new skills. Some employees who complete training do not get a promotion.",
+        "question": "Does it entail that if an employee completes training at the company, then they gain new skills and get a promotion?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "At a gym, every person who follows the trainer’s advice improves their fitness. Every person who follows the trainer’s advice also builds muscle.",
+        "question": "Does it entail that if a person follows the trainer’s advice at the gym, then they improve their fitness and build muscle?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "At a gym, every person who follows the trainer’s advice improves their fitness. Some people who follow the trainer’s advice do not build muscle.",
+        "question": "Does it entail that if a person follows the trainer’s advice at the gym, then they improve their fitness and build muscle?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In a research lab, every scientist who publishes a paper gains recognition. Every scientist who publishes a paper also receives funding.",
+        "question": "Does it entail that if a scientist publishes a paper in the research lab, then they gain recognition and receive funding?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In a research lab, every scientist who publishes a paper gains recognition. Some scientists who publish a paper do not receive funding.",
+        "question": "Does it entail that if a scientist publishes a paper in the research lab, then they gain recognition and receive funding?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "At a restaurant, every chef who uses fresh ingredients cooks delicious food. Every chef who uses fresh ingredients also satisfies customers.",
+        "question": "Does it entail that if a chef uses fresh ingredients at the restaurant, then they cook delicious food and satisfy customers?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "At a restaurant, every chef who uses fresh ingredients cooks delicious food. Some chefs who use fresh ingredients do not satisfy customers.",
+        "question": "Does it entail that if a chef uses fresh ingredients at the restaurant, then they cook delicious food and satisfy customers?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "On a farm, every chicken that is well-fed lays eggs. Every chicken that is well-fed also grows healthy.",
+        "question": "Does it entail that if a chicken is well-fed on the farm, then it lays eggs and grows healthy?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "On a farm, every chicken that is well-fed lays eggs. Some chickens that are well-fed do not grow healthy.",
+        "question": "Does it entail that if a chicken is well-fed on the farm, then it lays eggs and grows healthy?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "In a university, every professor who conducts research publishes papers. Every professor who conducts research also attends conferences.",
+        "question": "Does it entail that if a professor conducts research at the university, then they publish papers and attend conferences?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "In a university, every professor who conducts research publishes papers. Some professors who conduct research do not attend conferences.",
+        "question": "Does it entail that if a professor conducts research at the university, then they publish papers and attend conferences?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "At a music school, every student who practices daily improves their skills. Every student who practices daily also performs well in recitals.",
+        "question": "Does it entail that if a student practices daily at the music school, then they improve their skills and perform well in recitals?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "At a music school, every student who practices daily improves their skills. Some students who practice daily do not perform well in recitals.",
+        "question": "Does it entail that if a student practices daily at the music school, then they improve their skills and perform well in recitals?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "In an art studio, every artist who experiments with new techniques creates innovative artwork. Every artist who experiments with new techniques also gains recognition.",
+        "question": "Does it entail that if an artist experiments with new techniques at the art studio, then they create innovative artwork and gain recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "In an art studio, every artist who experiments with new techniques creates innovative artwork. Some artists who experiment with new techniques do not gain recognition.",
+        "question": "Does it entail that if an artist experiments with new techniques at the art studio, then they create innovative artwork and gain recognition?",
+        "answer": "no"
+    }
+]

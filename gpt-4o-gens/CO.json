@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "context": "At the community library, every book offered a world of knowledge. For each book, either it contained historical facts, or it provided scientific insights, or it included both aspects. The diverse collection encouraged curiosity and lifelong learning.",
+        "question": "Does it entail that for each book, either it provides scientific insights or it contains historical facts, or both are true?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "At the community library, every book offered a world of knowledge. Some books contained historical facts, some provided scientific insights, and some included both aspects. The diverse collection encouraged curiosity and lifelong learning.",
+        "question": "Does it entail that for each book, either it provides scientific insights or it contains historical facts, or both are true?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "In the bustling farmers' market, every vendor specialized in fresh produce. For each vendor, either they sold organic vegetables, or they offered locally grown fruits, or both. Shoppers could find everything they needed for a nutritious meal.",
+        "question": "Does it entail that for each vendor, either they offer locally grown fruits or they sell organic vegetables, or both are true?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "In the bustling farmers' market, every vendor specialized in fresh produce. Some vendors sold organic vegetables, some offered locally grown fruits, and some had both. Shoppers could find everything they needed for a nutritious meal.",
+        "question": "Does it entail that for each vendor, either they offer locally grown fruits or they sell organic vegetables, or both are true?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "At the music festival, every performer brought their unique style. For each musician, either they played jazz, or they performed rock music, or they showcased both genres. The audience enjoyed an eclectic mix of sounds.",
+        "question": "Does it entail that for each musician, either they perform rock music or they play jazz, or both are true?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "At the music festival, every performer brought their unique style. Some musicians played jazz, some performed rock music, and some showcased both genres. The audience enjoyed an eclectic mix of sounds.",
+        "question": "Does it entail that for each musician, either they perform rock music or they play jazz, or both are true?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In the botanical garden, every plant contributed to the lush scenery. For each plant, either it thrived in shade, or it flourished in direct sunlight, or both. Visitors marveled at the diverse flora.",
+        "question": "Does it entail that for each plant, either it flourishes in direct sunlight or it thrives in shade, or both are true?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In the botanical garden, every plant contributed to the lush scenery. Some plants thrived in shade, some flourished in direct sunlight, and some did both. Visitors marveled at the diverse flora.",
+        "question": "Does it entail that for each plant, either it flourishes in direct sunlight or it thrives in shade, or both are true?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "In the gourmet bakery, every pastry was crafted with care. For each dessert, either it contained chocolate, or it was filled with fruit, or both. Customers delighted in the variety of flavors.",
+        "question": "Does it entail that for each dessert, either it is filled with fruit or it contains chocolate, or both are true?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "In the gourmet bakery, every pastry was crafted with care. Some desserts contained chocolate, some were filled with fruit, and some had both. Customers delighted in the variety of flavors.",
+        "question": "Does it entail that for each dessert, either it is filled with fruit or it contains chocolate, or both are true?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In the vibrant art studio, every painting told a story. For each artwork, either it featured abstract designs, or it depicted realistic landscapes, or both. Visitors admired the artistic diversity.",
+        "question": "Does it entail that for each artwork, either it depicts realistic landscapes or it features abstract designs, or both are true?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "In the vibrant art studio, every painting told a story. Some artworks featured abstract designs, some depicted realistic landscapes, and some incorporated both. Visitors admired the artistic diversity.",
+        "question": "Does it entail that for each artwork, either it depicts realistic landscapes or it features abstract designs, or both are true?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "At the university, every student pursued academic excellence. For each student, either they excelled in mathematics, or they demonstrated strong writing skills, or both. The diverse talents enriched the campus culture.",
+        "question": "Does it entail that for each student, either they demonstrate strong writing skills or they excel in mathematics, or both are true?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "At the university, every student pursued academic excellence. Some students excelled in mathematics, some demonstrated strong writing skills, and some showed both strengths. The diverse talents enriched the campus culture.",
+        "question": "Does it entail that for each student, either they demonstrate strong writing skills or they excel in mathematics, or both are true?",
+        "answer": "no"
+    }
+]

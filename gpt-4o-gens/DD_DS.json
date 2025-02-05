@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "context": "If someone studies regularly, they pass their exams. Also, if someone exercises daily, they stay fit. However, either someone did not pass their exams or did not stay fit, or both.",
+        "question": "Alice studies regularly. Is it true that she exercises daily?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "If someone studies efficiently, they understand the material. Also, if someone maintains a schedule, they stay organized. However, either someone did not understand the material or did not stay organized, or both.",
+        "question": "Bob studies efficiently. Is it true that he maintains a schedule?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If someone practices public speaking, they become confident. Also, if someone networks often, they build strong connections. However, either someone did not become confident or did not build strong connections, or both.",
+        "question": "Charlie practices public speaking. Is it true that he networks often?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "If someone eats enough protein, they build muscle. Also, if someone stays hydrated, they avoid headaches. However, either someone did not build muscle or had headaches, or both.",
+        "question": "David eats enough protein. Is it true that he stays hydrated?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If someone follows a budget, they save money. Also, if someone invests wisely, they grow their wealth. However, either someone did not save money or did not grow their wealth, or both.",
+        "question": "Emma follows a budget. Is it true that she invests wisely?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "If someone wakes up early, they have a productive day. Also, if someone plans ahead, they avoid stress. However, either someone did not have a productive day or felt stressed, or both.",
+        "question": "Frank wakes up early. Is it true that he plans ahead?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If someone writes daily, they improve their skills. Also, if someone reads often, they expand their knowledge. However, either someone did not improve their skills or did not expand their knowledge, or both.",
+        "question": "Grace writes daily. Is it true that she reads often?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "If someone practices meditation, they reduce stress. Also, if someone exercises regularly, they improve their endurance. However, either someone did not reduce stress or did not improve their endurance, or both.",
+        "question": "Hannah practices meditation. Is it true that she exercises regularly?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If someone studies history, they understand the past. Also, if someone learns critical thinking, they make better decisions. However, either someone did not understand the past or did not make better decisions, or both.",
+        "question": "Isaac studies history. Is it true that he learns critical thinking?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "If someone learns to code, they enhance their problem-solving skills. Also, if someone collaborates effectively, they succeed in teamwork. However, either someone did not enhance their problem-solving skills or did not succeed in teamwork, or both.",
+        "question": "Jack learns to code. Is it true that he collaborates effectively?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If someone practices a new language daily, they improve their fluency. Also, if someone listens to native speakers, they improve their pronunciation. However, either someone did not improve their fluency or did not improve their pronunciation, or both.",
+        "question": "Karen practices a new language daily. Is it true that she listens to native speakers?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "If someone maintains a healthy diet, they boost their immune system. Also, if someone takes vitamins, they reduce their risk of deficiencies. However, either someone did not boost their immune system or did not reduce their risk of deficiencies, or both.",
+        "question": "Leo maintains a healthy diet. Is it true that he takes vitamins?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If someone practices playing chess, they develop strategic thinking. Also, if someone studies famous games, they improve their tactics. However, either someone did not develop strategic thinking or did not improve their tactics, or both.",
+        "question": "Mia practices playing chess. Is it true that she studies famous games?",
+        "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "If someone follows a consistent sleep schedule, they wake up refreshed. Also, if someone avoids caffeine before bed, they sleep better. However, either someone did not wake up refreshed or did not sleep better, or both.",
+        "question": "Nina follows a consistent sleep schedule. Is it true that she avoids caffeine before bed?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If someone practices patience, they handle stress better. Also, if someone meditates regularly, they stay calm in difficult situations. However, either someone did not handle stress better or did not stay calm, or both.",
+        "question": "Oliver practices patience. Is it true that he meditates regularly?",
+        "answer": "no"
+    }
+]

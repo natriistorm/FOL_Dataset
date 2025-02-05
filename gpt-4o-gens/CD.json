@@ -1,0 +1,68 @@
+[
+    {
+        "id": 3,
+        "context": "A student who studies diligently for exams improves their academic performance. Similarly, participating in class discussions enhances understanding of the subject. The student can either study diligently or actively participate in class discussions.",
+        "question": "Does this entail that the student will both improve their academic performance and enhance their understanding of the subject?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "If a person exercises regularly, they improve their physical health. On the other hand, if they follow a balanced diet, they maintain good nutrition. A person can choose to either exercise regularly or follow a balanced diet.",
+        "question": "Does this entail that the person will either improve their physical health or maintain good nutrition?",
+        "answer": "yes"
+    },
+    {
+        "id": 5,
+        "context": "If Mark invests in real estate, he gains long-term financial stability. If he starts a business, he takes on financial risk. Mark is considering either investing in real estate or starting a business.",
+        "question": "Does this entail that Mark will both gain long-term financial stability and take on financial risk?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "If an artist experiments with new techniques, they expand their creative skills. If they collaborate with other artists, they gain new perspectives. The artist will either experiment with new techniques or collaborate with others.",
+        "question": "Does this entail that the artist will either expand their creative skills or gain new perspectives?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "If Lisa attends networking events, she expands her professional connections. If she takes online courses, she improves her technical skills. Lisa has time to either attend networking events or take online courses.",
+        "question": "Does this entail that Lisa will both expand her professional connections and improve her technical skills?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "If a chef experiments with new ingredients, they create unique recipes. If they refine traditional techniques, they enhance the quality of classic dishes. The chef can choose to either experiment with new ingredients or refine traditional techniques.",
+        "question": "Does this entail that the chef will either create unique recipes or enhance the quality of classic dishes?",
+        "answer": "yes"
+    },
+    {
+        "id": 9,
+        "context": "If a traveler visits historical sites, they learn about the past. If they explore local cuisine, they experience cultural flavors. The traveler can either visit historical sites or explore local cuisine.",
+        "question": "Does this entail that the traveler will both learn about the past and experience cultural flavors?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "If a musician practices daily, they improve their technical skills. If they perform in public, they gain stage confidence. The musician will either practice daily or perform in public.",
+        "question": "Does this entail that the musician will either improve their technical skills or gain stage confidence?",
+        "answer": "yes"
+    },
+    {
+        "id": 11,
+        "context": "If a company invests in employee training, productivity increases. If it improves workplace conditions, job satisfaction rises. The company will either invest in employee training or improve workplace conditions.",
+        "question": "Does this entail that productivity will increase and job satisfaction will rise?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "If a writer reads widely, they gain new insights. If they write consistently, they develop their style. The writer will either read widely or write consistently.",
+        "question": "Does this entail that the writer will either gain new insights or develop their style?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "If a driver follows traffic rules, they avoid accidents. If they maintain their car regularly, they prevent mechanical issues. A driver can either follow traffic rules or maintain their car regularly.",
+        "question": "Does this entail that the driver will be completely safe from accidents and mechanical issues?",
+        "answer": "no"
+    }
+]

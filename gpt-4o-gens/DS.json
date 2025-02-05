@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "context": "A family wanted to visit either the zoo or the science museum. However, the science museum was unexpectedly closed for renovations.",
+        "question": "Does it entail that for the Smith family, who wanted to visit the zoo or museum, they visit the zoo?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "A family wanted to visit either the zoo or the science museum. However, the science museum was unexpectedly closed for renovations.",
+        "question": "Does it entail that for the Smith family, who wanted to visit the zoo or museum, they visit the science museum?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "A person was deciding between two weekend plans - going on a hike or having a spa day. But severe weather caused the hiking trails to close.",
+        "question": "Does it entail that for Sarah, who was choosing between a hike or a spa day, she has a spa day?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "A person was deciding between two weekend plans - going on a hike or having a spa day. But severe weather caused the hiking trails to close.",
+        "question": "Does it entail that for Sarah, who was choosing between a hike or a spa day, she goes on a hike?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A student had to choose between studying in the library or in the coffee shop. The coffee shop was unexpectedly closed due to maintenance.",
+        "question": "Does it entail that for John, who was deciding between studying in the library or coffee shop, he studies in the library?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "A student had to choose between studying in the library or in the coffee shop. The coffee shop was unexpectedly closed due to maintenance.",
+        "question": "Does it entail that for John, who was deciding between studying in the library or coffee shop, he studies in the coffee shop?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A couple was debating whether to go to a concert or watch a movie. The concert was canceled due to weather conditions.",
+        "question": "Does it entail that for the couple, who was choosing between a concert or a movie, they watch the movie?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "A couple was debating whether to go to a concert or watch a movie. The concert was canceled due to weather conditions.",
+        "question": "Does it entail that for the couple, who was choosing between a concert or a movie, they go to the concert?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "A team had to choose between training indoors or outdoors. Due to a storm, the outdoor training session was canceled.",
+        "question": "Does it entail that for the team, who was deciding between indoor or outdoor training, they train indoors?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "A team had to choose between training indoors or outdoors. Due to a storm, the outdoor training session was canceled.",
+        "question": "Does it entail that for the team, who was deciding between indoor or outdoor training, they train outdoors?",
+        "answer": "no"
+    }
+]

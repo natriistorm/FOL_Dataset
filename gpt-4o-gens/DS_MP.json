@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "context": "In a company, if an employee meets their sales target, they will receive a promotion. However, it is uncertain if the market conditions are favorable. It is certain that either the sales target is met, or the market conditions are favorable, or both.",
+        "question": "Sam's market conditions were unfavorable. Does this mean Sam received a promotion?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In a company, if an employee meets their sales target, they will receive a promotion. However, it is uncertain if the market conditions are favorable. It is certain that either the sales target is met, or the market conditions are favorable, or both.",
+        "question": "Sam's market conditions were unfavorable. Does this mean Sam did not receive a promotion?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "At a university, if a student submits their thesis on time, they will graduate. However, it is uncertain if the thesis is difficult. It is certain that either the thesis is submitted on time, or it is not difficult, or both.",
+        "question": "Emma's thesis was difficult. Does this mean Emma graduated?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "At a university, if a student submits their thesis on time, they will graduate. However, it is uncertain if the thesis is difficult. It is certain that either the thesis is submitted on time, or it is not difficult, or both.",
+        "question": "Emma's thesis was difficult. Does this mean Emma did not graduate?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "In a city, if a driver follows traffic rules, they will avoid a fine. However, it is uncertain if the roads are safe. It is certain that either traffic rules are followed, or the roads are safe, or both.",
+        "question": "David's roads were unsafe. Does this mean David avoided a fine?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In a city, if a driver follows traffic rules, they will avoid a fine. However, it is uncertain if the roads are safe. It is certain that either traffic rules are followed, or the roads are safe, or both.",
+        "question": "David's roads were unsafe. Does this mean David did not avoid a fine?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In a sports club, if an athlete trains regularly, they will perform well in competitions. However, it is uncertain if their diet is optimal. It is certain that either the athlete trains regularly, or their diet is optimal, or both.",
+        "question": "Sophia's diet was not optimal. Does this mean Sophia performed well in competitions?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In a sports club, if an athlete trains regularly, they will perform well in competitions. However, it is uncertain if their diet is optimal. It is certain that either the athlete trains regularly, or their diet is optimal, or both.",
+        "question": "Sophia's diet was not optimal. Does this mean Sophia did not perform well in competitions?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "At a software company, if a developer fixes critical bugs, their project will be released on schedule. However, it is uncertain if the project requirements are simple. It is certain that either critical bugs are fixed, or the requirements are simple, or both.",
+        "question": "Liam's project requirements were complex. Does this mean the project was released on schedule?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "At a software company, if a developer fixes critical bugs, their project will be released on schedule. However, it is uncertain if the project requirements are simple. It is certain that either critical bugs are fixed, or the requirements are simple, or both.",
+        "question": "Liam's project requirements were complex. Does this mean the project was not released on schedule?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In a medical study, if a patient follows the prescribed treatment, they will recover quickly. However, it is uncertain if the disease is mild. It is certain that either the treatment is followed, or the disease is mild, or both.",
+        "question": "Sophie's disease was not mild. Does this mean Sophie recovered quickly?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "In a medical study, if a patient follows the prescribed treatment, they will recover quickly. However, it is uncertain if the disease is mild. It is certain that either the treatment is followed, or the disease is mild, or both.",
+        "question": "Sophie's disease was not mild. Does this mean Sophie did not recover quickly?",
+        "answer": "no"
+    }
+]

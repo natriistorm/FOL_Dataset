@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "context": "If a student studies regularly, they will pass the exam. Alice studies regularly.",
+        "question": "Will Alice pass the exam?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If a student studies regularly, they will pass the exam. Bob does not study regularly.",
+        "question": "Will Bob pass the exam?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If it rains, the ground gets wet. It is raining now.",
+        "question": "Is the ground getting wet?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If it rains, the ground gets wet. It is not raining now.",
+        "question": "Is the ground getting wet?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If someone exercises regularly, they become stronger. Mark exercises regularly.",
+        "question": "Does Mark become stronger?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If someone exercises regularly, they become stronger. Tom does not exercise regularly.",
+        "question": "Does Tom become stronger?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If a car has no fuel, it will not start. This car has no fuel.",
+        "question": "Will this car start?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "If a car has fuel, it will start. This car has fuel.",
+        "question": "Will this car start?",
+        "answer": "yes"
+    },
+    {
+        "id": 9,
+        "context": "If a person wears a seatbelt, they reduce their risk of injury. Sarah wears a seatbelt.",
+        "question": "Does Sarah reduce her risk of injury?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If a person wears a seatbelt, they reduce their risk of injury. Tom does not wear a seatbelt.",
+        "question": "Does Tom reduce his risk of injury?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a device is connected to the internet, it can access online resources. This laptop is connected to the internet.",
+        "question": "Can this laptop access online resources?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a device is connected to the internet, it can access online resources. This tablet is not connected to the internet.",
+        "question": "Can this tablet access online resources?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a plant gets sunlight, it will grow. This plant gets sunlight.",
+        "question": "Will this plant grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a plant gets sunlight, it will grow. This plant does not get sunlight.",
+        "question": "Will this plant grow?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If someone reads books, they gain knowledge. Emma reads books.",
+        "question": "Does Emma gain knowledge?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If someone reads books, they gain knowledge. John does not read books.",
+        "question": "Does John gain knowledge?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a person drinks coffee, they feel more awake. Michael drinks coffee.",
+        "question": "Does Michael feel more awake?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If a person drinks coffee, they feel more awake. Lucy does not drink coffee.",
+        "question": "Does Lucy feel more awake?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If a person eats spicy food, they feel a burning sensation. David eats spicy food.",
+        "question": "Does David feel a burning sensation?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "If a person eats spicy food, they feel a burning sensation. Laura does not eat spicy food.",
+        "question": "Does Laura feel a burning sensation?",
+        "answer": "no"
+    }
+]
