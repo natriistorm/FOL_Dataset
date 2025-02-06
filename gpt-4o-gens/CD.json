@@ -64,5 +64,65 @@
         "context": "If a driver follows traffic rules, they avoid accidents. If they maintain their car regularly, they prevent mechanical issues. A driver can either follow traffic rules or maintain their car regularly.",
         "question": "Does this entail that the driver will be completely safe from accidents and mechanical issues?",
         "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "If a student joins a study group, they improve their collaboration skills. If they practice problems independently, they strengthen their problem-solving abilities. The student will either join a study group or practice problems independently.",
+        "question": "Does this entail that the student will either improve their collaboration skills or strengthen their problem-solving abilities?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "If Sarah learns a new language, she expands her communication skills. If she takes a photography course, she develops her artistic abilities. Sarah will either learn a new language or take a photography course.",
+        "question": "Does this entail that Sarah will both expand her communication skills and develop her artistic abilities?",
+        "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "If a business adopts sustainable practices, it reduces its environmental impact. If it improves customer service, it increases customer loyalty. The business will either adopt sustainable practices or improve customer service.",
+        "question": "Does this entail that the business will either reduce its environmental impact or increase customer loyalty?",
+        "answer": "yes"
+    },
+    {
+        "id": 17,
+        "context": "If a person meditates daily, they enhance their mental clarity. If they engage in regular physical exercise, they improve their physical health. The person can choose to either meditate daily or engage in regular physical exercise.",
+        "question": "Does this entail that the person will both enhance their mental clarity and improve their physical health?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "If a filmmaker studies classic movies, they understand traditional storytelling techniques. If they experiment with new film styles, they innovate in their craft. The filmmaker will either study classic movies or experiment with new styles.",
+        "question": "Does this entail that the filmmaker will either understand traditional storytelling techniques or innovate in their craft?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "If Alex participates in a debate club, they develop strong argumentative skills. If they join a writing workshop, they enhance their creative expression. Alex will either participate in a debate club or join a writing workshop.",
+        "question": "Does this entail that Alex will both develop strong argumentative skills and enhance their creative expression?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "If a city invests in public transportation, traffic congestion decreases. If it builds more highways, commuting times may shorten. The city will either invest in public transportation or build more highways.",
+        "question": "Does this entail that the city will either reduce traffic congestion or shorten commuting times?",
+        "answer": "yes"
+    },
+    {
+        "id": 21,
+        "context": "If a scientist conducts extensive research, they contribute to new discoveries. If they mentor students, they support the next generation of researchers. The scientist will either conduct extensive research or mentor students.",
+        "question": "Does this entail that the scientist will both contribute to new discoveries and support the next generation of researchers?",
+        "answer": "no"
+    },
+    {
+        "id": 22,
+        "context": "If a musician learns to play a new instrument, they broaden their musical skills. If they collaborate with other musicians, they gain exposure to different styles. The musician will either learn a new instrument or collaborate with others.",
+        "question": "Does this entail that the musician will either broaden their musical skills or gain exposure to different styles?",
+        "answer": "yes"
+    },
+    {
+        "id": 23,
+        "context": "If a community invests in local businesses, the economy grows. If it supports public parks, residents enjoy better recreational spaces. The community will either invest in local businesses or support public parks.",
+        "question": "Does this entail that the community will both grow the economy and improve recreational spaces?",
+        "answer": "no"
     }
 ]

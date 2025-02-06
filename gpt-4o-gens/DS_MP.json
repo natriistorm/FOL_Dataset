@@ -70,5 +70,53 @@
         "context": "In a medical study, if a patient follows the prescribed treatment, they will recover quickly. However, it is uncertain if the disease is mild. It is certain that either the treatment is followed, or the disease is mild, or both.",
         "question": "Sophie's disease was not mild. Does this mean Sophie did not recover quickly?",
         "answer": "no"
-    }
+    },
+    {
+        "id": 13,
+        "context": "In a fitness club, if someone attends yoga classes regularly, they improve their flexibility. However, it is not certain if the yoga instructor is experienced. Either the classes are attended regularly, or the instructor is experienced, or both.",
+        "question": "Henry's yoga instructor was experienced. Does this mean Henry improved his flexibility?",
+        "answer": "no"
+      },
+      {
+        "id": 14,
+        "context": "In a small town, if someone votes in the elections, they influence local policies. However, it is not certain if the elections are competitive. Either someone votes, or the elections are competitive, or both.",
+        "question": "Isla's town elections were competitive. Does this mean Isla influenced local policies?",
+        "answer": "no"
+      },
+      {
+        "id": 15,
+        "context": "At a university, if a student completes all assignments, they pass the course. However, it is not certain if the student participated in all seminars. Either the student completed all assignments, or participated in all seminars, or both.",
+        "question": "Paul did not participate in all seminars. Does this mean Paul passed the course?",
+        "answer": "yes"
+      },
+      {
+        "id": 16,
+        "context": "At a university, if a student completes all assignments, they pass the course. However, it is not certain if the student participated in all seminars. Either the student completed all assignments, or participated in all seminars, or both.",
+        "question": "Paul participated in all seminars. Does this mean Paul passed the course?",
+        "answer": "no"
+      },
+      {
+        "id": 17,
+        "context": "In a corporate setting, if an employee attends training sessions regularly, they improve their productivity. However, it is not certain if the employee's manager is skilled. Either the employee attends training sessions regularly, or the manager is skilled, or both.",
+        "question": "Carla's manager was not skilled. Does this mean Carla improved her productivity?",
+        "answer": "yes"
+      },
+      {
+        "id": 18,
+        "context": "In a corporate setting, if an employee attends training sessions regularly, they improve their productivity. However, it is not certain if the employee's manager is skilled. Either the employee attends training sessions regularly, or the manager is skilled, or both.",
+        "question": "Carla's manager was skilled. Does this mean Carla improved her productivity?",
+        "answer": "no"
+      },
+      {
+        "id": 19,
+        "context": "In a city, if someone buys a monthly public transport pass, they can travel without restrictions. However, it is not certain if the public transport system is punctual. Either someone buys the pass, or the system is punctual, or both.",
+        "question": "David did not buy the pass. Does this mean David can travel without restrictions?",
+        "answer": "yes"
+      },
+      {
+        "id": 20,
+        "context": "In a city, if someone buys a monthly public transport pass, they can travel without restrictions. However, it is not certain if the public transport system is punctual. Either someone buys the pass, or the system is punctual, or both.",
+        "question": "David bought the pass. Does this mean David can travel without restrictions?",
+        "answer": "no"
+      }
 ]

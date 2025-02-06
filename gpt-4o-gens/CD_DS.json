@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "context": "A student wanted to improve their academic performance. They realized that if they studied regularly, they would improve their grades; if they attended all classes, they would understand the material better. They could either study regularly or attend all classes.",
+        "question": "Given that Emma did not improve their grades, is it true that Emma understood the material better?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "A student wanted to improve their academic performance. They realized that if they studied regularly, they would improve their grades; if they attended all classes, they would understand the material better. They could either study regularly or attend all classes.",
+        "question": "Given that Emma did not understand the material better, is it true that Emma improved their grades?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "A chef wanted to enhance their cooking skills. They realized that if they experimented with new recipes, they would develop creativity; if they refined their techniques, they would improve their efficiency. They could either experiment with new recipes or refine their techniques.",
+        "question": "Given that Alex did not develop creativity, is it true that Alex improved their efficiency?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "A chef wanted to enhance their cooking skills. They realized that if they experimented with new recipes, they would develop creativity; if they refined their techniques, they would improve their efficiency. They could either experiment with new recipes or refine their techniques.",
+        "question": "Given that Alex did not improve their efficiency, is it true that Alex developed creativity?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "An entrepreneur wanted to grow their business. They realized that if they expanded their marketing, they would attract more customers; if they optimized their operations, they would increase their profits. They could either expand their marketing or optimize their operations.",
+        "question": "Given that Jamie did not attract more customers, is it true that Jamie increased their profits?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "An entrepreneur wanted to grow their business. They realized that if they expanded their marketing, they would attract more customers; if they optimized their operations, they would increase their profits. They could either expand their marketing or optimize their operations.",
+        "question": "Given that Jamie did not increase their profits, is it true that Jamie attracted more customers?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A musician wanted to gain recognition. They realized that if they performed at events, they would build an audience; if they released new music, they would increase their fanbase. They could either perform at events or release new music.",
+        "question": "Given that Taylor did not build an audience, is it true that Taylor increased their fanbase?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "A musician wanted to gain recognition. They realized that if they performed at events, they would build an audience; if they released new music, they would increase their fanbase. They could either perform at events or release new music.",
+        "question": "Given that Taylor did not increase their fanbase, is it true that Taylor built an audience?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "A scientist wanted to make a breakthrough discovery. They realized that if they conducted more experiments, they would gain new insights; if they collaborated with experts, they would refine their theories. They could either conduct more experiments or collaborate with experts.",
+        "question": "Given that Jordan did not gain new insights, is it true that Jordan refined their theories?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "A scientist wanted to make a breakthrough discovery. They realized that if they conducted more experiments, they would gain new insights; if they collaborated with experts, they would refine their theories. They could either conduct more experiments or collaborate with experts.",
+        "question": "Given that Jordan did not refine their theories, is it true that Jordan gained new insights?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A writer wanted to publish a successful novel. They realized that if they wrote daily, they would improve their writing style; if they researched extensively, they would create a compelling story. They could either write daily or research extensively.",
+        "question": "Given that Morgan did not improve their writing style, is it true that Morgan created a compelling story?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A writer wanted to publish a successful novel. They realized that if they wrote daily, they would improve their writing style; if they researched extensively, they would create a compelling story. They could either write daily or research extensively.",
+        "question": "Given that Morgan did not create a compelling story, is it true that Morgan improved their writing style?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "A traveler wanted to experience different cultures. They realized that if they visited new countries, they would broaden their perspective; if they engaged with locals, they would gain deeper cultural understanding. They could either visit new countries or engage with locals.",
+        "question": "Given that Riley did not broaden their perspective, is it true that Riley gained deeper cultural understanding?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A traveler wanted to experience different cultures. They realized that if they visited new countries, they would broaden their perspective; if they engaged with locals, they would gain deeper cultural understanding. They could either visit new countries or engage with locals.",
+        "question": "Given that Riley did not gain deeper cultural understanding, is it true that Riley broadened their perspective?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "A programmer wanted to improve their skills. They realized that if they practiced coding daily, they would become more efficient; if they studied algorithms, they would improve their problem-solving ability. They could either practice coding daily or study algorithms.",
+        "question": "Given that Sam did not become more efficient, is it true that Sam improved their problem-solving ability?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A programmer wanted to improve their skills. They realized that if they practiced coding daily, they would become more efficient; if they studied algorithms, they would improve their problem-solving ability. They could either practice coding daily or study algorithms.",
+        "question": "Given that Sam did not improve their problem-solving ability, is it true that Sam became more efficient?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "A gardener wanted to cultivate a beautiful backyard. They realized that if they planted new flowers, they would enhance the garden’s beauty; if they trimmed the bushes, they would make the space neater. They could either plant new flowers or trim the bushes.",
+        "question": "Given that Chris did not enhance the garden’s beauty, is it true that Chris made the space neater?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A gardener wanted to cultivate a beautiful backyard. They realized that if they planted new flowers, they would enhance the garden’s beauty; if they trimmed the bushes, they would make the space neater. They could either plant new flowers or trim the bushes.",
+        "question": "Given that Chris did not make the space neater, is it true that Chris enhanced the garden’s beauty?",
+        "answer": "no"
+    }
+]

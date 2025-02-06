@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "context": "A region has been experiencing extreme drought conditions. The authorities warned that if a drought continues, water levels in reservoirs drop significantly. If water levels drop significantly, water rationing is implemented.",
+        "question": "A severe drought continues in California. Is water rationing implemented?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "A region has received normal rainfall this season. The authorities stated that if a drought continues, water levels in reservoirs drop significantly. If water levels drop significantly, water rationing is implemented.",
+        "question": "There is no drought in California. Is water rationing implemented?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "A software development team was working on a complex feature. The manager explained that if development takes too long, deadlines are pushed back. If deadlines are pushed back, client delivery is delayed.",
+        "question": "Development took too long. Was client delivery delayed?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "A software development team was efficient in their workflow. The manager explained that if development takes too long, deadlines are pushed back. If deadlines are pushed back, client delivery is delayed.",
+        "question": "Development was completed on time. Was client delivery delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A new law was passed requiring strict emissions standards. The government stated that if emissions standards become stricter, some factories must upgrade their equipment. If factories must upgrade, production delays occur.",
+        "question": "The law enforced stricter emissions standards. Did production delays occur?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "A proposed law for stricter emissions standards was not passed. The government stated that if emissions standards become stricter, some factories must upgrade their equipment. If factories must upgrade, production delays occur.",
+        "question": "The law was not passed. Did production delays occur?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "An athlete was training for a marathon. Their coach explained that if someone increases training intensity, endurance improves. If endurance improves, they can complete the marathon successfully.",
+        "question": "The athlete increased training intensity. Did they complete the marathon successfully?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "An athlete followed a relaxed training plan. Their coach explained that if someone increases training intensity, endurance improves. If endurance improves, they can complete the marathon successfully.",
+        "question": "The athlete did not increase training intensity. Did they complete the marathon successfully?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "A researcher was conducting a chemical experiment. They noted that if a specific compound is added, a reaction occurs. If a reaction occurs, a color change is observed.",
+        "question": "The researcher added the compound. Was a color change observed?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "A researcher was conducting a chemical experiment. They noted that if a specific compound is added, a reaction occurs. If a reaction occurs, a color change is observed.",
+        "question": "The researcher did not add the compound. Was a color change observed?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A university announced that if a student completes all required courses, they are eligible to graduate. If they are eligible to graduate, they receive a diploma.",
+        "question": "Alice completed all required courses. Did she receive a diploma?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A university announced that if a student completes all required courses, they are eligible to graduate. If they are eligible to graduate, they receive a diploma.",
+        "question": "Alice did not complete all required courses. Did she receive a diploma?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "A factory was testing its machinery. The engineers knew that if the main motor fails, the assembly line stops. If the assembly line stops, production halts.",
+        "question": "The main motor failed. Did production halt?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A factory was testing its machinery. The engineers knew that if the main motor fails, the assembly line stops. If the assembly line stops, production halts.",
+        "question": "The main motor did not fail. Did production halt?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "A store manager explained that if customer demand increases, they need to order more stock. If more stock is ordered, warehouse space is reduced.",
+        "question": "Customer demand increased. Was warehouse space reduced?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A store manager explained that if customer demand increases, they need to order more stock. If more stock is ordered, warehouse space is reduced.",
+        "question": "Customer demand did not increase. Was warehouse space reduced?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "A city implemented a policy that if public transport fees rise, fewer people use buses. If fewer people use buses, the revenue decreases.",
+        "question": "Public transport fees increased. Did revenue decrease?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A city implemented a policy that if public transport fees rise, fewer people use buses. If fewer people use buses, the revenue decreases.",
+        "question": "Public transport fees remained the same. Did revenue decrease?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "A bank had a policy that if an account balance is negative, an overdraft fee is applied. If an overdraft fee is applied, the account holder is notified.",
+        "question": "The account balance was negative. Was the account holder notified?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "A bank had a policy that if an account balance is negative, an overdraft fee is applied. If an overdraft fee is applied, the account holder is notified.",
+        "question": "The account balance was positive. Was the account holder notified?",
+        "answer": "no"
+    }
+]

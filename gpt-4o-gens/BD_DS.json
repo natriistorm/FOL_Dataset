@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "context": "In a university, students believe that if they attend all lectures, they will pass the course, and if they submit all assignments, they will gain practical skills. However, they face a dilemma - they either attend all lectures or do not gain practical skills.",
+        "question": "Alex did not pass the course. Is it true that Alex attended all lectures?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "A chef wants to improve their cooking. They assume that if they experiment with new recipes, they will enhance creativity, and if they refine old recipes, they will perfect execution. However, the chef can either experiment with new recipes or not perfect execution.",
+        "question": "Sam did not enhance creativity. Is it true that Sam experimented with new recipes?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "A company aims to boost sales. They believe that if they lower prices, they will attract new customers, and if they enhance advertising, they will increase brand awareness. However, they face a dilemma - they either lower prices or do not increase brand awareness.",
+        "question": "The company did not attract new customers. Is it true that they lowered prices?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "A researcher wants to publish a paper. They assume that if they conduct thorough experiments, they will produce valid results, and if they write clearly, they will make the findings accessible. However, they can either conduct thorough experiments or not make the findings accessible.",
+        "question": "Jamie did not produce valid results. Is it true that Jamie conducted thorough experiments?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A driver hopes to pass their driving test. They believe that if they practice parking, they will master vehicle control, and if they study road signs, they will avoid mistakes. However, they face a dilemma - they either practice parking or do not avoid mistakes.",
+        "question": "Taylor did not master vehicle control. Is it true that Taylor practiced parking?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "A basketball player wants to improve their game. They believe that if they work on their shooting, they will score more points, and if they enhance their defense, they will prevent opponent scores. However, they face a dilemma - they either work on their shooting or do not prevent opponent scores.",
+        "question": "Jordan did not score more points. Is it true that Jordan worked on their shooting?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A novelist wants to finish their book. They believe that if they set a strict writing schedule, they will complete it on time, and if they revise carefully, they will improve quality. However, they face a dilemma - they either set a strict writing schedule or do not improve quality.",
+        "question": "Casey did not complete the book on time. Is it true that Casey set a strict writing schedule?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "A team wants to win a championship. They assume that if they practice teamwork, they will execute strategies well, and if they train physically, they will maintain endurance. However, they face a dilemma - they either practice teamwork or do not maintain endurance.",
+        "question": "The team did not execute strategies well. Is it true that they practiced teamwork?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "An artist aims to create a masterpiece. They believe that if they experiment with new techniques, they will develop a unique style, and if they refine their existing skills, they will achieve precision. However, they face a dilemma - they either experiment with new techniques or do not achieve precision.",
+        "question": "Chris did not develop a unique style. Is it true that Chris experimented with new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "A scientist wants to secure a research grant. They assume that if they submit a detailed proposal, they will convince the reviewers, and if they network with colleagues, they will gain support. However, they face a dilemma - they either submit a detailed proposal or do not gain support.",
+        "question": "The scientist did not convince the reviewers. Is it true that they submitted a detailed proposal?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A student preparing for an exam believes that if they study late at night, they will cover more material, and if they take structured notes, they will retain information better. However, they face a dilemma - they either study late at night or do not retain information better.",
+        "question": "Alex retained information better. Is it true that Alex took structured notes?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A chef wants to perfect a dish. They assume that if they experiment with different spices, they will improve the flavor, and if they follow traditional recipes, they will maintain authenticity. However, they can either experiment with different spices or not maintain authenticity.",
+        "question": "The chef maintained authenticity. Is it true that the chef followed traditional recipes?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "A researcher believes that if they conduct multiple experiments, they will gather sufficient data, and if they collaborate with experts, they will gain deeper insights. However, they face a dilemma - they either conduct multiple experiments or do not gain deeper insights.",
+        "question": "The researcher gained deeper insights. Is it true that the researcher collaborated with experts?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A runner training for a marathon assumes that if they run long distances, they will build endurance, and if they do strength training, they will prevent injuries. However, they can either run long distances or not prevent injuries.",
+        "question": "The runner prevented injuries. Is it true that the runner did strength training?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "A writer wants to publish a novel. They believe that if they write daily, they will finish the manuscript, and if they attend workshops, they will refine their style. However, they either write daily or do not refine their style.",
+        "question": "The writer refined their style. Is it true that the writer attended workshops?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A scientist working on a discovery assumes that if they conduct trials, they will validate their hypothesis, and if they analyze previous studies, they will strengthen their theory. However, they either conduct trials or do not strengthen their theory.",
+        "question": "The scientist strengthened their theory. Is it true that the scientist analyzed previous studies?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "A guitarist wants to improve their skills. They think that if they practice scales, they will increase their speed, and if they play with a band, they will develop better rhythm. However, they can either practice scales or not develop better rhythm.",
+        "question": "The guitarist developed better rhythm. Is it true that the guitarist played with a band?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A language learner hopes to become fluent. They believe that if they practice speaking daily, they will gain confidence, and if they immerse themselves in the culture, they will understand nuances. However, they either practice speaking daily or do not understand nuances.",
+        "question": "The language learner understood nuances. Is it true that they immersed themselves in the culture?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "A photographer wants to capture stunning images. They assume that if they experiment with angles, they will create unique compositions, and if they study lighting, they will enhance their photos. However, they either experiment with angles or do not enhance their photos.",
+        "question": "The photographer enhanced their photos. Is it true that they studied lighting?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "A software developer aims to write efficient code. They believe that if they optimize algorithms, they will improve speed, and if they follow best practices, they will make the code maintainable. However, they either optimize algorithms or do not make the code maintainable.",
+        "question": "The developer made the code maintainable. Is it true that they followed best practices?",
+        "answer": "yes"
+    }
+]

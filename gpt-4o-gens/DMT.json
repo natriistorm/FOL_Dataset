@@ -94,5 +94,101 @@
         "context": "All homes in the neighborhood were spacious and energy-efficient. The development was designed to meet these standards. Inspections confirmed this was true for every house.",
         "question": "Does it entail that there is at least one home for which either being spacious is not true or being energy-efficient is not true or both?",
         "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "At a well-managed company, every employee was competent and diligent. The company maintained high standards in hiring and training to ensure its workforce met these expectations. However, some inefficiencies still surfaced.",
+        "question": "Does it entail that there is at least one employee for which either being competent is not true or being diligent is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "At a well-managed company, every employee was competent and diligent. The company maintained high standards in hiring and training, ensuring that all employees met expectations.",
+        "question": "Does it entail that there is at least one employee for which either being competent is not true or being diligent is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "In a highly selective university, every professor was knowledgeable and approachable. The administration prided itself on selecting faculty who excelled in both teaching and research. However, some students reported difficulties connecting with certain professors.",
+        "question": "Does it entail that there is at least one professor for which either being knowledgeable is not true or being approachable is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "In a highly selective university, every professor was knowledgeable and approachable. The administration prided itself on selecting faculty who excelled in both teaching and research, and no reports contradicted this claim.",
+        "question": "Does it entail that there is at least one professor for which either being knowledgeable is not true or being approachable is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "In a luxury hotel, every staff member was courteous and efficient. The management carefully trained employees to provide high-quality service. However, guest complaints suggested otherwise in some cases.",
+        "question": "Does it entail that there is at least one staff member for which either being courteous is not true or being efficient is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "In a luxury hotel, every staff member was courteous and efficient. The management carefully trained employees, and there were no reported issues regarding service quality.",
+        "question": "Does it entail that there is at least one staff member for which either being courteous is not true or being efficient is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "At a renowned research institute, every scientist was innovative and meticulous. The institute was known for groundbreaking discoveries, though some projects faced setbacks.",
+        "question": "Does it entail that there is at least one scientist for which either being innovative is not true or being meticulous is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "At a renowned research institute, every scientist was innovative and meticulous. The institute was known for groundbreaking discoveries, and no evidence suggested otherwise.",
+        "question": "Does it entail that there is at least one scientist for which either being innovative is not true or being meticulous is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "In a peaceful village, every neighbor was friendly and trustworthy. This reputation contributed to a strong sense of community, yet occasional disputes arose.",
+        "question": "Does it entail that there is at least one neighbor for which either being friendly is not true or being trustworthy is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "In a peaceful village, every neighbor was friendly and trustworthy. This reputation contributed to a strong sense of community, and there were no indications of dishonesty or hostility.",
+        "question": "Does it entail that there is at least one neighbor for which either being friendly is not true or being trustworthy is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "At a world-class orchestra, every musician was talented and disciplined. The ensemble was praised for its flawless performances, though critics noted occasional inconsistencies.",
+        "question": "Does it entail that there is at least one musician for which either being talented is not true or being disciplined is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "At a world-class orchestra, every musician was talented and disciplined. The ensemble was praised for its flawless performances, and there were no critiques regarding their skill or discipline.",
+        "question": "Does it entail that there is at least one musician for which either being talented is not true or being disciplined is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "In a prestigious law firm, every lawyer was ethical and competent. The firm's reputation was built on integrity and expertise, though some cases did not go as expected.",
+        "question": "Does it entail that there is at least one lawyer for which either being ethical is not true or being competent is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "In a prestigious law firm, every lawyer was ethical and competent. The firm's reputation was built on integrity and expertise, and no incidents suggested otherwise.",
+        "question": "Does it entail that there is at least one lawyer for which either being ethical is not true or being competent is not true or both?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "At a respected medical facility, every doctor was skilled and compassionate. The hospital was renowned for excellent patient care, yet occasional complaints emerged.",
+        "question": "Does it entail that there is at least one doctor for which either being skilled is not true or being compassionate is not true or both?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "At a respected medical facility, every doctor was skilled and compassionate. The hospital was renowned for excellent patient care, and all available data confirmed these attributes.",
+        "question": "Does it entail that there is at least one doctor for which either being skilled is not true or being compassionate is not true or both?",
+        "answer": "no"
     }
 ]

@@ -58,5 +58,65 @@
         "context": "A team had to choose between training indoors or outdoors. Due to a storm, the outdoor training session was canceled.",
         "question": "Does it entail that for the team, who was deciding between indoor or outdoor training, they train outdoors?",
         "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A traveler was deciding whether to take a train or a flight to their destination. Due to heavy fog, all flights were canceled.",
+        "question": "Does it entail that for Alex, who was choosing between a train or a flight, they take the train?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A traveler was deciding whether to take a train or a flight to their destination. Due to heavy fog, all flights were canceled.",
+        "question": "Does it entail that for Alex, who was choosing between a train or a flight, they take the flight?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "A restaurant was deciding whether to serve either a seafood dish or a vegetarian dish as a special. Due to supply shortages, they could not get fresh seafood.",
+        "question": "Does it entail that for the restaurant, which was choosing between a seafood or vegetarian dish, they serve the vegetarian dish?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A restaurant was deciding whether to serve either a seafood dish or a vegetarian dish as a special. Due to supply shortages, they could not get fresh seafood.",
+        "question": "Does it entail that for the restaurant, which was choosing between a seafood or vegetarian dish, they serve the seafood dish?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "A student was choosing between taking a math class or a history class this semester. However, the history class was full.",
+        "question": "Does it entail that for Mia, who was deciding between a math or history class, she takes the math class?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A student was choosing between taking a math class or a history class this semester. However, the history class was full.",
+        "question": "Does it entail that for Mia, who was deciding between a math or history class, she takes the history class?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "A person was deciding whether to attend a music festival or a football game. The football game was postponed due to bad weather.",
+        "question": "Does it entail that for Jake, who was choosing between a music festival or a football game, he attends the music festival?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A person was deciding whether to attend a music festival or a football game. The football game was postponed due to bad weather.",
+        "question": "Does it entail that for Jake, who was choosing between a music festival or a football game, he attends the football game?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "A family was planning a vacation and considering going either to the mountains or the beach. A hurricane made the beach destination unsafe.",
+        "question": "Does it entail that for the Johnson family, who was deciding between the mountains or the beach, they go to the mountains?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "A family was planning a vacation and considering going either to the mountains or the beach. A hurricane made the beach destination unsafe.",
+        "question": "Does it entail that for the Johnson family, who was deciding between the mountains or the beach, they go to the beach?",
+        "answer": "no"
     }
 ]

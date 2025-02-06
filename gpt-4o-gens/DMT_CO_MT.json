@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "context": "If a student misses class, they must review the lecture notes. Also, if a student skips a lesson, they should ask a classmate for help.",
+        "question": "Alex either did not review the lecture notes or did not ask for help. Did Alex miss class?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If a student misses class, they must review the lecture notes. Also, if a student skips a lesson, they should ask a classmate for help.",
+        "question": "Alex either reviewed the lecture notes or asked for help. Did Alex miss class?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If someone wants to enter the building, they must show an ID card. Also, if someone wishes to gain access, they need a security clearance.",
+        "question": "Jordan either did not show an ID or did not have clearance. Was Jordan allowed inside?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If someone wants to enter the building, they must show an ID card. Also, if someone wishes to gain access, they need a security clearance.",
+        "question": "Jordan either showed an ID or had clearance. Was Jordan allowed inside?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If an employee fails to complete their work, they will receive a warning. Also, if an employee neglects their duties, their supervisor will take action.",
+        "question": "Taylor either did not complete their work or neglected their duties. Did Taylor receive a warning?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If an employee fails to complete their work, they will receive a warning. Also, if an employee neglects their duties, their supervisor will take action.",
+        "question": "Taylor either completed their work or fulfilled their duties. Did Taylor receive a warning?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If someone fails to pay their bills, they will get a late fee. Also, if someone does not settle their dues, their credit score will be affected.",
+        "question": "Sam either did not pay their bills or did not settle their dues. Did Sam get a late fee?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "If someone fails to pay their bills, they will get a late fee. Also, if someone does not settle their dues, their credit score will be affected.",
+        "question": "Sam either paid their bills or settled their dues. Did Sam get a late fee?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If a driver exceeds the speed limit, they will get a traffic ticket. Also, if someone is caught speeding, they must attend a driving course.",
+        "question": "Chris either did not receive a ticket or did not attend the course. Did Chris exceed the speed limit?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If a driver exceeds the speed limit, they will get a traffic ticket. Also, if someone is caught speeding, they must attend a driving course.",
+        "question": "Chris either received a ticket or attended the course. Did Chris exceed the speed limit?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a project is delayed, the team must submit a report. Also, if a deadline is missed, the manager needs to be notified.",
+        "question": "Morgan either did not submit a report or did not notify the manager. Was the project delayed?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a project is delayed, the team must submit a report. Also, if a deadline is missed, the manager needs to be notified.",
+        "question": "Morgan either submitted a report or notified the manager. Was the project delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a package is lost, the courier company must issue a refund. Also, if a shipment is misplaced, the sender must be compensated.",
+        "question": "Pat either did not get a refund or did not receive compensation. Was the package lost?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a package is lost, the courier company must issue a refund. Also, if a shipment is misplaced, the sender must be compensated.",
+        "question": "Pat either got a refund or received compensation. Was the package lost?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If a flight is canceled, passengers must be rebooked. Also, if an airline cancels a trip, they must notify all ticket holders.",
+        "question": "Jamie either was not rebooked or was not notified. Was Jamie’s flight canceled?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If a flight is canceled, passengers must be rebooked. Also, if an airline cancels a trip, they must notify all ticket holders.",
+        "question": "Jamie either was rebooked or was notified. Was Jamie’s flight canceled?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a university rejects an applicant, they must send a rejection letter. Also, if a student is not admitted, they are informed in writing.",
+        "question": "Casey either did not receive a rejection letter or was not informed in writing. Was Casey rejected?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If a university rejects an applicant, they must send a rejection letter. Also, if a student is not admitted, they are informed in writing.",
+        "question": "Casey either received a rejection letter or was informed in writing. Was Casey rejected?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If a contestant loses the competition, they do not get a prize. Also, if someone does not win, they are not awarded a trophy.",
+        "question": "Jordan either received a prize or was awarded a trophy. Did Jordan lose the competition?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "If a contestant loses the competition, they do not get a prize. Also, if someone does not win, they are not awarded a trophy.",
+        "question": "Jordan either did not receive a prize or was not awarded a trophy. Did Jordan lose the competition?",
+        "answer": "yes"
+    }
+]

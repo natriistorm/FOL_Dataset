@@ -88,5 +88,65 @@
         "context": "If someone practices patience, they handle stress better. Also, if someone meditates regularly, they stay calm in difficult situations. However, either someone did not handle stress better or did not stay calm, or both.",
         "question": "Oliver practices patience. Is it true that he meditates regularly?",
         "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "If a student studies consistently, they pass the exam. Also, if a student attends all lectures, they grasp the concepts. However, a certain student either did not pass the exam or did not grasp the concepts, or both.",
+        "question": "Jordan studied consistently. Is it true that Jordan attended all lectures?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a student studies consistently, they pass the exam. Also, if a student attends all lectures, they grasp the concepts. However, a certain student either did not pass the exam or did not grasp the concepts, or both.",
+        "question": "Jordan attended all lectures. Is it true that Jordan studied consistently?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "If an employee completes their assignments on time, they receive a bonus. Also, if an employee collaborates with their team, they contribute to success. However, someone either did not receive a bonus or did not contribute to success, or both.",
+        "question": "Alex completed their assignments on time. Is it true that Alex collaborated with their team?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If an employee completes their assignments on time, they receive a bonus. Also, if an employee collaborates with their team, they contribute to success. However, someone either did not receive a bonus or did not contribute to success, or both.",
+        "question": "Alex collaborated with their team. Is it true that Alex completed their assignments on time?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "If a driver follows traffic rules, they avoid accidents. Also, if a driver maintains their vehicle, they ensure safety. However, a certain driver either did not avoid accidents or did not ensure safety, or both.",
+        "question": "Chris followed traffic rules. Is it true that Chris maintained their vehicle?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "If a driver follows traffic rules, they avoid accidents. Also, if a driver maintains their vehicle, they ensure safety. However, a certain driver either did not avoid accidents or did not ensure safety, or both.",
+        "question": "Chris maintained their vehicle. Is it true that Chris followed traffic rules?",
+        "answer": "no"
+    },
+    {
+        "id": 22,
+        "context": "If a chef uses fresh ingredients, the dish tastes delicious. Also, if a chef follows the recipe, the dish is well-prepared. However, a certain chef either did not make a delicious dish or did not prepare it well, or both.",
+        "question": "Taylor used fresh ingredients. Is it true that Taylor followed the recipe?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "If a chef uses fresh ingredients, the dish tastes delicious. Also, if a chef follows the recipe, the dish is well-prepared. However, a certain chef either did not make a delicious dish or did not prepare it well, or both.",
+        "question": "Taylor followed the recipe. Is it true that Taylor used fresh ingredients?",
+        "answer": "no"
+    },
+    {
+        "id": 24,
+        "context": "If a researcher collects sufficient data, they produce reliable results. Also, if a researcher analyzes data correctly, they draw accurate conclusions. However, a certain researcher either did not produce reliable results or did not draw accurate conclusions, or both.",
+        "question": "Morgan collected sufficient data. Is it true that Morgan analyzed data correctly?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "If a researcher collects sufficient data, they produce reliable results. Also, if a researcher analyzes data correctly, they draw accurate conclusions. However, a certain researcher either did not produce reliable results or did not draw accurate conclusions, or both.",
+        "question": "Morgan analyzed data correctly. Is it true that Morgan collected sufficient data?",
+        "answer": "no"
     }
 ]

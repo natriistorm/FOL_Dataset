@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "context": "Students aiming to excel in math practice regularly. They know that if they solve challenging problems daily, they will improve their problem-solving skills. If they improve their problem-solving skills, they will perform well in exams.",
+        "question": "If Lisa does not perform well in exams, does she solve challenging problems daily?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "Students aiming to excel in math practice regularly. They know that if they solve challenging problems daily, they will improve their problem-solving skills. If they improve their problem-solving skills, they will perform well in exams.",
+        "question": "If Lisa performs well in exams, does she solve challenging problems daily?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "A company wants to improve its customer satisfaction. They know that if they enhance their customer service, client complaints will decrease. If client complaints decrease, their brand reputation will improve.",
+        "question": "If the company’s brand reputation does not improve, do client complaints decrease?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "A company wants to improve its customer satisfaction. They know that if they enhance their customer service, client complaints will decrease. If client complaints decrease, their brand reputation will improve.",
+        "question": "If the company’s brand reputation improves, do client complaints decrease?",
+        "answer": "yes"
+    },
+    {
+        "id": 5,
+        "context": "A football team wants to win the championship. They know that if they train intensively, their teamwork will improve. If their teamwork improves, they will win more matches.",
+        "question": "If the football team does not win more matches, does their teamwork improve?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "A football team wants to win the championship. They know that if they train intensively, their teamwork will improve. If their teamwork improves, they will win more matches.",
+        "question": "If the football team wins more matches, does their teamwork improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "An aspiring chef wants to master their craft. They know that if they practice cooking different cuisines, they will develop a refined palate. If they develop a refined palate, they will be able to create balanced flavors in their dishes.",
+        "question": "If the chef cannot create balanced flavors in their dishes, do they develop a refined palate?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "An aspiring chef wants to master their craft. They know that if they practice cooking different cuisines, they will develop a refined palate. If they develop a refined palate, they will be able to create balanced flavors in their dishes.",
+        "question": "If the chef creates balanced flavors in their dishes, do they develop a refined palate?",
+        "answer": "yes"
+    },
+    {
+        "id": 9,
+        "context": "A startup wants to attract investors. They know that if they build a scalable business model, their revenue will increase. If their revenue increases, investors will be more likely to fund them.",
+        "question": "If the startup does not attract investors, does their revenue increase?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "A startup wants to attract investors. They know that if they build a scalable business model, their revenue will increase. If their revenue increases, investors will be more likely to fund them.",
+        "question": "If the startup attracts investors, does their revenue increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 11,
+        "context": "A musician wants to become famous. They know that if they release unique songs, they will gain a larger audience. If they gain a larger audience, their songs will top the charts.",
+        "question": "If the musician's songs do not top the charts, do they gain a larger audience?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "A musician wants to become famous. They know that if they release unique songs, they will gain a larger audience. If they gain a larger audience, their songs will top the charts.",
+        "question": "If the musician's songs top the charts, do they gain a larger audience?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "A scientist wants to make a groundbreaking discovery. They know that if they conduct extensive experiments, they will gather critical data. If they gather critical data, they will be able to verify their hypothesis.",
+        "question": "If the scientist does not verify their hypothesis, do they gather critical data?",
+        "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "A scientist wants to make a groundbreaking discovery. They know that if they conduct extensive experiments, they will gather critical data. If they gather critical data, they will be able to verify their hypothesis.",
+        "question": "If the scientist verifies their hypothesis, do they gather critical data?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "An author wants to sell more books. They know that if they engage with their audience online, their book sales will increase. If their book sales increase, they will earn higher royalties.",
+        "question": "If the author does not earn higher royalties, do their book sales increase?",
+        "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "An author wants to sell more books. They know that if they engage with their audience online, their book sales will increase. If their book sales increase, they will earn higher royalties.",
+        "question": "If the author earns higher royalties, do their book sales increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 17,
+        "context": "A software engineer wants to develop innovative applications. They know that if they learn advanced algorithms, they will build efficient software. If they build efficient software, more users will adopt their applications.",
+        "question": "If more users do not adopt the applications, does the engineer build efficient software?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "A software engineer wants to develop innovative applications. They know that if they learn advanced algorithms, they will build efficient software. If they build efficient software, more users will adopt their applications.",
+        "question": "If more users adopt the applications, does the engineer build efficient software?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "A politician wants to win an election. They know that if they connect with voters on social issues, they will gain strong public support. If they gain strong public support, they will secure more votes.",
+        "question": "If the politician does not secure more votes, do they gain strong public support?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "A politician wants to win an election. They know that if they connect with voters on social issues, they will gain strong public support. If they gain strong public support, they will secure more votes.",
+        "question": "If the politician secures more votes, do they gain strong public support?",
+        "answer": "yes"
+    }
+]

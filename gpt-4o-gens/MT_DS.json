@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "context": "A student aimed to graduate with honors. They believed that if they studied diligently, they would achieve this goal. However, their final grades were not high enough. It was clear that either they studied diligently or were naturally gifted, or both. Alex did not graduate with honors.",
+        "question": "Can we conclude that Alex is naturally gifted?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "A student aimed to graduate with honors. They believed that if they studied diligently, they would achieve this goal. However, their final grades were not high enough. It was clear that either they studied diligently or were naturally gifted, or both. Alex graduated with honors.",
+        "question": "Can we conclude that Alex is naturally gifted?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "An artist wanted to create a masterpiece. They thought that if they practiced every day, they would achieve artistic excellence. Yet, their latest work was not well received. It was apparent that either they practiced every day or possessed natural talent, or both. Jordan's latest artwork was not considered excellent.",
+        "question": "Is it true that Jordan possesses natural talent?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "An artist wanted to create a masterpiece. They thought that if they practiced every day, they would achieve artistic excellence. Yet, their latest work was not well received. It was apparent that either they practiced every day or possessed natural talent, or both. Jordan's latest artwork was considered excellent.",
+        "question": "Is it true that Jordan possesses natural talent?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A musician dreamed of composing a hit song. They believed that if they studied music theory, they would produce a chart-topping song. However, their latest release did not gain popularity. It was evident that either they studied music theory or had a natural ear for melody, or both. Taylor's latest song was not a hit.",
+        "question": "Can we conclude that Taylor has a natural ear for melody?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "A musician dreamed of composing a hit song. They believed that if they studied music theory, they would produce a chart-topping song. However, their latest release did not gain popularity. It was evident that either they studied music theory or had a natural ear for melody, or both. Taylor's latest song was a hit.",
+        "question": "Can we conclude that Taylor has a natural ear for melody?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A programmer wanted to develop groundbreaking software. They thought that if they mastered algorithms, they would create an innovative application. However, their latest project was not widely adopted. It was evident that either they mastered algorithms or had strong problem-solving skills, or both. Chris's latest software was not considered innovative.",
+        "question": "Is it true that Chris has strong problem-solving skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "A programmer wanted to develop groundbreaking software. They thought that if they mastered algorithms, they would create an innovative application. However, their latest project was not widely adopted. It was evident that either they mastered algorithms or had strong problem-solving skills, or both. Chris's latest software was considered innovative.",
+        "question": "Is it true that Chris has strong problem-solving skills?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "A scientist aimed to discover a new chemical compound. They believed that if they conducted rigorous experiments, they would achieve a breakthrough. Yet, their latest research did not yield new results. It was clear that either they conducted rigorous experiments or had exceptional intuition, or both. Jamie's latest research did not lead to a breakthrough.",
+        "question": "Can we conclude that Jamie has exceptional intuition?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "A scientist aimed to discover a new chemical compound. They believed that if they conducted rigorous experiments, they would achieve a breakthrough. Yet, their latest research did not yield new results. It was clear that either they conducted rigorous experiments or had exceptional intuition, or both. Jamie's latest research led to a breakthrough.",
+        "question": "Can we conclude that Jamie has exceptional intuition?",
+        "answer": "no"
+    }
+]

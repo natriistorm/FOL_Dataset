@@ -106,5 +106,90 @@
         "context": "In aviation, pilots who undergo frequent training enhance their flight skills. Those who take more flights gain real-world experience. However, some pilots manage to undergo frequent training while also taking more flights.",
         "question": "Can we conclude that Emma, a pilot, either enhances her flight skills or does not gain real-world experience?",
         "answer": "no"
-    }
+    },
+    {
+            "id": 22,
+            "context": "In law, attorneys who specialize deeply in one field become experts. Those who take diverse cases gain broad legal experience. However, due to workload constraints, attorneys can either specialize deeply or they do not take diverse cases.",
+            "question": "Can we say that Michael, an attorney, either becomes an expert or does not gain broad legal experience?",
+            "answer": "yes"
+    },
+        {
+            "id": 23,
+            "context": "In law, attorneys who specialize deeply in one field become experts. Those who take diverse cases gain broad legal experience. However, some attorneys manage to specialize deeply while also taking diverse cases.",
+            "question": "Can we say that Michael, an attorney, either becomes an expert or does not gain broad legal experience?",
+            "answer": "no"
+        },
+        {
+            "id": 24,
+            "context": "In finance, investors who take high risks achieve significant returns. Those who play it safe maintain financial stability. However, investors have limited resources. They can either take high risks or they do not maintain financial stability.",
+            "question": "Does this mean that Sophia, an investor, either achieves significant returns or does not maintain financial stability?",
+            "answer": "yes"
+        },
+        {
+            "id": 25,
+            "context": "In finance, investors who take high risks achieve significant returns. Those who play it safe maintain financial stability. However, some investors manage to take high risks while also maintaining financial stability.",
+            "question": "Does this mean that Sophia, an investor, either achieves significant returns or does not maintain financial stability?",
+            "answer": "no"
+        },
+        {
+            "id": 26,
+            "context": "In healthcare, nurses who attend additional training enhance patient care. Those who focus on administrative work improve hospital efficiency. However, due to time constraints, nurses can either attend additional training or they do not focus on administrative work.",
+            "question": "Can we infer that Rachel, a nurse, either enhances patient care or does not improve hospital efficiency?",
+            "answer": "yes"
+        },
+        {
+            "id": 27,
+            "context": "In healthcare, nurses who attend additional training enhance patient care. Those who focus on administrative work improve hospital efficiency. However, some nurses manage to attend additional training while also focusing on administrative work.",
+            "question": "Can we infer that Rachel, a nurse, either enhances patient care or does not improve hospital efficiency?",
+            "answer": "no"
+        },
+        {
+            "id": 28,
+            "context": "In engineering, professionals who work on theoretical models advance scientific knowledge. Those who build practical applications create real-world impact. However, engineers have limited time and resources. They can either work on theoretical models or they do not build practical applications.",
+            "question": "Can we conclude that Kevin, an engineer, either advances scientific knowledge or does not create real-world impact?",
+            "answer": "yes"
+        },
+        {
+            "id": 29,
+            "context": "In engineering, professionals who work on theoretical models advance scientific knowledge. Those who build practical applications create real-world impact. However, some engineers manage to work on theoretical models while also building practical applications.",
+            "question": "Can we conclude that Kevin, an engineer, either advances scientific knowledge or does not create real-world impact?",
+            "answer": "no"
+        },
+        {
+            "id": 30,
+            "context": "In politics, leaders who focus on economic policies ensure financial stability. Those who prioritize social issues improve community well-being. However, leaders have limited political capital. They can either focus on economic policies or they do not prioritize social issues.",
+            "question": "Can we infer that Linda, a political leader, either ensures financial stability or does not improve community well-being?",
+            "answer": "yes"
+        },
+        {
+            "id": 31,
+            "context": "In politics, leaders who focus on economic policies ensure financial stability. Those who prioritize social issues improve community well-being. However, some leaders manage to focus on economic policies while also prioritizing social issues.",
+            "question": "Can we infer that Linda, a political leader, either ensures financial stability or does not improve community well-being?",
+            "answer": "no"
+        },
+        {
+            "id": 32,
+            "context": "In research, scientists who conduct experiments generate new data. Those who analyze existing studies draw meaningful conclusions. However, due to time constraints, scientists can either conduct experiments or they do not analyze existing studies.",
+            "question": "Does this mean that David, a scientist, either generates new data or does not draw meaningful conclusions?",
+            "answer": "yes"
+        },
+        {
+            "id": 33,
+            "context": "In research, scientists who conduct experiments generate new data. Those who analyze existing studies draw meaningful conclusions. However, some scientists manage to conduct experiments while also analyzing existing studies.",
+            "question": "Does this mean that David, a scientist, either generates new data or does not draw meaningful conclusions?",
+            "answer": "no"
+        },
+        {
+            "id": 34,
+            "context": "In architecture, designers who prioritize aesthetics create visually appealing buildings. Those who focus on functionality ensure practical usability. However, due to design trade-offs, architects can either prioritize aesthetics or they do not focus on functionality.",
+            "question": "Can we say that Olivia, an architect, either creates visually appealing buildings or does not ensure practical usability?",
+            "answer": "yes"
+        },
+        {
+            "id": 35,
+            "context": "In architecture, designers who prioritize aesthetics create visually appealing buildings. Those who focus on functionality ensure practical usability. However, some architects manage to prioritize aesthetics while also focusing on functionality.",
+            "question": "Can we say that Olivia, an architect, either creates visually appealing buildings or does not ensure practical usability?",
+            "answer": "no"
+        }
 ]
+    

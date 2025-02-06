@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "context": "If it rains, the roads get wet. If the roads get wet, driving becomes difficult. If there's a snowstorm, flights get delayed. If flights get delayed, travelers get frustrated. Today, either it rained, or there was a snowstorm, or both.",
+        "question": "Driving was easy today. Were travelers frustrated?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If it rains, the roads get wet. If the roads get wet, driving becomes difficult. If there's a snowstorm, flights get delayed. If flights get delayed, travelers get frustrated. Today, either it rained, or there was a snowstorm, or both.",
+        "question": "Driving was easy today. Were flights delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If a project is urgent, deadlines get tighter. If deadlines get tighter, employees feel stressed. If management is disorganized, meetings run late. If meetings run late, work gets delayed. Today, either the project was urgent, or management was disorganized, or both.",
+        "question": "Work was delayed today. Did employees feel stressed?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If a project is urgent, deadlines get tighter. If deadlines get tighter, employees feel stressed. If management is disorganized, meetings run late. If meetings run late, work gets delayed. Today, either the project was urgent, or management was disorganized, or both.",
+        "question": "Employees were relaxed today. Did meetings run late?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If the internet goes down, online meetings get canceled. If online meetings get canceled, deadlines get pushed back. If the power goes out, all work stops. If all work stops, productivity decreases. Today, either the internet went down, or the power went out, or both.",
+        "question": "Deadlines remained unchanged today. Did productivity decrease?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If the internet goes down, online meetings get canceled. If online meetings get canceled, deadlines get pushed back. If the power goes out, all work stops. If all work stops, productivity decreases. Today, either the internet went down, or the power went out, or both.",
+        "question": "Deadlines remained unchanged today. Did online meetings get canceled?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If a train is delayed, commuters get late. If commuters get late, work schedules are disrupted. If a bus is overcrowded, some passengers must wait. If passengers wait, frustration increases. Today, either a train was delayed, or a bus was overcrowded, or both.",
+        "question": "Work schedules were normal today. Was frustration high?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "If a train is delayed, commuters get late. If commuters get late, work schedules are disrupted. If a bus is overcrowded, some passengers must wait. If passengers wait, frustration increases. Today, either a train was delayed, or a bus was overcrowded, or both.",
+        "question": "Work schedules were normal today. Were commuters late?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If a flu spreads, many employees call in sick. If many employees call in sick, project timelines suffer. If a security breach happens, system access gets restricted. If system access is restricted, IT teams work overtime. Today, either a flu spread, or a security breach happened, or both.",
+        "question": "Project timelines were fine today. Did IT teams work overtime?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If a flu spreads, many employees call in sick. If many employees call in sick, project timelines suffer. If a security breach happens, system access gets restricted. If system access is restricted, IT teams work overtime. Today, either a flu spread, or a security breach happened, or both.",
+        "question": "Project timelines were fine today. Did many employees call in sick?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a sports team loses, fans get disappointed. If fans get disappointed, ticket sales drop. If a major sponsor pulls out, funding decreases. If funding decreases, player salaries are affected. Today, either the team lost, or a sponsor pulled out, or both.",
+        "question": "Ticket sales remained high today. Were player salaries affected?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a sports team loses, fans get disappointed. If fans get disappointed, ticket sales drop. If a major sponsor pulls out, funding decreases. If funding decreases, player salaries are affected. Today, either the team lost, or a sponsor pulled out, or both.",
+        "question": "Ticket sales remained high today. Did fans get disappointed?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a supply shipment is delayed, production slows down. If production slows down, deliveries take longer. If factory equipment fails, repairs take time. If repairs take time, costs increase. Today, either a shipment was delayed, or equipment failed, or both.",
+        "question": "Deliveries were on time today. Did costs increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a supply shipment is delayed, production slows down. If production slows down, deliveries take longer. If factory equipment fails, repairs take time. If repairs take time, costs increase. Today, either a shipment was delayed, or equipment failed, or both.",
+        "question": "Deliveries were on time today. Did production slow down?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If a crime rate rises, people feel unsafe. If people feel unsafe, they move away. If taxes increase, businesses relocate. If businesses relocate, job opportunities decrease. Today, either the crime rate rose, or taxes increased, or both.",
+        "question": "Job opportunities were stable today. Did people move away?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If a crime rate rises, people feel unsafe. If people feel unsafe, they move away. If taxes increase, businesses relocate. If businesses relocate, job opportunities decrease. Today, either the crime rate rose, or taxes increased, or both.",
+        "question": "Job opportunities were stable today. Did businesses relocate?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If an athlete trains hard, their stamina improves. If their stamina improves, their performance in competitions increases. If they lack motivation, they skip training. If they skip training, their performance declines. Today, either they trained hard, or they lacked motivation, or both.",
+        "question": "Their performance declined today. Did their stamina improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If an athlete trains hard, their stamina improves. If their stamina improves, their performance in competitions increases. If they lack motivation, they skip training. If they skip training, their performance declines. Today, either they trained hard, or they lacked motivation, or both.",
+        "question": "Their performance declined today. Did they skip training?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If the sun is strong, temperatures rise. If temperatures rise, ice melts. If a storm approaches, strong winds develop. If strong winds develop, flights get canceled. Today, either the sun was strong, or a storm approached, or both.",
+        "question": "Ice did not melt today. Were flights canceled?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "If the sun is strong, temperatures rise. If temperatures rise, ice melts. If a storm approaches, strong winds develop. If strong winds develop, flights get canceled. Today, either the sun was strong, or a storm approached, or both.",
+        "question": "Ice did not melt today. Did temperatures rise?",
+        "answer": "no"
+    }
+]

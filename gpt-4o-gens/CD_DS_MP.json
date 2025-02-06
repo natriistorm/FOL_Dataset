@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "context": "In a university, a student knew that if they attended all lectures, they would understand the subject well. Also, if they completed all assignments, they would pass the course. The student either attended all lectures or completed all assignments. If someone passes the course, they will receive a certificate.",
+        "question": "Given that the student did not understand the subject well, did they receive a certificate?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In a university, a student knew that if they attended all lectures, they would understand the subject well. Also, if they completed all assignments, they would pass the course. The student either attended all lectures or completed all assignments. If someone passes the course, they will receive a certificate.",
+        "question": "Given that the student did not pass the course, did they receive a certificate?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "At a tech startup, an employee was told that if they learned Python, they could develop software. Also, if they learned marketing, they could promote the product. The employee either learned Python or marketing. If someone promotes the product, the company gains more customers.",
+        "question": "Given that the employee did not develop software, did the company gain more customers?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "At a tech startup, an employee was told that if they learned Python, they could develop software. Also, if they learned marketing, they could promote the product. The employee either learned Python or marketing. If someone promotes the product, the company gains more customers.",
+        "question": "Given that the company did not gain more customers, did the employee promote the product?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "In an art competition, a contestant was informed that if they created a unique sculpture, they would impress the judges. Also, if they painted a stunning portrait, they would win a prize. The contestant either created a unique sculpture or painted a stunning portrait. If someone wins a prize, they get recognition.",
+        "question": "Given that the contestant did not impress the judges, did they get recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In an art competition, a contestant was informed that if they created a unique sculpture, they would impress the judges. Also, if they painted a stunning portrait, they would win a prize. The contestant either created a unique sculpture or painted a stunning portrait. If someone wins a prize, they get recognition.",
+        "question": "Given that the contestant did not win a prize, did they get recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "At a fitness center, a coach told a trainee that if they followed a strict diet, they would lose weight. Also, if they trained regularly, they would build muscle. The trainee either followed a strict diet or trained regularly. If someone builds muscle, they improve their strength.",
+        "question": "Given that the trainee did not lose weight, did they improve their strength?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "At a fitness center, a coach told a trainee that if they followed a strict diet, they would lose weight. Also, if they trained regularly, they would build muscle. The trainee either followed a strict diet or trained regularly. If someone builds muscle, they improve their strength.",
+        "question": "Given that the trainee did not build muscle, did they improve their strength?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "In a music academy, a teacher explained that if a student practiced daily, they would master an instrument. Also, if they attended theory classes, they would improve their musical knowledge. The student either practiced daily or attended theory classes. If someone improves their musical knowledge, they compose better music.",
+        "question": "Given that the student did not master an instrument, did they compose better music?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "In a music academy, a teacher explained that if a student practiced daily, they would master an instrument. Also, if they attended theory classes, they would improve their musical knowledge. The student either practiced daily or attended theory classes. If someone improves their musical knowledge, they compose better music.",
+        "question": "Given that the student did not improve their musical knowledge, did they compose better music?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "At a cooking school, an instructor told students that if they mastered knife skills, they could prepare ingredients efficiently. Also, if they studied recipes, they could cook delicious meals. The student either mastered knife skills or studied recipes. If someone cooks delicious meals, they impress the judges.",
+        "question": "Given that the student did not prepare ingredients efficiently, did they impress the judges?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "At a cooking school, an instructor told students that if they mastered knife skills, they could prepare ingredients efficiently. Also, if they studied recipes, they could cook delicious meals. The student either mastered knife skills or studied recipes. If someone cooks delicious meals, they impress the judges.",
+        "question": "Given that the student did not cook delicious meals, did they impress the judges?",
+        "answer": "no"
+    },
+    {
+        "id": 1,
+        "context": "In a university, a student knew that if they attended all lectures, they would understand the material well. Also, if they completed all assignments, they would improve their skills. The student either attended all lectures or completed all assignments. If someone improves their skills, they will perform well in exams.",
+        "question": "Given that the student did not understand the material well, did they perform well in exams?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In a university, a student knew that if they attended all lectures, they would understand the material well. Also, if they completed all assignments, they would improve their skills. The student either attended all lectures or completed all assignments. If someone improves their skills, they will perform well in exams.",
+        "question": "Given that the student did not perform well in exams, did they understand the material well?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "In a music competition, a participant was aware that if they practiced daily, they would enhance their technique. Also, if they took lessons from a professional, they would improve their stage presence. The participant either practiced daily or took professional lessons. If someone improves their stage presence, they will gain confidence.",
+        "question": "Given that the participant did not enhance their technique, did they gain confidence?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "In a music competition, a participant was aware that if they practiced daily, they would enhance their technique. Also, if they took lessons from a professional, they would improve their stage presence. The participant either practiced daily or took professional lessons. If someone improves their stage presence, they will gain confidence.",
+        "question": "Given that the participant did not gain confidence, did they enhance their technique?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A startup founder knew that if they secured an investor, they would receive funding. Also, if they launched a successful marketing campaign, they would attract customers. The founder either secured an investor or launched a successful marketing campaign. If someone attracts customers, their business will grow.",
+        "question": "Given that the founder did not receive funding, did their business grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "A startup founder knew that if they secured an investor, they would receive funding. Also, if they launched a successful marketing campaign, they would attract customers. The founder either secured an investor or launched a successful marketing campaign. If someone attracts customers, their business will grow.",
+        "question": "Given that the founder's business did not grow, did they receive funding?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In a chess tournament, a player knew that if they studied famous games, they would develop strategic thinking. Also, if they practiced regularly, they would sharpen their tactical skills. The player either studied famous games or practiced regularly. If someone sharpens their tactical skills, they will win more matches.",
+        "question": "Given that the player did not develop strategic thinking, did they win more matches?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In a chess tournament, a player knew that if they studied famous games, they would develop strategic thinking. Also, if they practiced regularly, they would sharpen their tactical skills. The player either studied famous games or practiced regularly. If someone sharpens their tactical skills, they will win more matches.",
+        "question": "Given that the player did not win more matches, did they develop strategic thinking?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "At a film festival, a director believed that if they had an original script, they would impress the critics. Also, if they worked with experienced actors, they would produce a high-quality film. The director either had an original script or worked with experienced actors. If someone produces a high-quality film, they will receive awards.",
+        "question": "Given that the director did not impress the critics, did they receive awards?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "At a film festival, a director believed that if they had an original script, they would impress the critics. Also, if they worked with experienced actors, they would produce a high-quality film. The director either had an original script or worked with experienced actors. If someone produces a high-quality film, they will receive awards.",
+        "question": "Given that the director did not receive awards, did they impress the critics?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In a marathon, a runner knew that if they followed a strict training plan, they would improve endurance. Also, if they maintained a healthy diet, they would avoid injuries. The runner either followed a strict training plan or maintained a healthy diet. If someone avoids injuries, they will complete the marathon.",
+        "question": "Given that the runner did not improve endurance, did they complete the marathon?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "In a marathon, a runner knew that if they followed a strict training plan, they would improve endurance. Also, if they maintained a healthy diet, they would avoid injuries. The runner either followed a strict training plan or maintained a healthy diet. If someone avoids injuries, they will complete the marathon.",
+        "question": "Given that the runner did not complete the marathon, did they improve endurance?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "In a research project, a scientist understood that if they conducted thorough experiments, they would gather reliable data. Also, if they collaborated with experts, they would refine their theories. The scientist either conducted thorough experiments or collaborated with experts. If someone refines their theories, they will publish their findings.",
+        "question": "Given that the scientist did not gather reliable data, did they publish their findings?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "In a research project, a scientist understood that if they conducted thorough experiments, they would gather reliable data. Also, if they collaborated with experts, they would refine their theories. The scientist either conducted thorough experiments or collaborated with experts. If someone refines their theories, they will publish their findings.",
+        "question": "Given that the scientist did not publish their findings, did they gather reliable data?",
+        "answer": "no"
+    }
+]

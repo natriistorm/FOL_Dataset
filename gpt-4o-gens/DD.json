@@ -58,8 +58,69 @@
         "context": "If a scientist conducts thorough research, they produce reliable results. Similarly, if they collaborate with peers, they gain diverse insights. However, there are cases where they produce reliable results without gaining diverse insights.",
         "question": "Does it entail that for Liam, who values scientific integrity, either he does not conduct thorough research or he does not collaborate with peers?",
         "answer": "no"
-    }
-]    
+    },
+        {
+            "id": 21,
+            "context": "If an artist explores new techniques, they enhance their creativity. Additionally, if they seek feedback, they refine their work. However, there are cases where they neither enhance their creativity nor refine their work.",
+            "question": "Does it entail that for Emily, who aims to grow as an artist, either she does not explore new techniques or she does not seek feedback?",
+            "answer": "yes"
+        },
+        {
+            "id": 22,
+            "context": "If an artist explores new techniques, they enhance their creativity. Similarly, if they seek feedback, they refine their work. However, there are cases where they enhance their creativity without refining their work.",
+            "question": "Does it entail that for Emily, who aims to grow as an artist, either she does not explore new techniques or she does not seek feedback?",
+            "answer": "no"
+        },
+        {
+            "id": 23,
+            "context": "If a writer reads widely, they improve their storytelling skills. Furthermore, if they practice writing consistently, they develop their style. However, there are situations where they neither improve their storytelling skills nor develop their style.",
+            "question": "Does it entail that for Daniel, who wants to become a better writer, either he does not read widely or he does not practice writing consistently?",
+            "answer": "yes"
+        },
+        {
+            "id": 24,
+            "context": "If a writer reads widely, they improve their storytelling skills. Likewise, if they practice writing consistently, they develop their style. However, there are situations where they improve their storytelling skills without developing their style.",
+            "question": "Does it entail that for Daniel, who wants to become a better writer, either he does not read widely or he does not practice writing consistently?",
+            "answer": "no"
+        },
+        {
+            "id": 25,
+            "context": "If a software developer learns new programming languages, they expand their skill set. Additionally, if they work on real-world projects, they gain practical experience. However, there are cases where they neither expand their skill set nor gain practical experience.",
+            "question": "Does it entail that for Michael, who aspires to be a proficient developer, either he does not learn new programming languages or he does not work on real-world projects?",
+            "answer": "yes"
+        },
+        {
+            "id": 26,
+            "context": "If a software developer learns new programming languages, they expand their skill set. Similarly, if they work on real-world projects, they gain practical experience. However, there are cases where they expand their skill set without gaining practical experience.",
+            "question": "Does it entail that for Michael, who aspires to be a proficient developer, either he does not learn new programming languages or he does not work on real-world projects?",
+            "answer": "no"
+        },
+        {
+            "id": 27,
+            "context": "If a leader communicates clearly, their team stays motivated. Furthermore, if they listen to feedback, they build trust. However, there are cases where their team neither stays motivated nor builds trust.",
+            "question": "Does it entail that for Olivia, who values effective leadership, either she does not communicate clearly or she does not listen to feedback?",
+            "answer": "yes"
+        },
+        {
+            "id": 28,
+            "context": "If a leader communicates clearly, their team stays motivated. Likewise, if they listen to feedback, they build trust. However, there are cases where their team stays motivated without building trust.",
+            "question": "Does it entail that for Olivia, who values effective leadership, either she does not communicate clearly or she does not listen to feedback?",
+            "answer": "no"
+        },
+        {
+            "id": 29,
+            "context": "If an investor conducts market research, they make informed decisions. Additionally, if they diversify their portfolio, they minimize risk. However, there are situations where they neither make informed decisions nor minimize risk.",
+            "question": "Does it entail that for Ethan, who aims for financial success, either he does not conduct market research or he does not diversify his portfolio?",
+            "answer": "yes"
+        },
+        {
+            "id": 30,
+            "context": "If an investor conducts market research, they make informed decisions. Similarly, if they diversify their portfolio, they minimize risk. However, there are situations where they make informed decisions without minimizing risk.",
+            "question": "Does it entail that for Ethan, who aims for financial success, either he does not conduct market research or he does not diversify his portfolio?",
+            "answer": "no"
+        }
+    ]
+       
     
     
     
