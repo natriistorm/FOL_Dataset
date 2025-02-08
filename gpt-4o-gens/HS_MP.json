@@ -466,5 +466,47 @@
                 "context": "If a cat is well-fed, then it will be happy. If the cat is happy, it will play with its owner. However, the cat has not been fed today.",
                 "question": "If the cat is well-fed, will it play with its owner?",
                 "answer": "no"
+            },
+            {
+                "id": 19,
+                "context": "If a plant gets proper fertilizer, then it will grow strong roots. If it has strong roots, then it will produce more fruit.",
+                "question": "If Maria uses proper fertilizer, will her plant produce more fruit?",
+                "answer": "yes"
+            },
+            {
+                "id": 20,
+                "context": "If a plant gets proper fertilizer, then it will grow strong roots. If it has strong roots, then it will produce more fruit. However, Maria forgot to add fertilizer.",
+                "question": "If Maria uses proper fertilizer, will her plant produce more fruit?",
+                "answer": "no"
+            },
+            {
+                "id": 21,
+                "context": "If a computer has updated software, then it will run faster. If it runs faster, then work will be completed more efficiently.",
+                "question": "If David updates his computer's software, will he complete work more efficiently?",
+                "answer": "yes"
+            },
+            {
+                "id": 22,
+                "context": "If a computer has updated software, then it will run faster. If it runs faster, then work will be completed more efficiently. However, David's software is outdated.",
+                "question": "If David updates his computer's software, will he complete work more efficiently?",
+                "answer": "no"
+            },
+            {
+                "id": 23,
+                "context": "If a guitar is properly tuned, then it will sound harmonious. If it sounds harmonious, then the performance will be successful.",
+                "question": "If Emma tunes her guitar properly, will her performance be successful?",
+                "answer": "yes"
+            },
+            {
+                "id": 24,
+                "context": "If a guitar is properly tuned, then it will sound harmonious. If it sounds harmonious, then the performance will be successful. However, Emma's guitar is out of tune.",
+                "question": "If Emma tunes her guitar properly, will her performance be successful?",
+                "answer": "no"
+            },
+            {
+                "id": 25,
+                "context": "If a recipe is followed exactly, then the dish will taste good. If the dish tastes good, then dinner guests will be satisfied.",
+                "question": "If Michael follows the recipe exactly, will his dinner guests be satisfied?",
+                "answer": "yes"
             }
     ]
