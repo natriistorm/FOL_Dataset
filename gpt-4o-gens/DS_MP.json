@@ -502,5 +502,11 @@
     "context": "In a yoga studio, if the instructor is certified, students achieve perfect postures. However, it is not certain if the studio environment is peaceful. Either the instructor is certified, or the studio environment is peaceful, or both.",
     "question": "Lisa's instructor was not certified. Does this mean Lisa's students achieved perfect postures?",
     "answer": "no"
+  },
+  {
+    "id": 85,
+    "context": "In a pottery workshop, if the clay is properly prepared, the ceramics come out flawless. However, it is not certain if the kiln temperature is optimal. Either the clay is properly prepared, or the kiln temperature is optimal, or both.",
+    "question": "Nina's kiln temperature was not optimal. Does this mean Nina's ceramics came out flawless?",
+    "answer": "yes"
   }
 ]
