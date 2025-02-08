@@ -1,122 +1,506 @@
 [
-    {
-        "id": 1,
-        "context": "In a company, if an employee meets their sales target, they will receive a promotion. However, it is uncertain if the market conditions are favorable. It is certain that either the sales target is met, or the market conditions are favorable, or both.",
-        "question": "Sam's market conditions were unfavorable. Does this mean Sam received a promotion?",
-        "answer": "yes"
-    },
-    {
-        "id": 2,
-        "context": "In a company, if an employee meets their sales target, they will receive a promotion. However, it is uncertain if the market conditions are favorable. It is certain that either the sales target is met, or the market conditions are favorable, or both.",
-        "question": "Sam's market conditions were unfavorable. Does this mean Sam did not receive a promotion?",
-        "answer": "no"
-    },
-    {
-        "id": 3,
-        "context": "At a university, if a student submits their thesis on time, they will graduate. However, it is uncertain if the thesis is difficult. It is certain that either the thesis is submitted on time, or it is not difficult, or both.",
-        "question": "Emma's thesis was difficult. Does this mean Emma graduated?",
-        "answer": "yes"
-    },
-    {
-        "id": 4,
-        "context": "At a university, if a student submits their thesis on time, they will graduate. However, it is uncertain if the thesis is difficult. It is certain that either the thesis is submitted on time, or it is not difficult, or both.",
-        "question": "Emma's thesis was difficult. Does this mean Emma did not graduate?",
-        "answer": "no"
-    },
-    {
-        "id": 5,
-        "context": "In a city, if a driver follows traffic rules, they will avoid a fine. However, it is uncertain if the roads are safe. It is certain that either traffic rules are followed, or the roads are safe, or both.",
-        "question": "David's roads were unsafe. Does this mean David avoided a fine?",
-        "answer": "yes"
-    },
-    {
-        "id": 6,
-        "context": "In a city, if a driver follows traffic rules, they will avoid a fine. However, it is uncertain if the roads are safe. It is certain that either traffic rules are followed, or the roads are safe, or both.",
-        "question": "David's roads were unsafe. Does this mean David did not avoid a fine?",
-        "answer": "no"
-    },
-    {
-        "id": 7,
-        "context": "In a sports club, if an athlete trains regularly, they will perform well in competitions. However, it is uncertain if their diet is optimal. It is certain that either the athlete trains regularly, or their diet is optimal, or both.",
-        "question": "Sophia's diet was not optimal. Does this mean Sophia performed well in competitions?",
-        "answer": "yes"
-    },
-    {
-        "id": 8,
-        "context": "In a sports club, if an athlete trains regularly, they will perform well in competitions. However, it is uncertain if their diet is optimal. It is certain that either the athlete trains regularly, or their diet is optimal, or both.",
-        "question": "Sophia's diet was not optimal. Does this mean Sophia did not perform well in competitions?",
-        "answer": "no"
-    },
-    {
-        "id": 9,
-        "context": "At a software company, if a developer fixes critical bugs, their project will be released on schedule. However, it is uncertain if the project requirements are simple. It is certain that either critical bugs are fixed, or the requirements are simple, or both.",
-        "question": "Liam's project requirements were complex. Does this mean the project was released on schedule?",
-        "answer": "yes"
-    },
-    {
-        "id": 10,
-        "context": "At a software company, if a developer fixes critical bugs, their project will be released on schedule. However, it is uncertain if the project requirements are simple. It is certain that either critical bugs are fixed, or the requirements are simple, or both.",
-        "question": "Liam's project requirements were complex. Does this mean the project was not released on schedule?",
-        "answer": "no"
-    },
-    {
-        "id": 11,
-        "context": "In a medical study, if a patient follows the prescribed treatment, they will recover quickly. However, it is uncertain if the disease is mild. It is certain that either the treatment is followed, or the disease is mild, or both.",
-        "question": "Sophie's disease was not mild. Does this mean Sophie recovered quickly?",
-        "answer": "yes"
-    },
-    {
-        "id": 12,
-        "context": "In a medical study, if a patient follows the prescribed treatment, they will recover quickly. However, it is uncertain if the disease is mild. It is certain that either the treatment is followed, or the disease is mild, or both.",
-        "question": "Sophie's disease was not mild. Does this mean Sophie did not recover quickly?",
-        "answer": "no"
-    },
-    {
-        "id": 13,
-        "context": "In a fitness club, if someone attends yoga classes regularly, they improve their flexibility. However, it is not certain if the yoga instructor is experienced. Either the classes are attended regularly, or the instructor is experienced, or both.",
-        "question": "Henry's yoga instructor was experienced. Does this mean Henry improved his flexibility?",
-        "answer": "no"
-      },
-      {
-        "id": 14,
-        "context": "In a small town, if someone votes in the elections, they influence local policies. However, it is not certain if the elections are competitive. Either someone votes, or the elections are competitive, or both.",
-        "question": "Isla's town elections were competitive. Does this mean Isla influenced local policies?",
-        "answer": "no"
-      },
-      {
-        "id": 15,
-        "context": "At a university, if a student completes all assignments, they pass the course. However, it is not certain if the student participated in all seminars. Either the student completed all assignments, or participated in all seminars, or both.",
-        "question": "Paul did not participate in all seminars. Does this mean Paul passed the course?",
-        "answer": "yes"
-      },
-      {
-        "id": 16,
-        "context": "At a university, if a student completes all assignments, they pass the course. However, it is not certain if the student participated in all seminars. Either the student completed all assignments, or participated in all seminars, or both.",
-        "question": "Paul participated in all seminars. Does this mean Paul passed the course?",
-        "answer": "no"
-      },
-      {
-        "id": 17,
-        "context": "In a corporate setting, if an employee attends training sessions regularly, they improve their productivity. However, it is not certain if the employee's manager is skilled. Either the employee attends training sessions regularly, or the manager is skilled, or both.",
-        "question": "Carla's manager was not skilled. Does this mean Carla improved her productivity?",
-        "answer": "yes"
-      },
-      {
-        "id": 18,
-        "context": "In a corporate setting, if an employee attends training sessions regularly, they improve their productivity. However, it is not certain if the employee's manager is skilled. Either the employee attends training sessions regularly, or the manager is skilled, or both.",
-        "question": "Carla's manager was skilled. Does this mean Carla improved her productivity?",
-        "answer": "no"
-      },
-      {
-        "id": 19,
-        "context": "In a city, if someone buys a monthly public transport pass, they can travel without restrictions. However, it is not certain if the public transport system is punctual. Either someone buys the pass, or the system is punctual, or both.",
-        "question": "David did not buy the pass. Does this mean David can travel without restrictions?",
-        "answer": "yes"
-      },
-      {
-        "id": 20,
-        "context": "In a city, if someone buys a monthly public transport pass, they can travel without restrictions. However, it is not certain if the public transport system is punctual. Either someone buys the pass, or the system is punctual, or both.",
-        "question": "David bought the pass. Does this mean David can travel without restrictions?",
-        "answer": "no"
-      }
+  {
+    "id": 1,
+    "context": "In a company, if an employee meets their sales target, they will receive a promotion. However, it is uncertain if the market conditions are favorable. It is certain that either the sales target is met, or the market conditions are favorable, or both.",
+    "question": "Sam's market conditions were unfavorable. Does this mean Sam received a promotion?",
+    "answer": "yes"
+  },
+  {
+    "id": 2,
+    "context": "In a company, if an employee meets their sales target, they will receive a promotion. However, it is uncertain if the market conditions are favorable. It is certain that either the sales target is met, or the market conditions are favorable, or both.",
+    "question": "Sam's market conditions were unfavorable. Does this mean Sam did not receive a promotion?",
+    "answer": "no"
+  },
+  {
+    "id": 3,
+    "context": "At a university, if a student submits their thesis on time, they will graduate. However, it is uncertain if the thesis is difficult. It is certain that either the thesis is submitted on time, or it is not difficult, or both.",
+    "question": "Emma's thesis was difficult. Does this mean Emma graduated?",
+    "answer": "yes"
+  },
+  {
+    "id": 4,
+    "context": "At a university, if a student submits their thesis on time, they will graduate. However, it is uncertain if the thesis is difficult. It is certain that either the thesis is submitted on time, or it is not difficult, or both.",
+    "question": "Emma's thesis was difficult. Does this mean Emma did not graduate?",
+    "answer": "no"
+  },
+  {
+    "id": 5,
+    "context": "In a city, if a driver follows traffic rules, they will avoid a fine. However, it is uncertain if the roads are safe. It is certain that either traffic rules are followed, or the roads are safe, or both.",
+    "question": "David's roads were unsafe. Does this mean David avoided a fine?",
+    "answer": "yes"
+  },
+  {
+    "id": 6,
+    "context": "In a city, if a driver follows traffic rules, they will avoid a fine. However, it is uncertain if the roads are safe. It is certain that either traffic rules are followed, or the roads are safe, or both.",
+    "question": "David's roads were unsafe. Does this mean David did not avoid a fine?",
+    "answer": "no"
+  },
+  {
+    "id": 7,
+    "context": "In a sports club, if an athlete trains regularly, they will perform well in competitions. However, it is uncertain if their diet is optimal. It is certain that either the athlete trains regularly, or their diet is optimal, or both.",
+    "question": "Sophia's diet was not optimal. Does this mean Sophia performed well in competitions?",
+    "answer": "yes"
+  },
+  {
+    "id": 8,
+    "context": "In a sports club, if an athlete trains regularly, they will perform well in competitions. However, it is uncertain if their diet is optimal. It is certain that either the athlete trains regularly, or their diet is optimal, or both.",
+    "question": "Sophia's diet was not optimal. Does this mean Sophia did not perform well in competitions?",
+    "answer": "no"
+  },
+  {
+    "id": 9,
+    "context": "At a software company, if a developer fixes critical bugs, their project will be released on schedule. However, it is uncertain if the project requirements are simple. It is certain that either critical bugs are fixed, or the requirements are simple, or both.",
+    "question": "Liam's project requirements were complex. Does this mean the project was released on schedule?",
+    "answer": "yes"
+  },
+  {
+    "id": 10,
+    "context": "At a software company, if a developer fixes critical bugs, their project will be released on schedule. However, it is uncertain if the project requirements are simple. It is certain that either critical bugs are fixed, or the requirements are simple, or both.",
+    "question": "Liam's project requirements were complex. Does this mean the project was not released on schedule?",
+    "answer": "no"
+  },
+  {
+    "id": 11,
+    "context": "In a medical study, if a patient follows the prescribed treatment, they will recover quickly. However, it is uncertain if the disease is mild. It is certain that either the treatment is followed, or the disease is mild, or both.",
+    "question": "Sophie's disease was not mild. Does this mean Sophie recovered quickly?",
+    "answer": "yes"
+  },
+  {
+    "id": 12,
+    "context": "In a medical study, if a patient follows the prescribed treatment, they will recover quickly. However, it is uncertain if the disease is mild. It is certain that either the treatment is followed, or the disease is mild, or both.",
+    "question": "Sophie's disease was not mild. Does this mean Sophie did not recover quickly?",
+    "answer": "no"
+  },
+  {
+    "id": 13,
+    "context": "In a fitness club, if someone attends yoga classes regularly, they improve their flexibility. However, it is not certain if the yoga instructor is experienced. Either the classes are attended regularly, or the instructor is experienced, or both.",
+    "question": "Henry's yoga instructor was experienced. Does this mean Henry improved his flexibility?",
+    "answer": "no"
+  },
+  {
+    "id": 14,
+    "context": "In a small town, if someone votes in the elections, they influence local policies. However, it is not certain if the elections are competitive. Either someone votes, or the elections are competitive, or both.",
+    "question": "Isla's town elections were competitive. Does this mean Isla influenced local policies?",
+    "answer": "no"
+  },
+  {
+    "id": 15,
+    "context": "At a university, if a student completes all assignments, they pass the course. However, it is not certain if the student participated in all seminars. Either the student completed all assignments, or participated in all seminars, or both.",
+    "question": "Paul did not participate in all seminars. Does this mean Paul passed the course?",
+    "answer": "yes"
+  },
+  {
+    "id": 16,
+    "context": "At a university, if a student completes all assignments, they pass the course. However, it is not certain if the student participated in all seminars. Either the student completed all assignments, or participated in all seminars, or both.",
+    "question": "Paul participated in all seminars. Does this mean Paul passed the course?",
+    "answer": "no"
+  },
+  {
+    "id": 17,
+    "context": "In a corporate setting, if an employee attends training sessions regularly, they improve their productivity. However, it is not certain if the employee's manager is skilled. Either the employee attends training sessions regularly, or the manager is skilled, or both.",
+    "question": "Carla's manager was not skilled. Does this mean Carla improved her productivity?",
+    "answer": "yes"
+  },
+  {
+    "id": 18,
+    "context": "In a corporate setting, if an employee attends training sessions regularly, they improve their productivity. However, it is not certain if the employee's manager is skilled. Either the employee attends training sessions regularly, or the manager is skilled, or both.",
+    "question": "Carla's manager was skilled. Does this mean Carla improved her productivity?",
+    "answer": "no"
+  },
+  {
+    "id": 19,
+    "context": "In a city, if someone buys a monthly public transport pass, they can travel without restrictions. However, it is not certain if the public transport system is punctual. Either someone buys the pass, or the system is punctual, or both.",
+    "question": "David did not buy the pass. Does this mean David can travel without restrictions?",
+    "answer": "yes"
+  },
+  {
+    "id": 20,
+    "context": "In a city, if someone buys a monthly public transport pass, they can travel without restrictions. However, it is not certain if the public transport system is punctual. Either someone buys the pass, or the system is punctual, or both.",
+    "question": "David bought the pass. Does this mean David can travel without restrictions?",
+    "answer": "no"
+  },
+  {
+    "id": 21,
+    "context": "In a robotics competition, if a robot is well-programmed, it completes the obstacle course successfully. However, it is not certain if the sensors are high-quality. Either the robot is well-programmed, or the sensors are high-quality, or both.",
+    "question": "Liam's sensors were not high-quality. Does this mean Liam's robot completed the obstacle course successfully?",
+    "answer": "yes"
+  },
+  {
+    "id": 22,
+    "context": "In a robotics competition, if a robot is well-programmed, it completes the obstacle course successfully. However, it is not certain if the sensors are functional. Either the robot is well-programmed, or the sensors are functional, or both.",
+    "question": "Liam's sensors were not functional. Does this mean Liam's robot completed the obstacle course successfully?",
+    "answer": "no"
+  },
+  {
+    "id": 23,
+    "context": "In a research lab, if an experiment is well-documented, the findings are reproducible. However, it is not certain if the lab equipment is reliable. Either the experiment is well-documented, or the lab equipment is reliable, or both.",
+    "question": "Emma's lab equipment was not reliable. Does this mean Emma's findings were reproducible?",
+    "answer": "yes"
+  },
+  {
+    "id": 24,
+    "context": "In a research lab, if an experiment is well-documented, the findings are reproducible. However, it is not certain if the lab assistants are skilled. Either the experiment is well-documented, or the lab assistants are skilled, or both.",
+    "question": "Emma's lab assistants were not skilled. Does this mean Emma's findings were reproducible?",
+    "answer": "no"
+  },
+  {
+    "id": 25,
+    "context": "In a bakery, if a cake is baked at the right temperature, it turns out delicious. However, it is not certain if the ingredients are fresh. Either the cake is baked at the right temperature, or the ingredients are fresh, or both.",
+    "question": "Sophia's ingredients were not fresh. Does this mean Sophia's cake turned out delicious?",
+    "answer": "yes"
+  },
+  {
+    "id": 26,
+    "context": "In a bakery, if a cake is baked at the right temperature, it turns out delicious. However, it is not certain if the recipe is correct. Either the cake is baked at the right temperature, or the recipe is correct, or both.",
+    "question": "Sophia's recipe was not correct. Does this mean Sophia's cake turned out delicious?",
+    "answer": "no"
+  },
+  {
+    "id": 27,
+    "context": "In a marathon, if a runner trains consistently, they complete the race. However, it is not certain if the weather is favorable. Either the runner trains consistently, or the weather is favorable, or both.",
+    "question": "Ethan's weather was not favorable. Does this mean Ethan completed the race?",
+    "answer": "yes"
+  },
+  {
+    "id": 28,
+    "context": "In a marathon, if a runner trains consistently, they complete the race. However, it is not certain if the hydration stations are available. Either the runner trains consistently, or the hydration stations are available, or both.",
+    "question": "Ethan's hydration stations were not available. Does this mean Ethan completed the race?",
+    "answer": "no"
+  },
+  {
+    "id": 29,
+    "context": "In a photography contest, if a photo is well-composed, it wins an award. However, it is not certain if the lighting conditions are good. Either the photo is well-composed, or the lighting conditions are good, or both.",
+    "question": "Ava's lighting conditions were not good. Does this mean Ava's photo won an award?",
+    "answer": "yes"
+  },
+  {
+    "id": 30,
+    "context": "In a photography contest, if a photo is well-composed, it wins an award. However, it is not certain if the camera is high-quality. Either the photo is well-composed, or the camera is high-quality, or both.",
+    "question": "Ava's camera was not high-quality. Does this mean Ava's photo won an award?",
+    "answer": "no"
+  },
+  {
+    "id": 31,
+    "context": "In a robotics competition, if a robot is programmed efficiently, it completes the obstacle course quickly. However, it is not certain if the terrain is smooth. Either the robot is programmed efficiently, or the terrain is smooth, or both.",
+    "question": "Liam’s terrain was not smooth. Does this mean Liam’s robot completed the obstacle course quickly?",
+    "answer": "yes"
+  },
+  {
+    "id": 32,
+    "context": "In a robotics competition, if a robot is programmed efficiently, it completes the obstacle course quickly. However, it is not certain if the terrain is smooth. Either the robot is programmed efficiently, or the terrain is smooth, or both.",
+    "question": "Liam’s robot was not programmed efficiently. Does this mean Liam’s robot completed the obstacle course quickly?",
+    "answer": "no"
+  },
+  {
+    "id": 33,
+    "context": "In a chemistry lab, if a substance is heated to the right temperature, it undergoes a successful reaction. However, it is not certain if the catalyst is present. Either the substance is heated to the right temperature, or the catalyst is present, or both.",
+    "question": "Emma’s catalyst was not present. Does this mean Emma’s substance underwent a successful reaction?",
+    "answer": "yes"
+  },
+  {
+    "id": 34,
+    "context": "In a chemistry lab, if a substance is heated to the right temperature, it undergoes a successful reaction. However, it is not certain if the catalyst is present. Either the substance is heated to the right temperature, or the catalyst is present, or both.",
+    "question": "Emma’s substance was not heated to the right temperature. Does this mean Emma’s substance underwent a successful reaction?",
+    "answer": "no"
+  },
+  {
+    "id": 35,
+    "context": "In a software development team, if a project is thoroughly tested, it runs smoothly. However, it is not certain if the code is well-structured. Either the project is thoroughly tested, or the code is well-structured, or both.",
+    "question": "Sophia’s code was not well-structured. Does this mean Sophia’s project ran smoothly?",
+    "answer": "yes"
+  },
+  {
+    "id": 36,
+    "context": "In a software development team, if a project is thoroughly tested, it runs smoothly. However, it is not certain if the code is well-structured. Either the project is thoroughly tested, or the code is well-structured, or both.",
+    "question": "Sophia’s project was not thoroughly tested. Does this mean Sophia’s project ran smoothly?",
+    "answer": "no"
+  },
+  {
+    "id": 37,
+    "context": "In a university, if a student submits assignments on time, they receive good grades. However, it is not certain if the exams are easy. Either the student submits assignments on time, or the exams are easy, or both.",
+    "question": "Oliver’s exams were not easy. Does this mean Oliver received good grades?",
+    "answer": "yes"
+  },
+  {
+    "id": 38,
+    "context": "In a university, if a student submits assignments on time, they receive good grades. However, it is not certain if the exams are easy. Either the student submits assignments on time, or the exams are easy, or both.",
+    "question": "Oliver did not submit assignments on time. Does this mean Oliver received good grades?",
+    "answer": "no"
+  },
+  {
+    "id": 39,
+    "context": "In a bakery, if a cake is baked at the right temperature, it turns out delicious. However, it is not certain if the ingredients are fresh. Either the cake is baked at the right temperature, or the ingredients are fresh, or both.",
+    "question": "Amelia’s ingredients were not fresh. Does this mean Amelia’s cake turned out delicious?",
+    "answer": "yes"
+  },
+  {
+    "id": 40,
+    "context": "In a bakery, if a cake is baked at the right temperature, it turns out delicious. However, it is not certain if the ingredients are fresh. Either the cake is baked at the right temperature, or the ingredients are fresh, or both.",
+    "question": "Amelia’s cake was not baked at the right temperature. Does this mean Amelia’s cake turned out delicious?",
+    "answer": "no"
+  },
+  {
+    "id": 41,
+    "context": "In an athletic competition, if an athlete trains regularly, they perform well. However, it is not certain if the weather is favorable. Either the athlete trains regularly, or the weather is favorable, or both.",
+    "question": "Ethan’s weather was not favorable. Does this mean Ethan performed well?",
+    "answer": "yes"
+  },
+  {
+    "id": 42,
+    "context": "In an athletic competition, if an athlete trains regularly, they perform well. However, it is not certain if the weather is favorable. Either the athlete trains regularly, or the weather is favorable, or both.",
+    "question": "Ethan did not train regularly. Does this mean Ethan performed well?",
+    "answer": "no"
+  },
+  {
+    "id": 43,
+    "context": "In a corporate environment, if a team communicates effectively, they meet their deadlines. However, it is not certain if the project scope is simple. Either the team communicates effectively, or the project scope is simple, or both.",
+    "question": "Charlotte’s project scope was not simple. Does this mean Charlotte’s team met their deadlines?",
+    "answer": "yes"
+  },
+  {
+    "id": 44,
+    "context": "In a corporate environment, if a team communicates effectively, they meet their deadlines. However, it is not certain if the project scope is simple. Either the team communicates effectively, or the project scope is simple, or both.",
+    "question": "Charlotte’s team did not communicate effectively. Does this mean Charlotte’s team met their deadlines?",
+    "answer": "no"
+  },
+  {
+    "id": 45,
+    "context": "In a film production, if a script is well-written, the movie receives positive reviews. However, it is not certain if the cast is talented. Either the script is well-written, or the cast is talented, or both.",
+    "question": "Mason’s cast was not talented. Does this mean Mason’s movie received positive reviews?",
+    "answer": "yes"
+  },
+  {
+    "id": 46,
+    "context": "In a film production, if a script is well-written, the movie receives positive reviews. However, it is not certain if the cast is talented. Either the script is well-written, or the cast is talented, or both.",
+    "question": "Mason’s script was not well-written. Does this mean Mason’s movie received positive reviews?",
+    "answer": "no"
+  },
+  {
+    "id": 47,
+    "context": "In a tech startup, if a product is innovative, it attracts investors. However, it is not certain if the marketing strategy is effective. Either the product is innovative, or the marketing strategy is effective, or both.",
+    "question": "Lucas's marketing strategy was not effective. Does this mean Lucas's product attracted investors?",
+    "answer": "yes"
+  },
+  {
+    "id": 48,
+    "context": "In a tech startup, if a product is innovative, it attracts investors. However, it is not certain if the marketing strategy is effective. Either the product is innovative, or the marketing strategy is effective, or both.",
+    "question": "Lucas's product was not innovative. Does this mean Lucas's product attracted investors?",
+    "answer": "no"
+  },
+  {
+    "id": 49,
+    "context": "In a culinary school, if a dish is well-seasoned, it receives high marks. However, it is not certain if the presentation is appealing. Either the dish is well-seasoned, or the presentation is appealing, or both.",
+    "question": "Olivia's presentation was not appealing. Does this mean Olivia's dish received high marks?",
+    "answer": "yes"
+  },
+  {
+    "id": 50,
+    "context": "In a culinary school, if a dish is well-seasoned, it receives high marks. However, it is not certain if the presentation is appealing. Either the dish is well-seasoned, or the presentation is appealing, or both.",
+    "question": "Olivia's dish was not well-seasoned. Does this mean Olivia's dish received high marks?",
+    "answer": "no"
+  },
+  {
+    "id": 51,
+    "context": "In a music competition, if a performance is technically flawless, it wins an award. However, it is not certain if the song choice is popular. Either the performance is technically flawless, or the song choice is popular, or both.",
+    "question": "Noah's song choice was not popular. Does this mean Noah's performance won an award?",
+    "answer": "yes"
+  },
+  {
+    "id": 52,
+    "context": "In a music competition, if a performance is technically flawless, it wins an award. However, it is not certain if the song choice is popular. Either the performance is technically flawless, or the song choice is popular, or both.",
+    "question": "Noah's performance was not technically flawless. Does this mean Noah's performance won an award?",
+    "answer": "no"
+  },
+  {
+    "id": 53,
+    "context": "In a gardening competition, if plants are watered regularly, they bloom beautifully. However, it is not certain if the soil is enriched. Either the plants are watered regularly, or the soil is enriched, or both.",
+    "question": "Maya's soil was not enriched. Does this mean Maya's plants bloomed beautifully?",
+    "answer": "yes"
+  },
+  {
+    "id": 54,
+    "context": "In a gardening competition, if plants are watered regularly, they bloom beautifully. However, it is not certain if the soil is enriched. Either the plants are watered regularly, or the soil is enriched, or both.",
+    "question": "Maya's plants were not watered regularly. Does this mean Maya's plants bloomed beautifully?",
+    "answer": "no"
+  },
+  {
+    "id": 55,
+    "context": "In an art gallery, if a painting uses vibrant colors, it sells quickly. However, it is not certain if the frame is expensive. Either the painting uses vibrant colors, or the frame is expensive, or both.",
+    "question": "Leo's frame was not expensive. Does this mean Leo's painting sold quickly?",
+    "answer": "yes"
+  },
+  {
+    "id": 56,
+    "context": "In an art gallery, if a painting uses vibrant colors, it sells quickly. However, it is not certain if the frame is expensive. Either the painting uses vibrant colors, or the frame is expensive, or both.",
+    "question": "Leo's painting did not use vibrant colors. Does this mean Leo's painting sold quickly?",
+    "answer": "no"
+  },
+  {
+    "id": 57,
+    "context": "In a dance studio, if a choreography is original, it wins the competition. However, it is not certain if the costumes are elaborate. Either the choreography is original, or the costumes are elaborate, or both.",
+    "question": "Isabella's costumes were not elaborate. Does this mean Isabella's dance won the competition?",
+    "answer": "yes"
+  },
+  {
+    "id": 58,
+    "context": "In a dance studio, if a choreography is original, it wins the competition. However, it is not certain if the costumes are elaborate. Either the choreography is original, or the costumes are elaborate, or both.",
+    "question": "Isabella's choreography was not original. Does this mean Isabella's dance won the competition?",
+    "answer": "no"
+  },
+  {
+    "id": 59,
+    "context": "In a science fair, if an experiment follows proper methodology, it receives recognition. However, it is not certain if the presentation is interactive. Either the experiment follows proper methodology, or the presentation is interactive, or both.",
+    "question": "Alex's presentation was not interactive. Does this mean Alex's experiment received recognition?",
+    "answer": "yes"
+  },
+  {
+    "id": 60,
+    "context": "In a science fair, if an experiment follows proper methodology, it receives recognition. However, it is not certain if the presentation is interactive. Either the experiment follows proper methodology, or the presentation is interactive, or both.",
+    "question": "Alex's experiment did not follow proper methodology. Does this mean Alex's experiment received recognition?",
+    "answer": "no"
+  },
+  {
+    "id": 61,
+    "context": "In a fashion show, if an outfit is uniquely designed, it gets featured in magazines. However, it is not certain if the model is experienced. Either the outfit is uniquely designed, or the model is experienced, or both.",
+    "question": "Sarah's model was not experienced. Does this mean Sarah's outfit got featured in magazines?",
+    "answer": "yes"
+  },
+  {
+    "id": 62,
+    "context": "In a fashion show, if an outfit is uniquely designed, it gets featured in magazines. However, it is not certain if the model is experienced. Either the outfit is uniquely designed, or the model is experienced, or both.",
+    "question": "Sarah's outfit was not uniquely designed. Does this mean Sarah's outfit got featured in magazines?",
+    "answer": "no"
+  },
+  {
+    "id": 63,
+    "context": "In a podcast production, if the audio quality is professional, the episode gets high ratings. However, it is not certain if the guest is famous. Either the audio quality is professional, or the guest is famous, or both.",
+    "question": "Ryan's guest was not famous. Does this mean Ryan's episode got high ratings?",
+    "answer": "yes"
+  },
+  {
+    "id": 64,
+    "context": "In a podcast production, if the audio quality is professional, the episode gets high ratings. However, it is not certain if the guest is famous. Either the audio quality is professional, or the guest is famous, or both.",
+    "question": "Ryan's audio quality was not professional. Does this mean Ryan's episode got high ratings?",
+    "answer": "no"
+  },
+  {
+    "id": 65,
+    "context": "In a wine tasting competition, if the wine is aged properly, it wins a medal. However, it is not certain if the grapes are premium quality. Either the wine is aged properly, or the grapes are premium quality, or both.",
+    "question": "Julia's grapes were not premium quality. Does this mean Julia's wine won a medal?",
+    "answer": "yes"
+  },
+  {
+    "id": 66,
+    "context": "In a wine tasting competition, if the wine is aged properly, it wins a medal. However, it is not certain if the grapes are premium quality. Either the wine is aged properly, or the grapes are premium quality, or both.",
+    "question": "Julia's wine was not aged properly. Does this mean Julia's wine won a medal?",
+    "answer": "no"
+  },
+  {
+    "id": 67,
+    "context": "In an architecture firm, if a building design is environmentally sustainable, it gets approved. However, it is not certain if the budget is low. Either the design is environmentally sustainable, or the budget is low, or both.",
+    "question": "Daniel's budget was not low. Does this mean Daniel's design got approved?",
+    "answer": "yes"
+  },
+  {
+    "id": 68,
+    "context": "In an architecture firm, if a building design is environmentally sustainable, it gets approved. However, it is not certain if the budget is low. Either the design is environmentally sustainable, or the budget is low, or both.",
+    "question": "Daniel's design was not environmentally sustainable. Does this mean Daniel's design got approved?",
+    "answer": "no"
+  },
+  {
+    "id": 69,
+    "context": "In a language school, if a student practices daily, they become fluent. However, it is not certain if the teaching materials are modern. Either the student practices daily, or the teaching materials are modern, or both.",
+    "question": "Maria's teaching materials were not modern. Does this mean Maria became fluent?",
+    "answer": "yes"
+  },
+  {
+    "id": 70,
+    "context": "In a language school, if a student practices daily, they become fluent. However, it is not certain if the teaching materials are modern. Either the student practices daily, or the teaching materials are modern, or both.",
+    "question": "Maria did not practice daily. Does this mean Maria became fluent?",
+    "answer": "no"
+  },
+  {
+    "id": 71,
+    "context": "In a virtual reality game development, if the graphics are realistic, the game becomes popular. However, it is not certain if the storyline is complex. Either the graphics are realistic, or the storyline is complex, or both.",
+    "question": "Tom's storyline was not complex. Does this mean Tom's game became popular?",
+    "answer": "yes"
+  },
+  {
+    "id": 72,
+    "context": "In a virtual reality game development, if the graphics are realistic, the game becomes popular. However, it is not certain if the storyline is complex. Either the graphics are realistic, or the storyline is complex, or both.",
+    "question": "Tom's graphics were not realistic. Does this mean Tom's game became popular?",
+    "answer": "no"
+  },
+  {
+    "id": 73,
+    "context": "In a jewelry workshop, if a piece is handcrafted, it sells at premium price. However, it is not certain if the gems are rare. Either the piece is handcrafted, or the gems are rare, or both.",
+    "question": "Alice's gems were not rare. Does this mean Alice's piece sold at premium price?",
+    "answer": "yes"
+  },
+  {
+    "id": 74,
+    "context": "In a jewelry workshop, if a piece is handcrafted, it sells at premium price. However, it is not certain if the gems are rare. Either the piece is handcrafted, or the gems are rare, or both.",
+    "question": "Alice's piece was not handcrafted. Does this mean Alice's piece sold at premium price?",
+    "answer": "no"
+  },
+  {
+    "id": 75,
+    "context": "In a photography studio, if the lighting setup is professional, the portraits turn out stunning. However, it is not certain if the camera lens is expensive. Either the lighting setup is professional, or the camera lens is expensive, or both.",
+    "question": "Hannah's camera lens was not expensive. Does this mean Hannah's portraits turned out stunning?",
+    "answer": "yes"
+  },
+  {
+    "id": 76,
+    "context": "In a photography studio, if the lighting setup is professional, the portraits turn out stunning. However, it is not certain if the camera lens is expensive. Either the lighting setup is professional, or the camera lens is expensive, or both.",
+    "question": "Hannah's lighting setup was not professional. Does this mean Hannah's portraits turned out stunning?",
+    "answer": "no"
+  },
+  {
+    "id": 77,
+    "context": "In a mobile app development, if the user interface is intuitive, the app gets high downloads. However, it is not certain if the marketing budget is large. Either the user interface is intuitive, or the marketing budget is large, or both.",
+    "question": "Kevin's marketing budget was not large. Does this mean Kevin's app got high downloads?",
+    "answer": "yes"
+  },
+  {
+    "id": 78,
+    "context": "In a mobile app development, if the user interface is intuitive, the app gets high downloads. However, it is not certain if the marketing budget is large. Either the user interface is intuitive, or the marketing budget is large, or both.",
+    "question": "Kevin's user interface was not intuitive. Does this mean Kevin's app got high downloads?",
+    "answer": "no"
+  },
+  {
+    "id": 79,
+    "context": "In a coffee shop, if the beans are freshly roasted, the coffee tastes exceptional. However, it is not certain if the brewing equipment is high-end. Either the beans are freshly roasted, or the brewing equipment is high-end, or both.",
+    "question": "Rachel's brewing equipment was not high-end. Does this mean Rachel's coffee tasted exceptional?",
+    "answer": "yes"
+  },
+  {
+    "id": 80,
+    "context": "In a coffee shop, if the beans are freshly roasted, the coffee tastes exceptional. However, it is not certain if the brewing equipment is high-end. Either the beans are freshly roasted, or the brewing equipment is high-end, or both.",
+    "question": "Rachel's beans were not freshly roasted. Does this mean Rachel's coffee tasted exceptional?",
+    "answer": "no"
+  },
+  {
+    "id": 81,
+    "context": "In a furniture workshop, if the wood is properly seasoned, the furniture lasts long. However, it is not certain if the design is modern. Either the wood is properly seasoned, or the design is modern, or both.",
+    "question": "Michael's design was not modern. Does this mean Michael's furniture lasted long?",
+    "answer": "yes"
+  },
+  {
+    "id": 82,
+    "context": "In a furniture workshop, if the wood is properly seasoned, the furniture lasts long. However, it is not certain if the design is modern. Either the wood is properly seasoned, or the design is modern, or both.",
+    "question": "Michael's wood was not properly seasoned. Does this mean Michael's furniture lasted long?",
+    "answer": "no"
+  },
+  {
+    "id": 83,
+    "context": "In a yoga studio, if the instructor is certified, students achieve perfect postures. However, it is not certain if the studio environment is peaceful. Either the instructor is certified, or the studio environment is peaceful, or both.",
+    "question": "Lisa's studio environment was not peaceful. Does this mean Lisa's students achieved perfect postures?",
+    "answer": "yes"
+  },
+  {
+    "id": 84,
+    "context": "In a yoga studio, if the instructor is certified, students achieve perfect postures. However, it is not certain if the studio environment is peaceful. Either the instructor is certified, or the studio environment is peaceful, or both.",
+    "question": "Lisa's instructor was not certified. Does this mean Lisa's students achieved perfect postures?",
+    "answer": "no"
+  }
 ]
