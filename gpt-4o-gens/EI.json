@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "Alice is a talented musician who plays the violin in a prestigious orchestra. Her performances captivate audiences and receive standing ovations.",
+        "question": "Does it entail that there exists a talented musician who plays the violin?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "Alice is a talented musician who plays the violin in a prestigious orchestra. However, no one in the orchestra has ever played the cello.",
+        "question": "Does it entail that there exists a talented musician who plays the cello?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "Michael volunteers at a community center where he tutors children in mathematics. His dedication helps many students improve their grades.",
+        "question": "Does it entail that there exists a volunteer who tutors children in mathematics?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "Michael volunteers at a community center, but he only manages administrative work and does not tutor anyone.",
+        "question": "Does it entail that there exists a volunteer who tutors children in mathematics?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "Sophia has a dog that enjoys running in the park every morning. The dog is energetic and loves to chase after birds.",
+        "question": "Does it entail that there exists a dog that enjoys running in the park?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "Sophia has a dog, but it never leaves the house and dislikes physical activity.",
+        "question": "Does it entail that there exists a dog that enjoys running in the park?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A researcher in the lab discovered a new method for improving battery efficiency. His innovation has led to significant improvements in energy storage technology.",
+        "question": "Does it entail that there exists a researcher who improved battery efficiency?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "A researcher in the lab proposed a theoretical model for improving battery efficiency, but it was never implemented or tested.",
+        "question": "Does it entail that there exists a researcher who improved battery efficiency?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "Tom has been planting trees in his neighborhood to promote environmental sustainability. His efforts have made the area greener and cleaner.",
+        "question": "Does it entail that there exists someone who plants trees?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "Tom is passionate about environmental sustainability but has never personally planted a tree.",
+        "question": "Does it entail that there exists someone who plants trees?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A scientist at the university developed a vaccine that protects against a new virus. The vaccine has been tested and proven effective.",
+        "question": "Does it entail that there exists a scientist who developed a vaccine?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A scientist at the university proposed a theoretical design for a vaccine, but no vaccine was actually developed.",
+        "question": "Does it entail that there exists a scientist who developed a vaccine?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "Lisa wrote a novel that became a bestseller. Many readers praise her storytelling skills.",
+        "question": "Does it entail that there exists a person who wrote a bestselling novel?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "Lisa has always wanted to write a novel, but she has never completed one.",
+        "question": "Does it entail that there exists a person who wrote a bestselling novel?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "A firefighter saved a family from a burning building last night. His bravery was recognized by the local community.",
+        "question": "Does it entail that there exists a firefighter who saved a family last night?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A firefighter was on duty last night but did not respond to any emergencies.",
+        "question": "Does it entail that there exists a firefighter who saved a family last night?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "The bakery down the street sells fresh croissants every morning. Customers love their crispy and buttery taste.",
+        "question": "Does it entail that there exists a bakery that sells fresh croissants?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "The bakery down the street used to sell croissants, but they no longer do.",
+        "question": "Does it entail that there exists a bakery that sells fresh croissants?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "The chef at the restaurant prepares unique fusion dishes that attract food enthusiasts from all over the city.",
+        "question": "Does it entail that there exists a chef who prepares unique fusion dishes?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "The chef at the restaurant follows a strict traditional menu and does not prepare fusion dishes.",
+        "question": "Does it entail that there exists a chef who prepares unique fusion dishes?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "Emma is a skilled painter who has exhibited her work in several art galleries. Her paintings are admired by many.",
+        "question": "Does it entail that there exists a skilled painter who has exhibited work in art galleries?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "Emma is a skilled painter, but she has never exhibited her work in any art galleries.",
+        "question": "Does it entail that there exists a skilled painter who has exhibited work in art galleries?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "John is a chef who specializes in Italian cuisine and has won several culinary awards.",
+        "question": "Does it entail that there exists a chef who specializes in Italian cuisine?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "John is a chef who specializes in French cuisine and has never cooked Italian dishes.",
+        "question": "Does it entail that there exists a chef who specializes in Italian cuisine?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "Sarah is a software developer who created a popular mobile app that has millions of downloads.",
+        "question": "Does it entail that there exists a software developer who created a popular mobile app?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "Sarah is a software developer who works on backend systems and has never created a mobile app.",
+        "question": "Does it entail that there exists a software developer who created a popular mobile app?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "David is a historian who published a book on ancient civilizations that received critical acclaim.",
+        "question": "Does it entail that there exists a historian who published a book on ancient civilizations?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "David is a historian who has written articles but never published a book on ancient civilizations.",
+        "question": "Does it entail that there exists a historian who published a book on ancient civilizations?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "Olivia is a scientist who discovered a new species of butterfly in the Amazon rainforest.",
+        "question": "Does it entail that there exists a scientist who discovered a new species of butterfly?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "Olivia is a scientist who studies marine life and has never worked in the Amazon rainforest.",
+        "question": "Does it entail that there exists a scientist who discovered a new species of butterfly?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "Lucas is a journalist who reported on a major political scandal that led to government reforms.",
+        "question": "Does it entail that there exists a journalist who reported on a major political scandal?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "Lucas is a journalist who covers local events and has never reported on a political scandal.",
+        "question": "Does it entail that there exists a journalist who reported on a major political scandal?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "Mia is a teacher who developed an innovative teaching method that improved student engagement.",
+        "question": "Does it entail that there exists a teacher who developed an innovative teaching method?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "Mia is a teacher who follows a traditional curriculum and has not developed any new teaching methods.",
+        "question": "Does it entail that there exists a teacher who developed an innovative teaching method?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "Ethan is an architect who designed a sustainable building that won an international award.",
+        "question": "Does it entail that there exists an architect who designed a sustainable building?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "Ethan is an architect who focuses on residential projects and has not designed any sustainable buildings.",
+        "question": "Does it entail that there exists an architect who designed a sustainable building?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "Sophia is a biologist who conducted groundbreaking research on climate change effects on marine life.",
+        "question": "Does it entail that there exists a biologist who conducted research on climate change?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "Sophia is a biologist who studies plant genetics and has not conducted research on climate change.",
+        "question": "Does it entail that there exists a biologist who conducted research on climate change?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "Liam is a musician who composed a symphony that was performed by a renowned orchestra.",
+        "question": "Does it entail that there exists a musician who composed a symphony?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "Liam is a musician who plays in a band and has never composed a symphony.",
+        "question": "Does it entail that there exists a musician who composed a symphony?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "Ava is a photographer whose work was featured in a national magazine.",
+        "question": "Does it entail that there exists a photographer whose work was featured in a magazine?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "Ava is a photographer who takes pictures for personal projects and has never been featured in a magazine.",
+        "question": "Does it entail that there exists a photographer whose work was featured in a magazine?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "Noah is a filmmaker who directed a documentary that won several film festival awards.",
+        "question": "Does it entail that there exists a filmmaker who directed a documentary?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "Noah is a filmmaker who works on commercials and has never directed a documentary.",
+        "question": "Does it entail that there exists a filmmaker who directed a documentary?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "Isabella is a novelist who wrote a book that was adapted into a movie.",
+        "question": "Does it entail that there exists a novelist who wrote a book adapted into a movie?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "Isabella is a novelist who writes short stories and has never written a book adapted into a movie.",
+        "question": "Does it entail that there exists a novelist who wrote a book adapted into a movie?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "James is an engineer who developed a new technology for renewable energy.",
+        "question": "Does it entail that there exists an engineer who developed a technology for renewable energy?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "James is an engineer who works on traditional power systems and has not developed any renewable energy technology.",
+        "question": "Does it entail that there exists an engineer who developed a technology for renewable energy?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "Charlotte is a fashion designer whose collection was showcased at a major fashion week.",
+        "question": "Does it entail that there exists a fashion designer whose collection was showcased at a fashion week?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "Charlotte is a fashion designer who creates custom pieces for private clients and has not participated in any fashion weeks.",
+        "question": "Does it entail that there exists a fashion designer whose collection was showcased at a fashion week?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "Henry is a pilot who flew a humanitarian mission to deliver aid to remote areas.",
+        "question": "Does it entail that there exists a pilot who flew a humanitarian mission?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "Henry is a pilot who flies commercial routes and has never participated in a humanitarian mission.",
+        "question": "Does it entail that there exists a pilot who flew a humanitarian mission?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "Amelia is a botanist who discovered a new plant species in the rainforest.",
+        "question": "Does it entail that there exists a botanist who discovered a new plant species?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "Amelia is a botanist who studies urban plant life and has not discovered any new species.",
+        "question": "Does it entail that there exists a botanist who discovered a new plant species?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "Jack is a lawyer who successfully defended a high-profile case in court.",
+        "question": "Does it entail that there exists a lawyer who defended a high-profile case?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "Jack is a lawyer who specializes in contract law and has never defended a high-profile case.",
+        "question": "Does it entail that there exists a lawyer who defended a high-profile case?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "Ella is a chef who created a signature dish that became famous in her city.",
+        "question": "Does it entail that there exists a chef who created a famous signature dish?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "Ella is a chef who follows recipes from a standard menu and has not created any signature dishes.",
+        "question": "Does it entail that there exists a chef who created a famous signature dish?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "William is a teacher who organized a successful science fair at his school.",
+        "question": "Does it entail that there exists a teacher who organized a science fair?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "William is a teacher who focuses on classroom teaching and has not organized any science fairs.",
+        "question": "Does it entail that there exists a teacher who organized a science fair?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "Anna is a scientist who developed a new algorithm for data encryption that is now widely used.",
+        "question": "Does it entail that there exists a scientist who developed a new algorithm for data encryption?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "Anna is a scientist who studies data encryption but has not developed any new algorithms.",
+        "question": "Does it entail that there exists a scientist who developed a new algorithm for data encryption?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "Mark is a photographer who captured a photo that won an international award.",
+        "question": "Does it entail that there exists a photographer who won an international award?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "Mark is a photographer who takes pictures for local events and has never won an international award.",
+        "question": "Does it entail that there exists a photographer who won an international award?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "Nina is a dancer who performed at a prestigious international festival.",
+        "question": "Does it entail that there exists a dancer who performed at an international festival?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "Nina is a dancer who performs locally and has never participated in an international festival.",
+        "question": "Does it entail that there exists a dancer who performed at an international festival?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "Oliver is a writer who published a novel that became a bestseller.",
+        "question": "Does it entail that there exists a writer who published a bestseller?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "Oliver is a writer who has published several books, but none have become bestsellers.",
+        "question": "Does it entail that there exists a writer who published a bestseller?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "Sophia is a chef who created a dessert that is famous worldwide.",
+        "question": "Does it entail that there exists a chef who created a famous dessert?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "Sophia is a chef who specializes in savory dishes and has not created any famous desserts.",
+        "question": "Does it entail that there exists a chef who created a famous dessert?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "Ethan is a musician who released an album that topped the charts.",
+        "question": "Does it entail that there exists a musician who released a chart-topping album?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "Ethan is a musician who has released several albums, but none have topped the charts.",
+        "question": "Does it entail that there exists a musician who released a chart-topping album?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "Lily is a scientist who discovered a new treatment for a rare disease.",
+        "question": "Does it entail that there exists a scientist who discovered a new treatment for a disease?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "Lily is a scientist who researches treatments for diseases but has not discovered any new ones.",
+        "question": "Does it entail that there exists a scientist who discovered a new treatment for a disease?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "Mason is an artist whose sculpture was displayed in a famous museum.",
+        "question": "Does it entail that there exists an artist whose work was displayed in a museum?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "Mason is an artist who creates sculptures for private collections and has not displayed any in museums.",
+        "question": "Does it entail that there exists an artist whose work was displayed in a museum?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "Grace is a journalist who uncovered a major corruption scandal.",
+        "question": "Does it entail that there exists a journalist who uncovered a corruption scandal?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "Grace is a journalist who writes about lifestyle topics and has not uncovered any scandals.",
+        "question": "Does it entail that there exists a journalist who uncovered a corruption scandal?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "Leo is a programmer who developed a software that revolutionized the industry.",
+        "question": "Does it entail that there exists a programmer who developed revolutionary software?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "Leo is a programmer who works on maintaining existing software and has not developed any revolutionary software.",
+        "question": "Does it entail that there exists a programmer who developed revolutionary software?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "Chloe is a teacher who introduced a new curriculum that improved student performance.",
+        "question": "Does it entail that there exists a teacher who introduced a new curriculum?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "Chloe is a teacher who follows the standard curriculum and has not introduced any new ones.",
+        "question": "Does it entail that there exists a teacher who introduced a new curriculum?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "Daniel is a pilot who completed a record-breaking flight.",
+        "question": "Does it entail that there exists a pilot who completed a record-breaking flight?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "Daniel is a pilot who flies regular commercial routes and has not completed any record-breaking flights.",
+        "question": "Does it entail that there exists a pilot who completed a record-breaking flight?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "Zoe is a botanist who discovered a plant species with unique medicinal properties.",
+        "question": "Does it entail that there exists a botanist who discovered a plant with medicinal properties?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "Zoe is a botanist who studies plant genetics and has not discovered any new species.",
+        "question": "Does it entail that there exists a botanist who discovered a plant with medicinal properties?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "Ryan is a lawyer who won a landmark case that changed the law.",
+        "question": "Does it entail that there exists a lawyer who won a landmark case?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "Ryan is a lawyer who specializes in contract law and has not won any landmark cases.",
+        "question": "Does it entail that there exists a lawyer who won a landmark case?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "Ella is a chef who created a dish that became a culinary trend.",
+        "question": "Does it entail that there exists a chef who created a culinary trend?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "Ella is a chef who follows traditional recipes and has not created any culinary trends.",
+        "question": "Does it entail that there exists a chef who created a culinary trend?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "Liam is a musician who composed a piece that was performed at a major concert hall.",
+        "question": "Does it entail that there exists a musician who composed a piece performed at a concert hall?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "Liam is a musician who plays in local bands and has not composed any pieces performed at concert halls.",
+        "question": "Does it entail that there exists a musician who composed a piece performed at a concert hall?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "Ava is a photographer whose work was featured in an international exhibition.",
+        "question": "Does it entail that there exists a photographer whose work was featured in an exhibition?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "Ava is a photographer who takes pictures for personal projects and has not been featured in any exhibitions.",
+        "question": "Does it entail that there exists a photographer whose work was featured in an exhibition?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "Noah is a filmmaker who directed a movie that won an Oscar.",
+        "question": "Does it entail that there exists a filmmaker who directed an Oscar-winning movie?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "Noah is a filmmaker who works on independent films and has not won any Oscars.",
+        "question": "Does it entail that there exists a filmmaker who directed an Oscar-winning movie?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "Isabella is a novelist who wrote a book that was translated into multiple languages.",
+        "question": "Does it entail that there exists a novelist who wrote a book translated into multiple languages?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "Isabella is a novelist who writes for a local audience and has not had any books translated.",
+        "question": "Does it entail that there exists a novelist who wrote a book translated into multiple languages?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "James is an engineer who invented a device that is used globally.",
+        "question": "Does it entail that there exists an engineer who invented a globally used device?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "James is an engineer who works on local projects and has not invented any globally used devices.",
+        "question": "Does it entail that there exists an engineer who invented a globally used device?",
+        "answer": "no"
+    }
+]

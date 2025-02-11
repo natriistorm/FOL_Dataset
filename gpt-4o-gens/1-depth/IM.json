@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "In the ancient kingdom of Eldoria, wisdom was the highest virtue. For all scholars in the kingdom, mastering the ancient texts implied that if they sought counsel, then they would be revered as sages.",
+        "question": "Does it entail that for all scholars in Eldoria, if a scholar masters the ancient texts and seeks counsel, then they will be revered as a sage?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In the ancient kingdom of Eldoria, wisdom was the highest virtue. For all scholars in the kingdom, mastering the ancient texts implied that if they sought counsel, then they would gain wealth.",
+        "question": "Does it entail that for all scholars in Eldoria, if a scholar masters the ancient texts and seeks counsel, then they will gain wealth?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "In the bustling city of New Haven, community service was highly regarded. For all residents, volunteering regularly implied that if they applied for a grant, then they would receive community support.",
+        "question": "Does it entail that for all residents of New Haven, if a resident volunteers regularly and applies for a grant, then they will receive community support?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "In the bustling city of New Haven, community service was highly regarded. For all residents, volunteering regularly implied that if they applied for a grant, then they would receive a tax break.",
+        "question": "Does it entail that for all residents of New Haven, if a resident volunteers regularly and applies for a grant, then they will receive a tax break?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "In the realm of Arcania, magic was a way of life. For all wizards, mastering elemental spells implied that if they joined the council, then they would gain influence.",
+        "question": "Does it entail that for all wizards in Arcania, if a wizard masters elemental spells and joins the council, then they will gain influence?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In the realm of Arcania, magic was a way of life. For all wizards, mastering elemental spells implied that if they joined the council, then they would gain wealth.",
+        "question": "Does it entail that for all wizards in Arcania, if a wizard masters elemental spells and joins the council, then they will gain wealth?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In the digital world of Cyberia, data security was paramount. For all tech firms, implementing advanced encryption implied that if they faced a cyber attack, then they would protect their data.",
+        "question": "Does it entail that for all tech firms in Cyberia, if a firm implements advanced encryption and faces a cyber attack, then they will protect their data?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In the digital world of Cyberia, data security was paramount. For all tech firms, implementing advanced encryption implied that if they faced a cyber attack, then they would increase profits.",
+        "question": "Does it entail that for all tech firms in Cyberia, if a firm implements advanced encryption and faces a cyber attack, then they will increase profits?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "In the land of Veridia, environmental conservation was a priority. For all citizens, planting trees implied that if they participated in the green initiative, then they would improve air quality.",
+        "question": "Does it entail that for all citizens of Veridia, if a citizen plants trees and participates in the green initiative, then they will improve air quality?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "In the land of Veridia, environmental conservation was a priority. For all citizens, planting trees implied that if they participated in the green initiative, then they would receive a monetary reward.",
+        "question": "Does it entail that for all citizens of Veridia, if a citizen plants trees and participates in the green initiative, then they will receive a monetary reward?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In the city of Lumina, education was the key to success. For all students, excelling in academics implied that if they applied for scholarships, then they would secure funding for higher education.",
+        "question": "Does it entail that for all students in Lumina, if a student excels in academics and applies for scholarships, then they will secure funding for higher education?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "In the city of Lumina, education was the key to success. For all students, excelling in academics implied that if they applied for scholarships, then they would gain immediate employment.",
+        "question": "Does it entail that for all students in Lumina, if a student excels in academics and applies for scholarships, then they will gain immediate employment?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "In the kingdom of Solara, honor was held in high esteem. For all knights, upholding the code of chivalry implied that if they defended the realm, then they would earn the king's favor.",
+        "question": "Does it entail that for all knights in Solara, if a knight upholds the code of chivalry and defends the realm, then they will earn the king's favor?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "In the kingdom of Solara, honor was held in high esteem. For all knights, upholding the code of chivalry implied that if they defended the realm, then they would receive a land grant.",
+        "question": "Does it entail that for all knights in Solara, if a knight upholds the code of chivalry and defends the realm, then they will receive a land grant?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "In the futuristic city of Neo-Tokyo, technology was integrated into daily life. For all residents, using smart devices implied that if they connected to the city network, then they would enhance their living experience.",
+        "question": "Does it entail that for all residents of Neo-Tokyo, if a resident uses smart devices and connects to the city network, then they will enhance their living experience?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "In the futuristic city of Neo-Tokyo, technology was integrated into daily life. For all residents, using smart devices implied that if they connected to the city network, then they would reduce their living costs.",
+        "question": "Does it entail that for all residents of Neo-Tokyo, if a resident uses smart devices and connects to the city network, then they will reduce their living costs?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "In the artistic enclave of Artisville, creativity was celebrated. For all artists, experimenting with new mediums implied that if they showcased their work, then they would gain critical acclaim.",
+        "question": "Does it entail that for all artists in Artisville, if an artist experiments with new mediums and showcases their work, then they will gain critical acclaim?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "In the artistic enclave of Artisville, creativity was celebrated. For all artists, experimenting with new mediums implied that if they showcased their work, then they would receive a government grant.",
+        "question": "Does it entail that for all artists in Artisville, if an artist experiments with new mediums and showcases their work, then they will receive a government grant?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "In the scientific community of Innovatia, research was the foundation of progress. For all scientists, publishing groundbreaking studies implied that if they attended conferences, then they would influence future research.",
+        "question": "Does it entail that for all scientists in Innovatia, if a scientist publishes groundbreaking studies and attends conferences, then they will influence future research?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "In the scientific community of Innovatia, research was the foundation of progress. For all scientists, publishing groundbreaking studies implied that if they attended conferences, then they would receive a Nobel Prize.",
+        "question": "Does it entail that for all scientists in Innovatia, if a scientist publishes groundbreaking studies and attends conferences, then they will receive a Nobel Prize?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "In the city of Harmony, music was the soul of the community. For all musicians, mastering classical instruments implied that if they performed at the annual festival, then they would gain local fame.",
+        "question": "Does it entail that for all musicians in Harmony, if a musician masters classical instruments and performs at the annual festival, then they will gain local fame?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "In the city of Harmony, music was the soul of the community. For all musicians, mastering classical instruments implied that if they performed at the annual festival, then they would receive a recording contract.",
+        "question": "Does it entail that for all musicians in Harmony, if a musician masters classical instruments and performs at the annual festival, then they will receive a recording contract?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "In the land of Agraria, agriculture was the backbone of the economy. For all farmers, adopting sustainable practices implied that if they increased crop yield, then they would boost their profits.",
+        "question": "Does it entail that for all farmers in Agraria, if a farmer adopts sustainable practices and increases crop yield, then they will boost their profits?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "In the land of Agraria, agriculture was the backbone of the economy. For all farmers, adopting sustainable practices implied that if they increased crop yield, then they would receive government subsidies.",
+        "question": "Does it entail that for all farmers in Agraria, if a farmer adopts sustainable practices and increases crop yield, then they will receive government subsidies?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "In the tech hub of Silicon Valley, innovation was the key to success. For all startups, developing cutting-edge technology implied that if they secured venture capital, then they would expand rapidly.",
+        "question": "Does it entail that for all startups in Silicon Valley, if a startup develops cutting-edge technology and secures venture capital, then they will expand rapidly?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "In the tech hub of Silicon Valley, innovation was the key to success. For all startups, developing cutting-edge technology implied that if they secured venture capital, then they would become market leaders.",
+        "question": "Does it entail that for all startups in Silicon Valley, if a startup develops cutting-edge technology and secures venture capital, then they will become market leaders?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "In the coastal town of Seaside, tourism was the main industry. For all businesses, offering unique experiences implied that if they attracted tourists, then they would increase their revenue.",
+        "question": "Does it entail that for all businesses in Seaside, if a business offers unique experiences and attracts tourists, then they will increase their revenue?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "In the coastal town of Seaside, tourism was the main industry. For all businesses, offering unique experiences implied that if they attracted tourists, then they would receive tax incentives.",
+        "question": "Does it entail that for all businesses in Seaside, if a business offers unique experiences and attracts tourists, then they will receive tax incentives?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "In the city of Metropolis, public transportation was essential. For all commuters, using the metro system implied that if they traveled during peak hours, then they would save time.",
+        "question": "Does it entail that for all commuters in Metropolis, if a commuter uses the metro system and travels during peak hours, then they will save time?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "In the city of Metropolis, public transportation was essential. For all commuters, using the metro system implied that if they traveled during peak hours, then they would receive a discount.",
+        "question": "Does it entail that for all commuters in Metropolis, if a commuter uses the metro system and travels during peak hours, then they will receive a discount?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "In the kingdom of Avalon, bravery was a celebrated trait. For all warriors, demonstrating courage in battle implied that if they defended the kingdom, then they would be honored by the king.",
+        "question": "Does it entail that for all warriors in Avalon, if a warrior demonstrates courage in battle and defends the kingdom, then they will be honored by the king?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "In the kingdom of Avalon, bravery was a celebrated trait. For all warriors, demonstrating courage in battle implied that if they defended the kingdom, then they would receive a title of nobility.",
+        "question": "Does it entail that for all warriors in Avalon, if a warrior demonstrates courage in battle and defends the kingdom, then they will receive a title of nobility?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "In the city of Greenfield, sustainability was a core value. For all companies, reducing carbon emissions implied that if they implemented green technologies, then they would improve their public image.",
+        "question": "Does it entail that for all companies in Greenfield, if a company reduces carbon emissions and implements green technologies, then they will improve their public image?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "In the city of Greenfield, sustainability was a core value. For all companies, reducing carbon emissions implied that if they implemented green technologies, then they would receive government grants.",
+        "question": "Does it entail that for all companies in Greenfield, if a company reduces carbon emissions and implements green technologies, then they will receive government grants?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "In the world of Elysium, peace was the ultimate goal. For all diplomats, negotiating treaties implied that if they resolved conflicts, then they would strengthen alliances.",
+        "question": "Does it entail that for all diplomats in Elysium, if a diplomat negotiates treaties and resolves conflicts, then they will strengthen alliances?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "In the world of Elysium, peace was the ultimate goal. For all diplomats, negotiating treaties implied that if they resolved conflicts, then they would receive personal accolades.",
+        "question": "Does it entail that for all diplomats in Elysium, if a diplomat negotiates treaties and resolves conflicts, then they will receive personal accolades?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "In the city of Rivertown, water sports were a popular pastime. For all athletes, training in kayaking implied that if they competed in the annual race, then they would improve their skills.",
+        "question": "Does it entail that for all athletes in Rivertown, if an athlete trains in kayaking and competes in the annual race, then they will improve their skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "In the city of Rivertown, water sports were a popular pastime. For all athletes, training in kayaking implied that if they competed in the annual race, then they would win a trophy.",
+        "question": "Does it entail that for all athletes in Rivertown, if an athlete trains in kayaking and competes in the annual race, then they will win a trophy?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "In the realm of Fantasia, storytelling was an art form. For all bards, crafting epic tales implied that if they performed at the royal court, then they would captivate the audience.",
+        "question": "Does it entail that for all bards in Fantasia, if a bard crafts epic tales and performs at the royal court, then they will captivate the audience?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "In the realm of Fantasia, storytelling was an art form. For all bards, crafting epic tales implied that if they performed at the royal court, then they would receive a royal commission.",
+        "question": "Does it entail that for all bards in Fantasia, if a bard crafts epic tales and performs at the royal court, then they will receive a royal commission?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "In the city of Innovate, creativity was the driving force. For all designers, creating unique products implied that if they launched them in the market, then they would attract customers.",
+        "question": "Does it entail that for all designers in Innovate, if a designer creates unique products and launches them in the market, then they will attract customers?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "In the city of Innovate, creativity was the driving force. For all designers, creating unique products implied that if they launched them in the market, then they would receive industry awards.",
+        "question": "Does it entail that for all designers in Innovate, if a designer creates unique products and launches them in the market, then they will receive industry awards?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "In the land of Terra, exploration was a way of life. For all adventurers, mapping uncharted territories implied that if they discovered new lands, then they would gain recognition.",
+        "question": "Does it entail that for all adventurers in Terra, if an adventurer maps uncharted territories and discovers new lands, then they will gain recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "In the land of Terra, exploration was a way of life. For all adventurers, mapping uncharted territories implied that if they discovered new lands, then they would receive a treasure.",
+        "question": "Does it entail that for all adventurers in Terra, if an adventurer maps uncharted territories and discovers new lands, then they will receive a treasure?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "In the city of Techville, digital literacy was essential. For all citizens, learning to code implied that if they developed software, then they would enhance their career prospects.",
+        "question": "Does it entail that for all citizens in Techville, if a citizen learns to code and develops software, then they will enhance their career prospects?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "In the city of Techville, digital literacy was essential. For all citizens, learning to code implied that if they developed software, then they would become millionaires.",
+        "question": "Does it entail that for all citizens in Techville, if a citizen learns to code and develops software, then they will become millionaires?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "In the kingdom of Mythos, legends were passed down through generations. For all storytellers, preserving ancient myths implied that if they shared them with the youth, then they would keep traditions alive.",
+        "question": "Does it entail that for all storytellers in Mythos, if a storyteller preserves ancient myths and shares them with the youth, then they will keep traditions alive?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "In the kingdom of Mythos, legends were passed down through generations. For all storytellers, preserving ancient myths implied that if they shared them with the youth, then they would gain wealth.",
+        "question": "Does it entail that for all storytellers in Mythos, if a storyteller preserves ancient myths and shares them with the youth, then they will gain wealth?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "In the city of Healthville, wellness was a community focus. For all residents, practicing yoga regularly implied that if they attended wellness retreats, then they would improve their health.",
+        "question": "Does it entail that for all residents in Healthville, if a resident practices yoga regularly and attends wellness retreats, then they will improve their health?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "In the city of Healthville, wellness was a community focus. For all residents, practicing yoga regularly implied that if they attended wellness retreats, then they would receive free healthcare.",
+        "question": "Does it entail that for all residents in Healthville, if a resident practices yoga regularly and attends wellness retreats, then they will receive free healthcare?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "In the realm of Etheria, alchemy was a revered science. For all alchemists, mastering the transmutation of elements implied that if they created philosopher's stones, then they would achieve immortality.",
+        "question": "Does it entail that for all alchemists in Etheria, if an alchemist masters the transmutation of elements and creates philosopher's stones, then they will achieve immortality?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "In the realm of Etheria, alchemy was a revered science. For all alchemists, mastering the transmutation of elements implied that if they created philosopher's stones, then they would gain wealth.",
+        "question": "Does it entail that for all alchemists in Etheria, if an alchemist masters the transmutation of elements and creates philosopher's stones, then they will gain wealth?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "In the city of Artopia, creativity was the lifeblood of the community. For all artists, exploring new techniques implied that if they exhibited their work, then they would inspire others.",
+        "question": "Does it entail that for all artists in Artopia, if an artist explores new techniques and exhibits their work, then they will inspire others?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "In the city of Artopia, creativity was the lifeblood of the community. For all artists, exploring new techniques implied that if they exhibited their work, then they would sell all their pieces.",
+        "question": "Does it entail that for all artists in Artopia, if an artist explores new techniques and exhibits their work, then they will sell all their pieces?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "In the land of Gaia, harmony with nature was a guiding principle. For all inhabitants, practicing permaculture implied that if they cultivated their land, then they would sustain their community.",
+        "question": "Does it entail that for all inhabitants in Gaia, if an inhabitant practices permaculture and cultivates their land, then they will sustain their community?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "In the land of Gaia, harmony with nature was a guiding principle. For all inhabitants, practicing permaculture implied that if they cultivated their land, then they would become wealthy.",
+        "question": "Does it entail that for all inhabitants in Gaia, if an inhabitant practices permaculture and cultivates their land, then they will become wealthy?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "In the city of Techland, innovation was the driving force. For all engineers, developing new algorithms implied that if they implemented them in projects, then they would advance technology.",
+        "question": "Does it entail that for all engineers in Techland, if an engineer develops new algorithms and implements them in projects, then they will advance technology?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "In the city of Techland, innovation was the driving force. For all engineers, developing new algorithms implied that if they implemented them in projects, then they would receive a patent.",
+        "question": "Does it entail that for all engineers in Techland, if an engineer develops new algorithms and implements them in projects, then they will receive a patent?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "In the kingdom of Valor, courage was the highest virtue. For all knights, showing bravery in quests implied that if they completed their missions, then they would earn respect.",
+        "question": "Does it entail that for all knights in Valor, if a knight shows bravery in quests and completes their missions, then they will earn respect?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "In the kingdom of Valor, courage was the highest virtue. For all knights, showing bravery in quests implied that if they completed their missions, then they would receive a castle.",
+        "question": "Does it entail that for all knights in Valor, if a knight shows bravery in quests and completes their missions, then they will receive a castle?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "In the city of Ecohaven, sustainability was a way of life. For all businesses, reducing waste implied that if they adopted eco-friendly practices, then they would attract eco-conscious customers.",
+        "question": "Does it entail that for all businesses in Ecohaven, if a business reduces waste and adopts eco-friendly practices, then they will attract eco-conscious customers?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "In the city of Ecohaven, sustainability was a way of life. For all businesses, reducing waste implied that if they adopted eco-friendly practices, then they would receive tax breaks.",
+        "question": "Does it entail that for all businesses in Ecohaven, if a business reduces waste and adopts eco-friendly practices, then they will receive tax breaks?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "In the realm of Arcadia, knowledge was power. For all scholars, studying ancient manuscripts implied that if they published their findings, then they would contribute to the academic community.",
+        "question": "Does it entail that for all scholars in Arcadia, if a scholar studies ancient manuscripts and publishes their findings, then they will contribute to the academic community?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "In the realm of Arcadia, knowledge was power. For all scholars, studying ancient manuscripts implied that if they published their findings, then they would receive a prestigious award.",
+        "question": "Does it entail that for all scholars in Arcadia, if a scholar studies ancient manuscripts and publishes their findings, then they will receive a prestigious award?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "In the city of Sportstown, athleticism was celebrated. For all athletes, training rigorously implied that if they competed in national championships, then they would improve their performance.",
+        "question": "Does it entail that for all athletes in Sportstown, if an athlete trains rigorously and competes in national championships, then they will improve their performance?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "In the city of Sportstown, athleticism was celebrated. For all athletes, training rigorously implied that if they competed in national championships, then they would win gold medals.",
+        "question": "Does it entail that for all athletes in Sportstown, if an athlete trains rigorously and competes in national championships, then they will win gold medals?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "In the city of Literaria, literature was the heart of culture. For all writers, crafting compelling narratives implied that if they published their books, then they would engage readers.",
+        "question": "Does it entail that for all writers in Literaria, if a writer crafts compelling narratives and publishes their books, then they will engage readers?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "In the city of Literaria, literature was the heart of culture. For all writers, crafting compelling narratives implied that if they published their books, then they would become bestsellers.",
+        "question": "Does it entail that for all writers in Literaria, if a writer crafts compelling narratives and publishes their books, then they will become bestsellers?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "In the city of Mediville, healthcare was a top priority. For all doctors, continuing medical education implied that if they applied new techniques, then they would improve patient outcomes.",
+        "question": "Does it entail that for all doctors in Mediville, if a doctor continues medical education and applies new techniques, then they will improve patient outcomes?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "In the city of Mediville, healthcare was a top priority. For all doctors, continuing medical education implied that if they applied new techniques, then they would receive higher salaries.",
+        "question": "Does it entail that for all doctors in Mediville, if a doctor continues medical education and applies new techniques, then they will receive higher salaries?",
+        "answer": "no"
+    },
+        {
+            "id": 71,
+            "context": "In the city of Aquapolis, water conservation was a civic duty. For all residents, installing rainwater harvesting systems implied that if they reduced water usage, then they would lower their utility bills.",
+            "question": "Does it entail that for all residents in Aquapolis, if a resident installs rainwater harvesting systems and reduces water usage, then they will lower their utility bills?",
+            "answer": "yes"
+        },
+        {
+            "id": 72,
+            "context": "In the city of Aquapolis, water conservation was a civic duty. For all residents, installing rainwater harvesting systems implied that if they reduced water usage, then they would receive a government award.",
+            "question": "Does it entail that for all residents in Aquapolis, if a resident installs rainwater harvesting systems and reduces water usage, then they will receive a government award?",
+            "answer": "no"
+        },
+        {
+            "id": 73,
+            "context": "In the city of Cyberville, cybersecurity was a top priority. For all companies, implementing robust security protocols implied that if they prevented data breaches, then they would protect customer trust.",
+            "question": "Does it entail that for all companies in Cyberville, if a company implements robust security protocols and prevents data breaches, then they will protect customer trust?",
+            "answer": "yes"
+        },
+        {
+            "id": 74,
+            "context": "In the city of Cyberville, cybersecurity was a top priority. For all companies, implementing robust security protocols implied that if they prevented data breaches, then they would increase their market share.",
+            "question": "Does it entail that for all companies in Cyberville, if a company implements robust security protocols and prevents data breaches, then they will increase their market share?",
+            "answer": "no"
+        },
+        {
+            "id": 75,
+            "context": "In the city of Gastronomia, culinary arts were celebrated. For all chefs, mastering international cuisines implied that if they opened a restaurant, then they would attract diverse clientele.",
+            "question": "Does it entail that for all chefs in Gastronomia, if a chef masters international cuisines and opens a restaurant, then they will attract diverse clientele?",
+            "answer": "yes"
+        },
+        {
+            "id": 76,
+            "context": "In the city of Gastronomia, culinary arts were celebrated. For all chefs, mastering international cuisines implied that if they opened a restaurant, then they would receive a Michelin star.",
+            "question": "Does it entail that for all chefs in Gastronomia, if a chef masters international cuisines and opens a restaurant, then they will receive a Michelin star?",
+            "answer": "no"
+        },
+        {
+            "id": 77,
+            "context": "In the city of Fitnessville, health was a community focus. For all residents, engaging in regular exercise implied that if they participated in local marathons, then they would improve their stamina.",
+            "question": "Does it entail that for all residents in Fitnessville, if a resident engages in regular exercise and participates in local marathons, then they will improve their stamina?",
+            "answer": "yes"
+        },
+        {
+            "id": 78,
+            "context": "In the city of Fitnessville, health was a community focus. For all residents, engaging in regular exercise implied that if they participated in local marathons, then they would win prizes.",
+            "question": "Does it entail that for all residents in Fitnessville, if a resident engages in regular exercise and participates in local marathons, then they will win prizes?",
+            "answer": "no"
+        },
+        {
+            "id": 79,
+            "context": "In the city of Innovatia, technology was the future. For all developers, learning new programming languages implied that if they created innovative apps, then they would enhance their career prospects.",
+            "question": "Does it entail that for all developers in Innovatia, if a developer learns new programming languages and creates innovative apps, then they will enhance their career prospects?",
+            "answer": "yes"
+        },
+        {
+            "id": 80,
+            "context": "In the city of Innovatia, technology was the future. For all developers, learning new programming languages implied that if they created innovative apps, then they would become tech moguls.",
+            "question": "Does it entail that for all developers in Innovatia, if a developer learns new programming languages and creates innovative apps, then they will become tech moguls?",
+            "answer": "no"
+        },
+        {
+            "id": 81,
+            "context": "In the city of Greenfield, environmentalism was a way of life. For all citizens, participating in recycling programs implied that if they reduced waste, then they would contribute to a cleaner city.",
+            "question": "Does it entail that for all citizens in Greenfield, if a citizen participates in recycling programs and reduces waste, then they will contribute to a cleaner city?",
+            "answer": "yes"
+        },
+        {
+            "id": 82,
+            "context": "In the city of Greenfield, environmentalism was a way of life. For all citizens, participating in recycling programs implied that if they reduced waste, then they would receive financial rewards.",
+            "question": "Does it entail that for all citizens in Greenfield, if a citizen participates in recycling programs and reduces waste, then they will receive financial rewards?",
+            "answer": "no"
+        },
+        {
+            "id": 83,
+            "context": "In the city of Literaria, literature was the heart of culture. For all authors, writing compelling stories implied that if they published their books, then they would engage readers.",
+            "question": "Does it entail that for all authors in Literaria, if an author writes compelling stories and publishes their books, then they will engage readers?",
+            "answer": "yes"
+        },
+        {
+            "id": 84,
+            "context": "In the city of Literaria, literature was the heart of culture. For all authors, writing compelling stories implied that if they published their books, then they would become bestsellers.",
+            "question": "Does it entail that for all authors in Literaria, if an author writes compelling stories and publishes their books, then they will become bestsellers?",
+            "answer": "no"
+        },
+        {
+            "id": 85,
+            "context": "In the city of Mediville, healthcare was a top priority. For all doctors, continuing medical education implied that if they applied new techniques, then they would improve patient outcomes.",
+            "question": "Does it entail that for all doctors in Mediville, if a doctor continues medical education and applies new techniques, then they will improve patient outcomes?",
+            "answer": "yes"
+        },
+        {
+            "id": 86,
+            "context": "In the city of Mediville, healthcare was a top priority. For all doctors, continuing medical education implied that if they applied new techniques, then they would receive higher salaries.",
+            "question": "Does it entail that for all doctors in Mediville, if a doctor continues medical education and applies new techniques, then they will receive higher salaries?",
+            "answer": "no"
+        },
+        {
+            "id": 87,
+            "context": "In the city of Artopia, creativity was the lifeblood of the community. For all artists, exploring new techniques implied that if they exhibited their work, then they would inspire others.",
+            "question": "Does it entail that for all artists in Artopia, if an artist explores new techniques and exhibits their work, then they will inspire others?",
+            "answer": "yes"
+        },
+        {
+            "id": 88,
+            "context": "In the city of Artopia, creativity was the lifeblood of the community. For all artists, exploring new techniques implied that if they exhibited their work, then they would sell all their pieces.",
+            "question": "Does it entail that for all artists in Artopia, if an artist explores new techniques and exhibits their work, then they will sell all their pieces?",
+            "answer": "no"
+        },
+        {
+            "id": 89,
+            "context": "In the city of Sportstown, athleticism was celebrated. For all athletes, training rigorously implied that if they competed in national championships, then they would improve their performance.",
+            "question": "Does it entail that for all athletes in Sportstown, if an athlete trains rigorously and competes in national championships, then they will improve their performance?",
+            "answer": "yes"
+        },
+        {
+            "id": 90,
+            "context": "In the city of Sportstown, athleticism was celebrated. For all athletes, training rigorously implied that if they competed in national championships, then they would win gold medals.",
+            "question": "Does it entail that for all athletes in Sportstown, if an athlete trains rigorously and competes in national championships, then they will win gold medals?",
+            "answer": "no"
+        },
+        {
+            "id": 91,
+            "context": "In the city of Techland, innovation was the driving force. For all engineers, developing new algorithms implied that if they implemented them in projects, then they would advance technology.",
+            "question": "Does it entail that for all engineers in Techland, if an engineer develops new algorithms and implements them in projects, then they will advance technology?",
+            "answer": "yes"
+        },
+        {
+            "id": 92,
+            "context": "In the city of Techland, innovation was the driving force. For all engineers, developing new algorithms implied that if they implemented them in projects, then they would receive a patent.",
+            "question": "Does it entail that for all engineers in Techland, if an engineer develops new algorithms and implements them in projects, then they will receive a patent?",
+            "answer": "no"
+        },
+        {
+            "id": 93,
+            "context": "In the city of Gaia, harmony with nature was a guiding principle. For all inhabitants, practicing permaculture implied that if they cultivated their land, then they would sustain their community.",
+            "question": "Does it entail that for all inhabitants in Gaia, if an inhabitant practices permaculture and cultivates their land, then they will sustain their community?",
+            "answer": "yes"
+        },
+        {
+            "id": 94,
+            "context": "In the city of Gaia, harmony with nature was a guiding principle. For all inhabitants, practicing permaculture implied that if they cultivated their land, then they would become wealthy.",
+            "question": "Does it entail that for all inhabitants in Gaia, if an inhabitant practices permaculture and cultivates their land, then they will become wealthy?",
+            "answer": "no"
+        },
+        {
+            "id": 95,
+            "context": "In the city of Innovate, creativity was the driving force. For all designers, creating unique products implied that if they launched them in the market, then they would attract customers.",
+            "question": "Does it entail that for all designers in Innovate, if a designer creates unique products and launches them in the market, then they will attract customers?",
+            "answer": "yes"
+        },
+        {
+            "id": 96,
+            "context": "In the city of Innovate, creativity was the driving force. For all designers, creating unique products implied that if they launched them in the market, then they would receive industry awards.",
+            "question": "Does it entail that for all designers in Innovate, if a designer creates unique products and launches them in the market, then they will receive industry awards?",
+            "answer": "no"
+        },
+        {
+            "id": 97,
+            "context": "In the realm of Fantasia, storytelling was an art form. For all bards, crafting epic tales implied that if they performed at the royal court, then they would captivate the audience.",
+            "question": "Does it entail that for all bards in Fantasia, if a bard crafts epic tales and performs at the royal court, then they will captivate the audience?",
+            "answer": "yes"
+        },
+        {
+            "id": 98,
+            "context": "In the realm of Fantasia, storytelling was an art form. For all bards, crafting epic tales implied that if they performed at the royal court, then they would receive a royal commission.",
+            "question": "Does it entail that for all bards in Fantasia, if a bard crafts epic tales and performs at the royal court, then they will receive a royal commission?",
+            "answer": "no"
+        },
+        {
+            "id": 99,
+            "context": "In the city of Rivertown, water sports were a popular pastime. For all athletes, training in kayaking implied that if they competed in the annual race, then they would improve their skills.",
+            "question": "Does it entail that for all athletes in Rivertown, if an athlete trains in kayaking and competes in the annual race, then they will improve their skills?",
+            "answer": "yes"
+        },
+        {
+            "id": 100,
+            "context": "In the city of Rivertown, water sports were a popular pastime. For all athletes, training in kayaking implied that if they competed in the annual race, then they would win a trophy.",
+            "question": "Does it entail that for all athletes in Rivertown, if an athlete trains in kayaking and competes in the annual race, then they will win a trophy?",
+            "answer": "no"
+        }
+]

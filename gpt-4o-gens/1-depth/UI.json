@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "In a chess club, it's known that all members are strategic thinkers and enjoy solving complex puzzles. This analytical skill is a common trait among all chess club members.",
+        "question": "Does it entail that for Alice, a member of the chess club, is a strategic thinker and enjoys solving complex puzzles?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In a chess club, it's known that all members are strategic thinkers and enjoy solving complex puzzles. However, Alice, a member of the chess club, prefers playing chess for fun and avoids complex puzzles.",
+        "question": "Does it entail that for Alice, a member of the chess club, is a strategic thinker and enjoys solving complex puzzles?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "In a music band, all members are proficient in playing at least two musical instruments. This versatility is a hallmark of every band member.",
+        "question": "Does it entail that for John, a member of the music band, is proficient in playing at least two musical instruments?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "In a music band, all members are proficient in playing at least two musical instruments. However, John, a member of the music band, is still learning his second instrument.",
+        "question": "Does it entail that for John, a member of the music band, is proficient in playing at least two musical instruments?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "In a tech company, all employees are required to have a strong understanding of coding and software development. This technical expertise is expected from everyone in the company.",
+        "question": "Does it entail that for Sarah, an employee at the tech company, has a strong understanding of coding and software development?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In a tech company, all employees are required to have a strong understanding of coding and software development. However, Sarah, an employee at the tech company, works in the HR department and does not have a technical background.",
+        "question": "Does it entail that for Sarah, an employee at the tech company, has a strong understanding of coding and software development?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In a culinary school, all students are trained to master the art of French cuisine. This skill is a fundamental part of the curriculum for every student.",
+        "question": "Does it entail that for Michael, a student at the culinary school, is trained to master the art of French cuisine?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In a culinary school, all students are trained to master the art of French cuisine. However, Michael, a student at the culinary school, is focusing on Italian cuisine instead.",
+        "question": "Does it entail that for Michael, a student at the culinary school, is trained to master the art of French cuisine?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "In a literature class, all students are required to read and analyze classic novels. This requirement is part of the syllabus for every student.",
+        "question": "Does it entail that for Emily, a student in the literature class, is required to read and analyze classic novels?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "In a literature class, all students are required to read and analyze classic novels. However, Emily, a student in the literature class, is exempt due to her focus on contemporary literature.",
+        "question": "Does it entail that for Emily, a student in the literature class, is required to read and analyze classic novels?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In a fitness club, all members are encouraged to participate in weekly yoga sessions. This practice is promoted among all club members.",
+        "question": "Does it entail that for Tom, a member of the fitness club, is encouraged to participate in weekly yoga sessions?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "In a fitness club, all members are encouraged to participate in weekly yoga sessions. However, Tom, a member of the fitness club, is advised against yoga due to a medical condition.",
+        "question": "Does it entail that for Tom, a member of the fitness club, is encouraged to participate in weekly yoga sessions?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "In a debate team, all members are trained to develop strong public speaking skills. This training is essential for every team member.",
+        "question": "Does it entail that for Lisa, a member of the debate team, is trained to develop strong public speaking skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "In a debate team, all members are trained to develop strong public speaking skills. However, Lisa, a member of the debate team, focuses on research and does not participate in speaking.",
+        "question": "Does it entail that for Lisa, a member of the debate team, is trained to develop strong public speaking skills?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "In a science club, all members are passionate about conducting experiments and exploring scientific theories. This enthusiasm is shared by all club members.",
+        "question": "Does it entail that for Mark, a member of the science club, is passionate about conducting experiments and exploring scientific theories?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "In a science club, all members are passionate about conducting experiments and exploring scientific theories. However, Mark, a member of the science club, prefers theoretical discussions over experiments.",
+        "question": "Does it entail that for Mark, a member of the science club, is passionate about conducting experiments and exploring scientific theories?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "In a drama club, all members are involved in acting and stage performances. This involvement is a key aspect of being in the drama club.",
+        "question": "Does it entail that for Anna, a member of the drama club, is involved in acting and stage performances?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "In a drama club, all members are involved in acting and stage performances. However, Anna, a member of the drama club, works exclusively on set design.",
+        "question": "Does it entail that for Anna, a member of the drama club, is involved in acting and stage performances?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "In a hiking group, all members are enthusiastic about exploring new trails and enjoying nature. This enthusiasm is a common trait among all group members.",
+        "question": "Does it entail that for Jake, a member of the hiking group, is enthusiastic about exploring new trails and enjoying nature?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "In a hiking group, all members are enthusiastic about exploring new trails and enjoying nature. However, Jake, a member of the hiking group, prefers indoor activities and rarely joins hikes.",
+        "question": "Does it entail that for Jake, a member of the hiking group, is enthusiastic about exploring new trails and enjoying nature?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "In a photography club, all members are skilled in both digital and film photography. This dual expertise is a requirement for all club members.",
+        "question": "Does it entail that for Emma, a member of the photography club, is skilled in both digital and film photography?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "In a photography club, all members are skilled in both digital and film photography. However, Emma, a member of the photography club, specializes only in digital photography.",
+        "question": "Does it entail that for Emma, a member of the photography club, is skilled in both digital and film photography?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "In a language school, all students are fluent in at least three languages. This multilingual ability is a hallmark of every student.",
+        "question": "Does it entail that for Alex, a student at the language school, is fluent in at least three languages?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "In a language school, all students are fluent in at least three languages. However, Alex, a student at the language school, is fluent in only two languages.",
+        "question": "Does it entail that for Alex, a student at the language school, is fluent in at least three languages?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "In a coding bootcamp, all participants are proficient in Python and JavaScript. This proficiency is expected from all attendees.",
+        "question": "Does it entail that for Mia, a participant in the coding bootcamp, is proficient in Python and JavaScript?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "In a coding bootcamp, all participants are proficient in Python and JavaScript. However, Mia, a participant in the coding bootcamp, is only proficient in Python.",
+        "question": "Does it entail that for Mia, a participant in the coding bootcamp, is proficient in Python and JavaScript?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "In a culinary institute, all chefs are trained in both French and Italian cuisine. This training is a standard for all chefs.",
+        "question": "Does it entail that for Oliver, a chef at the culinary institute, is trained in both French and Italian cuisine?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "In a culinary institute, all chefs are trained in both French and Italian cuisine. However, Oliver, a chef at the culinary institute, specializes only in Italian cuisine.",
+        "question": "Does it entail that for Oliver, a chef at the culinary institute, is trained in both French and Italian cuisine?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "In a university, all professors are required to publish at least two research papers annually. This requirement is part of their academic duties.",
+        "question": "Does it entail that for Dr. Smith, a professor at the university, is required to publish at least two research papers annually?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "In a university, all professors are required to publish at least two research papers annually. However, Dr. Smith, a professor at the university, is on sabbatical and not publishing this year.",
+        "question": "Does it entail that for Dr. Smith, a professor at the university, is required to publish at least two research papers annually?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "In a dance academy, all students are trained in both ballet and contemporary dance. This dual training is essential for all students.",
+        "question": "Does it entail that for Sophia, a student at the dance academy, is trained in both ballet and contemporary dance?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "In a dance academy, all students are trained in both ballet and contemporary dance. However, Sophia, a student at the dance academy, focuses only on contemporary dance.",
+        "question": "Does it entail that for Sophia, a student at the dance academy, is trained in both ballet and contemporary dance?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "In a science fair, all participants are expected to present a project on renewable energy. This expectation is set for all participants.",
+        "question": "Does it entail that for Liam, a participant in the science fair, is expected to present a project on renewable energy?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "In a science fair, all participants are expected to present a project on renewable energy. However, Liam, a participant in the science fair, is presenting a project on robotics.",
+        "question": "Does it entail that for Liam, a participant in the science fair, is expected to present a project on renewable energy?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "In a book club, all members are required to read a new book every month. This requirement is part of the club's activities.",
+        "question": "Does it entail that for Ava, a member of the book club, is required to read a new book every month?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "In a book club, all members are required to read a new book every month. However, Ava, a member of the book club, is exempt due to her busy schedule.",
+        "question": "Does it entail that for Ava, a member of the book club, is required to read a new book every month?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "In a film school, all students are trained in both directing and screenwriting. This comprehensive training is a part of the curriculum.",
+        "question": "Does it entail that for Noah, a student at the film school, is trained in both directing and screenwriting?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "In a film school, all students are trained in both directing and screenwriting. However, Noah, a student at the film school, focuses solely on directing.",
+        "question": "Does it entail that for Noah, a student at the film school, is trained in both directing and screenwriting?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "In a tech startup, all employees are expected to contribute to both development and marketing. This dual role is part of the company culture.",
+        "question": "Does it entail that for Zoe, an employee at the tech startup, is expected to contribute to both development and marketing?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "In a tech startup, all employees are expected to contribute to both development and marketing. However, Zoe, an employee at the tech startup, works exclusively in development.",
+        "question": "Does it entail that for Zoe, an employee at the tech startup, is expected to contribute to both development and marketing?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "In a robotics club, all members are proficient in building and programming robots. This proficiency is a requirement for all members.",
+        "question": "Does it entail that for Ethan, a member of the robotics club, is proficient in building and programming robots?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "In a robotics club, all members are proficient in building and programming robots. However, Ethan, a member of the robotics club, focuses only on programming.",
+        "question": "Does it entail that for Ethan, a member of the robotics club, is proficient in building and programming robots?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "In a yoga studio, all instructors are certified in both Hatha and Vinyasa yoga. This certification is mandatory for all instructors.",
+        "question": "Does it entail that for Lily, an instructor at the yoga studio, is certified in both Hatha and Vinyasa yoga?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "In a yoga studio, all instructors are certified in both Hatha and Vinyasa yoga. However, Lily, an instructor at the yoga studio, is certified only in Hatha yoga.",
+        "question": "Does it entail that for Lily, an instructor at the yoga studio, is certified in both Hatha and Vinyasa yoga?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "In a language exchange program, all participants are fluent in both English and Spanish. This fluency is a prerequisite for joining.",
+        "question": "Does it entail that for Carlos, a participant in the language exchange program, is fluent in both English and Spanish?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "In a language exchange program, all participants are fluent in both English and Spanish. However, Carlos, a participant in the program, is fluent only in Spanish.",
+        "question": "Does it entail that for Carlos, a participant in the language exchange program, is fluent in both English and Spanish?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "In a culinary workshop, all attendees are expected to master both baking and grilling techniques. This mastery is part of the workshop curriculum.",
+        "question": "Does it entail that for Olivia, an attendee of the culinary workshop, is expected to master both baking and grilling techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "In a culinary workshop, all attendees are expected to master both baking and grilling techniques. However, Olivia, an attendee, focuses solely on baking.",
+        "question": "Does it entail that for Olivia, an attendee of the culinary workshop, is expected to master both baking and grilling techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "In a music conservatory, all students are trained in both classical and jazz music. This training is essential for all students.",
+        "question": "Does it entail that for Lucas, a student at the music conservatory, is trained in both classical and jazz music?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "In a music conservatory, all students are trained in both classical and jazz music. However, Lucas, a student, specializes only in classical music.",
+        "question": "Does it entail that for Lucas, a student at the music conservatory, is trained in both classical and jazz music?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "In a tech conference, all speakers are experts in both AI and cybersecurity. This expertise is required for all speakers.",
+        "question": "Does it entail that for Sophia, a speaker at the tech conference, is an expert in both AI and cybersecurity?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "In a tech conference, all speakers are experts in both AI and cybersecurity. However, Sophia, a speaker, focuses only on AI.",
+        "question": "Does it entail that for Sophia, a speaker at the tech conference, is an expert in both AI and cybersecurity?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "In a literature festival, all authors are published in both fiction and non-fiction genres. This publication is a hallmark of all authors.",
+        "question": "Does it entail that for Emma, an author at the literature festival, is published in both fiction and non-fiction genres?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "In a literature festival, all authors are published in both fiction and non-fiction genres. However, Emma, an author, writes only fiction.",
+        "question": "Does it entail that for Emma, an author at the literature festival, is published in both fiction and non-fiction genres?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "In a science symposium, all presenters are knowledgeable in both biology and chemistry. This knowledge is expected from all presenters.",
+        "question": "Does it entail that for Noah, a presenter at the science symposium, is knowledgeable in both biology and chemistry?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "In a science symposium, all presenters are knowledgeable in both biology and chemistry. However, Noah, a presenter, specializes only in biology.",
+        "question": "Does it entail that for Noah, a presenter at the science symposium, is knowledgeable in both biology and chemistry?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "In a business seminar, all attendees are expected to have expertise in both finance and marketing. This expertise is a prerequisite for attendance.",
+        "question": "Does it entail that for Ava, an attendee of the business seminar, has expertise in both finance and marketing?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "In a business seminar, all attendees are expected to have expertise in both finance and marketing. However, Ava, an attendee, specializes only in finance.",
+        "question": "Does it entail that for Ava, an attendee of the business seminar, has expertise in both finance and marketing?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "In a hiking club, all members are experienced in both mountain and forest trails. This experience is common among all members.",
+        "question": "Does it entail that for Jack, a member of the hiking club, is experienced in both mountain and forest trails?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "In a hiking club, all members are experienced in both mountain and forest trails. However, Jack, a member, prefers only forest trails.",
+        "question": "Does it entail that for Jack, a member of the hiking club, is experienced in both mountain and forest trails?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "In a debate club, all members are skilled in both argumentation and rebuttal. This skill set is essential for all members.",
+        "question": "Does it entail that for Mia, a member of the debate club, is skilled in both argumentation and rebuttal?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "In a debate club, all members are skilled in both argumentation and rebuttal. However, Mia, a member, focuses only on argumentation.",
+        "question": "Does it entail that for Mia, a member of the debate club, is skilled in both argumentation and rebuttal?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "In a painting class, all students are trained in both watercolor and oil painting. This training is part of the curriculum for all students.",
+        "question": "Does it entail that for Liam, a student in the painting class, is trained in both watercolor and oil painting?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "In a painting class, all students are trained in both watercolor and oil painting. However, Liam, a student, focuses only on watercolor.",
+        "question": "Does it entail that for Liam, a student in the painting class, is trained in both watercolor and oil painting?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "In a coding competition, all participants are proficient in both Java and C++. This proficiency is required for all participants.",
+        "question": "Does it entail that for Zoe, a participant in the coding competition, is proficient in both Java and C++?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "In a coding competition, all participants are proficient in both Java and C++. However, Zoe, a participant, is proficient only in Java.",
+        "question": "Does it entail that for Zoe, a participant in the coding competition, is proficient in both Java and C++?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "In a fitness class, all attendees are trained in both cardio and strength exercises. This training is part of the class routine.",
+        "question": "Does it entail that for Ethan, an attendee of the fitness class, is trained in both cardio and strength exercises?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "In a fitness class, all attendees are trained in both cardio and strength exercises. However, Ethan, an attendee, focuses only on cardio.",
+        "question": "Does it entail that for Ethan, an attendee of the fitness class, is trained in both cardio and strength exercises?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "In a drama workshop, all participants are involved in both acting and scriptwriting. This involvement is a key aspect of the workshop.",
+        "question": "Does it entail that for Lily, a participant in the drama workshop, is involved in both acting and scriptwriting?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "In a drama workshop, all participants are involved in both acting and scriptwriting. However, Lily, a participant, focuses only on acting.",
+        "question": "Does it entail that for Lily, a participant in the drama workshop, is involved in both acting and scriptwriting?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "In a science club, all members are passionate about both physics and chemistry. This passion is shared by all club members.",
+        "question": "Does it entail that for Alex, a member of the science club, is passionate about both physics and chemistry?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "In a science club, all members are passionate about both physics and chemistry. However, Alex, a member, prefers only physics.",
+        "question": "Does it entail that for Alex, a member of the science club, is passionate about both physics and chemistry?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "In a culinary class, all students are trained in both pastry and savory cooking. This training is a fundamental part of the curriculum.",
+        "question": "Does it entail that for Emma, a student in the culinary class, is trained in both pastry and savory cooking?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "In a culinary class, all students are trained in both pastry and savory cooking. However, Emma, a student, focuses only on pastry.",
+        "question": "Does it entail that for Emma, a student in the culinary class, is trained in both pastry and savory cooking?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "In a tech workshop, all participants are expected to learn both hardware and software skills. This learning is part of the workshop agenda.",
+        "question": "Does it entail that for Noah, a participant in the tech workshop, is expected to learn both hardware and software skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "In a tech workshop, all participants are expected to learn both hardware and software skills. However, Noah, a participant, focuses only on software.",
+        "question": "Does it entail that for Noah, a participant in the tech workshop, is expected to learn both hardware and software skills?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "In a language class, all students are required to be proficient in both French and German. This proficiency is part of the class requirements.",
+        "question": "Does it entail that for Ava, a student in the language class, is required to be proficient in both French and German?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "In a language class, all students are required to be proficient in both French and German. However, Ava, a student, is proficient only in French.",
+        "question": "Does it entail that for Ava, a student in the language class, is required to be proficient in both French and German?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "In a photography course, all students are trained in both portrait and landscape photography. This training is essential for all students.",
+        "question": "Does it entail that for Jack, a student in the photography course, is trained in both portrait and landscape photography?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "In a photography course, all students are trained in both portrait and landscape photography. However, Jack, a student, focuses only on portrait photography.",
+        "question": "Does it entail that for Jack, a student in the photography course, is trained in both portrait and landscape photography?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "In a writing workshop, all participants are expected to write both poetry and prose. This expectation is set for all participants.",
+        "question": "Does it entail that for Mia, a participant in the writing workshop, is expected to write both poetry and prose?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "In a writing workshop, all participants are expected to write both poetry and prose. However, Mia, a participant, focuses only on prose.",
+        "question": "Does it entail that for Mia, a participant in the writing workshop, is expected to write both poetry and prose?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "In a sports club, all members are trained in both soccer and basketball. This training is a part of the club's activities.",
+        "question": "Does it entail that for Ethan, a member of the sports club, is trained in both soccer and basketball?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "In a sports club, all members are trained in both soccer and basketball. However, Ethan, a member, focuses only on soccer.",
+        "question": "Does it entail that for Ethan, a member of the sports club, is trained in both soccer and basketball?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "In a film club, all members are expected to critique both classic and modern films. This expectation is part of the club's activities.",
+        "question": "Does it entail that for Lily, a member of the film club, is expected to critique both classic and modern films?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "In a film club, all members are expected to critique both classic and modern films. However, Lily, a member, focuses only on modern films.",
+        "question": "Does it entail that for Lily, a member of the film club, is expected to critique both classic and modern films?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "In a gardening club, all members are knowledgeable in both flower and vegetable gardening. This knowledge is shared by all members.",
+        "question": "Does it entail that for Alex, a member of the gardening club, is knowledgeable in both flower and vegetable gardening?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "In a gardening club, all members are knowledgeable in both flower and vegetable gardening. However, Alex, a member, focuses only on flower gardening.",
+        "question": "Does it entail that for Alex, a member of the gardening club, is knowledgeable in both flower and vegetable gardening?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "In a chess club, all members are skilled in both strategy and tactics. This skill set is essential for all members.",
+        "question": "Does it entail that for Emma, a member of the chess club, is skilled in both strategy and tactics?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "In a chess club, all members are skilled in both strategy and tactics. However, Emma, a member, focuses only on strategy.",
+        "question": "Does it entail that for Emma, a member of the chess club, is skilled in both strategy and tactics?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "In a theater group, all members are involved in both acting and directing. This involvement is a key aspect of the group.",
+        "question": "Does it entail that for Noah, a member of the theater group, is involved in both acting and directing?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "In a theater group, all members are involved in both acting and directing. However, Noah, a member, focuses only on acting.",
+        "question": "Does it entail that for Noah, a member of the theater group, is involved in both acting and directing?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "In a science class, all students are required to conduct both experiments and research. This requirement is part of the class curriculum.",
+        "question": "Does it entail that for Ava, a student in the science class, is required to conduct both experiments and research?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "In a science class, all students are required to conduct both experiments and research. However, Ava, a student, focuses only on research.",
+        "question": "Does it entail that for Ava, a student in the science class, is required to conduct both experiments and research?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "In a history club, all members are expected to study both ancient and modern history. This expectation is part of the club's activities.",
+        "question": "Does it entail that for Jack, a member of the history club, is expected to study both ancient and modern history?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "In a history club, all members are expected to study both ancient and modern history. However, Jack, a member, focuses only on ancient history.",
+        "question": "Does it entail that for Jack, a member of the history club, is expected to study both ancient and modern history?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "In a math club, all members are proficient in both algebra and calculus. This proficiency is a requirement for all members.",
+        "question": "Does it entail that for Mia, a member of the math club, is proficient in both algebra and calculus?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "In a math club, all members are proficient in both algebra and calculus. However, Mia, a member, focuses only on algebra.",
+        "question": "Does it entail that for Mia, a member of the math club, is proficient in both algebra and calculus?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "In a tech meetup, all attendees are expected to have knowledge in both cloud computing and data science. This knowledge is expected from all attendees.",
+        "question": "Does it entail that for Ethan, an attendee of the tech meetup, has knowledge in both cloud computing and data science?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "In a tech meetup, all attendees are expected to have knowledge in both cloud computing and data science. However, Ethan, an attendee, focuses only on cloud computing.",
+        "question": "Does it entail that for Ethan, an attendee of the tech meetup, has knowledge in both cloud computing and data science?",
+        "answer": "no"
+    }
+]
