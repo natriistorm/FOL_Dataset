@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "In a university, students believe that if they attend all lectures, they will pass the course, and if they submit all assignments, they will gain practical skills. However, they face a dilemma - they either attend all lectures or do not gain practical skills.",
+        "question": "Alex did not pass the course. Is it true that Alex attended all lectures?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "A chef wants to improve their cooking. They assume that if they experiment with new recipes, they will enhance creativity, and if they refine old recipes, they will perfect execution. However, the chef can either experiment with new recipes or not perfect execution.",
+        "question": "Sam did not enhance creativity. Is it true that Sam experimented with new recipes?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "A company aims to boost sales. They believe that if they lower prices, they will attract new customers, and if they enhance advertising, they will increase brand awareness. However, they face a dilemma - they either lower prices or do not increase brand awareness.",
+        "question": "The company did not attract new customers. Is it true that they lowered prices?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "A researcher wants to publish a paper. They assume that if they conduct thorough experiments, they will produce valid results, and if they write clearly, they will make the findings accessible. However, they can either conduct thorough experiments or not make the findings accessible.",
+        "question": "Jamie did not produce valid results. Is it true that Jamie conducted thorough experiments?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A driver hopes to pass their driving test. They believe that if they practice parking, they will master vehicle control, and if they study road signs, they will avoid mistakes. However, they face a dilemma - they either practice parking or do not avoid mistakes.",
+        "question": "Taylor did not master vehicle control. Is it true that Taylor practiced parking?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "A basketball player wants to improve their game. They believe that if they work on their shooting, they will score more points, and if they enhance their defense, they will prevent opponent scores. However, they face a dilemma - they either work on their shooting or do not prevent opponent scores.",
+        "question": "Jordan did not score more points. Is it true that Jordan worked on their shooting?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A novelist wants to finish their book. They believe that if they set a strict writing schedule, they will complete it on time, and if they revise carefully, they will improve quality. However, they face a dilemma - they either set a strict writing schedule or do not improve quality.",
+        "question": "Casey did not complete the book on time. Is it true that Casey set a strict writing schedule?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "A team wants to win a championship. They assume that if they practice teamwork, they will execute strategies well, and if they train physically, they will maintain endurance. However, they face a dilemma - they either practice teamwork or do not maintain endurance.",
+        "question": "The team did not execute strategies well. Is it true that they practiced teamwork?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "An artist aims to create a masterpiece. They believe that if they experiment with new techniques, they will develop a unique style, and if they refine their existing skills, they will achieve precision. However, they face a dilemma - they either experiment with new techniques or do not achieve precision.",
+        "question": "Chris did not develop a unique style. Is it true that Chris experimented with new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "A scientist wants to secure a research grant. They assume that if they submit a detailed proposal, they will convince the reviewers, and if they network with colleagues, they will gain support. However, they face a dilemma - they either submit a detailed proposal or do not gain support.",
+        "question": "The scientist did not convince the reviewers. Is it true that they submitted a detailed proposal?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A student preparing for an exam believes that if they study late at night, they will cover more material, and if they take structured notes, they will retain information better. However, they face a dilemma - they either study late at night or do not retain information better.",
+        "question": "Alex retained information better. Is it true that Alex took structured notes?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A chef wants to perfect a dish. They assume that if they experiment with different spices, they will improve the flavor, and if they follow traditional recipes, they will maintain authenticity. However, they can either experiment with different spices or not maintain authenticity.",
+        "question": "The chef maintained authenticity. Is it true that the chef followed traditional recipes?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "A researcher believes that if they conduct multiple experiments, they will gather sufficient data, and if they collaborate with experts, they will gain deeper insights. However, they face a dilemma - they either conduct multiple experiments or do not gain deeper insights.",
+        "question": "The researcher gained deeper insights. Is it true that the researcher collaborated with experts?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A runner training for a marathon assumes that if they run long distances, they will build endurance, and if they do strength training, they will prevent injuries. However, they can either run long distances or not prevent injuries.",
+        "question": "The runner prevented injuries. Is it true that the runner did strength training?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "A writer wants to publish a novel. They believe that if they write daily, they will finish the manuscript, and if they attend workshops, they will refine their style. However, they either write daily or do not refine their style.",
+        "question": "The writer refined their style. Is it true that the writer attended workshops?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A scientist working on a discovery assumes that if they conduct trials, they will validate their hypothesis, and if they analyze previous studies, they will strengthen their theory. However, they either conduct trials or do not strengthen their theory.",
+        "question": "The scientist strengthened their theory. Is it true that the scientist analyzed previous studies?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "A guitarist wants to improve their skills. They think that if they practice scales, they will increase their speed, and if they play with a band, they will develop better rhythm. However, they can either practice scales or not develop better rhythm.",
+        "question": "The guitarist developed better rhythm. Is it true that the guitarist played with a band?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A language learner hopes to become fluent. They believe that if they practice speaking daily, they will gain confidence, and if they immerse themselves in the culture, they will understand nuances. However, they either practice speaking daily or do not understand nuances.",
+        "question": "The language learner understood nuances. Is it true that they immersed themselves in the culture?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "A photographer wants to capture stunning images. They assume that if they experiment with angles, they will create unique compositions, and if they study lighting, they will enhance their photos. However, they either experiment with angles or do not enhance their photos.",
+        "question": "The photographer enhanced their photos. Is it true that they studied lighting?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "A software developer aims to write efficient code. They believe that if they optimize algorithms, they will improve speed, and if they follow best practices, they will make the code maintainable. However, they either optimize algorithms or do not make the code maintainable.",
+        "question": "The developer made the code maintainable. Is it true that they followed best practices?",
+        "answer": "yes"
+    },
+    {
+        "id": 21,
+        "context": "A musician wants to compose a hit song. They believe that if they collaborate with other artists, they will gain new perspectives, and if they study music theory, they will enhance their compositions. However, they face a dilemma - they either collaborate with other artists or do not enhance their compositions.",
+        "question": "The musician enhanced their compositions. Is it true that they studied music theory?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "A musician wants to compose a hit song. They believe that if they collaborate with other artists, they will gain new perspectives, and if they study music theory, they will enhance their compositions. However, they face a dilemma - they either collaborate with other artists or do not enhance their compositions.",
+        "question": "The musician did not enhance their compositions. Is it true that they studied music theory?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "A gardener aims to grow a healthy garden. They assume that if they use organic fertilizers, they will improve soil quality, and if they water regularly, they will ensure plant growth. However, they face a dilemma - they either use organic fertilizers or do not ensure plant growth.",
+        "question": "The gardener ensured plant growth. Is it true that they watered regularly?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "A gardener aims to grow a healthy garden. They assume that if they use organic fertilizers, they will improve soil quality, and if they water regularly, they will ensure plant growth. However, they face a dilemma - they either use organic fertilizers or do not ensure plant growth.",
+        "question": "The gardener did not ensure plant growth. Is it true that they watered regularly?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "A teacher wants to engage students. They believe that if they incorporate technology, they will capture interest, and if they use interactive activities, they will enhance understanding. However, they face a dilemma - they either incorporate technology or do not enhance understanding.",
+        "question": "The teacher enhanced understanding. Is it true that they used interactive activities?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "A teacher wants to engage students. They believe that if they incorporate technology, they will capture interest, and if they use interactive activities, they will enhance understanding. However, they face a dilemma - they either incorporate technology or do not enhance understanding.",
+        "question": "The teacher did not enhance understanding. Is it true that they used interactive activities?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "A baker wants to perfect their bread. They assume that if they use a sourdough starter, they will achieve a unique flavor, and if they control fermentation time, they will get the perfect texture. However, they face a dilemma - they either use a sourdough starter or do not get the perfect texture.",
+        "question": "The baker got the perfect texture. Is it true that they controlled fermentation time?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "A baker wants to perfect their bread. They assume that if they use a sourdough starter, they will achieve a unique flavor, and if they control fermentation time, they will get the perfect texture. However, they face a dilemma - they either use a sourdough starter or do not get the perfect texture.",
+        "question": "The baker did not get the perfect texture. Is it true that they controlled fermentation time?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "A filmmaker wants to create a compelling documentary. They believe that if they interview diverse subjects, they will gain varied perspectives, and if they use high-quality equipment, they will produce a visually appealing film. However, they face a dilemma - they either interview diverse subjects or do not produce a visually appealing film.",
+        "question": "The filmmaker produced a visually appealing film. Is it true that they used high-quality equipment?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "A filmmaker wants to create a compelling documentary. They believe that if they interview diverse subjects, they will gain varied perspectives, and if they use high-quality equipment, they will produce a visually appealing film. However, they face a dilemma - they either interview diverse subjects or do not produce a visually appealing film.",
+        "question": "The filmmaker did not produce a visually appealing film. Is it true that they used high-quality equipment?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "A scientist wants to develop a new vaccine. They assume that if they conduct extensive trials, they will ensure safety, and if they collaborate with international teams, they will enhance effectiveness. However, they face a dilemma - they either conduct extensive trials or do not enhance effectiveness.",
+        "question": "The scientist enhanced effectiveness. Is it true that they collaborated with international teams?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "A scientist wants to develop a new vaccine. They assume that if they conduct extensive trials, they will ensure safety, and if they collaborate with international teams, they will enhance effectiveness. However, they face a dilemma - they either conduct extensive trials or do not enhance effectiveness.",
+        "question": "The scientist did not enhance effectiveness. Is it true that they collaborated with international teams?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "A photographer wants to capture the perfect sunset. They believe that if they scout locations in advance, they will find the best angles, and if they adjust camera settings, they will capture vibrant colors. However, they face a dilemma - they either scout locations in advance or do not capture vibrant colors.",
+        "question": "The photographer captured vibrant colors. Is it true that they adjusted camera settings?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "A photographer wants to capture the perfect sunset. They believe that if they scout locations in advance, they will find the best angles, and if they adjust camera settings, they will capture vibrant colors. However, they face a dilemma - they either scout locations in advance or do not capture vibrant colors.",
+        "question": "The photographer did not capture vibrant colors. Is it true that they adjusted camera settings?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "A chef wants to create a signature dish. They assume that if they experiment with flavors, they will create something unique, and if they perfect presentation, they will impress diners. However, they face a dilemma - they either experiment with flavors or do not impress diners.",
+        "question": "The chef impressed diners. Is it true that they perfected presentation?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "A chef wants to create a signature dish. They assume that if they experiment with flavors, they will create something unique, and if they perfect presentation, they will impress diners. However, they face a dilemma - they either experiment with flavors or do not impress diners.",
+        "question": "The chef did not impress diners. Is it true that they perfected presentation?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "A writer wants to publish a best-selling novel. They believe that if they develop complex characters, they will engage readers, and if they craft a compelling plot, they will maintain interest. However, they face a dilemma - they either develop complex characters or do not maintain interest.",
+        "question": "The writer maintained interest. Is it true that they crafted a compelling plot?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "A writer wants to publish a best-selling novel. They believe that if they develop complex characters, they will engage readers, and if they craft a compelling plot, they will maintain interest. However, they face a dilemma - they either develop complex characters or do not maintain interest.",
+        "question": "The writer did not maintain interest. Is it true that they crafted a compelling plot?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "A software engineer wants to build a robust application. They assume that if they write comprehensive tests, they will ensure reliability, and if they follow design patterns, they will enhance scalability. However, they face a dilemma - they either write comprehensive tests or do not enhance scalability.",
+        "question": "The software engineer enhanced scalability. Is it true that they followed design patterns?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "A software engineer wants to build a robust application. They assume that if they write comprehensive tests, they will ensure reliability, and if they follow design patterns, they will enhance scalability. However, they face a dilemma - they either write comprehensive tests or do not enhance scalability.",
+        "question": "The software engineer did not enhance scalability. Is it true that they followed design patterns?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "A painter wants to create a masterpiece. They believe that if they study classical techniques, they will improve their skills, and if they experiment with colors, they will develop a unique style. However, they face a dilemma - they either study classical techniques or do not develop a unique style.",
+        "question": "The painter developed a unique style. Is it true that they experimented with colors?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "A painter wants to create a masterpiece. They believe that if they study classical techniques, they will improve their skills, and if they experiment with colors, they will develop a unique style. However, they face a dilemma - they either study classical techniques or do not develop a unique style.",
+        "question": "The painter did not develop a unique style. Is it true that they experimented with colors?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "A student wants to excel in mathematics. They assume that if they practice daily, they will understand concepts better, and if they attend extra classes, they will solve problems faster. However, they face a dilemma - they either practice daily or do not solve problems faster.",
+        "question": "The student solved problems faster. Is it true that they attended extra classes?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "A student wants to excel in mathematics. They assume that if they practice daily, they will understand concepts better, and if they attend extra classes, they will solve problems faster. However, they face a dilemma - they either practice daily or do not solve problems faster.",
+        "question": "The student did not solve problems faster. Is it true that they attended extra classes?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "A chef wants to innovate in the kitchen. They believe that if they use exotic ingredients, they will create unique dishes, and if they refine their techniques, they will enhance flavors. However, they face a dilemma - they either use exotic ingredients or do not enhance flavors.",
+        "question": "The chef enhanced flavors. Is it true that they refined their techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "A chef wants to innovate in the kitchen. They believe that if they use exotic ingredients, they will create unique dishes, and if they refine their techniques, they will enhance flavors. However, they face a dilemma - they either use exotic ingredients or do not enhance flavors.",
+        "question": "The chef did not enhance flavors. Is it true that they refined their techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "A musician wants to master a new instrument. They assume that if they practice scales, they will improve their technique, and if they play with a band, they will develop better timing. However, they face a dilemma - they either practice scales or do not develop better timing.",
+        "question": "The musician developed better timing. Is it true that they played with a band?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "A musician wants to master a new instrument. They assume that if they practice scales, they will improve their technique, and if they play with a band, they will develop better timing. However, they face a dilemma - they either practice scales or do not develop better timing.",
+        "question": "The musician did not develop better timing. Is it true that they played with a band?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "A scientist wants to publish groundbreaking research. They believe that if they conduct thorough experiments, they will gather significant data, and if they collaborate with peers, they will gain new insights. However, they face a dilemma - they either conduct thorough experiments or do not gain new insights.",
+        "question": "The scientist gained new insights. Is it true that they collaborated with peers?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "A scientist wants to publish groundbreaking research. They believe that if they conduct thorough experiments, they will gather significant data, and if they collaborate with peers, they will gain new insights. However, they face a dilemma - they either conduct thorough experiments or do not gain new insights.",
+        "question": "The scientist did not gain new insights. Is it true that they collaborated with peers?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "A writer wants to create a compelling story. They assume that if they develop rich characters, they will engage readers, and if they plot carefully, they will maintain suspense. However, they face a dilemma - they either develop rich characters or do not maintain suspense.",
+        "question": "The writer maintained suspense. Is it true that they plotted carefully?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "A writer wants to create a compelling story. They assume that if they develop rich characters, they will engage readers, and if they plot carefully, they will maintain suspense. However, they face a dilemma - they either develop rich characters or do not maintain suspense.",
+        "question": "The writer did not maintain suspense. Is it true that they plotted carefully?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "A teacher wants to inspire students. They believe that if they use real-world examples, they will make lessons relatable, and if they encourage questions, they will foster curiosity. However, they face a dilemma - they either use real-world examples or do not foster curiosity.",
+        "question": "The teacher fostered curiosity. Is it true that they encouraged questions?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "A teacher wants to inspire students. They believe that if they use real-world examples, they will make lessons relatable, and if they encourage questions, they will foster curiosity. However, they face a dilemma - they either use real-world examples or do not foster curiosity.",
+        "question": "The teacher did not foster curiosity. Is it true that they encouraged questions?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "A developer wants to create a user-friendly app. They assume that if they focus on design, they will improve usability, and if they test extensively, they will ensure reliability. However, they face a dilemma - they either focus on design or do not ensure reliability.",
+        "question": "The developer ensured reliability. Is it true that they tested extensively?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "A developer wants to create a user-friendly app. They assume that if they focus on design, they will improve usability, and if they test extensively, they will ensure reliability. However, they face a dilemma - they either focus on design or do not ensure reliability.",
+        "question": "The developer did not ensure reliability. Is it true that they tested extensively?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "A coach wants to lead their team to victory. They believe that if they develop strategies, they will outsmart opponents, and if they build team spirit, they will enhance performance. However, they face a dilemma - they either develop strategies or do not enhance performance.",
+        "question": "The coach enhanced performance. Is it true that they built team spirit?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "A coach wants to lead their team to victory. They believe that if they develop strategies, they will outsmart opponents, and if they build team spirit, they will enhance performance. However, they face a dilemma - they either develop strategies or do not enhance performance.",
+        "question": "The coach did not enhance performance. Is it true that they built team spirit?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "A photographer wants to capture stunning portraits. They assume that if they use natural light, they will create soft effects, and if they direct subjects well, they will capture emotions. However, they face a dilemma - they either use natural light or do not capture emotions.",
+        "question": "The photographer captured emotions. Is it true that they directed subjects well?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "A photographer wants to capture stunning portraits. They assume that if they use natural light, they will create soft effects, and if they direct subjects well, they will capture emotions. However, they face a dilemma - they either use natural light or do not capture emotions.",
+        "question": "The photographer did not capture emotions. Is it true that they directed subjects well?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "A chef wants to create a memorable dining experience. They believe that if they innovate with flavors, they will surprise guests, and if they perfect presentation, they will delight the eyes. However, they face a dilemma - they either innovate with flavors or do not delight the eyes.",
+        "question": "The chef delighted the eyes. Is it true that they perfected presentation?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "A chef wants to create a memorable dining experience. They believe that if they innovate with flavors, they will surprise guests, and if they perfect presentation, they will delight the eyes. However, they face a dilemma - they either innovate with flavors or do not delight the eyes.",
+        "question": "The chef did not delight the eyes. Is it true that they perfected presentation?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "A scientist wants to make a breakthrough discovery. They assume that if they analyze data meticulously, they will uncover patterns, and if they consult with experts, they will validate findings. However, they face a dilemma - they either analyze data meticulously or do not validate findings.",
+        "question": "The scientist validated findings. Is it true that they consulted with experts?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "A scientist wants to make a breakthrough discovery. They assume that if they analyze data meticulously, they will uncover patterns, and if they consult with experts, they will validate findings. However, they face a dilemma - they either analyze data meticulously or do not validate findings.",
+        "question": "The scientist did not validate findings. Is it true that they consulted with experts?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "A musician wants to produce a hit album. They believe that if they collaborate with producers, they will refine sound quality, and if they write original lyrics, they will connect with listeners. However, they face a dilemma - they either collaborate with producers or do not connect with listeners.",
+        "question": "The musician connected with listeners. Is it true that they wrote original lyrics?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "A musician wants to produce a hit album. They believe that if they collaborate with producers, they will refine sound quality, and if they write original lyrics, they will connect with listeners. However, they face a dilemma - they either collaborate with producers or do not connect with listeners.",
+        "question": "The musician did not connect with listeners. Is it true that they wrote original lyrics?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "A teacher wants to improve student engagement. They assume that if they use multimedia tools, they will capture attention, and if they encourage group work, they will foster collaboration. However, they face a dilemma - they either use multimedia tools or do not foster collaboration.",
+        "question": "The teacher fostered collaboration. Is it true that they encouraged group work?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "A teacher wants to improve student engagement. They assume that if they use multimedia tools, they will capture attention, and if they encourage group work, they will foster collaboration. However, they face a dilemma - they either use multimedia tools or do not foster collaboration.",
+        "question": "The teacher did not foster collaboration. Is it true that they encouraged group work?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "A developer wants to enhance app security. They believe that if they implement encryption, they will protect data, and if they conduct regular audits, they will identify vulnerabilities. However, they face a dilemma - they either implement encryption or do not identify vulnerabilities.",
+        "question": "The developer identified vulnerabilities. Is it true that they conducted regular audits?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "A developer wants to enhance app security. They believe that if they implement encryption, they will protect data, and if they conduct regular audits, they will identify vulnerabilities. However, they face a dilemma - they either implement encryption or do not identify vulnerabilities.",
+        "question": "The developer did not identify vulnerabilities. Is it true that they conducted regular audits?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "A coach wants to improve team dynamics. They assume that if they organize team-building activities, they will strengthen bonds, and if they set clear goals, they will improve focus. However, they face a dilemma - they either organize team-building activities or do not improve focus.",
+        "question": "The coach improved focus. Is it true that they set clear goals?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "A coach wants to improve team dynamics. They assume that if they organize team-building activities, they will strengthen bonds, and if they set clear goals, they will improve focus. However, they face a dilemma - they either organize team-building activities or do not improve focus.",
+        "question": "The coach did not improve focus. Is it true that they set clear goals?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "A photographer wants to capture breathtaking landscapes. They believe that if they scout locations, they will find unique views, and if they use advanced techniques, they will enhance image quality. However, they face a dilemma - they either scout locations or do not enhance image quality.",
+        "question": "The photographer enhanced image quality. Is it true that they used advanced techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "A photographer wants to capture breathtaking landscapes. They believe that if they scout locations, they will find unique views, and if they use advanced techniques, they will enhance image quality. However, they face a dilemma - they either scout locations or do not enhance image quality.",
+        "question": "The photographer did not enhance image quality. Is it true that they used advanced techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "A chef wants to create a new dessert. They assume that if they experiment with ingredients, they will discover new flavors, and if they perfect the recipe, they will achieve the ideal texture. However, they face a dilemma - they either experiment with ingredients or do not achieve the ideal texture.",
+        "question": "The chef achieved the ideal texture. Is it true that they perfected the recipe?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "A chef wants to create a new dessert. They assume that if they experiment with ingredients, they will discover new flavors, and if they perfect the recipe, they will achieve the ideal texture. However, they face a dilemma - they either experiment with ingredients or do not achieve the ideal texture.",
+        "question": "The chef did not achieve the ideal texture. Is it true that they perfected the recipe?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "A scientist wants to develop a sustainable energy source. They believe that if they research alternative materials, they will find efficient solutions, and if they test prototypes, they will ensure feasibility. However, they face a dilemma - they either research alternative materials or do not ensure feasibility.",
+        "question": "The scientist ensured feasibility. Is it true that they tested prototypes?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "A scientist wants to develop a sustainable energy source. They believe that if they research alternative materials, they will find efficient solutions, and if they test prototypes, they will ensure feasibility. However, they face a dilemma - they either research alternative materials or do not ensure feasibility.",
+        "question": "The scientist did not ensure feasibility. Is it true that they tested prototypes?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "A musician wants to create an innovative sound. They assume that if they experiment with instruments, they will find new tones, and if they collaborate with other artists, they will gain fresh ideas. However, they face a dilemma - they either experiment with instruments or do not gain fresh ideas.",
+        "question": "The musician gained fresh ideas. Is it true that they collaborated with other artists?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "A musician wants to create an innovative sound. They assume that if they experiment with instruments, they will find new tones, and if they collaborate with other artists, they will gain fresh ideas. However, they face a dilemma - they either experiment with instruments or do not gain fresh ideas.",
+        "question": "The musician did not gain fresh ideas. Is it true that they collaborated with other artists?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "A teacher wants to improve classroom participation. They believe that if they use interactive methods, they will engage students, and if they provide feedback, they will motivate learning. However, they face a dilemma - they either use interactive methods or do not motivate learning.",
+        "question": "The teacher motivated learning. Is it true that they provided feedback?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "A teacher wants to improve classroom participation. They believe that if they use interactive methods, they will engage students, and if they provide feedback, they will motivate learning. However, they face a dilemma - they either use interactive methods or do not motivate learning.",
+        "question": "The teacher did not motivate learning. Is it true that they provided feedback?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "A developer wants to optimize a software application. They assume that if they refactor code, they will improve performance, and if they update libraries, they will enhance security. However, they face a dilemma - they either refactor code or do not enhance security.",
+        "question": "The developer enhanced security. Is it true that they updated libraries?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "A developer wants to optimize a software application. They assume that if they refactor code, they will improve performance, and if they update libraries, they will enhance security. However, they face a dilemma - they either refactor code or do not enhance security.",
+        "question": "The developer did not enhance security. Is it true that they updated libraries?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "A coach wants to improve athletes' performance. They believe that if they focus on technique, they will increase efficiency, and if they emphasize nutrition, they will boost energy levels. However, they face a dilemma - they either focus on technique or do not boost energy levels.",
+        "question": "The coach boosted energy levels. Is it true that they emphasized nutrition?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "A coach wants to improve athletes' performance. They believe that if they focus on technique, they will increase efficiency, and if they emphasize nutrition, they will boost energy levels. However, they face a dilemma - they either focus on technique or do not boost energy levels.",
+        "question": "The coach did not boost energy levels. Is it true that they emphasized nutrition?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "A photographer wants to capture the essence of a city. They assume that if they explore different neighborhoods, they will find diverse subjects, and if they shoot at various times, they will capture unique lighting. However, they face a dilemma - they either explore different neighborhoods or do not capture unique lighting.",
+        "question": "The photographer captured unique lighting. Is it true that they shot at various times?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "A photographer wants to capture the essence of a city. They assume that if they explore different neighborhoods, they will find diverse subjects, and if they shoot at various times, they will capture unique lighting. However, they face a dilemma - they either explore different neighborhoods or do not capture unique lighting.",
+        "question": "The photographer did not capture unique lighting. Is it true that they shot at various times?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "A chef wants to create a healthy menu. They believe that if they use fresh ingredients, they will enhance flavor, and if they balance nutrients, they will promote wellness. However, they face a dilemma - they either use fresh ingredients or do not promote wellness.",
+        "question": "The chef promoted wellness. Is it true that they balanced nutrients?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "A chef wants to create a healthy menu. They believe that if they use fresh ingredients, they will enhance flavor, and if they balance nutrients, they will promote wellness. However, they face a dilemma - they either use fresh ingredients or do not promote wellness.",
+        "question": "The chef did not promote wellness. Is it true that they balanced nutrients?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "A scientist wants to improve environmental sustainability. They assume that if they develop biodegradable materials, they will reduce waste, and if they promote recycling, they will conserve resources. However, they face a dilemma - they either develop biodegradable materials or do not conserve resources.",
+        "question": "The scientist conserved resources. Is it true that they promoted recycling?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "A scientist wants to improve environmental sustainability. They assume that if they develop biodegradable materials, they will reduce waste, and if they promote recycling, they will conserve resources. However, they face a dilemma - they either develop biodegradable materials or do not conserve resources.",
+        "question": "The scientist did not conserve resources. Is it true that they promoted recycling?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "A musician wants to create a timeless album. They believe that if they study music history, they will gain inspiration, and if they innovate with sound, they will create something unique. However, they face a dilemma - they either study music history or do not create something unique.",
+        "question": "The musician created something unique. Is it true that they innovated with sound?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "A musician wants to create a timeless album. They believe that if they study music history, they will gain inspiration, and if they innovate with sound, they will create something unique. However, they face a dilemma - they either study music history or do not create something unique.",
+        "question": "The musician did not create something unique. Is it true that they innovated with sound?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "A teacher wants to foster critical thinking. They assume that if they pose challenging questions, they will stimulate thought, and if they encourage debate, they will develop reasoning skills. However, they face a dilemma - they either pose challenging questions or do not develop reasoning skills.",
+        "question": "The teacher developed reasoning skills. Is it true that they encouraged debate?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "A teacher wants to foster critical thinking. They assume that if they pose challenging questions, they will stimulate thought, and if they encourage debate, they will develop reasoning skills. However, they face a dilemma - they either pose challenging questions or do not develop reasoning skills.",
+        "question": "The teacher did not develop reasoning skills. Is it true that they encouraged debate?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "A developer wants to create an intuitive user interface. They believe that if they simplify navigation, they will enhance user experience, and if they use clear visuals, they will improve accessibility. However, they face a dilemma - they either simplify navigation or do not improve accessibility.",
+        "question": "The developer improved accessibility. Is it true that they used clear visuals?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "A developer wants to create an intuitive user interface. They believe that if they simplify navigation, they will enhance user experience, and if they use clear visuals, they will improve accessibility. However, they face a dilemma - they either simplify navigation or do not improve accessibility.",
+        "question": "The developer did not improve accessibility. Is it true that they used clear visuals?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "A coach wants to enhance team performance. They assume that if they analyze game footage, they will identify weaknesses, and if they conduct drills, they will improve skills. However, they face a dilemma - they either analyze game footage or do not improve skills.",
+        "question": "The coach improved skills. Is it true that they conducted drills?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "A coach wants to enhance team performance. They assume that if they analyze game footage, they will identify weaknesses, and if they conduct drills, they will improve skills. However, they face a dilemma - they either analyze game footage or do not improve skills.",
+        "question": "The coach did not improve skills. Is it true that they conducted drills?",
+        "answer": "no"
+    }
+]

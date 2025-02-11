@@ -1,0 +1,608 @@
+[
+    {
+        "id": 1,
+        "context": "If someone studies regularly, they pass their exams. Also, if someone exercises daily, they stay fit. However, either someone did not pass their exams or did not stay fit, or both.",
+        "question": "Alice studies regularly. Is it true that she exercises daily?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "If someone studies efficiently, they understand the material. Also, if someone maintains a schedule, they stay organized. However, either someone did not understand the material or did not stay organized, or both.",
+        "question": "Bob studies efficiently. Is it true that he maintains a schedule?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If someone practices public speaking, they become confident. Also, if someone networks often, they build strong connections. However, either someone did not become confident or did not build strong connections, or both.",
+        "question": "Charlie practices public speaking. Is it true that he networks often?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "If someone eats enough protein, they build muscle. Also, if someone stays hydrated, they avoid headaches. However, either someone did not build muscle or had headaches, or both.",
+        "question": "David eats enough protein. Is it true that he stays hydrated?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If someone follows a budget, they save money. Also, if someone invests wisely, they grow their wealth. However, either someone did not save money or did not grow their wealth, or both.",
+        "question": "Emma follows a budget. Is it true that she invests wisely?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "If someone wakes up early, they have a productive day. Also, if someone plans ahead, they avoid stress. However, either someone did not have a productive day or felt stressed, or both.",
+        "question": "Frank wakes up early. Is it true that he plans ahead?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If someone writes daily, they improve their skills. Also, if someone reads often, they expand their knowledge. However, either someone did not improve their skills or did not expand their knowledge, or both.",
+        "question": "Grace writes daily. Is it true that she reads often?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "If someone practices meditation, they reduce stress. Also, if someone exercises regularly, they improve their endurance. However, either someone did not reduce stress or did not improve their endurance, or both.",
+        "question": "Hannah practices meditation. Is it true that she exercises regularly?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If someone studies history, they understand the past. Also, if someone learns critical thinking, they make better decisions. However, either someone did not understand the past or did not make better decisions, or both.",
+        "question": "Isaac studies history. Is it true that he learns critical thinking?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "If someone learns to code, they enhance their problem-solving skills. Also, if someone collaborates effectively, they succeed in teamwork. However, either someone did not enhance their problem-solving skills or did not succeed in teamwork, or both.",
+        "question": "Jack learns to code. Is it true that he collaborates effectively?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If someone practices a new language daily, they improve their fluency. Also, if someone listens to native speakers, they improve their pronunciation. However, either someone did not improve their fluency or did not improve their pronunciation, or both.",
+        "question": "Karen practices a new language daily. Is it true that she listens to native speakers?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "If someone maintains a healthy diet, they boost their immune system. Also, if someone takes vitamins, they reduce their risk of deficiencies. However, either someone did not boost their immune system or did not reduce their risk of deficiencies, or both.",
+        "question": "Leo maintains a healthy diet. Is it true that he takes vitamins?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If someone practices playing chess, they develop strategic thinking. Also, if someone studies famous games, they improve their tactics. However, either someone did not develop strategic thinking or did not improve their tactics, or both.",
+        "question": "Mia practices playing chess. Is it true that she studies famous games?",
+        "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "If someone follows a consistent sleep schedule, they wake up refreshed. Also, if someone avoids caffeine before bed, they sleep better. However, either someone did not wake up refreshed or did not sleep better, or both.",
+        "question": "Nina follows a consistent sleep schedule. Is it true that she avoids caffeine before bed?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If someone practices patience, they handle stress better. Also, if someone meditates regularly, they stay calm in difficult situations. However, either someone did not handle stress better or did not stay calm, or both.",
+        "question": "Oliver practices patience. Is it true that he meditates regularly?",
+        "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "If a student studies consistently, they pass the exam. Also, if a student attends all lectures, they grasp the concepts. However, a certain student either did not pass the exam or did not grasp the concepts, or both.",
+        "question": "Jordan studied consistently. Is it true that Jordan attended all lectures?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a student studies consistently, they pass the exam. Also, if a student attends all lectures, they grasp the concepts. However, a certain student either did not pass the exam or did not grasp the concepts, or both.",
+        "question": "Jordan attended all lectures. Is it true that Jordan studied consistently?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "If an employee completes their assignments on time, they receive a bonus. Also, if an employee collaborates with their team, they contribute to success. However, someone either did not receive a bonus or did not contribute to success, or both.",
+        "question": "Alex completed their assignments on time. Is it true that Alex collaborated with their team?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If an employee completes their assignments on time, they receive a bonus. Also, if an employee collaborates with their team, they contribute to success. However, someone either did not receive a bonus or did not contribute to success, or both.",
+        "question": "Alex collaborated with their team. Is it true that Alex completed their assignments on time?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "If a driver follows traffic rules, they avoid accidents. Also, if a driver maintains their vehicle, they ensure safety. However, a certain driver either did not avoid accidents or did not ensure safety, or both.",
+        "question": "Chris followed traffic rules. Is it true that Chris maintained their vehicle?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "If a driver follows traffic rules, they avoid accidents. Also, if a driver maintains their vehicle, they ensure safety. However, a certain driver either did not avoid accidents or did not ensure safety, or both.",
+        "question": "Chris maintained their vehicle. Is it true that Chris followed traffic rules?",
+        "answer": "no"
+    },
+    {
+        "id": 22,
+        "context": "If a chef uses fresh ingredients, the dish tastes delicious. Also, if a chef follows the recipe, the dish is well-prepared. However, a certain chef either did not make a delicious dish or did not prepare it well, or both.",
+        "question": "Taylor used fresh ingredients. Is it true that Taylor followed the recipe?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "If a chef uses fresh ingredients, the dish tastes delicious. Also, if a chef follows the recipe, the dish is well-prepared. However, a certain chef either did not make a delicious dish or did not prepare it well, or both.",
+        "question": "Taylor followed the recipe. Is it true that Taylor used fresh ingredients?",
+        "answer": "no"
+    },
+    {
+        "id": 24,
+        "context": "If a researcher collects sufficient data, they produce reliable results. Also, if a researcher analyzes data correctly, they draw accurate conclusions. However, a certain researcher either did not produce reliable results or did not draw accurate conclusions, or both.",
+        "question": "Morgan collected sufficient data. Is it true that Morgan analyzed data correctly?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "If a researcher collects sufficient data, they produce reliable results. Also, if a researcher analyzes data correctly, they draw accurate conclusions. However, a certain researcher either did not produce reliable results or did not draw accurate conclusions, or both.",
+        "question": "Morgan analyzed data correctly. Is it true that Morgan collected sufficient data?",
+        "answer": "no"
+    },
+    {
+        "id": 26,
+        "context": "If someone practices yoga, they improve flexibility. Also, if someone eats a balanced diet, they maintain energy levels. However, either someone did not improve flexibility or did not maintain energy levels, or both.",
+        "question": "Olivia practices yoga. Is it true that she eats a balanced diet?",
+        "answer": "yes"
+    },
+    {
+        "id": 27,
+        "context": "If someone practices yoga, they improve flexibility. Also, if someone eats a balanced diet, they maintain energy levels. However, either someone did not improve flexibility or did not maintain energy levels, or both.",
+        "question": "Olivia eats a balanced diet. Is it true that she practices yoga?",
+        "answer": "no"
+    },
+    {
+        "id": 28,
+        "context": "If someone learns a musical instrument, they enhance creativity. Also, if someone participates in sports, they improve teamwork skills. However, either someone did not enhance creativity or did not improve teamwork skills, or both.",
+        "question": "Liam learns a musical instrument. Is it true that he participates in sports?",
+        "answer": "yes"
+    },
+    {
+        "id": 29,
+        "context": "If someone learns a musical instrument, they enhance creativity. Also, if someone participates in sports, they improve teamwork skills. However, either someone did not enhance creativity or did not improve teamwork skills, or both.",
+        "question": "Liam participates in sports. Is it true that he learns a musical instrument?",
+        "answer": "no"
+    },
+    {
+        "id": 30,
+        "context": "If someone volunteers regularly, they gain experience. Also, if someone attends workshops, they acquire new skills. However, either someone did not gain experience or did not acquire new skills, or both.",
+        "question": "Sophia volunteers regularly. Is it true that she attends workshops?",
+        "answer": "yes"
+    },
+    {
+        "id": 31,
+        "context": "If someone volunteers regularly, they gain experience. Also, if someone attends workshops, they acquire new skills. However, either someone did not gain experience or did not acquire new skills, or both.",
+        "question": "Sophia attends workshops. Is it true that she volunteers regularly?",
+        "answer": "no"
+    },
+    {
+        "id": 32,
+        "context": "If someone practices mindfulness, they reduce anxiety. Also, if someone exercises regularly, they improve health. However, either someone did not reduce anxiety or did not improve health, or both.",
+        "question": "Ethan practices mindfulness. Is it true that he exercises regularly?",
+        "answer": "yes"
+    },
+    {
+        "id": 33,
+        "context": "If someone practices mindfulness, they reduce anxiety. Also, if someone exercises regularly, they improve health. However, either someone did not reduce anxiety or did not improve health, or both.",
+        "question": "Ethan exercises regularly. Is it true that he practices mindfulness?",
+        "answer": "no"
+    },
+    {
+        "id": 34,
+        "context": "If someone reads daily, they enhance vocabulary. Also, if someone writes often, they improve communication skills. However, either someone did not enhance vocabulary or did not improve communication skills, or both.",
+        "question": "Ava reads daily. Is it true that she writes often?",
+        "answer": "yes"
+    },
+    {
+        "id": 35,
+        "context": "If someone reads daily, they enhance vocabulary. Also, if someone writes often, they improve communication skills. However, either someone did not enhance vocabulary or did not improve communication skills, or both.",
+        "question": "Ava writes often. Is it true that she reads daily?",
+        "answer": "no"
+    },
+    {
+        "id": 36,
+        "context": "If someone travels frequently, they gain cultural insights. Also, if someone learns new languages, they broaden perspectives. However, either someone did not gain cultural insights or did not broaden perspectives, or both.",
+        "question": "Noah travels frequently. Is it true that he learns new languages?",
+        "answer": "yes"
+    },
+    {
+        "id": 37,
+        "context": "If someone travels frequently, they gain cultural insights. Also, if someone learns new languages, they broaden perspectives. However, either someone did not gain cultural insights or did not broaden perspectives, or both.",
+        "question": "Noah learns new languages. Is it true that he travels frequently?",
+        "answer": "no"
+    },
+    {
+        "id": 38,
+        "context": "If someone cooks at home, they eat healthier. Also, if someone plans meals, they save money. However, either someone did not eat healthier or did not save money, or both.",
+        "question": "Mia cooks at home. Is it true that she plans meals?",
+        "answer": "yes"
+    },
+    {
+        "id": 39,
+        "context": "If someone cooks at home, they eat healthier. Also, if someone plans meals, they save money. However, either someone did not eat healthier or did not save money, or both.",
+        "question": "Mia plans meals. Is it true that she cooks at home?",
+        "answer": "no"
+    },
+    {
+        "id": 40,
+        "context": "If someone meditates daily, they improve focus. Also, if someone practices gratitude, they increase happiness. However, either someone did not improve focus or did not increase happiness, or both.",
+        "question": "Lucas meditates daily. Is it true that he practices gratitude?",
+        "answer": "yes"
+    },
+    {
+        "id": 41,
+        "context": "If someone meditates daily, they improve focus. Also, if someone practices gratitude, they increase happiness. However, either someone did not improve focus or did not increase happiness, or both.",
+        "question": "Lucas practices gratitude. Is it true that he meditates daily?",
+        "answer": "no"
+    },
+    {
+        "id": 42,
+        "context": "If someone studies art, they develop creativity. Also, if someone explores nature, they find inspiration. However, either someone did not develop creativity or did not find inspiration, or both.",
+        "question": "Ella studies art. Is it true that she explores nature?",
+        "answer": "yes"
+    },
+    {
+        "id": 43,
+        "context": "If someone studies art, they develop creativity. Also, if someone explores nature, they find inspiration. However, either someone did not develop creativity or did not find inspiration, or both.",
+        "question": "Ella explores nature. Is it true that she studies art?",
+        "answer": "no"
+    },
+    {
+        "id": 44,
+        "context": "If someone practices coding, they solve problems efficiently. Also, if someone collaborates on projects, they gain teamwork experience. However, either someone did not solve problems efficiently or did not gain teamwork experience, or both.",
+        "question": "James practices coding. Is it true that he collaborates on projects?",
+        "answer": "yes"
+    },
+    {
+        "id": 45,
+        "context": "If someone practices coding, they solve problems efficiently. Also, if someone collaborates on projects, they gain teamwork experience. However, either someone did not solve problems efficiently or did not gain teamwork experience, or both.",
+        "question": "James collaborates on projects. Is it true that he practices coding?",
+        "answer": "no"
+    },
+    {
+        "id": 46,
+        "context": "If someone practices photography, they capture beautiful moments. Also, if someone travels often, they explore new places. However, either someone did not capture beautiful moments or did not explore new places, or both.",
+        "question": "Zoe practices photography. Is it true that she travels often?",
+        "answer": "yes"
+    },
+    {
+        "id": 47,
+        "context": "If someone practices photography, they capture beautiful moments. Also, if someone travels often, they explore new places. However, either someone did not capture beautiful moments or did not explore new places, or both.",
+        "question": "Zoe travels often. Is it true that she practices photography?",
+        "answer": "no"
+    },
+    {
+        "id": 48,
+        "context": "If someone learns to cook, they enjoy homemade meals. Also, if someone grows their own vegetables, they eat fresh produce. However, either someone did not enjoy homemade meals or did not eat fresh produce, or both.",
+        "question": "Henry learns to cook. Is it true that he grows his own vegetables?",
+        "answer": "yes"
+    },
+    {
+        "id": 49,
+        "context": "If someone learns to cook, they enjoy homemade meals. Also, if someone grows their own vegetables, they eat fresh produce. However, either someone did not enjoy homemade meals or did not eat fresh produce, or both.",
+        "question": "Henry grows his own vegetables. Is it true that he learns to cook?",
+        "answer": "no"
+    },
+    {
+        "id": 50,
+        "context": "If someone practices painting, they express creativity. Also, if someone visits art galleries, they gain inspiration. However, either someone did not express creativity or did not gain inspiration, or both.",
+        "question": "Lily practices painting. Is it true that she visits art galleries?",
+        "answer": "yes"
+    },
+    {
+        "id": 51,
+        "context": "If someone practices painting, they express creativity. Also, if someone visits art galleries, they gain inspiration. However, either someone did not express creativity or did not gain inspiration, or both.",
+        "question": "Lily visits art galleries. Is it true that she practices painting?",
+        "answer": "no"
+    },
+    {
+        "id": 52,
+        "context": "If someone plays chess, they improve strategic thinking. Also, if someone reads books, they expand knowledge. However, either someone did not improve strategic thinking or did not expand knowledge, or both.",
+        "question": "Mason plays chess. Is it true that he reads books?",
+        "answer": "yes"
+    },
+    {
+        "id": 53,
+        "context": "If someone plays chess, they improve strategic thinking. Also, if someone reads books, they expand knowledge. However, either someone did not improve strategic thinking or did not expand knowledge, or both.",
+        "question": "Mason reads books. Is it true that he plays chess?",
+        "answer": "no"
+    },
+    {
+        "id": 54,
+        "context": "If someone practices singing, they enhance vocal skills. Also, if someone listens to music, they appreciate different genres. However, either someone did not enhance vocal skills or did not appreciate different genres, or both.",
+        "question": "Ella practices singing. Is it true that she listens to music?",
+        "answer": "yes"
+    },
+    {
+        "id": 55,
+        "context": "If someone practices singing, they enhance vocal skills. Also, if someone listens to music, they appreciate different genres. However, either someone did not enhance vocal skills or did not appreciate different genres, or both.",
+        "question": "Ella listens to music. Is it true that she practices singing?",
+        "answer": "no"
+    },
+    {
+        "id": 56,
+        "context": "If someone practices gardening, they grow beautiful plants. Also, if someone reads gardening books, they learn new techniques. However, either someone did not grow beautiful plants or did not learn new techniques, or both.",
+        "question": "Oliver practices gardening. Is it true that he reads gardening books?",
+        "answer": "yes"
+    },
+    {
+        "id": 57,
+        "context": "If someone practices gardening, they grow beautiful plants. Also, if someone reads gardening books, they learn new techniques. However, either someone did not grow beautiful plants or did not learn new techniques, or both.",
+        "question": "Oliver reads gardening books. Is it true that he practices gardening?",
+        "answer": "no"
+    },
+    {
+        "id": 58,
+        "context": "If someone practices swimming, they improve endurance. Also, if someone eats healthy, they boost energy. However, either someone did not improve endurance or did not boost energy, or both.",
+        "question": "Amelia practices swimming. Is it true that she eats healthy?",
+        "answer": "yes"
+    },
+    {
+        "id": 59,
+        "context": "If someone practices swimming, they improve endurance. Also, if someone eats healthy, they boost energy. However, either someone did not improve endurance or did not boost energy, or both.",
+        "question": "Amelia eats healthy. Is it true that she practices swimming?",
+        "answer": "no"
+    },
+    {
+        "id": 60,
+        "context": "If someone practices drawing, they enhance artistic skills. Also, if someone visits museums, they appreciate art history. However, either someone did not enhance artistic skills or did not appreciate art history, or both.",
+        "question": "Lucas practices drawing. Is it true that he visits museums?",
+        "answer": "yes"
+    },
+    {
+        "id": 61,
+        "context": "If someone practices drawing, they enhance artistic skills. Also, if someone visits museums, they appreciate art history. However, either someone did not enhance artistic skills or did not appreciate art history, or both.",
+        "question": "Lucas visits museums. Is it true that he practices drawing?",
+        "answer": "no"
+    },
+    {
+        "id": 62,
+        "context": "If someone practices writing, they improve storytelling. Also, if someone reads novels, they understand narrative structures. However, either someone did not improve storytelling or did not understand narrative structures, or both.",
+        "question": "Sophia practices writing. Is it true that she reads novels?",
+        "answer": "yes"
+    },
+    {
+        "id": 63,
+        "context": "If someone practices writing, they improve storytelling. Also, if someone reads novels, they understand narrative structures. However, either someone did not improve storytelling or did not understand narrative structures, or both.",
+        "question": "Sophia reads novels. Is it true that she practices writing?",
+        "answer": "no"
+    },
+    {
+        "id": 64,
+        "context": "If someone practices hiking, they enjoy nature. Also, if someone takes photographs, they capture memories. However, either someone did not enjoy nature or did not capture memories, or both.",
+        "question": "Ethan practices hiking. Is it true that he takes photographs?",
+        "answer": "yes"
+    },
+    {
+        "id": 65,
+        "context": "If someone practices hiking, they enjoy nature. Also, if someone takes photographs, they capture memories. However, either someone did not enjoy nature or did not capture memories, or both.",
+        "question": "Ethan takes photographs. Is it true that he practices hiking?",
+        "answer": "no"
+    },
+    {
+        "id": 66,
+        "context": "If someone practices yoga, they improve balance. Also, if someone meditates, they find peace. However, either someone did not improve balance or did not find peace, or both.",
+        "question": "Ava practices yoga. Is it true that she meditates?",
+        "answer": "yes"
+    },
+    {
+        "id": 67,
+        "context": "If someone practices yoga, they improve balance. Also, if someone meditates, they find peace. However, either someone did not improve balance or did not find peace, or both.",
+        "question": "Ava meditates. Is it true that she practices yoga?",
+        "answer": "no"
+    },
+    {
+        "id": 68,
+        "context": "If someone practices coding, they develop logical thinking. Also, if someone solves puzzles, they enhance problem-solving skills. However, either someone did not develop logical thinking or did not enhance problem-solving skills, or both.",
+        "question": "Liam practices coding. Is it true that he solves puzzles?",
+        "answer": "yes"
+    },
+    {
+        "id": 69,
+        "context": "If someone practices coding, they develop logical thinking. Also, if someone solves puzzles, they enhance problem-solving skills. However, either someone did not develop logical thinking or did not enhance problem-solving skills, or both.",
+        "question": "Liam solves puzzles. Is it true that he practices coding?",
+        "answer": "no"
+    },
+    {
+        "id": 70,
+        "context": "If someone practices dancing, they improve coordination. Also, if someone listens to music, they enjoy rhythm. However, either someone did not improve coordination or did not enjoy rhythm, or both.",
+        "question": "Mia practices dancing. Is it true that she listens to music?",
+        "answer": "yes"
+    },
+    {
+        "id": 71,
+        "context": "If someone practices dancing, they improve coordination. Also, if someone listens to music, they enjoy rhythm. However, either someone did not improve coordination or did not enjoy rhythm, or both.",
+        "question": "Mia listens to music. Is it true that she practices dancing?",
+        "answer": "no"
+    },
+    {
+        "id": 72,
+        "context": "If someone practices meditation, they find inner peace. Also, if someone reads philosophy, they gain wisdom. However, either someone did not find inner peace or did not gain wisdom, or both.",
+        "question": "Noah practices meditation. Is it true that he reads philosophy?",
+        "answer": "yes"
+    },
+    {
+        "id": 73,
+        "context": "If someone practices meditation, they find inner peace. Also, if someone reads philosophy, they gain wisdom. However, either someone did not find inner peace or did not gain wisdom, or both.",
+        "question": "Noah reads philosophy. Is it true that he practices meditation?",
+        "answer": "no"
+    },
+    {
+        "id": 74,
+        "context": "If someone practices public speaking, they gain confidence. Also, if someone joins debate clubs, they improve argumentation skills. However, either someone did not gain confidence or did not improve argumentation skills, or both.",
+        "question": "Emma practices public speaking. Is it true that she joins debate clubs?",
+        "answer": "yes"
+    },
+    {
+        "id": 75,
+        "context": "If someone practices public speaking, they gain confidence. Also, if someone joins debate clubs, they improve argumentation skills. However, either someone did not gain confidence or did not improve argumentation skills, or both.",
+        "question": "Emma joins debate clubs. Is it true that she practices public speaking?",
+        "answer": "no"
+    },
+    {
+        "id": 76,
+        "context": "If someone practices martial arts, they improve discipline. Also, if someone attends seminars, they gain knowledge. However, either someone did not improve discipline or did not gain knowledge, or both.",
+        "question": "Jack practices martial arts. Is it true that he attends seminars?",
+        "answer": "yes"
+    },
+    {
+        "id": 77,
+        "context": "If someone practices martial arts, they improve discipline. Also, if someone attends seminars, they gain knowledge. However, either someone did not improve discipline or did not gain knowledge, or both.",
+        "question": "Jack attends seminars. Is it true that he practices martial arts?",
+        "answer": "no"
+    },
+    {
+        "id": 78,
+        "context": "If someone practices photography, they capture unique perspectives. Also, if someone travels, they experience diverse cultures. However, either someone did not capture unique perspectives or did not experience diverse cultures, or both.",
+        "question": "Chloe practices photography. Is it true that she travels?",
+        "answer": "yes"
+    },
+    {
+        "id": 79,
+        "context": "If someone practices photography, they capture unique perspectives. Also, if someone travels, they experience diverse cultures. However, either someone did not capture unique perspectives or did not experience diverse cultures, or both.",
+        "question": "Chloe travels. Is it true that she practices photography?",
+        "answer": "no"
+    },
+    {
+        "id": 80,
+        "context": "If someone practices cooking, they create delicious meals. Also, if someone experiments with recipes, they discover new flavors. However, either someone did not create delicious meals or did not discover new flavors, or both.",
+        "question": "Ethan practices cooking. Is it true that he experiments with recipes?",
+        "answer": "yes"
+    },
+    {
+        "id": 81,
+        "context": "If someone practices cooking, they create delicious meals. Also, if someone experiments with recipes, they discover new flavors. However, either someone did not create delicious meals or did not discover new flavors, or both.",
+        "question": "Ethan experiments with recipes. Is it true that he practices cooking?",
+        "answer": "no"
+    },
+    {
+        "id": 82,
+        "context": "If someone practices running, they increase stamina. Also, if someone eats nutritious food, they maintain health. However, either someone did not increase stamina or did not maintain health, or both.",
+        "question": "Sophia practices running. Is it true that she eats nutritious food?",
+        "answer": "yes"
+    },
+    {
+        "id": 83,
+        "context": "If someone practices running, they increase stamina. Also, if someone eats nutritious food, they maintain health. However, either someone did not increase stamina or did not maintain health, or both.",
+        "question": "Sophia eats nutritious food. Is it true that she practices running?",
+        "answer": "no"
+    },
+    {
+        "id": 84,
+        "context": "If someone practices painting, they express emotions. Also, if someone visits exhibitions, they appreciate art. However, either someone did not express emotions or did not appreciate art, or both.",
+        "question": "Liam practices painting. Is it true that he visits exhibitions?",
+        "answer": "yes"
+    },
+    {
+        "id": 85,
+        "context": "If someone practices painting, they express emotions. Also, if someone visits exhibitions, they appreciate art. However, either someone did not express emotions or did not appreciate art, or both.",
+        "question": "Liam visits exhibitions. Is it true that he practices painting?",
+        "answer": "no"
+    },
+    {
+        "id": 86,
+        "context": "If someone practices yoga, they enhance flexibility. Also, if someone meditates, they achieve calmness. However, either someone did not enhance flexibility or did not achieve calmness, or both.",
+        "question": "Olivia practices yoga. Is it true that she meditates?",
+        "answer": "yes"
+    },
+    {
+        "id": 87,
+        "context": "If someone practices yoga, they enhance flexibility. Also, if someone meditates, they achieve calmness. However, either someone did not enhance flexibility or did not achieve calmness, or both.",
+        "question": "Olivia meditates. Is it true that she practices yoga?",
+        "answer": "no"
+    },
+    {
+        "id": 88,
+        "context": "If someone practices coding, they solve complex problems. Also, if someone collaborates on projects, they learn teamwork. However, either someone did not solve complex problems or did not learn teamwork, or both.",
+        "question": "Mason practices coding. Is it true that he collaborates on projects?",
+        "answer": "yes"
+    },
+    {
+        "id": 89,
+        "context": "If someone practices coding, they solve complex problems. Also, if someone collaborates on projects, they learn teamwork. However, either someone did not solve complex problems or did not learn teamwork, or both.",
+        "question": "Mason collaborates on projects. Is it true that he practices coding?",
+        "answer": "no"
+    },
+    {
+        "id": 90,
+        "context": "If someone practices swimming, they build endurance. Also, if someone eats balanced meals, they sustain energy. However, either someone did not build endurance or did not sustain energy, or both.",
+        "question": "Ava practices swimming. Is it true that she eats balanced meals?",
+        "answer": "yes"
+    },
+    {
+        "id": 91,
+        "context": "If someone practices swimming, they build endurance. Also, if someone eats balanced meals, they sustain energy. However, either someone did not build endurance or did not sustain energy, or both.",
+        "question": "Ava eats balanced meals. Is it true that she practices swimming?",
+        "answer": "no"
+    },
+    {
+        "id": 92,
+        "context": "If someone practices drawing, they develop creativity. Also, if someone studies art history, they gain perspective. However, either someone did not develop creativity or did not gain perspective, or both.",
+        "question": "Lucas practices drawing. Is it true that he studies art history?",
+        "answer": "yes"
+    },
+    {
+        "id": 93,
+        "context": "If someone practices drawing, they develop creativity. Also, if someone studies art history, they gain perspective. However, either someone did not develop creativity or did not gain perspective, or both.",
+        "question": "Lucas studies art history. Is it true that he practices drawing?",
+        "answer": "no"
+    },
+    {
+        "id": 94,
+        "context": "If someone practices writing, they enhance communication. Also, if someone reads literature, they understand human nature. However, either someone did not enhance communication or did not understand human nature, or both.",
+        "question": "Emma practices writing. Is it true that she reads literature?",
+        "answer": "yes"
+    },
+    {
+        "id": 95,
+        "context": "If someone practices writing, they enhance communication. Also, if someone reads literature, they understand human nature. However, either someone did not enhance communication or did not understand human nature, or both.",
+        "question": "Emma reads literature. Is it true that she practices writing?",
+        "answer": "no"
+    },
+    {
+        "id": 96,
+        "context": "If someone practices hiking, they appreciate nature. Also, if someone takes photos, they capture beauty. However, either someone did not appreciate nature or did not capture beauty, or both.",
+        "question": "Noah practices hiking. Is it true that he takes photos?",
+        "answer": "yes"
+    },
+    {
+        "id": 97,
+        "context": "If someone practices hiking, they appreciate nature. Also, if someone takes photos, they capture beauty. However, either someone did not appreciate nature or did not capture beauty, or both.",
+        "question": "Noah takes photos. Is it true that he practices hiking?",
+        "answer": "no"
+    },
+    {
+        "id": 98,
+        "context": "If someone practices meditation, they find tranquility. Also, if someone reads self-help books, they gain insights. However, either someone did not find tranquility or did not gain insights, or both.",
+        "question": "Lily practices meditation. Is it true that she reads self-help books?",
+        "answer": "yes"
+    },
+    {
+        "id": 99,
+        "context": "If someone practices meditation, they find tranquility. Also, if someone reads self-help books, they gain insights. However, either someone did not find tranquility or did not gain insights, or both.",
+        "question": "Lily reads self-help books. Is it true that she practices meditation?",
+        "answer": "no"
+    },
+    {
+        "id": 100,
+        "context": "If someone practices public speaking, they improve articulation. Also, if someone joins clubs, they expand networks. However, either someone did not improve articulation or did not expand networks, or both.",
+        "question": "James practices public speaking. Is it true that he joins clubs?",
+        "answer": "yes"
+    },
+    {
+        "id": 101,
+        "context": "If someone practices public speaking, they improve articulation. Also, if someone joins clubs, they expand networks. However, either someone did not improve articulation or did not expand networks, or both.",
+        "question": "James joins clubs. Is it true that he practices public speaking?",
+        "answer": "no"
+    }
+]

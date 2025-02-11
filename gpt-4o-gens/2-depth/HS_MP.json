@@ -1,0 +1,920 @@
+[
+        {
+            "id": 1,
+            "context": "A student knew that if they studied diligently, they would perform well on exams. Performing well on exams would improve their chances of getting a scholarship.",
+            "question": "If Alex studies diligently, will they have a better chance of getting a scholarship?",
+            "answer": "yes"
+        },
+        {
+            "id": 2,
+            "context": "A student believed that if they watched TV instead of studying, they would not gain enough knowledge. Without enough knowledge, they would struggle to pass the exams.",
+            "question": "If Jordan watches TV instead of studying, will they pass their exams?",
+            "answer": "no"
+        },
+        {
+            "id": 3,
+            "context": "An entrepreneur knew that if they networked frequently, they would meet potential investors. Meeting investors would increase the chances of securing funding for their startup.",
+            "question": "If Mia networks frequently, will she have a higher chance of securing funding?",
+            "answer": "yes"
+        },
+        {
+            "id": 4,
+            "context": "An entrepreneur believed that if they avoided networking, they would miss opportunities to meet investors. Without meeting investors, their chances of securing funding would decrease.",
+            "question": "If Ryan avoids networking, will they secure funding?",
+            "answer": "no"
+        },
+        {
+            "id": 5,
+            "context": "A traveler knew that if they booked flights early, they would get cheaper tickets. Cheaper tickets would allow them to visit more destinations.",
+            "question": "If Emily books her flights early, will she be able to visit more destinations?",
+            "answer": "yes"
+        },
+        {
+            "id": 6,
+            "context": "A traveler believed that if they waited until the last minute to book flights, the prices would be too high. Expensive tickets would limit their ability to travel to multiple destinations.",
+            "question": "If Daniel waits until the last minute to book flights, will he be able to visit more destinations?",
+            "answer": "no"
+        },
+        {
+            "id": 7,
+            "context": "A scientist knew that if they conducted thorough experiments, they would gather strong evidence. Strong evidence would support their new scientific theory.",
+            "question": "If Sophia conducts thorough experiments, will she have strong evidence for her theory?",
+            "answer": "yes"
+        },
+        {
+            "id": 8,
+            "context": "A scientist suspected that if they skipped experiments, they would lack reliable data. Without reliable data, they could not support their scientific theory.",
+            "question": "If Oliver skips experiments, will he have strong evidence for his theory?",
+            "answer": "no"
+        },
+        {
+            "id": 9,
+            "context": "A chef knew that if they used fresh ingredients, the dishes would taste better. Tastier dishes would attract more customers to their restaurant.",
+            "question": "If Liam uses fresh ingredients, will more customers come to his restaurant?",
+            "answer": "yes"
+        },
+        {
+            "id": 10,
+            "context": "A chef suspected that if they used stale ingredients, the dishes would not taste good. Bad-tasting food would drive customers away from their restaurant.",
+            "question": "If Noah uses stale ingredients, will more customers come to his restaurant?",
+            "answer": "no"
+        },
+        {
+            "id": 11,
+            "context": "An athlete knew that if they trained consistently, they would improve their endurance. Better endurance would help them win races.",
+            "question": "If Zoe trains consistently, will she have a better chance of winning races?",
+            "answer": "yes"
+        },
+        {
+            "id": 12,
+            "context": "An athlete believed that if they skipped training, their endurance would decline. Without good endurance, they would struggle to win races.",
+            "question": "If Ethan skips training, will he have a better chance of winning races?",
+            "answer": "no"
+        },
+        {
+            "id": 13,
+            "context": "A business owner knew that if they provided excellent customer service, they would build strong customer loyalty. Strong customer loyalty would increase their sales.",
+            "question": "If Ava provides excellent customer service, will her sales increase?",
+            "answer": "yes"
+        },
+        {
+            "id": 14,
+            "context": "A business owner suspected that if they ignored customer complaints, customers would lose trust. Without customer trust, their sales would decline.",
+            "question": "If William ignores customer complaints, will his sales increase?",
+            "answer": "no"
+        },
+        {
+            "id": 15,
+            "context": "A writer knew that if they wrote every day, they would become more skilled. More skill in writing would increase their chances of publishing a book.",
+            "question": "If Olivia writes every day, will she have a higher chance of publishing a book?",
+            "answer": "yes"
+        },
+        {
+            "id": 16,
+            "context": "A writer believed that if they rarely wrote, their skills would not improve. Without improved skills, they would struggle to publish a book.",
+            "question": "If Elijah rarely writes, will he have a higher chance of publishing a book?",
+            "answer": "no"
+        },
+        {
+            "id": 17,
+            "context": "A gardener knew that if they watered plants regularly, the plants would grow well. Healthy plants would produce more vegetables.",
+            "question": "If Hannah waters her plants regularly, will they produce more vegetables?",
+            "answer": "yes"
+        },
+        {
+            "id": 18,
+            "context": "A gardener believed that if they neglected to water plants, the plants would wither. Weak and dry plants would not produce many vegetables.",
+            "question": "If Jacob neglects to water his plants, will they produce more vegetables?",
+            "answer": "no"
+        },
+        {
+            "id": 19,
+            "context": "A musician knew that if they rehearsed frequently, they would perform confidently. Confident performances would earn them more recognition.",
+            "question": "If Isabella rehearses frequently, will she gain more recognition?",
+            "answer": "yes"
+        },
+        {
+            "id": 20,
+            "context": "A musician believed that if they skipped rehearsals, they would feel unprepared. Unprepared performances would hurt their chances of gaining recognition.",
+            "question": "If Lucas skips rehearsals, will he gain more recognition?",
+            "answer": "no"
+        },
+            {
+                "id": 21,
+                "context": "A car expert explained that if an engine receives regular maintenance, it will run efficiently. An efficient engine leads to better fuel economy.",
+                "question": "If Jake maintains his car's engine regularly, will it have better fuel economy?",
+                "answer": "yes"
+            },
+            {
+                "id": 22,
+                "context": "A car expert explained that if an engine receives regular maintenance, it will run efficiently. However, fuel economy also depends on driving habits.",
+                "question": "If Jake maintains his car's engine regularly, will it have better fuel economy?",
+                "answer": "no"
+            },
+            {
+                "id": 23,
+                "context": "A mentor told a young entrepreneur that if they networked with industry leaders, they would gain valuable business insights. Valuable insights would help them make better business decisions.",
+                "question": "If Mia networks with industry leaders, will she make better business decisions?",
+                "answer": "yes"
+            },
+            {
+                "id": 24,
+                "context": "A mentor told a young entrepreneur that if they networked with industry leaders, they would gain valuable business insights. However, making better business decisions also requires experience.",
+                "question": "If Mia networks with industry leaders, will she make better business decisions?",
+                "answer": "no"
+            },
+            {
+                "id": 25,
+                "context": "A scientist discovered that if a metal is heated above 500°C, it will expand. Expanded metal is easier to shape into different forms.",
+                "question": "If the scientist heats the metal above 500°C, will it be easier to shape?",
+                "answer": "yes"
+            },
+            {
+                "id": 26,
+                "context": "A scientist discovered that if a metal is heated above 500°C, it will expand. However, shaping metal also depends on its composition.",
+                "question": "If the scientist heats the metal above 500°C, will it be easier to shape?",
+                "answer": "no"
+            },
+            {
+                "id": 27,
+                "context": "A personal trainer explained that if a person exercises daily, they will build muscle strength. Increased muscle strength helps in lifting heavier weights.",
+                "question": "If Ryan exercises daily, will he be able to lift heavier weights?",
+                "answer": "yes"
+            },
+            {
+                "id": 28,
+                "context": "A personal trainer explained that if a person exercises daily, they will build muscle strength. However, lifting heavier weights also requires proper technique.",
+                "question": "If Ryan exercises daily, will he be able to lift heavier weights?",
+                "answer": "no"
+            },
+            {
+                "id": 29,
+                "context": "A researcher found that if a person reads daily, they will expand their vocabulary. A richer vocabulary improves writing skills.",
+                "question": "If Sarah reads daily, will her writing skills improve?",
+                "answer": "yes"
+            },
+            {
+                "id": 30,
+                "context": "A researcher found that if a person reads daily, they will expand their vocabulary. However, improving writing skills also requires practice in writing.",
+                "question": "If Sarah reads daily, will her writing skills improve?",
+                "answer": "no"
+            },
+            {
+                "id": 31,
+                "context": "A doctor explained that if a person drinks enough water, they will stay hydrated. Staying hydrated improves concentration levels.",
+                "question": "If James drinks enough water, will his concentration improve?",
+                "answer": "yes"
+            },
+            {
+                "id": 32,
+                "context": "A doctor explained that if a person drinks enough water, they will stay hydrated. However, concentration also depends on mental rest and focus.",
+                "question": "If James drinks enough water, will his concentration improve?",
+                "answer": "no"
+            },
+            {
+                "id": 33,
+                "context": "A gardener knew that if they watered their plants regularly, the roots would grow deeper. Deeper roots make plants more resistant to drought.",
+                "question": "If Lisa waters her plants regularly, will they be more resistant to drought?",
+                "answer": "yes"
+            },
+            {
+                "id": 34,
+                "context": "A gardener knew that if they watered their plants regularly, the roots would grow deeper. However, drought resistance also depends on soil quality.",
+                "question": "If Lisa waters her plants regularly, will they be more resistant to drought?",
+                "answer": "no"
+            },
+            {
+                "id": 35,
+                "context": "A financial advisor explained that if someone saves money every month, they will accumulate wealth over time. More wealth provides financial security.",
+                "question": "If Mark saves money every month, will he have financial security?",
+                "answer": "yes"
+            },
+            {
+                "id": 36,
+                "context": "A financial advisor explained that if someone saves money every month, they will accumulate wealth over time. However, financial security also depends on managing expenses wisely.",
+                "question": "If Mark saves money every month, will he have financial security?",
+                "answer": "no"
+            },
+            {
+                "id": 37,
+                "context": "A dietitian explained that if a person eats a balanced diet, they will have more energy. More energy improves physical performance.",
+                "question": "If Emily eats a balanced diet, will her physical performance improve?",
+                "answer": "yes"
+            },
+            {
+                "id": 38,
+                "context": "A dietitian explained that if a person eats a balanced diet, they will have more energy. However, physical performance also depends on regular exercise.",
+                "question": "If Emily eats a balanced diet, will her physical performance improve?",
+                "answer": "no"
+            },
+            {
+                "id": 39,
+                "context": "A physics teacher explained that if an object experiences unbalanced forces, it will accelerate. Increased acceleration leads to greater speed.",
+                "question": "If an object experiences unbalanced forces, will it move faster?",
+                "answer": "yes"
+            },
+            {
+                "id": 40,
+                "context": "A physics teacher explained that if an object experiences unbalanced forces, it will accelerate. However, air resistance might limit its speed.",
+                "question": "If an object experiences unbalanced forces, will it move faster?",
+                "answer": "no"
+            },
+            {
+                "id": 1,
+                "context": "A student knew that if they completed all their assignments on time, they would pass the course. Passing the course would allow them to graduate on time.",
+                "question": "If Jordan completes all their assignments on time, will they graduate on time?",
+                "answer": "yes"
+            },
+            {
+                "id": 2,
+                "context": "A student knew that if they completed all their assignments on time, they would pass the course. However, some additional exams were required to graduate on time.",
+                "question": "If Jordan completes all their assignments on time, will they graduate on time?",
+                "answer": "no"
+            },
+            {
+                "id": 3,
+                "context": "An athlete was told that if they followed their training plan strictly, they would improve their endurance. Better endurance would increase their chances of winning the marathon.",
+                "question": "If Alex follows their training plan strictly, will they have a better chance of winning the marathon?",
+                "answer": "yes"
+            },
+            {
+                "id": 4,
+                "context": "An athlete was told that if they followed their training plan strictly, they would improve their endurance. However, endurance alone would not be enough to win the marathon without proper pacing.",
+                "question": "If Alex follows their training plan strictly, will they have a better chance of winning the marathon?",
+                "answer": "no"
+            },
+            {
+                "id": 5,
+                "context": "A scientist discovered that if a chemical was heated to 100°C, it would dissolve in water. Dissolving in water would allow it to mix evenly with other compounds.",
+                "question": "If the scientist heats the chemical to 100°C, will it mix evenly with other compounds?",
+                "answer": "yes"
+            },
+            {
+                "id": 6,
+                "context": "A scientist discovered that if a chemical was heated to 100°C, it would dissolve in water. However, dissolving in water did not guarantee that it would mix evenly with other compounds.",
+                "question": "If the scientist heats the chemical to 100°C, will it mix evenly with other compounds?",
+                "answer": "no"
+            },
+            {
+                "id": 7,
+                "context": "A chef learned that if they used fresh ingredients, the dish would taste better. A better-tasting dish would impress the restaurant critics.",
+                "question": "If the chef uses fresh ingredients, will the restaurant critics be impressed?",
+                "answer": "yes"
+            },
+            {
+                "id": 8,
+                "context": "A chef learned that if they used fresh ingredients, the dish would taste better. However, the critics also judged presentation, so taste alone was not enough to impress them.",
+                "question": "If the chef uses fresh ingredients, will the restaurant critics be impressed?",
+                "answer": "no"
+            },
+            {
+                "id": 9,
+                "context": "A programmer understood that if they fixed all known bugs, the software would run smoothly. A smoothly running software would result in better user satisfaction.",
+                "question": "If the programmer fixes all known bugs, will users be more satisfied?",
+                "answer": "yes"
+            },
+            {
+                "id": 10,
+                "context": "A programmer understood that if they fixed all known bugs, the software would run smoothly. However, user satisfaction also depended on the software's usability and features.",
+                "question": "If the programmer fixes all known bugs, will users be more satisfied?",
+                "answer": "no"
+            },
+            {
+                "id": 11,
+                "context": "A teacher explained that if students revised daily, they would retain more information. Retaining more information would help them perform better on exams.",
+                "question": "If Emma revises daily, will she perform better on exams?",
+                "answer": "yes"
+            },
+            {
+                "id": 12,
+                "context": "A teacher explained that if students revised daily, they would retain more information. However, performing well on exams also required good time management during the test.",
+                "question": "If Emma revises daily, will she perform better on exams?",
+                "answer": "no"
+            },
+            {
+                "id": 13,
+                "context": "A company knew that if they improved customer service, more customers would return. More returning customers would lead to higher profits.",
+                "question": "If the company improves customer service, will they have higher profits?",
+                "answer": "yes"
+            },
+            {
+                "id": 14,
+                "context": "A company knew that if they improved customer service, more customers would return. However, higher profits also depended on lowering costs and increasing sales.",
+                "question": "If the company improves customer service, will they have higher profits?",
+                "answer": "no"
+            },
+            {
+                "id": 15,
+                "context": "A researcher found that if a plant received adequate sunlight, it would grow faster. Faster growth meant the plant would produce flowers sooner.",
+                "question": "If the plant receives adequate sunlight, will it produce flowers sooner?",
+                "answer": "yes"
+            },
+            {
+                "id": 16,
+                "context": "A researcher found that if a plant received adequate sunlight, it would grow faster. However, flowering also depended on temperature and soil conditions.",
+                "question": "If the plant receives adequate sunlight, will it produce flowers sooner?",
+                "answer": "no"
+            },
+            {
+                "id": 17,
+                "context": "A coach believed that if the team practiced daily, they would become more coordinated. Better coordination would help them win more games.",
+                "question": "If the team practices daily, will they win more games?",
+                "answer": "yes"
+            },
+            {
+                "id": 18,
+                "context": "A coach believed that if the team practiced daily, they would become more coordinated. However, winning games also required good strategy and individual skill.",
+                "question": "If the team practices daily, will they win more games?",
+                "answer": "no"
+            },
+            {
+                "id": 19,
+                "context": "A student knew that if they got enough sleep, they would feel more alert. Feeling more alert would help them focus better during lectures.",
+                "question": "If Alex gets enough sleep, will they focus better during lectures?",
+                "answer": "yes"
+            },
+            {
+                "id": 20,
+                "context": "A student knew that if they got enough sleep, they would feel more alert. However, focusing during lectures also depended on interest in the subject.",
+                "question": "If Alex gets enough sleep, will they focus better during lectures?",
+                "answer": "no"
+            }, 
+            {
+                "id": 1,
+                "context": "If a car has a full tank of gas, then it can drive a long distance. If a vehicle can drive a long distance, it is suitable for road trips.",
+                "question": "If Sarah's car has a full tank of gas, is it suitable for road trips?",
+                "answer": "yes"
+            },
+            {
+                "id": 2,
+                "context": "If a car has a full tank of gas, then it can drive a long distance. If a vehicle can drive a long distance, it is suitable for road trips. However, Sarah's car has an empty tank.",
+                "question": "If Sarah's car has a full tank of gas, is it suitable for road trips?",
+                "answer": "no"
+            },
+            {
+                "id": 3,
+                "context": "If a student studies hard, they will understand the material well. If they understand the material well, they will pass the exam.",
+                "question": "If Jake studies hard, will he pass the exam?",
+                "answer": "yes"
+            },
+            {
+                "id": 4,
+                "context": "If a student studies hard, they will understand the material well. If they understand the material well, they will pass the exam. However, Jake did not study hard.",
+                "question": "If Jake studies hard, will he pass the exam?",
+                "answer": "no"
+            },
+            {
+                "id": 5,
+                "context": "If a phone is charged, then it will turn on. If it turns on, then it can be used for calls.",
+                "question": "If Lisa charges her phone, can she use it for calls?",
+                "answer": "yes"
+            },
+            {
+                "id": 6,
+                "context": "If a phone is charged, then it will turn on. If it turns on, then it can be used for calls. However, Lisa's phone is not charged.",
+                "question": "If Lisa charges her phone, can she use it for calls?",
+                "answer": "no"
+            },
+            {
+                "id": 7,
+                "context": "If a book is interesting, then Tom will read it. If Tom reads it, he will recommend it to his friends.",
+                "question": "If a book is interesting, will Tom recommend it to his friends?",
+                "answer": "yes"
+            },
+            {
+                "id": 8,
+                "context": "If a book is interesting, then Tom will read it. If Tom reads it, he will recommend it to his friends. However, the book is boring.",
+                "question": "If a book is interesting, will Tom recommend it to his friends?",
+                "answer": "no"
+            },
+            {
+                "id": 9,
+                "context": "If the weather is sunny, then people will go to the beach. If people go to the beach, then the ice cream stand will have many customers.",
+                "question": "If the weather is sunny, will the ice cream stand have many customers?",
+                "answer": "yes"
+            },
+            {
+                "id": 10,
+                "context": "If the weather is sunny, then people will go to the beach. If people go to the beach, then the ice cream stand will have many customers. However, today the weather is rainy.",
+                "question": "If the weather is sunny, will the ice cream stand have many customers?",
+                "answer": "no"
+            },
+            {
+                "id": 11,
+                "context": "If a movie has great reviews, then many people will watch it. If many people watch it, then it will become a box-office success.",
+                "question": "If a movie has great reviews, will it become a box-office success?",
+                "answer": "yes"
+            },
+            {
+                "id": 12,
+                "context": "If a movie has great reviews, then many people will watch it. If many people watch it, then it will become a box-office success. However, the movie received bad reviews.",
+                "question": "If a movie has great reviews, will it become a box-office success?",
+                "answer": "no"
+            },
+            {
+                "id": 13,
+                "context": "If a bakery opens early, then morning commuters will buy bread. If morning commuters buy bread, then the bakery will make a profit.",
+                "question": "If the bakery opens early, will it make a profit?",
+                "answer": "yes"
+            },
+            {
+                "id": 14,
+                "context": "If a bakery opens early, then morning commuters will buy bread. If morning commuters buy bread, then the bakery will make a profit. However, today the bakery opened late.",
+                "question": "If the bakery opens early, will it make a profit?",
+                "answer": "no"
+            },
+            {
+                "id": 15,
+                "context": "If the road is repaired, then traffic will flow smoothly. If traffic flows smoothly, then commuters will reach work on time.",
+                "question": "If the road is repaired, will commuters reach work on time?",
+                "answer": "yes"
+            },
+            {
+                "id": 16,
+                "context": "If the road is repaired, then traffic will flow smoothly. If traffic flows smoothly, then commuters will reach work on time. However, the road has not been repaired.",
+                "question": "If the road is repaired, will commuters reach work on time?",
+                "answer": "no"
+            },
+            {
+                "id": 17,
+                "context": "If a cat is well-fed, then it will be happy. If the cat is happy, it will play with its owner.",
+                "question": "If the cat is well-fed, will it play with its owner?",
+                "answer": "yes"
+            },
+            {
+                "id": 18,
+                "context": "If a cat is well-fed, then it will be happy. If the cat is happy, it will play with its owner. However, the cat has not been fed today.",
+                "question": "If the cat is well-fed, will it play with its owner?",
+                "answer": "no"
+            },
+            {
+                "id": 19,
+                "context": "If a plant gets proper fertilizer, then it will grow strong roots. If it has strong roots, then it will produce more fruit.",
+                "question": "If Maria uses proper fertilizer, will her plant produce more fruit?",
+                "answer": "yes"
+            },
+            {
+                "id": 20,
+                "context": "If a plant gets proper fertilizer, then it will grow strong roots. If it has strong roots, then it will produce more fruit. However, Maria forgot to add fertilizer.",
+                "question": "If Maria uses proper fertilizer, will her plant produce more fruit?",
+                "answer": "no"
+            },
+            {
+                "id": 21,
+                "context": "If a computer has updated software, then it will run faster. If it runs faster, then work will be completed more efficiently.",
+                "question": "If David updates his computer's software, will he complete work more efficiently?",
+                "answer": "yes"
+            },
+            {
+                "id": 22,
+                "context": "If a computer has updated software, then it will run faster. If it runs faster, then work will be completed more efficiently. However, David's software is outdated.",
+                "question": "If David updates his computer's software, will he complete work more efficiently?",
+                "answer": "no"
+            },
+            {
+                "id": 23,
+                "context": "If a guitar is properly tuned, then it will sound harmonious. If it sounds harmonious, then the performance will be successful.",
+                "question": "If Emma tunes her guitar properly, will her performance be successful?",
+                "answer": "yes"
+            },
+            {
+                "id": 24,
+                "context": "If a guitar is properly tuned, then it will sound harmonious. If it sounds harmonious, then the performance will be successful. However, Emma's guitar is out of tune.",
+                "question": "If Emma tunes her guitar properly, will her performance be successful?",
+                "answer": "no"
+            },
+            {
+                "id": 25,
+                "context": "If a recipe is followed exactly, then the dish will taste good. If the dish tastes good, then dinner guests will be satisfied.",
+                "question": "If Michael follows the recipe exactly, will his dinner guests be satisfied?",
+                "answer": "yes"
+            },
+            {
+                "id": 26,
+                "context": "If a student attends all lectures, they will understand the material. If they understand the material, they will pass the exam.",
+                "question": "If Emma attends all lectures, will she pass the exam?",
+                "answer": "yes"
+            },
+            {
+                "id": 27,
+                "context": "If a student attends all lectures, they will understand the material. If they understand the material, they will pass the exam. However, Emma missed several lectures.",
+                "question": "If Emma attends all lectures, will she pass the exam?",
+                "answer": "no"
+            },
+            {
+                "id": 28,
+                "context": "If a car is serviced regularly, it will run smoothly. If it runs smoothly, it will last longer.",
+                "question": "If John's car is serviced regularly, will it last longer?",
+                "answer": "yes"
+            },
+            {
+                "id": 29,
+                "context": "If a car is serviced regularly, it will run smoothly. If it runs smoothly, it will last longer. However, John's car has not been serviced in a while.",
+                "question": "If John's car is serviced regularly, will it last longer?",
+                "answer": "no"
+            },
+            {
+                "id": 30,
+                "context": "If a person exercises regularly, they will become fit. If they are fit, they will have more energy.",
+                "question": "If Sarah exercises regularly, will she have more energy?",
+                "answer": "yes"
+            },
+            {
+                "id": 31,
+                "context": "If a person exercises regularly, they will become fit. If they are fit, they will have more energy. However, Sarah has not been exercising.",
+                "question": "If Sarah exercises regularly, will she have more energy?",
+                "answer": "no"
+            },
+            {
+                "id": 32,
+                "context": "If a musician practices daily, they will improve their skills. If they improve their skills, they will perform better.",
+                "question": "If Tom practices daily, will he perform better?",
+                "answer": "yes"
+            },
+            {
+                "id": 33,
+                "context": "If a musician practices daily, they will improve their skills. If they improve their skills, they will perform better. However, Tom has not been practicing.",
+                "question": "If Tom practices daily, will he perform better?",
+                "answer": "no"
+            },
+            {
+                "id": 34,
+                "context": "If a plant is watered regularly, it will grow healthy. If it grows healthy, it will produce more flowers.",
+                "question": "If Lisa waters her plant regularly, will it produce more flowers?",
+                "answer": "yes"
+            },
+            {
+                "id": 35,
+                "context": "If a plant is watered regularly, it will grow healthy. If it grows healthy, it will produce more flowers. However, Lisa forgot to water her plant.",
+                "question": "If Lisa waters her plant regularly, will it produce more flowers?",
+                "answer": "no"
+            },
+            {
+                "id": 36,
+                "context": "If a person eats a balanced diet, they will be healthier. If they are healthier, they will live longer.",
+                "question": "If Mark eats a balanced diet, will he live longer?",
+                "answer": "yes"
+            },
+            {
+                "id": 37,
+                "context": "If a person eats a balanced diet, they will be healthier. If they are healthier, they will live longer. However, Mark's diet is not balanced.",
+                "question": "If Mark eats a balanced diet, will he live longer?",
+                "answer": "no"
+            },
+            {
+                "id": 38,
+                "context": "If a student studies hard, they will get good grades. If they get good grades, they will get a scholarship.",
+                "question": "If Alex studies hard, will he get a scholarship?",
+                "answer": "yes"
+            },
+            {
+                "id": 39,
+                "context": "If a student studies hard, they will get good grades. If they get good grades, they will get a scholarship. However, Alex has not been studying hard.",
+                "question": "If Alex studies hard, will he get a scholarship?",
+                "answer": "no"
+            },
+            {
+                "id": 40,
+                "context": "If a person saves money, they will have financial security. If they have financial security, they will be less stressed.",
+                "question": "If Emma saves money, will she be less stressed?",
+                "answer": "yes"
+            },
+            {
+                "id": 41,
+                "context": "If a person saves money, they will have financial security. If they have financial security, they will be less stressed. However, Emma is not saving money.",
+                "question": "If Emma saves money, will she be less stressed?",
+                "answer": "no"
+            },
+            {
+                "id": 42,
+                "context": "If a writer writes daily, they will improve their writing skills. If they improve their writing skills, they will publish a book.",
+                "question": "If Olivia writes daily, will she publish a book?",
+                "answer": "yes"
+            },
+            {
+                "id": 43,
+                "context": "If a writer writes daily, they will improve their writing skills. If they improve their writing skills, they will publish a book. However, Olivia is not writing daily.",
+                "question": "If Olivia writes daily, will she publish a book?",
+                "answer": "no"
+            },
+            {
+                "id": 44,
+                "context": "If a chef uses fresh ingredients, the dish will taste better. If the dish tastes better, more customers will come.",
+                "question": "If Liam uses fresh ingredients, will more customers come?",
+                "answer": "yes"
+            },
+            {
+                "id": 45,
+                "context": "If a chef uses fresh ingredients, the dish will taste better. If the dish tastes better, more customers will come. However, Liam used stale ingredients.",
+                "question": "If Liam uses fresh ingredients, will more customers come?",
+                "answer": "no"
+            },
+            {
+                "id": 46,
+                "context": "If a teacher explains concepts clearly, students will understand better. If students understand better, they will score higher on tests.",
+                "question": "If Mr. Smith explains concepts clearly, will his students score higher on tests?",
+                "answer": "yes"
+            },
+            {
+                "id": 47,
+                "context": "If a teacher explains concepts clearly, students will understand better. If students understand better, they will score higher on tests. However, Mr. Smith's explanations were unclear.",
+                "question": "If Mr. Smith explains concepts clearly, will his students score higher on tests?",
+                "answer": "no"
+            },
+            {
+                "id": 48,
+                "context": "If a business invests in marketing, it will reach more customers. If it reaches more customers, sales will increase.",
+                "question": "If the company invests in marketing, will sales increase?",
+                "answer": "yes"
+            },
+            {
+                "id": 49,
+                "context": "If a business invests in marketing, it will reach more customers. If it reaches more customers, sales will increase. However, the company did not invest in marketing.",
+                "question": "If the company invests in marketing, will sales increase?",
+                "answer": "no"
+            },
+            {
+                "id": 50,
+                "context": "If a person reads daily, they will expand their vocabulary. If they expand their vocabulary, their communication skills will improve.",
+                "question": "If Sarah reads daily, will her communication skills improve?",
+                "answer": "yes"
+            },
+            {
+                "id": 51,
+                "context": "If a person reads daily, they will expand their vocabulary. If they expand their vocabulary, their communication skills will improve. However, Sarah is not reading daily.",
+                "question": "If Sarah reads daily, will her communication skills improve?",
+                "answer": "no"
+            },
+            {
+                "id": 52,
+                "context": "If a gardener uses quality soil, plants will grow stronger. If plants grow stronger, they will yield more produce.",
+                "question": "If Jacob uses quality soil, will his plants yield more produce?",
+                "answer": "yes"
+            },
+            {
+                "id": 53,
+                "context": "If a gardener uses quality soil, plants will grow stronger. If plants grow stronger, they will yield more produce. However, Jacob used poor quality soil.",
+                "question": "If Jacob uses quality soil, will his plants yield more produce?",
+                "answer": "no"
+            },
+            {
+                "id": 54,
+                "context": "If a musician tunes their instrument, it will sound better. If it sounds better, the performance will be more enjoyable.",
+                "question": "If Emma tunes her instrument, will her performance be more enjoyable?",
+                "answer": "yes"
+            },
+            {
+                "id": 55,
+                "context": "If a musician tunes their instrument, it will sound better. If it sounds better, the performance will be more enjoyable. However, Emma's instrument is out of tune.",
+                "question": "If Emma tunes her instrument, will her performance be more enjoyable?",
+                "answer": "no"
+            },
+            {
+                "id": 56,
+                "context": "If a person plans their day, they will be more productive. If they are more productive, they will achieve their goals.",
+                "question": "If Alex plans his day, will he achieve his goals?",
+                "answer": "yes"
+            },
+            {
+                "id": 57,
+                "context": "If a person plans their day, they will be more productive. If they are more productive, they will achieve their goals. However, Alex did not plan his day.",
+                "question": "If Alex plans his day, will he achieve his goals?",
+                "answer": "no"
+            },
+            {
+                "id": 58,
+                "context": "If a student asks questions, they will clarify their doubts. If they clarify their doubts, they will understand the subject better.",
+                "question": "If Emma asks questions, will she understand the subject better?",
+                "answer": "yes"
+            },
+            {
+                "id": 59,
+                "context": "If a student asks questions, they will clarify their doubts. If they clarify their doubts, they will understand the subject better. However, Emma did not ask any questions.",
+                "question": "If Emma asks questions, will she understand the subject better?",
+                "answer": "no"
+            },
+            {
+                "id": 60,
+                "context": "If a person drinks enough water, they will stay hydrated. If they stay hydrated, they will feel more energetic.",
+                "question": "If James drinks enough water, will he feel more energetic?",
+                "answer": "yes"
+            },
+            {
+                "id": 61,
+                "context": "If a person drinks enough water, they will stay hydrated. If they stay hydrated, they will feel more energetic. However, James is not drinking enough water.",
+                "question": "If James drinks enough water, will he feel more energetic?",
+                "answer": "no"
+            },
+            {
+                "id": 62,
+                "context": "If a person gets enough sleep, they will be more alert. If they are more alert, they will perform better at work.",
+                "question": "If Zoe gets enough sleep, will she perform better at work?",
+                "answer": "yes"
+            },
+            {
+                "id": 63,
+                "context": "If a person gets enough sleep, they will be more alert. If they are more alert, they will perform better at work. However, Zoe is not getting enough sleep.",
+                "question": "If Zoe gets enough sleep, will she perform better at work?",
+                "answer": "no"
+            },
+            {
+                "id": 64,
+                "context": "If a person practices meditation, they will reduce stress. If they reduce stress, they will improve their mental health.",
+                "question": "If Mia practices meditation, will she improve her mental health?",
+                "answer": "yes"
+            },
+            {
+                "id": 65,
+                "context": "If a person practices meditation, they will reduce stress. If they reduce stress, they will improve their mental health. However, Mia is not practicing meditation.",
+                "question": "If Mia practices meditation, will she improve her mental health?",
+                "answer": "no"
+            },
+            {
+                "id": 66,
+                "context": "If a person practices yoga, they will increase their flexibility. If they increase their flexibility, they will reduce the risk of injury.",
+                "question": "If Lily practices yoga, will she reduce her risk of injury?",
+                "answer": "yes"
+            },
+            {
+                "id": 67,
+                "context": "If a person practices yoga, they will increase their flexibility. If they increase their flexibility, they will reduce the risk of injury. However, Lily is not practicing yoga.",
+                "question": "If Lily practices yoga, will she reduce her risk of injury?",
+                "answer": "no"
+            },
+            {
+                "id": 68,
+                "context": "If a person learns a new language, they will improve their cognitive skills. If they improve their cognitive skills, they will perform better in problem-solving tasks.",
+                "question": "If John learns a new language, will he perform better in problem-solving tasks?",
+                "answer": "yes"
+            },
+            {
+                "id": 69,
+                "context": "If a person learns a new language, they will improve their cognitive skills. If they improve their cognitive skills, they will perform better in problem-solving tasks. However, John is not learning a new language.",
+                "question": "If John learns a new language, will he perform better in problem-solving tasks?",
+                "answer": "no"
+            },
+            {
+                "id": 70,
+                "context": "If a person volunteers regularly, they will feel more fulfilled. If they feel more fulfilled, they will have a more positive outlook on life.",
+                "question": "If Emma volunteers regularly, will she have a more positive outlook on life?",
+                "answer": "yes"
+            },
+            {
+                "id": 71,
+                "context": "If a person volunteers regularly, they will feel more fulfilled. If they feel more fulfilled, they will have a more positive outlook on life. However, Emma is not volunteering regularly.",
+                "question": "If Emma volunteers regularly, will she have a more positive outlook on life?",
+                "answer": "no"
+            },
+            {
+                "id": 72,
+                "context": "If a person practices public speaking, they will become more confident. If they become more confident, they will excel in presentations.",
+                "question": "If Alex practices public speaking, will he excel in presentations?",
+                "answer": "yes"
+            },
+            {
+                "id": 73,
+                "context": "If a person practices public speaking, they will become more confident. If they become more confident, they will excel in presentations. However, Alex is not practicing public speaking.",
+                "question": "If Alex practices public speaking, will he excel in presentations?",
+                "answer": "no"
+            },
+            {
+                "id": 74,
+                "context": "If a person eats breakfast daily, they will have more energy in the morning. If they have more energy in the morning, they will be more productive.",
+                "question": "If Mia eats breakfast daily, will she be more productive?",
+                "answer": "yes"
+            },
+            {
+                "id": 75,
+                "context": "If a person eats breakfast daily, they will have more energy in the morning. If they have more energy in the morning, they will be more productive. However, Mia is not eating breakfast daily.",
+                "question": "If Mia eats breakfast daily, will she be more productive?",
+                "answer": "no"
+            },
+            {
+                "id": 76,
+                "context": "If a person takes regular breaks, they will reduce stress. If they reduce stress, they will improve their mental health.",
+                "question": "If Noah takes regular breaks, will he improve his mental health?",
+                "answer": "yes"
+            },
+            {
+                "id": 77,
+                "context": "If a person takes regular breaks, they will reduce stress. If they reduce stress, they will improve their mental health. However, Noah is not taking regular breaks.",
+                "question": "If Noah takes regular breaks, will he improve his mental health?",
+                "answer": "no"
+            },
+            {
+                "id": 78,
+                "context": "If a person practices time management, they will complete tasks efficiently. If they complete tasks efficiently, they will have more free time.",
+                "question": "If Olivia practices time management, will she have more free time?",
+                "answer": "yes"
+            },
+            {
+                "id": 79,
+                "context": "If a person practices time management, they will complete tasks efficiently. If they complete tasks efficiently, they will have more free time. However, Olivia is not practicing time management.",
+                "question": "If Olivia practices time management, will she have more free time?",
+                "answer": "no"
+            },
+            {
+                "id": 80,
+                "context": "If a person sets clear goals, they will be more focused. If they are more focused, they will achieve their objectives.",
+                "question": "If Ethan sets clear goals, will he achieve his objectives?",
+                "answer": "yes"
+            },
+            {
+                "id": 81,
+                "context": "If a person sets clear goals, they will be more focused. If they are more focused, they will achieve their objectives. However, Ethan is not setting clear goals.",
+                "question": "If Ethan sets clear goals, will he achieve his objectives?",
+                "answer": "no"
+            },
+            {
+                "id": 82,
+                "context": "If a person practices gratitude, they will feel happier. If they feel happier, they will have better relationships.",
+                "question": "If Ava practices gratitude, will she have better relationships?",
+                "answer": "yes"
+            },
+            {
+                "id": 83,
+                "context": "If a person practices gratitude, they will feel happier. If they feel happier, they will have better relationships. However, Ava is not practicing gratitude.",
+                "question": "If Ava practices gratitude, will she have better relationships?",
+                "answer": "no"
+            },
+            {
+                "id": 84,
+                "context": "If a person learns to cook, they will eat healthier meals. If they eat healthier meals, they will improve their health.",
+                "question": "If Liam learns to cook, will he improve his health?",
+                "answer": "yes"
+            },
+            {
+                "id": 85,
+                "context": "If a person learns to cook, they will eat healthier meals. If they eat healthier meals, they will improve their health. However, Liam is not learning to cook.",
+                "question": "If Liam learns to cook, will he improve his health?",
+                "answer": "no"
+            },
+            {
+                "id": 86,
+                "context": "If a person practices mindfulness, they will be more present. If they are more present, they will enjoy life more.",
+                "question": "If Zoe practices mindfulness, will she enjoy life more?",
+                "answer": "yes"
+            },
+            {
+                "id": 87,
+                "context": "If a person practices mindfulness, they will be more present. If they are more present, they will enjoy life more. However, Zoe is not practicing mindfulness.",
+                "question": "If Zoe practices mindfulness, will she enjoy life more?",
+                "answer": "no"
+            },
+            {
+                "id": 88,
+                "context": "If a person reads self-help books, they will gain new perspectives. If they gain new perspectives, they will make better decisions.",
+                "question": "If Emma reads self-help books, will she make better decisions?",
+                "answer": "yes"
+            },
+            {
+                "id": 89,
+                "context": "If a person reads self-help books, they will gain new perspectives. If they gain new perspectives, they will make better decisions. However, Emma is not reading self-help books.",
+                "question": "If Emma reads self-help books, will she make better decisions?",
+                "answer": "no"
+            },
+            {
+                "id": 90,
+                "context": "If a person practices deep breathing, they will calm their mind. If they calm their mind, they will handle stress better.",
+                "question": "If Lucas practices deep breathing, will he handle stress better?",
+                "answer": "yes"
+            },
+            {
+                "id": 91,
+                "context": "If a person practices deep breathing, they will calm their mind. If they calm their mind, they will handle stress better. However, Lucas is not practicing deep breathing.",
+                "question": "If Lucas practices deep breathing, will he handle stress better?",
+                "answer": "no"
+            },
+            {
+                "id": 92,
+                "context": "If a person takes a course in financial literacy, they will manage their money better. If they manage their money better, they will save more.",
+                "question": "If Mia takes a course in financial literacy, will she save more?",
+                "answer": "yes"
+            },
+            {
+                "id": 93,
+                "context": "If a person takes a course in financial literacy, they will manage their money better. If they manage their money better, they will save more. However, Mia is not taking a course in financial literacy.",
+                "question": "If Mia takes a course in financial literacy, will she save more?",
+                "answer": "no"
+            }
+    ]

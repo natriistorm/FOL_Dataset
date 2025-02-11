@@ -1,0 +1,590 @@
+[
+    {
+        "id": 1,
+        "context": "A student wanted to improve their academic performance. They realized that if they studied regularly, they would improve their grades; if they attended all classes, they would understand the material better. They could either study regularly or attend all classes.",
+        "question": "Given that Emma did not improve their grades, is it true that Emma understood the material better?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "A student wanted to improve their academic performance. They realized that if they studied regularly, they would improve their grades; if they attended all classes, they would understand the material better. They could either study regularly or attend all classes.",
+        "question": "Given that Emma did not understand the material better, is it true that Emma improved their grades?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "A chef wanted to enhance their cooking skills. They realized that if they experimented with new recipes, they would develop creativity; if they refined their techniques, they would improve their efficiency. They could either experiment with new recipes or refine their techniques.",
+        "question": "Given that Alex did not develop creativity, is it true that Alex improved their efficiency?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "A chef wanted to enhance their cooking skills. They realized that if they experimented with new recipes, they would develop creativity; if they refined their techniques, they would improve their efficiency. They could either experiment with new recipes or refine their techniques.",
+        "question": "Given that Alex did not improve their efficiency, is it true that Alex developed creativity?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "An entrepreneur wanted to grow their business. They realized that if they expanded their marketing, they would attract more customers; if they optimized their operations, they would increase their profits. They could either expand their marketing or optimize their operations.",
+        "question": "Given that Jamie did not attract more customers, is it true that Jamie increased their profits?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "An entrepreneur wanted to grow their business. They realized that if they expanded their marketing, they would attract more customers; if they optimized their operations, they would increase their profits. They could either expand their marketing or optimize their operations.",
+        "question": "Given that Jamie did not increase their profits, is it true that Jamie attracted more customers?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A musician wanted to gain recognition. They realized that if they performed at events, they would build an audience; if they released new music, they would increase their fanbase. They could either perform at events or release new music.",
+        "question": "Given that Taylor did not build an audience, is it true that Taylor increased their fanbase?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "A musician wanted to gain recognition. They realized that if they performed at events, they would build an audience; if they released new music, they would increase their fanbase. They could either perform at events or release new music.",
+        "question": "Given that Taylor did not increase their fanbase, is it true that Taylor built an audience?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "A scientist wanted to make a breakthrough discovery. They realized that if they conducted more experiments, they would gain new insights; if they collaborated with experts, they would refine their theories. They could either conduct more experiments or collaborate with experts.",
+        "question": "Given that Jordan did not gain new insights, is it true that Jordan refined their theories?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "A scientist wanted to make a breakthrough discovery. They realized that if they conducted more experiments, they would gain new insights; if they collaborated with experts, they would refine their theories. They could either conduct more experiments or collaborate with experts.",
+        "question": "Given that Jordan did not refine their theories, is it true that Jordan gained new insights?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A writer wanted to publish a successful novel. They realized that if they wrote daily, they would improve their writing style; if they researched extensively, they would create a compelling story. They could either write daily or research extensively.",
+        "question": "Given that Morgan did not improve their writing style, is it true that Morgan created a compelling story?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A writer wanted to publish a successful novel. They realized that if they wrote daily, they would improve their writing style; if they researched extensively, they would create a compelling story. They could either write daily or research extensively.",
+        "question": "Given that Morgan did not create a compelling story, is it true that Morgan improved their writing style?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "A traveler wanted to experience different cultures. They realized that if they visited new countries, they would broaden their perspective; if they engaged with locals, they would gain deeper cultural understanding. They could either visit new countries or engage with locals.",
+        "question": "Given that Riley did not broaden their perspective, is it true that Riley gained deeper cultural understanding?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A traveler wanted to experience different cultures. They realized that if they visited new countries, they would broaden their perspective; if they engaged with locals, they would gain deeper cultural understanding. They could either visit new countries or engage with locals.",
+        "question": "Given that Riley did not gain deeper cultural understanding, is it true that Riley broadened their perspective?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "A programmer wanted to improve their skills. They realized that if they practiced coding daily, they would become more efficient; if they studied algorithms, they would improve their problem-solving ability. They could either practice coding daily or study algorithms.",
+        "question": "Given that Sam did not become more efficient, is it true that Sam improved their problem-solving ability?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A programmer wanted to improve their skills. They realized that if they practiced coding daily, they would become more efficient; if they studied algorithms, they would improve their problem-solving ability. They could either practice coding daily or study algorithms.",
+        "question": "Given that Sam did not improve their problem-solving ability, is it true that Sam became more efficient?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "A gardener wanted to cultivate a beautiful backyard. They realized that if they planted new flowers, they would enhance the garden's beauty; if they trimmed the bushes, they would make the space neater. They could either plant new flowers or trim the bushes.",
+        "question": "Given that Chris did not enhance the garden's beauty, is it true that Chris made the space neater?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A gardener wanted to cultivate a beautiful backyard. They realized that if they planted new flowers, they would enhance the garden's beauty; if they trimmed the bushes, they would make the space neater. They could either plant new flowers or trim the bushes.",
+        "question": "Given that Chris did not make the space neater, is it true that Chris enhanced the garden's beauty?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "A photographer wanted to capture stunning images. They realized that if they used a high-quality camera, they would achieve better resolution; if they learned advanced editing techniques, they would enhance the image quality. They could either use a high-quality camera or learn advanced editing techniques.",
+        "question": "Given that Pat did not achieve better resolution, is it true that Pat enhanced the image quality?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "A photographer wanted to capture stunning images. They realized that if they used a high-quality camera, they would achieve better resolution; if they learned advanced editing techniques, they would enhance the image quality. They could either use a high-quality camera or learn advanced editing techniques.",
+        "question": "Given that Pat did not enhance the image quality, is it true that Pat achieved better resolution?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "A teacher wanted to engage their students. They realized that if they incorporated interactive activities, they would increase participation; if they used multimedia resources, they would make lessons more interesting. They could either incorporate interactive activities or use multimedia resources.",
+        "question": "Given that Jordan did not increase participation, is it true that Jordan made lessons more interesting?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "A teacher wanted to engage their students. They realized that if they incorporated interactive activities, they would increase participation; if they used multimedia resources, they would make lessons more interesting. They could either incorporate interactive activities or use multimedia resources.",
+        "question": "Given that Jordan did not make lessons more interesting, is it true that Jordan increased participation?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "A designer wanted to create a unique brand identity. They realized that if they used bold colors, they would attract attention; if they crafted a memorable logo, they would establish brand recognition. They could either use bold colors or craft a memorable logo.",
+        "question": "Given that Casey did not attract attention, is it true that Casey established brand recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "A designer wanted to create a unique brand identity. They realized that if they used bold colors, they would attract attention; if they crafted a memorable logo, they would establish brand recognition. They could either use bold colors or craft a memorable logo.",
+        "question": "Given that Casey did not establish brand recognition, is it true that Casey attracted attention?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "A chef wanted to impress their guests. They realized that if they prepared a gourmet meal, they would receive compliments; if they presented the dishes artistically, they would create a memorable dining experience. They could either prepare a gourmet meal or present the dishes artistically.",
+        "question": "Given that Jamie did not receive compliments, is it true that Jamie created a memorable dining experience?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "A chef wanted to impress their guests. They realized that if they prepared a gourmet meal, they would receive compliments; if they presented the dishes artistically, they would create a memorable dining experience. They could either prepare a gourmet meal or present the dishes artistically.",
+        "question": "Given that Jamie did not create a memorable dining experience, is it true that Jamie received compliments?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "A developer wanted to launch a successful app. They realized that if they focused on user-friendly design, they would increase downloads; if they ensured robust functionality, they would gain positive reviews. They could either focus on user-friendly design or ensure robust functionality.",
+        "question": "Given that Alex did not increase downloads, is it true that Alex gained positive reviews?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "A developer wanted to launch a successful app. They realized that if they focused on user-friendly design, they would increase downloads; if they ensured robust functionality, they would gain positive reviews. They could either focus on user-friendly design or ensure robust functionality.",
+        "question": "Given that Alex did not gain positive reviews, is it true that Alex increased downloads?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "A marketer wanted to boost brand awareness. They realized that if they launched a social media campaign, they would reach a wider audience; if they collaborated with influencers, they would enhance credibility. They could either launch a social media campaign or collaborate with influencers.",
+        "question": "Given that Taylor did not reach a wider audience, is it true that Taylor enhanced credibility?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "A marketer wanted to boost brand awareness. They realized that if they launched a social media campaign, they would reach a wider audience; if they collaborated with influencers, they would enhance credibility. They could either launch a social media campaign or collaborate with influencers.",
+        "question": "Given that Taylor did not enhance credibility, is it true that Taylor reached a wider audience?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "A scientist wanted to publish groundbreaking research. They realized that if they conducted thorough experiments, they would gather significant data; if they analyzed results meticulously, they would draw accurate conclusions. They could either conduct thorough experiments or analyze results meticulously.",
+        "question": "Given that Morgan did not gather significant data, is it true that Morgan drew accurate conclusions?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "A scientist wanted to publish groundbreaking research. They realized that if they conducted thorough experiments, they would gather significant data; if they analyzed results meticulously, they would draw accurate conclusions. They could either conduct thorough experiments or analyze results meticulously.",
+        "question": "Given that Morgan did not draw accurate conclusions, is it true that Morgan gathered significant data?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "A musician wanted to produce a hit album. They realized that if they collaborated with top producers, they would create high-quality tracks; if they experimented with new sounds, they would attract a diverse audience. They could either collaborate with top producers or experiment with new sounds.",
+        "question": "Given that Riley did not create high-quality tracks, is it true that Riley attracted a diverse audience?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "A musician wanted to produce a hit album. They realized that if they collaborated with top producers, they would create high-quality tracks; if they experimented with new sounds, they would attract a diverse audience. They could either collaborate with top producers or experiment with new sounds.",
+        "question": "Given that Riley did not attract a diverse audience, is it true that Riley created high-quality tracks?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "A writer wanted to win a literary award. They realized that if they developed complex characters, they would engage readers; if they crafted a compelling plot, they would maintain interest. They could either develop complex characters or craft a compelling plot.",
+        "question": "Given that Sam did not engage readers, is it true that Sam maintained interest?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "A writer wanted to win a literary award. They realized that if they developed complex characters, they would engage readers; if they crafted a compelling plot, they would maintain interest. They could either develop complex characters or craft a compelling plot.",
+        "question": "Given that Sam did not maintain interest, is it true that Sam engaged readers?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "A traveler wanted to document their adventures. They realized that if they took high-resolution photos, they would capture vivid memories; if they wrote detailed journals, they would preserve experiences. They could either take high-resolution photos or write detailed journals.",
+        "question": "Given that Chris did not capture vivid memories, is it true that Chris preserved experiences?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "A traveler wanted to document their adventures. They realized that if they took high-resolution photos, they would capture vivid memories; if they wrote detailed journals, they would preserve experiences. They could either take high-resolution photos or write detailed journals.",
+        "question": "Given that Chris did not preserve experiences, is it true that Chris captured vivid memories?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "A painter wanted to create a masterpiece. They realized that if they used vibrant colors, they would evoke emotions; if they focused on intricate details, they would capture realism. They could either use vibrant colors or focus on intricate details.",
+        "question": "Given that Alex did not evoke emotions, is it true that Alex captured realism?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "A painter wanted to create a masterpiece. They realized that if they used vibrant colors, they would evoke emotions; if they focused on intricate details, they would capture realism. They could either use vibrant colors or focus on intricate details.",
+        "question": "Given that Alex did not capture realism, is it true that Alex evoked emotions?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "A chef wanted to innovate their menu. They realized that if they incorporated exotic ingredients, they would surprise their guests; if they mastered new cooking techniques, they would enhance flavors. They could either incorporate exotic ingredients or master new cooking techniques.",
+        "question": "Given that Jamie did not surprise their guests, is it true that Jamie enhanced flavors?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "A chef wanted to innovate their menu. They realized that if they incorporated exotic ingredients, they would surprise their guests; if they mastered new cooking techniques, they would enhance flavors. They could either incorporate exotic ingredients or master new cooking techniques.",
+        "question": "Given that Jamie did not enhance flavors, is it true that Jamie surprised their guests?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "A scientist wanted to solve a complex problem. They realized that if they conducted thorough research, they would find new solutions; if they collaborated with other experts, they would gain diverse perspectives. They could either conduct thorough research or collaborate with other experts.",
+        "question": "Given that Morgan did not find new solutions, is it true that Morgan gained diverse perspectives?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "A scientist wanted to solve a complex problem. They realized that if they conducted thorough research, they would find new solutions; if they collaborated with other experts, they would gain diverse perspectives. They could either conduct thorough research or collaborate with other experts.",
+        "question": "Given that Morgan did not gain diverse perspectives, is it true that Morgan found new solutions?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "A musician wanted to expand their audience. They realized that if they performed in different genres, they would attract varied listeners; if they toured internationally, they would gain global recognition. They could either perform in different genres or tour internationally.",
+        "question": "Given that Riley did not attract varied listeners, is it true that Riley gained global recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "A musician wanted to expand their audience. They realized that if they performed in different genres, they would attract varied listeners; if they toured internationally, they would gain global recognition. They could either perform in different genres or tour internationally.",
+        "question": "Given that Riley did not gain global recognition, is it true that Riley attracted varied listeners?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "A writer wanted to publish a bestseller. They realized that if they wrote a gripping plot, they would captivate readers; if they developed relatable characters, they would build a loyal fanbase. They could either write a gripping plot or develop relatable characters.",
+        "question": "Given that Sam did not captivate readers, is it true that Sam built a loyal fanbase?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "A writer wanted to publish a bestseller. They realized that if they wrote a gripping plot, they would captivate readers; if they developed relatable characters, they would build a loyal fanbase. They could either write a gripping plot or develop relatable characters.",
+        "question": "Given that Sam did not build a loyal fanbase, is it true that Sam captivated readers?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "A teacher wanted to improve student outcomes. They realized that if they personalized learning plans, they would address individual needs; if they incorporated technology, they would enhance engagement. They could either personalize learning plans or incorporate technology.",
+        "question": "Given that Jordan did not address individual needs, is it true that Jordan enhanced engagement?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "A teacher wanted to improve student outcomes. They realized that if they personalized learning plans, they would address individual needs; if they incorporated technology, they would enhance engagement. They could either personalize learning plans or incorporate technology.",
+        "question": "Given that Jordan did not enhance engagement, is it true that Jordan addressed individual needs?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "A developer wanted to create an innovative software. They realized that if they integrated AI, they would automate tasks; if they focused on user experience, they would increase satisfaction. They could either integrate AI or focus on user experience.",
+        "question": "Given that Alex did not automate tasks, is it true that Alex increased satisfaction?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "A developer wanted to create an innovative software. They realized that if they integrated AI, they would automate tasks; if they focused on user experience, they would increase satisfaction. They could either integrate AI or focus on user experience.",
+        "question": "Given that Alex did not increase satisfaction, is it true that Alex automated tasks?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "A marketer wanted to increase sales. They realized that if they launched a promotional campaign, they would attract new customers; if they improved customer service, they would retain existing clients. They could either launch a promotional campaign or improve customer service.",
+        "question": "Given that Taylor did not attract new customers, is it true that Taylor retained existing clients?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "A marketer wanted to increase sales. They realized that if they launched a promotional campaign, they would attract new customers; if they improved customer service, they would retain existing clients. They could either launch a promotional campaign or improve customer service.",
+        "question": "Given that Taylor did not retain existing clients, is it true that Taylor attracted new customers?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "A gardener wanted to create a sustainable garden. They realized that if they used native plants, they would conserve water; if they implemented composting, they would enrich the soil. They could either use native plants or implement composting.",
+        "question": "Given that Chris did not conserve water, is it true that Chris enriched the soil?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "A gardener wanted to create a sustainable garden. They realized that if they used native plants, they would conserve water; if they implemented composting, they would enrich the soil. They could either use native plants or implement composting.",
+        "question": "Given that Chris did not enrich the soil, is it true that Chris conserved water?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "A photographer wanted to capture unique perspectives. They realized that if they experimented with angles, they would create dynamic shots; if they used different lenses, they would achieve varied effects. They could either experiment with angles or use different lenses.",
+        "question": "Given that Pat did not create dynamic shots, is it true that Pat achieved varied effects?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "A photographer wanted to capture unique perspectives. They realized that if they experimented with angles, they would create dynamic shots; if they used different lenses, they would achieve varied effects. They could either experiment with angles or use different lenses.",
+        "question": "Given that Pat did not achieve varied effects, is it true that Pat created dynamic shots?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "A designer wanted to innovate their portfolio. They realized that if they incorporated 3D elements, they would add depth; if they used minimalist designs, they would create elegance. They could either incorporate 3D elements or use minimalist designs.",
+        "question": "Given that Casey did not add depth, is it true that Casey created elegance?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "A designer wanted to innovate their portfolio. They realized that if they incorporated 3D elements, they would add depth; if they used minimalist designs, they would create elegance. They could either incorporate 3D elements or use minimalist designs.",
+        "question": "Given that Casey did not create elegance, is it true that Casey added depth?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "A chef wanted to enhance their culinary skills. They realized that if they studied international cuisines, they would broaden their repertoire; if they practiced plating techniques, they would improve presentation. They could either study international cuisines or practice plating techniques.",
+        "question": "Given that Jamie did not broaden their repertoire, is it true that Jamie improved presentation?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "A chef wanted to enhance their culinary skills. They realized that if they studied international cuisines, they would broaden their repertoire; if they practiced plating techniques, they would improve presentation. They could either study international cuisines or practice plating techniques.",
+        "question": "Given that Jamie did not improve presentation, is it true that Jamie broadened their repertoire?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "A scientist wanted to advance their research. They realized that if they secured funding, they would expand their experiments; if they published findings, they would gain recognition. They could either secure funding or publish findings.",
+        "question": "Given that Morgan did not expand their experiments, is it true that Morgan gained recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "A scientist wanted to advance their research. They realized that if they secured funding, they would expand their experiments; if they published findings, they would gain recognition. They could either secure funding or publish findings.",
+        "question": "Given that Morgan did not gain recognition, is it true that Morgan expanded their experiments?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "A musician wanted to diversify their sound. They realized that if they learned new instruments, they would add variety; if they collaborated with other artists, they would gain new influences. They could either learn new instruments or collaborate with other artists.",
+        "question": "Given that Riley did not add variety, is it true that Riley gained new influences?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "A musician wanted to diversify their sound. They realized that if they learned new instruments, they would add variety; if they collaborated with other artists, they would gain new influences. They could either learn new instruments or collaborate with other artists.",
+        "question": "Given that Riley did not gain new influences, is it true that Riley added variety?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "A writer wanted to enhance their storytelling. They realized that if they attended workshops, they would refine their skills; if they read diverse genres, they would gain inspiration. They could either attend workshops or read diverse genres.",
+        "question": "Given that Sam did not refine their skills, is it true that Sam gained inspiration?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "A writer wanted to enhance their storytelling. They realized that if they attended workshops, they would refine their skills; if they read diverse genres, they would gain inspiration. They could either attend workshops or read diverse genres.",
+        "question": "Given that Sam did not gain inspiration, is it true that Sam refined their skills?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "A teacher wanted to foster creativity in students. They realized that if they encouraged project-based learning, they would stimulate innovation; if they provided open-ended assignments, they would promote critical thinking. They could either encourage project-based learning or provide open-ended assignments.",
+        "question": "Given that Jordan did not stimulate innovation, is it true that Jordan promoted critical thinking?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "A teacher wanted to foster creativity in students. They realized that if they encouraged project-based learning, they would stimulate innovation; if they provided open-ended assignments, they would promote critical thinking. They could either encourage project-based learning or provide open-ended assignments.",
+        "question": "Given that Jordan did not promote critical thinking, is it true that Jordan stimulated innovation?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "A developer wanted to improve app security. They realized that if they implemented encryption, they would protect data; if they conducted regular audits, they would identify vulnerabilities. They could either implement encryption or conduct regular audits.",
+        "question": "Given that Alex did not protect data, is it true that Alex identified vulnerabilities?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "A developer wanted to improve app security. They realized that if they implemented encryption, they would protect data; if they conducted regular audits, they would identify vulnerabilities. They could either implement encryption or conduct regular audits.",
+        "question": "Given that Alex did not identify vulnerabilities, is it true that Alex protected data?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "A marketer wanted to enhance brand loyalty. They realized that if they offered loyalty programs, they would increase customer retention; if they personalized marketing, they would boost engagement. They could either offer loyalty programs or personalize marketing.",
+        "question": "Given that Taylor did not increase customer retention, is it true that Taylor boosted engagement?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "A marketer wanted to enhance brand loyalty. They realized that if they offered loyalty programs, they would increase customer retention; if they personalized marketing, they would boost engagement. They could either offer loyalty programs or personalize marketing.",
+        "question": "Given that Taylor did not boost engagement, is it true that Taylor increased customer retention?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "A gardener wanted to attract wildlife. They realized that if they planted native flowers, they would attract pollinators; if they installed bird feeders, they would invite birds. They could either plant native flowers or install bird feeders.",
+        "question": "Given that Chris did not attract pollinators, is it true that Chris invited birds?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "A gardener wanted to attract wildlife. They realized that if they planted native flowers, they would attract pollinators; if they installed bird feeders, they would invite birds. They could either plant native flowers or install bird feeders.",
+        "question": "Given that Chris did not invite birds, is it true that Chris attracted pollinators?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "A photographer wanted to tell a story through images. They realized that if they captured candid moments, they would convey authenticity; if they used thematic compositions, they would create a narrative. They could either capture candid moments or use thematic compositions.",
+        "question": "Given that Pat did not convey authenticity, is it true that Pat created a narrative?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "A photographer wanted to tell a story through images. They realized that if they captured candid moments, they would convey authenticity; if they used thematic compositions, they would create a narrative. They could either capture candid moments or use thematic compositions.",
+        "question": "Given that Pat did not create a narrative, is it true that Pat conveyed authenticity?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "A chef wanted to create a signature dish. They realized that if they used local ingredients, they would support local farmers; if they added a unique twist, they would stand out in the market. They could either use local ingredients or add a unique twist.",
+        "question": "Given that Jamie did not support local farmers, is it true that Jamie stood out in the market?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "A chef wanted to create a signature dish. They realized that if they used local ingredients, they would support local farmers; if they added a unique twist, they would stand out in the market. They could either use local ingredients or add a unique twist.",
+        "question": "Given that Jamie did not stand out in the market, is it true that Jamie supported local farmers?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "A scientist wanted to improve lab efficiency. They realized that if they automated data collection, they would save time; if they streamlined processes, they would reduce errors. They could either automate data collection or streamline processes.",
+        "question": "Given that Morgan did not save time, is it true that Morgan reduced errors?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "A scientist wanted to improve lab efficiency. They realized that if they automated data collection, they would save time; if they streamlined processes, they would reduce errors. They could either automate data collection or streamline processes.",
+        "question": "Given that Morgan did not reduce errors, is it true that Morgan saved time?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "A musician wanted to create a unique sound. They realized that if they experimented with electronic elements, they would innovate their style; if they collaborated with diverse artists, they would broaden their appeal. They could either experiment with electronic elements or collaborate with diverse artists.",
+        "question": "Given that Riley did not innovate their style, is it true that Riley broadened their appeal?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "A musician wanted to create a unique sound. They realized that if they experimented with electronic elements, they would innovate their style; if they collaborated with diverse artists, they would broaden their appeal. They could either experiment with electronic elements or collaborate with diverse artists.",
+        "question": "Given that Riley did not broaden their appeal, is it true that Riley innovated their style?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "A writer wanted to publish a compelling article. They realized that if they conducted thorough research, they would provide valuable insights; if they interviewed experts, they would add credibility. They could either conduct thorough research or interview experts.",
+        "question": "Given that Sam did not provide valuable insights, is it true that Sam added credibility?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "A writer wanted to publish a compelling article. They realized that if they conducted thorough research, they would provide valuable insights; if they interviewed experts, they would add credibility. They could either conduct thorough research or interview experts.",
+        "question": "Given that Sam did not add credibility, is it true that Sam provided valuable insights?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "A teacher wanted to improve classroom dynamics. They realized that if they encouraged group projects, they would foster teamwork; if they implemented peer reviews, they would enhance feedback. They could either encourage group projects or implement peer reviews.",
+        "question": "Given that Jordan did not foster teamwork, is it true that Jordan enhanced feedback?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "A teacher wanted to improve classroom dynamics. They realized that if they encouraged group projects, they would foster teamwork; if they implemented peer reviews, they would enhance feedback. They could either encourage group projects or implement peer reviews.",
+        "question": "Given that Jordan did not enhance feedback, is it true that Jordan fostered teamwork?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "A developer wanted to enhance user engagement. They realized that if they added gamification elements, they would increase interaction; if they improved the interface, they would boost satisfaction. They could either add gamification elements or improve the interface.",
+        "question": "Given that Alex did not increase interaction, is it true that Alex boosted satisfaction?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "A developer wanted to enhance user engagement. They realized that if they added gamification elements, they would increase interaction; if they improved the interface, they would boost satisfaction. They could either add gamification elements or improve the interface.",
+        "question": "Given that Alex did not boost satisfaction, is it true that Alex increased interaction?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "A marketer wanted to launch a successful campaign. They realized that if they targeted the right audience, they would maximize reach; if they used compelling visuals, they would capture attention. They could either target the right audience or use compelling visuals.",
+        "question": "Given that Taylor did not maximize reach, is it true that Taylor captured attention?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "A marketer wanted to launch a successful campaign. They realized that if they targeted the right audience, they would maximize reach; if they used compelling visuals, they would capture attention. They could either target the right audience or use compelling visuals.",
+        "question": "Given that Taylor did not capture attention, is it true that Taylor maximized reach?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "A gardener wanted to create a vibrant landscape. They realized that if they planted seasonal flowers, they would add color; if they installed water features, they would create tranquility. They could either plant seasonal flowers or install water features.",
+        "question": "Given that Chris did not add color, is it true that Chris created tranquility?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "A gardener wanted to create a vibrant landscape. They realized that if they planted seasonal flowers, they would add color; if they installed water features, they would create tranquility. They could either plant seasonal flowers or install water features.",
+        "question": "Given that Chris did not create tranquility, is it true that Chris added color?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "A photographer wanted to capture breathtaking landscapes. They realized that if they traveled to remote locations, they would find unique scenes; if they used drone photography, they would gain new perspectives. They could either travel to remote locations or use drone photography.",
+        "question": "Given that Pat did not find unique scenes, is it true that Pat gained new perspectives?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "A photographer wanted to capture breathtaking landscapes. They realized that if they traveled to remote locations, they would find unique scenes; if they used drone photography, they would gain new perspectives. They could either travel to remote locations or use drone photography.",
+        "question": "Given that Pat did not gain new perspectives, is it true that Pat found unique scenes?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "A designer wanted to create an impactful presentation. They realized that if they used infographics, they would simplify complex data; if they incorporated animations, they would engage the audience. They could either use infographics or incorporate animations.",
+        "question": "Given that Casey did not simplify complex data, is it true that Casey engaged the audience?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "A designer wanted to create an impactful presentation. They realized that if they used infographics, they would simplify complex data; if they incorporated animations, they would engage the audience. They could either use infographics or incorporate animations.",
+        "question": "Given that Casey did not engage the audience, is it true that Casey simplified complex data?",
+        "answer": "no"
+    }
+]

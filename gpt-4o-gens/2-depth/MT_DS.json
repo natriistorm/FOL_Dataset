@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "A student aimed to graduate with honors. They believed that if they studied diligently, they would achieve this goal. However, their final grades were not high enough. It was clear that either they studied diligently or were naturally gifted, or both. Alex did not graduate with honors.",
+        "question": "Can we conclude that Alex is naturally gifted?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "A student aimed to graduate with honors. They believed that if they studied diligently, they would achieve this goal. However, their final grades were not high enough. It was clear that either they studied diligently or were naturally gifted, or both. Alex graduated with honors.",
+        "question": "Can we conclude that Alex is naturally gifted?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "An artist wanted to create a masterpiece. They thought that if they practiced every day, they would achieve artistic excellence. Yet, their latest work was not well received. It was apparent that either they practiced every day or possessed natural talent, or both. Jordan's latest artwork was not considered excellent.",
+        "question": "Is it true that Jordan possesses natural talent?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "An artist wanted to create a masterpiece. They thought that if they practiced every day, they would achieve artistic excellence. Yet, their latest work was not well received. It was apparent that either they practiced every day or possessed natural talent, or both. Jordan's latest artwork was considered excellent.",
+        "question": "Is it true that Jordan possesses natural talent?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A musician dreamed of composing a hit song. They believed that if they studied music theory, they would produce a chart-topping song. However, their latest release did not gain popularity. It was evident that either they studied music theory or had a natural ear for melody, or both. Taylor's latest song was not a hit.",
+        "question": "Can we conclude that Taylor has a natural ear for melody?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "A musician dreamed of composing a hit song. They believed that if they studied music theory, they would produce a chart-topping song. However, their latest release did not gain popularity. It was evident that either they studied music theory or had a natural ear for melody, or both. Taylor's latest song was a hit.",
+        "question": "Can we conclude that Taylor has a natural ear for melody?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "A programmer wanted to develop groundbreaking software. They thought that if they mastered algorithms, they would create an innovative application. However, their latest project was not widely adopted. It was evident that either they mastered algorithms or had strong problem-solving skills, or both. Chris's latest software was not considered innovative.",
+        "question": "Is it true that Chris has strong problem-solving skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "A programmer wanted to develop groundbreaking software. They thought that if they mastered algorithms, they would create an innovative application. However, their latest project was not widely adopted. It was evident that either they mastered algorithms or had strong problem-solving skills, or both. Chris's latest software was considered innovative.",
+        "question": "Is it true that Chris has strong problem-solving skills?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "A scientist aimed to discover a new chemical compound. They believed that if they conducted rigorous experiments, they would achieve a breakthrough. Yet, their latest research did not yield new results. It was clear that either they conducted rigorous experiments or had exceptional intuition, or both. Jamie's latest research did not lead to a breakthrough.",
+        "question": "Can we conclude that Jamie has exceptional intuition?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "A scientist aimed to discover a new chemical compound. They believed that if they conducted rigorous experiments, they would achieve a breakthrough. Yet, their latest research did not yield new results. It was clear that either they conducted rigorous experiments or had exceptional intuition, or both. Jamie's latest research led to a breakthrough.",
+        "question": "Can we conclude that Jamie has exceptional intuition?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A chef wanted to create a signature dish. They believed that if they used fresh ingredients, they would impress the critics. However, their dish was not well-received. It was clear that either they used fresh ingredients or had a unique cooking style, or both. Morgan's dish did not impress the critics.",
+        "question": "Can we conclude that Morgan has a unique cooking style?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A chef wanted to create a signature dish. They believed that if they used fresh ingredients, they would impress the critics. However, their dish was not well-received. It was clear that either they used fresh ingredients or had a unique cooking style, or both. Morgan's dish impressed the critics.",
+        "question": "Can we conclude that Morgan has a unique cooking style?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "A writer aimed to publish a bestselling novel. They thought that if they wrote every day, they would achieve this. Yet, their book did not sell well. It was apparent that either they wrote every day or had a natural storytelling ability, or both. Casey's novel was not a bestseller.",
+        "question": "Is it true that Casey has a natural storytelling ability?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A writer aimed to publish a bestselling novel. They thought that if they wrote every day, they would achieve this. Yet, their book did not sell well. It was apparent that either they wrote every day or had a natural storytelling ability, or both. Casey's novel was a bestseller.",
+        "question": "Is it true that Casey has a natural storytelling ability?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "A designer wanted to create a trendsetting fashion line. They believed that if they studied fashion history, they would set new trends. However, their collection was not popular. It was evident that either they studied fashion history or had an innate sense of style, or both. Riley's fashion line was not trendsetting.",
+        "question": "Can we conclude that Riley has an innate sense of style?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A designer wanted to create a trendsetting fashion line. They believed that if they studied fashion history, they would set new trends. However, their collection was not popular. It was evident that either they studied fashion history or had an innate sense of style, or both. Riley's fashion line was trendsetting.",
+        "question": "Can we conclude that Riley has an innate sense of style?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "A scientist aimed to develop a revolutionary vaccine. They thought that if they conducted thorough research, they would succeed. Yet, their trials were unsuccessful. It was clear that either they conducted thorough research or had innovative ideas, or both. Jordan's vaccine was not revolutionary.",
+        "question": "Is it true that Jordan has innovative ideas?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A scientist aimed to develop a revolutionary vaccine. They thought that if they conducted thorough research, they would succeed. Yet, their trials were unsuccessful. It was clear that either they conducted thorough research or had innovative ideas, or both. Jordan's vaccine was revolutionary.",
+        "question": "Is it true that Jordan has innovative ideas?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "A filmmaker wanted to create an award-winning movie. They believed that if they hired a talented cast, they would win awards. However, the film did not receive any accolades. It was evident that either they hired a talented cast or had a visionary script, or both. Alex's movie did not win any awards.",
+        "question": "Can we conclude that Alex has a visionary script?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "A filmmaker wanted to create an award-winning movie. They believed that if they hired a talented cast, they would win awards. However, the film did not receive any accolades. It was evident that either they hired a talented cast or had a visionary script, or both. Alex's movie won awards.",
+        "question": "Can we conclude that Alex has a visionary script?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "A teacher aimed to inspire their students. They thought that if they used interactive methods, they would engage the class. Yet, the students were not engaged. It was apparent that either they used interactive methods or had a charismatic presence, or both. Taylor's class was not engaged.",
+        "question": "Is it true that Taylor has a charismatic presence?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "A teacher aimed to inspire their students. They thought that if they used interactive methods, they would engage the class. Yet, the students were not engaged. It was apparent that either they used interactive methods or had a charismatic presence, or both. Taylor's class was engaged.",
+        "question": "Is it true that Taylor has a charismatic presence?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "A photographer wanted to capture a breathtaking image. They believed that if they used the best equipment, they would succeed. However, their photos were not impressive. It was clear that either they used the best equipment or had a keen eye for detail, or both. Jamie's photos were not breathtaking.",
+        "question": "Can we conclude that Jamie has a keen eye for detail?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "A photographer wanted to capture a breathtaking image. They believed that if they used the best equipment, they would succeed. However, their photos were not impressive. It was clear that either they used the best equipment or had a keen eye for detail, or both. Jamie's photos were breathtaking.",
+        "question": "Can we conclude that Jamie has a keen eye for detail?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "A gardener aimed to grow a prize-winning rose. They thought that if they used organic fertilizers, they would succeed. Yet, the rose did not win any prizes. It was evident that either they used organic fertilizers or had a green thumb, or both. Morgan's rose was not prize-winning.",
+        "question": "Is it true that Morgan has a green thumb?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "A gardener aimed to grow a prize-winning rose. They thought that if they used organic fertilizers, they would succeed. Yet, the rose did not win any prizes. It was evident that either they used organic fertilizers or had a green thumb, or both. Morgan's rose was prize-winning.",
+        "question": "Is it true that Morgan has a green thumb?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "A dancer wanted to perform a flawless routine. They believed that if they practiced rigorously, they would achieve perfection. However, their performance was not flawless. It was clear that either they practiced rigorously or had natural rhythm, or both. Riley's routine was not flawless.",
+        "question": "Can we conclude that Riley has natural rhythm?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "A dancer wanted to perform a flawless routine. They believed that if they practiced rigorously, they would achieve perfection. However, their performance was not flawless. It was clear that either they practiced rigorously or had natural rhythm, or both. Riley's routine was flawless.",
+        "question": "Can we conclude that Riley has natural rhythm?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "A chef aimed to bake the perfect cake. They thought that if they followed the recipe precisely, they would succeed. Yet, the cake was not perfect. It was apparent that either they followed the recipe precisely or had a knack for baking, or both. Casey's cake was not perfect.",
+        "question": "Is it true that Casey has a knack for baking?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "A chef aimed to bake the perfect cake. They thought that if they followed the recipe precisely, they would succeed. Yet, the cake was not perfect. It was apparent that either they followed the recipe precisely or had a knack for baking, or both. Casey's cake was perfect.",
+        "question": "Is it true that Casey has a knack for baking?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "A musician wanted to perform a flawless concert. They believed that if they rehearsed daily, they would achieve this. However, the concert was not flawless. It was evident that either they rehearsed daily or had a natural stage presence, or both. Alex's concert was not flawless.",
+        "question": "Can we conclude that Alex has a natural stage presence?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "A musician wanted to perform a flawless concert. They believed that if they rehearsed daily, they would achieve this. However, the concert was not flawless. It was evident that either they rehearsed daily or had a natural stage presence, or both. Alex's concert was flawless.",
+        "question": "Can we conclude that Alex has a natural stage presence?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "A painter aimed to create a masterpiece. They thought that if they studied the greats, they would succeed. Yet, their painting was not considered a masterpiece. It was clear that either they studied the greats or had a unique vision, or both. Taylor's painting was not a masterpiece.",
+        "question": "Is it true that Taylor has a unique vision?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "A painter aimed to create a masterpiece. They thought that if they studied the greats, they would succeed. Yet, their painting was not considered a masterpiece. It was clear that either they studied the greats or had a unique vision, or both. Taylor's painting was a masterpiece.",
+        "question": "Is it true that Taylor has a unique vision?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "A researcher wanted to publish a groundbreaking study. They believed that if they gathered extensive data, they would succeed. However, the study was not groundbreaking. It was evident that either they gathered extensive data or had a novel hypothesis, or both. Jamie's study was not groundbreaking.",
+        "question": "Can we conclude that Jamie has a novel hypothesis?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "A researcher wanted to publish a groundbreaking study. They believed that if they gathered extensive data, they would succeed. However, the study was not groundbreaking. It was evident that either they gathered extensive data or had a novel hypothesis, or both. Jamie's study was groundbreaking.",
+        "question": "Can we conclude that Jamie has a novel hypothesis?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "A coach aimed to lead their team to victory. They thought that if they trained the team hard, they would win. Yet, the team did not win. It was apparent that either they trained the team hard or had strategic insights, or both. Chris's team did not win.",
+        "question": "Is it true that Chris has strategic insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "A coach aimed to lead their team to victory. They thought that if they trained the team hard, they would win. Yet, the team did not win. It was apparent that either they trained the team hard or had strategic insights, or both. Chris's team won.",
+        "question": "Is it true that Chris has strategic insights?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "A journalist wanted to write a compelling article. They believed that if they conducted thorough interviews, they would succeed. However, the article was not compelling. It was clear that either they conducted thorough interviews or had a captivating writing style, or both. Morgan's article was not compelling.",
+        "question": "Can we conclude that Morgan has a captivating writing style?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "A journalist wanted to write a compelling article. They believed that if they conducted thorough interviews, they would succeed. However, the article was not compelling. It was clear that either they conducted thorough interviews or had a captivating writing style, or both. Morgan's article was compelling.",
+        "question": "Can we conclude that Morgan has a captivating writing style?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "A programmer wanted to develop a secure application. They thought that if they implemented encryption, they would ensure security. However, the application was not secure. It was evident that either they implemented encryption or had a deep understanding of security protocols, or both. Riley's application was not secure.",
+        "question": "Is it true that Riley has a deep understanding of security protocols?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "A programmer wanted to develop a secure application. They thought that if they implemented encryption, they would ensure security. However, the application was not secure. It was evident that either they implemented encryption or had a deep understanding of security protocols, or both. Riley's application was secure.",
+        "question": "Is it true that Riley has a deep understanding of security protocols?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "A marketer aimed to launch a successful campaign. They believed that if they analyzed market trends, they would succeed. Yet, the campaign was not successful. It was clear that either they analyzed market trends or had creative ideas, or both. Taylor's campaign was not successful.",
+        "question": "Can we conclude that Taylor has creative ideas?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "A marketer aimed to launch a successful campaign. They believed that if they analyzed market trends, they would succeed. Yet, the campaign was not successful. It was clear that either they analyzed market trends or had creative ideas, or both. Taylor's campaign was successful.",
+        "question": "Can we conclude that Taylor has creative ideas?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "A student wanted to excel in mathematics. They thought that if they practiced daily, they would excel. However, their grades were not excellent. It was apparent that either they practiced daily or had a natural aptitude for math, or both. Jamie's math grades were not excellent.",
+        "question": "Is it true that Jamie has a natural aptitude for math?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "A student wanted to excel in mathematics. They thought that if they practiced daily, they would excel. However, their grades were not excellent. It was apparent that either they practiced daily or had a natural aptitude for math, or both. Jamie's math grades were excellent.",
+        "question": "Is it true that Jamie has a natural aptitude for math?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "A chef wanted to create a unique flavor. They believed that if they experimented with spices, they would succeed. However, the dish was not unique. It was evident that either they experimented with spices or had a creative palate, or both. Chris's dish was not unique.",
+        "question": "Can we conclude that Chris has a creative palate?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "A chef wanted to create a unique flavor. They believed that if they experimented with spices, they would succeed. However, the dish was not unique. It was evident that either they experimented with spices or had a creative palate, or both. Chris's dish was unique.",
+        "question": "Can we conclude that Chris has a creative palate?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "A musician aimed to compose a memorable melody. They thought that if they studied classical music, they would succeed. Yet, the melody was not memorable. It was clear that either they studied classical music or had an ear for harmony, or both. Morgan's melody was not memorable.",
+        "question": "Is it true that Morgan has an ear for harmony?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "A musician aimed to compose a memorable melody. They thought that if they studied classical music, they would succeed. Yet, the melody was not memorable. It was clear that either they studied classical music or had an ear for harmony, or both. Morgan's melody was memorable.",
+        "question": "Is it true that Morgan has an ear for harmony?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "A scientist wanted to develop a new energy source. They believed that if they conducted extensive research, they would succeed. However, their project did not yield results. It was clear that either they conducted extensive research or had innovative ideas, or both. Alex's energy project was not successful.",
+        "question": "Can we conclude that Alex has innovative ideas?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "A scientist wanted to develop a new energy source. They believed that if they conducted extensive research, they would succeed. However, their project did not yield results. It was clear that either they conducted extensive research or had innovative ideas, or both. Alex's energy project was successful.",
+        "question": "Can we conclude that Alex has innovative ideas?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "A novelist aimed to write a captivating story. They thought that if they brainstormed daily, they would create a bestseller. Yet, the book was not captivating. It was apparent that either they brainstormed daily or had a vivid imagination, or both. Jamie's novel was not captivating.",
+        "question": "Is it true that Jamie has a vivid imagination?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "A novelist aimed to write a captivating story. They thought that if they brainstormed daily, they would create a bestseller. Yet, the book was not captivating. It was apparent that either they brainstormed daily or had a vivid imagination, or both. Jamie's novel was captivating.",
+        "question": "Is it true that Jamie has a vivid imagination?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "A director wanted to produce a blockbuster film. They believed that if they hired a skilled crew, they would succeed. However, the film was not a blockbuster. It was evident that either they hired a skilled crew or had a compelling script, or both. Taylor's film was not a blockbuster.",
+        "question": "Can we conclude that Taylor has a compelling script?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "A director wanted to produce a blockbuster film. They believed that if they hired a skilled crew, they would succeed. However, the film was not a blockbuster. It was evident that either they hired a skilled crew or had a compelling script, or both. Taylor's film was a blockbuster.",
+        "question": "Can we conclude that Taylor has a compelling script?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "A teacher aimed to improve student performance. They thought that if they used new teaching methods, they would see improvement. Yet, the performance did not improve. It was apparent that either they used new teaching methods or had a strong rapport with students, or both. Riley's students did not perform better.",
+        "question": "Is it true that Riley has a strong rapport with students?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "A teacher aimed to improve student performance. They thought that if they used new teaching methods, they would see improvement. Yet, the performance did not improve. It was apparent that either they used new teaching methods or had a strong rapport with students, or both. Riley's students performed better.",
+        "question": "Is it true that Riley has a strong rapport with students?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "A chef wanted to create a revolutionary dish. They believed that if they experimented with flavors, they would succeed. However, the dish was not revolutionary. It was clear that either they experimented with flavors or had a creative culinary vision, or both. Morgan's dish was not revolutionary.",
+        "question": "Can we conclude that Morgan has a creative culinary vision?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "A chef wanted to create a revolutionary dish. They believed that if they experimented with flavors, they would succeed. However, the dish was not revolutionary. It was clear that either they experimented with flavors or had a creative culinary vision, or both. Morgan's dish was revolutionary.",
+        "question": "Can we conclude that Morgan has a creative culinary vision?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "A musician aimed to create a hit album. They thought that if they collaborated with top producers, they would succeed. Yet, the album was not a hit. It was evident that either they collaborated with top producers or had a unique sound, or both. Chris's album was not a hit.",
+        "question": "Is it true that Chris has a unique sound?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "A musician aimed to create a hit album. They thought that if they collaborated with top producers, they would succeed. Yet, the album was not a hit. It was evident that either they collaborated with top producers or had a unique sound, or both. Chris's album was a hit.",
+        "question": "Is it true that Chris has a unique sound?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "A researcher wanted to make a scientific breakthrough. They believed that if they analyzed data meticulously, they would succeed. However, the breakthrough did not occur. It was clear that either they analyzed data meticulously or had a novel approach, or both. Alex's research did not lead to a breakthrough.",
+        "question": "Can we conclude that Alex has a novel approach?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "A researcher wanted to make a scientific breakthrough. They believed that if they analyzed data meticulously, they would succeed. However, the breakthrough did not occur. It was clear that either they analyzed data meticulously or had a novel approach, or both. Alex's research led to a breakthrough.",
+        "question": "Can we conclude that Alex has a novel approach?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "A coach aimed to win the championship. They thought that if they trained the team intensively, they would win. Yet, the team did not win. It was apparent that either they trained the team intensively or had strategic insights, or both. Jamie's team did not win the championship.",
+        "question": "Is it true that Jamie has strategic insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "A coach aimed to win the championship. They thought that if they trained the team intensively, they would win. Yet, the team did not win. It was apparent that either they trained the team intensively or had strategic insights, or both. Jamie's team won the championship.",
+        "question": "Is it true that Jamie has strategic insights?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "A journalist wanted to uncover a major story. They believed that if they conducted thorough investigations, they would succeed. However, the story was not uncovered. It was clear that either they conducted thorough investigations or had a keen sense for news, or both. Taylor's investigation did not uncover a major story.",
+        "question": "Can we conclude that Taylor has a keen sense for news?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "A journalist wanted to uncover a major story. They believed that if they conducted thorough investigations, they would succeed. However, the story was not uncovered. It was clear that either they conducted thorough investigations or had a keen sense for news, or both. Taylor's investigation uncovered a major story.",
+        "question": "Can we conclude that Taylor has a keen sense for news?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "A programmer aimed to create a revolutionary software. They thought that if they mastered new algorithms, they would succeed. Yet, the software was not revolutionary. It was evident that either they mastered new algorithms or had a groundbreaking idea, or both. Jamie's software was not revolutionary.",
+        "question": "Is it true that Jamie has a groundbreaking idea?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "A programmer aimed to create a revolutionary software. They thought that if they mastered new algorithms, they would succeed. Yet, the software was not revolutionary. It was evident that either they mastered new algorithms or had a groundbreaking idea, or both. Jamie's software was revolutionary.",
+        "question": "Is it true that Jamie has a groundbreaking idea?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "A marketer wanted to create a global brand. They believed that if they expanded into new markets, they would succeed. However, the brand was not global. It was clear that either they expanded into new markets or had a strong brand identity, or both. Taylor's brand was not global.",
+        "question": "Can we conclude that Taylor has a strong brand identity?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "A marketer wanted to create a global brand. They believed that if they expanded into new markets, they would succeed. However, the brand was not global. It was clear that either they expanded into new markets or had a strong brand identity, or both. Taylor's brand was global.",
+        "question": "Can we conclude that Taylor has a strong brand identity?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "A scientist aimed to solve a complex problem. They thought that if they collaborated with experts, they would succeed. Yet, the problem was not solved. It was apparent that either they collaborated with experts or had a unique perspective, or both. Riley's research did not solve the problem.",
+        "question": "Is it true that Riley has a unique perspective?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "A scientist aimed to solve a complex problem. They thought that if they collaborated with experts, they would succeed. Yet, the problem was not solved. It was apparent that either they collaborated with experts or had a unique perspective, or both. Riley's research solved the problem.",
+        "question": "Is it true that Riley has a unique perspective?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "A writer wanted to create a bestselling series. They believed that if they developed strong characters, they would succeed. However, the series was not a bestseller. It was clear that either they developed strong characters or had an engaging plot, or both. Morgan's series was not a bestseller.",
+        "question": "Can we conclude that Morgan has an engaging plot?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "A writer wanted to create a bestselling series. They believed that if they developed strong characters, they would succeed. However, the series was not a bestseller. It was clear that either they developed strong characters or had an engaging plot, or both. Morgan's series was a bestseller.",
+        "question": "Can we conclude that Morgan has an engaging plot?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "A chef aimed to create a Michelin-star dish. They thought that if they perfected their technique, they would succeed. Yet, the dish did not earn a Michelin star. It was evident that either they perfected their technique or had a unique flavor profile, or both. Chris's dish did not earn a Michelin star.",
+        "question": "Is it true that Chris has a unique flavor profile?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "A chef aimed to create a Michelin-star dish. They thought that if they perfected their technique, they would succeed. Yet, the dish did not earn a Michelin star. It was evident that either they perfected their technique or had a unique flavor profile, or both. Chris's dish earned a Michelin star.",
+        "question": "Is it true that Chris has a unique flavor profile?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "A musician wanted to create a chart-topping single. They believed that if they collaborated with famous artists, they would succeed. However, the single was not chart-topping. It was clear that either they collaborated with famous artists or had a catchy melody, or both. Alex's single was not chart-topping.",
+        "question": "Can we conclude that Alex has a catchy melody?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "A musician wanted to create a chart-topping single. They believed that if they collaborated with famous artists, they would succeed. However, the single was not chart-topping. It was clear that either they collaborated with famous artists or had a catchy melody, or both. Alex's single was chart-topping.",
+        "question": "Can we conclude that Alex has a catchy melody?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "A musician wanted to create a timeless symphony. They thought that if they studied music theory, they would succeed. Yet, the symphony was not timeless. It was evident that either they studied music theory or had a natural talent, or both. Riley's symphony was not timeless.",
+        "question": "Is it true that Riley has a natural talent?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "A musician wanted to create a timeless symphony. They thought that if they studied music theory, they would succeed. Yet, the symphony was not timeless. It was evident that either they studied music theory or had a natural talent, or both. Riley's symphony was timeless.",
+        "question": "Is it true that Riley has a natural talent?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "A filmmaker wanted to create a classic movie. They believed that if they used innovative techniques, they would succeed. However, the movie was not a classic. It was clear that either they used innovative techniques or had a visionary approach, or both. Morgan's movie was not a classic.",
+        "question": "Can we conclude that Morgan has a visionary approach?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "A filmmaker wanted to create a classic movie. They believed that if they used innovative techniques, they would succeed. However, the movie was not a classic. It was clear that either they used innovative techniques or had a visionary approach, or both. Morgan's movie was a classic.",
+        "question": "Can we conclude that Morgan has a visionary approach?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "A teacher aimed to revolutionize education. They thought that if they implemented new technologies, they would succeed. Yet, the revolution did not occur. It was apparent that either they implemented new technologies or had a transformative vision, or both. Chris's educational methods were not revolutionary.",
+        "question": "Is it true that Chris has a transformative vision?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "A teacher aimed to revolutionize education. They thought that if they implemented new technologies, they would succeed. Yet, the revolution did not occur. It was apparent that either they implemented new technologies or had a transformative vision, or both. Chris's educational methods were revolutionary.",
+        "question": "Is it true that Chris has a transformative vision?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "A journalist wanted to write a Pulitzer-winning article. They believed that if they interviewed key figures, they would succeed. However, the article did not win a Pulitzer. It was clear that either they interviewed key figures or had a compelling narrative, or both. Alex's article did not win a Pulitzer.",
+        "question": "Can we conclude that Alex has a compelling narrative?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "A journalist wanted to write a Pulitzer-winning article. They believed that if they interviewed key figures, they would succeed. However, the article did not win a Pulitzer. It was clear that either they interviewed key figures or had a compelling narrative, or both. Alex's article won a Pulitzer.",
+        "question": "Can we conclude that Alex has a compelling narrative?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "A programmer aimed to create a revolutionary software. They thought that if they mastered new algorithms, they would succeed. Yet, the software was not revolutionary. It was evident that either they mastered new algorithms or had a groundbreaking idea, or both. Jamie's software was not revolutionary.",
+        "question": "Is it true that Jamie has a groundbreaking idea?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "A programmer aimed to create a revolutionary software. They thought that if they mastered new algorithms, they would succeed. Yet, the software was not revolutionary. It was evident that either they mastered new algorithms or had a groundbreaking idea, or both. Jamie's software was revolutionary.",
+        "question": "Is it true that Jamie has a groundbreaking idea?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "A marketer wanted to create a global brand. They believed that if they expanded into new markets, they would succeed. However, the brand was not global. It was clear that either they expanded into new markets or had a strong brand identity, or both. Taylor's brand was not global.",
+        "question": "Can we conclude that Taylor has a strong brand identity?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "A marketer wanted to create a global brand. They believed that if they expanded into new markets, they would succeed. However, the brand was not global. It was clear that either they expanded into new markets or had a strong brand identity, or both. Taylor's brand was global.",
+        "question": "Can we conclude that Taylor has a strong brand identity?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "A scientist aimed to solve a complex problem. They thought that if they collaborated with experts, they would succeed. Yet, the problem was not solved. It was apparent that either they collaborated with experts or had a unique perspective, or both. Riley's research did not solve the problem.",
+        "question": "Is it true that Riley has a unique perspective?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "A scientist aimed to solve a complex problem. They thought that if they collaborated with experts, they would succeed. Yet, the problem was not solved. It was apparent that either they collaborated with experts or had a unique perspective, or both. Riley's research solved the problem.",
+        "question": "Is it true that Riley has a unique perspective?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "A writer wanted to create a bestselling series. They believed that if they developed strong characters, they would succeed. However, the series was not a bestseller. It was clear that either they developed strong characters or had an engaging plot, or both. Morgan's series was not a bestseller.",
+        "question": "Can we conclude that Morgan has an engaging plot?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "A writer wanted to create a bestselling series. They believed that if they developed strong characters, they would succeed. However, the series was not a bestseller. It was clear that either they developed strong characters or had an engaging plot, or both. Morgan's series was a bestseller.",
+        "question": "Can we conclude that Morgan has an engaging plot?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "A chef aimed to create a Michelin-star dish. They thought that if they perfected their technique, they would succeed. Yet, the dish did not earn a Michelin star. It was evident that either they perfected their technique or had a unique flavor profile, or both. Chris's dish did not earn a Michelin star.",
+        "question": "Is it true that Chris has a unique flavor profile?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "A chef aimed to create a Michelin-star dish. They thought that if they perfected their technique, they would succeed. Yet, the dish did not earn a Michelin star. It was evident that either they perfected their technique or had a unique flavor profile, or both. Chris's dish earned a Michelin star.",
+        "question": "Is it true that Chris has a unique flavor profile?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "A musician wanted to create a chart-topping single. They believed that if they collaborated with famous artists, they would succeed. However, the single was not chart-topping. It was clear that either they collaborated with famous artists or had a catchy melody, or both. Alex's single was not chart-topping.",
+        "question": "Can we conclude that Alex has a catchy melody?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "A musician wanted to create a chart-topping single. They believed that if they collaborated with famous artists, they would succeed. However, the single was not chart-topping. It was clear that either they collaborated with famous artists or had a catchy melody, or both. Alex's single was chart-topping.",
+        "question": "Can we conclude that Alex has a catchy melody?",
+        "answer": "no"
+    }
+]
