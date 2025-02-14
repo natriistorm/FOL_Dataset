@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "If it is the first day of school, then students feel nervous and excited. If someone studies hard, then they get good grades. Either it is the first day, or they do not get good grades, or it is the first day and they do not get good grades. If a teacher is very strict, then students have to study hard for that class. Either the teacher is very strict, or the class textbook is very long, or perhaps both are true.",
+        "question": "Emma was not nervous on the first day, does this mean did she have a very long textbook in one of her classes?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If it is a holiday, the office is closed for the day. If an employee needs to finish a big project, they come into work even on holidays. Either it is a holiday, or the employees do not work on holidays. If there is a deadline approaching, employees need to finish projects. Either there is an impending deadline, or employees take time off work, or both happen.",
+        "question": "The office was open on Labor Day, did the employees take time off work recently?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "If it is raining, then the ground is wet. If the ground is wet, then the grass is slippery. Either it is raining, or the grass is not slippery, or it is raining and the grass is not slippery. If the sun is shining, then the ground is dry. Either the sun is shining, or the ground is wet, or both are true.",
+        "question": "The grass was slippery, does this mean the sun was not shining?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If it is raining, then the ground is wet. If the ground is wet, then the grass is slippery. Either it is raining, or the grass is not slippery, or it is raining and the grass is not slippery. If the sun is shining, then the ground is dry. Either the sun is shining, or the ground is wet, or both are true.",
+        "question": "The grass was not slippery, does this mean the sun was shining?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If a person is a vegetarian, then they do not eat meat. If someone does not eat meat, then they eat more vegetables. Either a person is a vegetarian, or they do not eat more vegetables, or they are a vegetarian and do not eat more vegetables. If a person is a vegan, then they do not consume dairy. Either a person is a vegan, or they consume dairy, or both are true.",
+        "question": "The person ate more vegetables, does this mean they are not a vegan?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If a person is a vegetarian, then they do not eat meat. If someone does not eat meat, then they eat more vegetables. Either a person is a vegetarian, or they do not eat more vegetables, or they are a vegetarian and do not eat more vegetables. If a person is a vegan, then they do not consume dairy. Either a person is a vegan, or they consume dairy, or both are true.",
+        "question": "The person did not eat more vegetables, does this mean they are a vegan?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If a car is electric, then it does not use gasoline. If a car does not use gasoline, then it is environmentally friendly. Either a car is electric, or it is not environmentally friendly, or it is electric and not environmentally friendly. If a car is hybrid, then it uses both gasoline and electricity. Either a car is hybrid, or it uses only gasoline, or both are true.",
+        "question": "The car was environmentally friendly, does this mean it was not a hybrid?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "If a car is electric, then it does not use gasoline. If a car does not use gasoline, then it is environmentally friendly. Either a car is electric, or it is not environmentally friendly, or it is electric and not environmentally friendly. If a car is hybrid, then it uses both gasoline and electricity. Either a car is hybrid, or it uses only gasoline, or both are true.",
+        "question": "The car was not environmentally friendly, does this mean it was a hybrid?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If a student studies, then they pass the exam. If they pass the exam, then they are happy. Either a student studies, or they are not happy, or they study and are not happy. If a student is distracted, then they do not study. Either a student is distracted, or they study, or both are true.",
+        "question": "The student was happy, does this mean they were not distracted?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If a student studies, then they pass the exam. If they pass the exam, then they are happy. Either a student studies, or they are not happy, or they study and are not happy. If a student is distracted, then they do not study. Either a student is distracted, or they study, or both are true.",
+        "question": "The student was not happy, does this mean they were distracted?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a person exercises, then they feel energetic. If they feel energetic, then they are productive. Either a person exercises, or they are not productive, or they exercise and are not productive. If a person is tired, then they do not exercise. Either a person is tired, or they exercise, or both are true.",
+        "question": "The person was productive, does this mean they were not tired?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a person exercises, then they feel energetic. If they feel energetic, then they are productive. Either a person exercises, or they are not productive, or they exercise and are not productive. If a person is tired, then they do not exercise. Either a person is tired, or they exercise, or both are true.",
+        "question": "The person was not productive, does this mean they were tired?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a plant is watered, then it grows. If it grows, then it blooms. Either a plant is watered, or it does not bloom, or it is watered and does not bloom. If a plant is in the shade, then it does not grow. Either a plant is in the shade, or it grows, or both are true.",
+        "question": "The plant bloomed, does this mean it was not in the shade?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a plant is watered, then it grows. If it grows, then it blooms. Either a plant is watered, or it does not bloom, or it is watered and does not bloom. If a plant is in the shade, then it does not grow. Either a plant is in the shade, or it grows, or both are true.",
+        "question": "The plant did not bloom, does this mean it was in the shade?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If a person reads, then they gain knowledge. If they gain knowledge, then they are confident. Either a person reads, or they are not confident, or they read and are not confident. If a person is busy, then they do not read. Either a person is busy, or they read, or both are true.",
+        "question": "The person was confident, does this mean they were not busy?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If a person reads, then they gain knowledge. If they gain knowledge, then they are confident. Either a person reads, or they are not confident, or they read and are not confident. If a person is busy, then they do not read. Either a person is busy, or they read, or both are true.",
+        "question": "The person was not confident, does this mean they were busy?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a dog is trained, then it obeys commands. If it obeys commands, then it is well-behaved. Either a dog is trained, or it is not well-behaved, or it is trained and not well-behaved. If a dog is distracted, then it does not obey commands. Either a dog is distracted, or it obeys commands, or both are true.",
+        "question": "The dog was well-behaved, does this mean it was not distracted?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If a dog is trained, then it obeys commands. If it obeys commands, then it is well-behaved. Either a dog is trained, or it is not well-behaved, or it is trained and not well-behaved. If a dog is distracted, then it does not obey commands. Either a dog is distracted, or it obeys commands, or both are true.",
+        "question": "The dog was not well-behaved, does this mean it was distracted?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If a person saves money, then they can buy a house. If they can buy a house, then they are financially secure. Either a person saves money, or they are not financially secure, or they save money and are not financially secure. If a person is in debt, then they do not save money. Either a person is in debt, or they save money, or both are true.",
+        "question": "The person was financially secure, does this mean they were not in debt?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "If a person saves money, then they can buy a house. If they can buy a house, then they are financially secure. Either a person saves money, or they are not financially secure, or they save money and are not financially secure. If a person is in debt, then they do not save money. Either a person is in debt, or they save money, or both are true.",
+        "question": "The person was not financially secure, does this mean they were in debt?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "If a person eats healthy, then they have more energy. If they have more energy, then they exercise regularly. Either a person eats healthy, or they do not exercise regularly, or they eat healthy and do not exercise regularly. If a person is stressed, then they do not eat healthy. Either a person is stressed, or they eat healthy, or both are true.",
+        "question": "The person exercised regularly, does this mean they were not stressed?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "If a person eats healthy, then they have more energy. If they have more energy, then they exercise regularly. Either a person eats healthy, or they do not exercise regularly, or they eat healthy and do not exercise regularly. If a person is stressed, then they do not eat healthy. Either a person is stressed, or they eat healthy, or both are true.",
+        "question": "The person did not exercise regularly, does this mean they were stressed?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "If a person is punctual, then they are reliable. If they are reliable, then they are trusted. Either a person is punctual, or they are not trusted, or they are punctual and not trusted. If a person is forgetful, then they are not punctual. Either a person is forgetful, or they are punctual, or both are true.",
+        "question": "The person was trusted, does this mean they were not forgetful?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "If a person is punctual, then they are reliable. If they are reliable, then they are trusted. Either a person is punctual, or they are not trusted, or they are punctual and not trusted. If a person is forgetful, then they are not punctual. Either a person is forgetful, or they are punctual, or both are true.",
+        "question": "The person was not trusted, does this mean they were forgetful?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "If a person is creative, then they think outside the box. If they think outside the box, then they solve problems effectively. Either a person is creative, or they do not solve problems effectively, or they are creative and do not solve problems effectively. If a person is rigid, then they are not creative. Either a person is rigid, or they are creative, or both are true.",
+        "question": "The person solved problems effectively, does this mean they were not rigid?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "If a person is creative, then they think outside the box. If they think outside the box, then they solve problems effectively. Either a person is creative, or they do not solve problems effectively, or they are creative and do not solve problems effectively. If a person is rigid, then they are not creative. Either a person is rigid, or they are creative, or both are true.",
+        "question": "The person did not solve problems effectively, does this mean they were rigid?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "If a person is honest, then they are trustworthy. If they are trustworthy, then they are respected. Either a person is honest, or they are not respected, or they are honest and not respected. If a person is deceitful, then they are not honest. Either a person is deceitful, or they are honest, or both are true.",
+        "question": "The person was respected, does this mean they were not deceitful?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "If a person is honest, then they are trustworthy. If they are trustworthy, then they are respected. Either a person is honest, or they are not respected, or they are honest and not respected. If a person is deceitful, then they are not honest. Either a person is deceitful, or they are honest, or both are true.",
+        "question": "The person was not respected, does this mean they were deceitful?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "If a person is organized, then they manage time well. If they manage time well, then they meet deadlines. Either a person is organized, or they do not meet deadlines, or they are organized and do not meet deadlines. If a person is chaotic, then they are not organized. Either a person is chaotic, or they are organized, or both are true.",
+        "question": "The person met deadlines, does this mean they were not chaotic?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "If a person is organized, then they manage time well. If they manage time well, then they meet deadlines. Either a person is organized, or they do not meet deadlines, or they are organized and do not meet deadlines. If a person is chaotic, then they are not organized. Either a person is chaotic, or they are organized, or both are true.",
+        "question": "The person did not meet deadlines, does this mean they were chaotic?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "If a person is motivated, then they achieve goals. If they achieve goals, then they are successful. Either a person is motivated, or they are not successful, or they are motivated and not successful. If a person is lazy, then they are not motivated. Either a person is lazy, or they are motivated, or both are true.",
+        "question": "The person was successful, does this mean they were not lazy?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "If a person is motivated, then they achieve goals. If they achieve goals, then they are successful. Either a person is motivated, or they are not successful, or they are motivated and not successful. If a person is lazy, then they are not motivated. Either a person is lazy, or they are motivated, or both are true.",
+        "question": "The person was not successful, does this mean they were lazy?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "If a person is diligent, then they complete tasks. If they complete tasks, then they are efficient. Either a person is diligent, or they are not efficient, or they are diligent and not efficient. If a person is careless, then they are not diligent. Either a person is careless, or they are diligent, or both are true.",
+        "question": "The person was efficient, does this mean they were not careless?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "If a person is diligent, then they complete tasks. If they complete tasks, then they are efficient. Either a person is diligent, or they are not efficient, or they are diligent and not efficient. If a person is careless, then they are not diligent. Either a person is careless, or they are diligent, or both are true.",
+        "question": "The person was not efficient, does this mean they were careless?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "If a person is patient, then they handle stress well. If they handle stress well, then they are calm. Either a person is patient, or they are not calm, or they are patient and not calm. If a person is anxious, then they are not patient. Either a person is anxious, or they are patient, or both are true.",
+        "question": "The person was calm, does this mean they were not anxious?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "If a person is patient, then they handle stress well. If they handle stress well, then they are calm. Either a person is patient, or they are not calm, or they are patient and not calm. If a person is anxious, then they are not patient. Either a person is anxious, or they are patient, or both are true.",
+        "question": "The person was not calm, does this mean they were anxious?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "If a person is optimistic, then they have a positive outlook. If they have a positive outlook, then they are hopeful. Either a person is optimistic, or they are not hopeful, or they are optimistic and not hopeful. If a person is pessimistic, then they are not optimistic. Either a person is pessimistic, or they are optimistic, or both are true.",
+        "question": "The person was hopeful, does this mean they were not pessimistic?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "If a person is optimistic, then they have a positive outlook. If they have a positive outlook, then they are hopeful. Either a person is optimistic, or they are not hopeful, or they are optimistic and not hopeful. If a person is pessimistic, then they are not optimistic. Either a person is pessimistic, or they are optimistic, or both are true.",
+        "question": "The person was not hopeful, does this mean they were pessimistic?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "If a person is generous, then they share with others. If they share with others, then they are kind. Either a person is generous, or they are not kind, or they are generous and not kind. If a person is selfish, then they are not generous. Either a person is selfish, or they are generous, or both are true.",
+        "question": "The person was kind, does this mean they were not selfish?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "If a person is generous, then they share with others. If they share with others, then they are kind. Either a person is generous, or they are not kind, or they are generous and not kind. If a person is selfish, then they are not generous. Either a person is selfish, or they are generous, or both are true.",
+        "question": "The person was not kind, does this mean they were selfish?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "If a person is curious, then they ask questions. If they ask questions, then they learn more. Either a person is curious, or they do not learn more, or they are curious and do not learn more. If a person is indifferent, then they are not curious. Either a person is indifferent, or they are curious, or both are true.",
+        "question": "The person learned more, does this mean they were not indifferent?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "If a person is curious, then they ask questions. If they ask questions, then they learn more. Either a person is curious, or they do not learn more, or they are curious and do not learn more. If a person is indifferent, then they are not curious. Either a person is indifferent, or they are curious, or both are true.",
+        "question": "The person did not learn more, does this mean they were indifferent?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "If a person is adventurous, then they explore new places. If they explore new places, then they have exciting experiences. Either a person is adventurous, or they do not have exciting experiences, or they are adventurous and do not have exciting experiences. If a person is cautious, then they are not adventurous. Either a person is cautious, or they are adventurous, or both are true.",
+        "question": "The person had exciting experiences, does this mean they were not cautious?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "If a person is adventurous, then they explore new places. If they explore new places, then they have exciting experiences. Either a person is adventurous, or they do not have exciting experiences, or they are adventurous and do not have exciting experiences. If a person is cautious, then they are not adventurous. Either a person is cautious, or they are adventurous, or both are true.",
+        "question": "The person did not have exciting experiences, does this mean they were cautious?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "If a person is empathetic, then they understand others' feelings. If they understand others' feelings, then they are compassionate. Either a person is empathetic, or they are not compassionate, or they are empathetic and not compassionate. If a person is apathetic, then they are not empathetic. Either a person is apathetic, or they are empathetic, or both are true.",
+        "question": "The person was compassionate, does this mean they were not apathetic?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "If a person is empathetic, then they understand others' feelings. If they understand others' feelings, then they are compassionate. Either a person is empathetic, or they are not compassionate, or they are empathetic and not compassionate. If a person is apathetic, then they are not empathetic. Either a person is apathetic, or they are empathetic, or both are true.",
+        "question": "The person was not compassionate, does this mean they were apathetic?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "If a person is disciplined, then they follow rules. If they follow rules, then they are responsible. Either a person is disciplined, or they are not responsible, or they are disciplined and not responsible. If a person is rebellious, then they are not disciplined. Either a person is rebellious, or they are disciplined, or both are true.",
+        "question": "The person was responsible, does this mean they were not rebellious?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "If a person is disciplined, then they follow rules. If they follow rules, then they are responsible. Either a person is disciplined, or they are not responsible, or they are disciplined and not responsible. If a person is rebellious, then they are not disciplined. Either a person is rebellious, or they are disciplined, or both are true.",
+        "question": "The person was not responsible, does this mean they were rebellious?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "If a person is attentive, then they notice details. If they notice details, then they are observant. Either a person is attentive, or they are not observant, or they are attentive and not observant. If a person is distracted, then they are not attentive. Either a person is distracted, or they are attentive, or both are true.",
+        "question": "The person was observant, does this mean they were not distracted?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "If a person is attentive, then they notice details. If they notice details, then they are observant. Either a person is attentive, or they are not observant, or they are attentive and not observant. If a person is distracted, then they are not attentive. Either a person is distracted, or they are attentive, or both are true.",
+        "question": "The person was not observant, does this mean they were distracted?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "If a person is innovative, then they create new ideas. If they create new ideas, then they are inventive. Either a person is innovative, or they are not inventive, or they are innovative and not inventive. If a person is conventional, then they are not innovative. Either a person is conventional, or they are innovative, or both are true.",
+        "question": "The person was inventive, does this mean they were not conventional?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "If a person is innovative, then they create new ideas. If they create new ideas, then they are inventive. Either a person is innovative, or they are not inventive, or they are innovative and not inventive. If a person is conventional, then they are not innovative. Either a person is conventional, or they are innovative, or both are true.",
+        "question": "The person was not inventive, does this mean they were conventional?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "If a person is ambitious, then they set high goals. If they set high goals, then they work hard. Either a person is ambitious, or they do not work hard, or they are ambitious and do not work hard. If a person is complacent, then they are not ambitious. Either a person is complacent, or they are ambitious, or both are true.",
+        "question": "The person worked hard, does this mean they were not complacent?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "If a person is ambitious, then they set high goals. If they set high goals, then they work hard. Either a person is ambitious, or they do not work hard, or they are ambitious and do not work hard. If a person is complacent, then they are not ambitious. Either a person is complacent, or they are ambitious, or both are true.",
+        "question": "The person did not work hard, does this mean they were complacent?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "If a person is punctual, then they are reliable. If they are reliable, then they are trusted. Either a person is punctual, or they are not trusted, or they are punctual and not trusted. If a person is forgetful, then they are not punctual. Either a person is forgetful, or they are punctual, or both are true.",
+        "question": "The person was trusted, does this mean they were not forgetful?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "If a person is punctual, then they are reliable. If they are reliable, then they are trusted. Either a person is punctual, or they are not trusted, or they are punctual and not trusted. If a person is forgetful, then they are not punctual. Either a person is forgetful, or they are punctual, or both are true.",
+        "question": "The person was not trusted, does this mean they were forgetful?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "If a person is creative, then they think outside the box. If they think outside the box, then they solve problems effectively. Either a person is creative, or they do not solve problems effectively, or they are creative and do not solve problems effectively. If a person is rigid, then they are not creative. Either a person is rigid, or they are creative, or both are true.",
+        "question": "The person solved problems effectively, does this mean they were not rigid?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "If a person is creative, then they think outside the box. If they think outside the box, then they solve problems effectively. Either a person is creative, or they do not solve problems effectively, or they are creative and do not solve problems effectively. If a person is rigid, then they are not creative. Either a person is rigid, or they are creative, or both are true.",
+        "question": "The person did not solve problems effectively, does this mean they were rigid?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "If a person is honest, then they are trustworthy. If they are trustworthy, then they are respected. Either a person is honest, or they are not respected, or they are honest and not respected. If a person is deceitful, then they are not honest. Either a person is deceitful, or they are honest, or both are true.",
+        "question": "The person was respected, does this mean they were not deceitful?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "If a person is honest, then they are trustworthy. If they are trustworthy, then they are respected. Either a person is honest, or they are not respected, or they are honest and not respected. If a person is deceitful, then they are not honest. Either a person is deceitful, or they are honest, or both are true.",
+        "question": "The person was not respected, does this mean they were deceitful?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "If a person is organized, then they manage time well. If they manage time well, then they meet deadlines. Either a person is organized, or they do not meet deadlines, or they are organized and do not meet deadlines. If a person is chaotic, then they are not organized. Either a person is chaotic, or they are organized, or both are true.",
+        "question": "The person met deadlines, does this mean they were not chaotic?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "If a person is organized, then they manage time well. If they manage time well, then they meet deadlines. Either a person is organized, or they do not meet deadlines, or they are organized and do not meet deadlines. If a person is chaotic, then they are not organized. Either a person is chaotic, or they are organized, or both are true.",
+        "question": "The person did not meet deadlines, does this mean they were chaotic?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "If a person is motivated, then they achieve goals. If they achieve goals, then they are successful. Either a person is motivated, or they are not successful, or they are motivated and not successful. If a person is lazy, then they are not motivated. Either a person is lazy, or they are motivated, or both are true.",
+        "question": "The person was successful, does this mean they were not lazy?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "If a person is motivated, then they achieve goals. If they achieve goals, then they are successful. Either a person is motivated, or they are not successful, or they are motivated and not successful. If a person is lazy, then they are not motivated. Either a person is lazy, or they are motivated, or both are true.",
+        "question": "The person was not successful, does this mean they were lazy?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "If a person is diligent, then they complete tasks. If they complete tasks, then they are efficient. Either a person is diligent, or they are not efficient, or they are diligent and not efficient. If a person is careless, then they are not diligent. Either a person is careless, or they are diligent, or both are true.",
+        "question": "The person was efficient, does this mean they were not careless?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "If a person is diligent, then they complete tasks. If they complete tasks, then they are efficient. Either a person is diligent, or they are not efficient, or they are diligent and not efficient. If a person is careless, then they are not diligent. Either a person is careless, or they are diligent, or both are true.",
+        "question": "The person was not efficient, does this mean they were careless?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "If a person is patient, then they handle stress well. If they handle stress well, then they are calm. Either a person is patient, or they are not calm, or they are patient and not calm. If a person is anxious, then they are not patient. Either a person is anxious, or they are patient, or both are true.",
+        "question": "The person was calm, does this mean they were not anxious?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "If a person is patient, then they handle stress well. If they handle stress well, then they are calm. Either a person is patient, or they are not calm, or they are patient and not calm. If a person is anxious, then they are not patient. Either a person is anxious, or they are patient, or both are true.",
+        "question": "The person was not calm, does this mean they were anxious?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "If a person is optimistic, then they have a positive outlook. If they have a positive outlook, then they are hopeful. Either a person is optimistic, or they are not hopeful, or they are optimistic and not hopeful. If a person is pessimistic, then they are not optimistic. Either a person is pessimistic, or they are optimistic, or both are true.",
+        "question": "The person was hopeful, does this mean they were not pessimistic?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "If a person is optimistic, then they have a positive outlook. If they have a positive outlook, then they are hopeful. Either a person is optimistic, or they are not hopeful, or they are optimistic and not hopeful. If a person is pessimistic, then they are not optimistic. Either a person is pessimistic, or they are optimistic, or both are true.",
+        "question": "The person was not hopeful, does this mean they were pessimistic?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "If a person is generous, then they share with others. If they share with others, then they are kind. Either a person is generous, or they are not kind, or they are generous and not kind. If a person is selfish, then they are not generous. Either a person is selfish, or they are generous, or both are true.",
+        "question": "The person was kind, does this mean they were not selfish?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "If a person is generous, then they share with others. If they share with others, then they are kind. Either a person is generous, or they are not kind, or they are generous and not kind. If a person is selfish, then they are not generous. Either a person is selfish, or they are generous, or both are true.",
+        "question": "The person was not kind, does this mean they were selfish?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "If a person is curious, then they ask questions. If they ask questions, then they learn more. Either a person is curious, or they do not learn more, or they are curious and do not learn more. If a person is indifferent, then they are not curious. Either a person is indifferent, or they are curious, or both are true.",
+        "question": "The person learned more, does this mean they were not indifferent?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "If a person is curious, then they ask questions. If they ask questions, then they learn more. Either a person is curious, or they do not learn more, or they are curious and do not learn more. If a person is indifferent, then they are not curious. Either a person is indifferent, or they are curious, or both are true.",
+        "question": "The person did not learn more, does this mean they were indifferent?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "If a person is adventurous, then they explore new places. If they explore new places, then they have exciting experiences. Either a person is adventurous, or they do not have exciting experiences, or they are adventurous and do not have exciting experiences. If a person is cautious, then they are not adventurous. Either a person is cautious, or they are adventurous, or both are true.",
+        "question": "The person had exciting experiences, does this mean they were not cautious?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "If a person is adventurous, then they explore new places. If they explore new places, then they have exciting experiences. Either a person is adventurous, or they do not have exciting experiences, or they are adventurous and do not have exciting experiences. If a person is cautious, then they are not adventurous. Either a person is cautious, or they are adventurous, or both are true.",
+        "question": "The person did not have exciting experiences, does this mean they were cautious?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "If a person is empathetic, then they understand others' feelings. If they understand others' feelings, then they are compassionate. Either a person is empathetic, or they are not compassionate, or they are empathetic and not compassionate. If a person is apathetic, then they are not empathetic. Either a person is apathetic, or they are empathetic, or both are true.",
+        "question": "The person was compassionate, does this mean they were not apathetic?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "If a person is empathetic, then they understand others' feelings. If they understand others' feelings, then they are compassionate. Either a person is empathetic, or they are not compassionate, or they are empathetic and not compassionate. If a person is apathetic, then they are not empathetic. Either a person is apathetic, or they are empathetic, or both are true.",
+        "question": "The person was not compassionate, does this mean they were apathetic?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "If a person is disciplined, then they follow rules. If they follow rules, then they are responsible. Either a person is disciplined, or they are not responsible, or they are disciplined and not responsible. If a person is rebellious, then they are not disciplined. Either a person is rebellious, or they are disciplined, or both are true.",
+        "question": "The person was responsible, does this mean they were not rebellious?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "If a person is disciplined, then they follow rules. If they follow rules, then they are responsible. Either a person is disciplined, or they are not responsible, or they are disciplined and not responsible. If a person is rebellious, then they are not disciplined. Either a person is rebellious, or they are disciplined, or both are true.",
+        "question": "The person was not responsible, does this mean they were rebellious?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "If a person is attentive, then they notice details. If they notice details, then they are observant. Either a person is attentive, or they are not observant, or they are attentive and not observant. If a person is distracted, then they are not attentive. Either a person is distracted, or they are attentive, or both are true.",
+        "question": "The person was observant, does this mean they were not distracted?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "If a person is attentive, then they notice details. If they notice details, then they are observant. Either a person is attentive, or they are not observant, or they are attentive and not observant. If a person is distracted, then they are not attentive. Either a person is distracted, or they are attentive, or both are true.",
+        "question": "The person was not observant, does this mean they were distracted?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "If a person is innovative, then they create new ideas. If they create new ideas, then they are inventive. Either a person is innovative, or they are not inventive, or they are innovative and not inventive. If a person is conventional, then they are not innovative. Either a person is conventional, or they are innovative, or both are true.",
+        "question": "The person was inventive, does this mean they were not conventional?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "If a person is innovative, then they create new ideas. If they create new ideas, then they are inventive. Either a person is innovative, or they are not inventive, or they are innovative and not inventive. If a person is conventional, then they are not innovative. Either a person is conventional, or they are innovative, or both are true.",
+        "question": "The person was not inventive, does this mean they were conventional?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "If a person is logical, then they make sound decisions. If they make sound decisions, then they are effective. Either a person is logical, or they are not effective, or they are logical and not effective. If a person is impulsive, then they are not logical. Either a person is impulsive, or they are logical, or both are true.",
+        "question": "The person was effective, does this mean they were not impulsive?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "If a person is logical, then they make sound decisions. If they make sound decisions, then they are effective. Either a person is logical, or they are not effective, or they are logical and not effective. If a person is impulsive, then they are not logical. Either a person is impulsive, or they are logical, or both are true.",
+        "question": "The person was not effective, does this mean they were impulsive?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "If a person is strategic, then they plan ahead. If they plan ahead, then they are prepared. Either a person is strategic, or they are not prepared, or they are strategic and not prepared. If a person is spontaneous, then they are not strategic. Either a person is spontaneous, or they are strategic, or both are true.",
+        "question": "The person was prepared, does this mean they were not spontaneous?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "If a person is strategic, then they plan ahead. If they plan ahead, then they are prepared. Either a person is strategic, or they are not prepared, or they are strategic and not prepared. If a person is spontaneous, then they are not strategic. Either a person is spontaneous, or they are strategic, or both are true.",
+        "question": "The person was not prepared, does this mean they were spontaneous?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "If a person is analytical, then they solve complex problems. If they solve complex problems, then they are insightful. Either a person is analytical, or they are not insightful, or they are analytical and not insightful. If a person is superficial, then they are not analytical. Either a person is superficial, or they are analytical, or both are true.",
+        "question": "The person was insightful, does this mean they were not superficial?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "If a person is analytical, then they solve complex problems. If they solve complex problems, then they are insightful. Either a person is analytical, or they are not insightful, or they are analytical and not insightful. If a person is superficial, then they are not analytical. Either a person is superficial, or they are analytical, or both are true.",
+        "question": "The person was not insightful, does this mean they were superficial?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "If a person is resourceful, then they find solutions. If they find solutions, then they are adaptable. Either a person is resourceful, or they are not adaptable, or they are resourceful and not adaptable. If a person is inflexible, then they are not resourceful. Either a person is inflexible, or they are resourceful, or both are true.",
+        "question": "The person was adaptable, does this mean they were not inflexible?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "If a person is resourceful, then they find solutions. If they find solutions, then they are adaptable. Either a person is resourceful, or they are not adaptable, or they are resourceful and not adaptable. If a person is inflexible, then they are not resourceful. Either a person is inflexible, or they are resourceful, or both are true.",
+        "question": "The person was not adaptable, does this mean they were inflexible?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "If a person is articulate, then they communicate clearly. If they communicate clearly, then they are understood. Either a person is articulate, or they are not understood, or they are articulate and not understood. If a person is vague, then they are not articulate. Either a person is vague, or they are articulate, or both are true.",
+        "question": "The person was understood, does this mean they were not vague?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "If a person is articulate, then they communicate clearly. If they communicate clearly, then they are understood. Either a person is articulate, or they are not understood, or they are articulate and not understood. If a person is vague, then they are not articulate. Either a person is vague, or they are articulate, or both are true.",
+        "question": "The person was not understood, does this mean they were vague?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "If a person is decisive, then they make quick decisions. If they make quick decisions, then they are efficient. Either a person is decisive, or they are not efficient, or they are decisive and not efficient. If a person is hesitant, then they are not decisive. Either a person is hesitant, or they are decisive, or both are true.",
+        "question": "The person was efficient, does this mean they were not hesitant?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "If a person is decisive, then they make quick decisions. If they make quick decisions, then they are efficient. Either a person is decisive, or they are not efficient, or they are decisive and not efficient. If a person is hesitant, then they are not decisive. Either a person is hesitant, or they are decisive, or both are true.",
+        "question": "The person was not efficient, does this mean they were hesitant?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "If a person is empathetic, then they understand others' feelings. If they understand others' feelings, then they are compassionate. Either a person is empathetic, or they are not compassionate, or they are empathetic and not compassionate. If a person is apathetic, then they are not empathetic. Either a person is apathetic, or they are empathetic, or both are true.",
+        "question": "The person was compassionate, does this mean they were not apathetic?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "If a person is empathetic, then they understand others' feelings. If they understand others' feelings, then they are compassionate. Either a person is empathetic, or they are not compassionate, or they are empathetic and not compassionate. If a person is apathetic, then they are not empathetic. Either a person is apathetic, or they are empathetic, or both are true.",
+        "question": "The person was not compassionate, does this mean they were apathetic?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "If a person is disciplined, then they follow rules. If they follow rules, then they are responsible. Either a person is disciplined, or they are not responsible, or they are disciplined and not responsible. If a person is rebellious, then they are not disciplined. Either a person is rebellious, or they are disciplined, or both are true.",
+        "question": "The person was responsible, does this mean they were not rebellious?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "If a person is disciplined, then they follow rules. If they follow rules, then they are responsible. Either a person is disciplined, or they are not responsible, or they are disciplined and not responsible. If a person is rebellious, then they are not disciplined. Either a person is rebellious, or they are disciplined, or both are true.",
+        "question": "The person was not responsible, does this mean they were rebellious?",
+        "answer": "no"
+    }
+]

@@ -1,0 +1,601 @@
+[{
+    "id": 1,
+    "context": "If a farmer waters their crops daily, the crops will grow healthy and strong. If there is a drought, then water restrictions will be put in place. Either the crops were watered daily, or there were no water restrictions, or the crops got watered but restrictions were not put in place. If crops are healthy and strong, then the harvest yield will be plentiful.",
+    "question": "There was a drought this season, does it mean the harvest yield plentiful on the farm?",
+    "answer": "yes"
+},
+{
+    "id": 2,
+    "context": "If the boss approves the budget, the project can move forward. If headquarters cuts funding, resources will be limited. Either the budget was approved, or resources are not limited, or the budget was approved and resources are not limited this quarter. It is known that if a project can move forward, the team will be highly productive.",
+    "question": "The headquarters cut funding this quarter, does this entail the project team highly productive?",
+    "answer": "yes"
+},
+{
+    "id": 3,
+    "context": "If a student studies hard, they will pass the exam. If the exam is difficult, then extra study sessions will be required. Either the student studied hard, or the exam was not difficult, or the student studied hard and extra sessions were not required. If a student passes the exam, they will graduate.",
+    "question": "The exam was difficult this semester, does it mean the student will graduate?",
+    "answer": "yes"
+},
+{
+    "id": 4,
+    "context": "If a student studies hard, they will pass the exam. If the exam is difficult, then extra study sessions will be required. Either the student studied hard, or the exam was not difficult, or the student studied hard and extra sessions were not required. If a student passes the exam, they will graduate.",
+    "question": "The exam was difficult this semester, does it mean the student will graduate?",
+    "answer": "no"
+},
+{
+    "id": 5,
+    "context": "If a car is well-maintained, it will run smoothly. If the roads are icy, then driving conditions will be hazardous. Either the car was well-maintained, or the roads were not icy, or the car was well-maintained and conditions were not hazardous. If a car runs smoothly, the journey will be pleasant.",
+    "question": "The roads were icy today, does it mean the journey was pleasant?",
+    "answer": "yes"
+},
+{
+    "id": 6,
+    "context": "If a car is well-maintained, it will run smoothly. If the roads are icy, then driving conditions will be hazardous. Either the car was well-maintained, or the roads were not icy, or the car was well-maintained and conditions were not hazardous. If a car runs smoothly, the journey will be pleasant.",
+    "question": "The roads were icy today, does it mean the journey was pleasant?",
+    "answer": "no"
+},
+{
+    "id": 7,
+    "context": "If a chef uses fresh ingredients, the dish will be delicious. If the market is closed, then fresh ingredients will not be available. Either the chef used fresh ingredients, or the market was not closed, or the chef used fresh ingredients and the market was not closed. If a dish is delicious, it will receive good reviews.",
+    "question": "The market was closed today, does it mean the dish received good reviews?",
+    "answer": "yes"
+},
+{
+    "id": 8,
+    "context": "If a chef uses fresh ingredients, the dish will be delicious. If the market is closed, then fresh ingredients will not be available. Either the chef used fresh ingredients, or the market was not closed, or the chef used fresh ingredients and the market was not closed. If a dish is delicious, it will receive good reviews.",
+    "question": "The market was closed today, does it mean the dish received good reviews?",
+    "answer": "no"
+},
+{
+    "id": 9,
+    "context": "If a musician practices daily, they will perform flawlessly. If the instrument is out of tune, then practice sessions will be ineffective. Either the musician practiced daily, or the instrument was not out of tune, or the musician practiced daily and sessions were not ineffective. If a performance is flawless, it will be praised.",
+    "question": "The instrument was out of tune, does it mean the performance was praised?",
+    "answer": "yes"
+},
+{
+    "id": 10,
+    "context": "If a musician practices daily, they will perform flawlessly. If the instrument is out of tune, then practice sessions will be ineffective. Either the musician practiced daily, or the instrument was not out of tune, or the musician practiced daily and sessions were not ineffective. If a performance is flawless, it will be praised.",
+    "question": "The instrument was out of tune, does it mean the performance was praised?",
+    "answer": "no"
+},
+{
+    "id": 11,
+    "context": "If a gardener waters the plants regularly, they will bloom beautifully. If there is a pest infestation, then additional care will be needed. Either the gardener watered the plants regularly, or there was no pest infestation, or the gardener watered the plants and additional care was not needed. If plants bloom beautifully, the garden will be admired.",
+    "question": "There was a pest infestation this season, does it mean the garden was admired?",
+    "answer": "yes"
+},
+{
+    "id": 12,
+    "context": "If a gardener waters the plants regularly, they will bloom beautifully. If there is a pest infestation, then additional care will be needed. Either the gardener watered the plants regularly, or there was no pest infestation, or the gardener watered the plants and additional care was not needed. If plants bloom beautifully, the garden will be admired.",
+    "question": "There was a pest infestation this season, does it mean the garden was admired?",
+    "answer": "no"
+},
+{
+    "id": 13,
+    "context": "If a writer edits their work thoroughly, the book will be error-free. If the deadline is tight, then editing will be rushed. Either the writer edited thoroughly, or the deadline was not tight, or the writer edited thoroughly and editing was not rushed. If a book is error-free, it will be well-received.",
+    "question": "The deadline was tight, does it mean the book was well-received?",
+    "answer": "yes"
+},
+{
+    "id": 14,
+    "context": "If a writer edits their work thoroughly, the book will be error-free. If the deadline is tight, then editing will be rushed. Either the writer edited thoroughly, or the deadline was not tight, or the writer edited thoroughly and editing was not rushed. If a book is error-free, it will be well-received.",
+    "question": "The deadline was tight, does it mean the book was well-received?",
+    "answer": "no"
+},
+{
+    "id": 15,
+    "context": "If a teacher prepares engaging lessons, students will be attentive. If the classroom is noisy, then attention will be disrupted. Either the teacher prepared engaging lessons, or the classroom was not noisy, or the teacher prepared engaging lessons and attention was not disrupted. If students are attentive, learning outcomes will improve.",
+    "question": "The classroom was noisy today, does it mean learning outcomes improved?",
+    "answer": "yes"
+},
+{
+    "id": 16,
+    "context": "If a teacher prepares engaging lessons, students will be attentive. If the classroom is noisy, then attention will be disrupted. Either the teacher prepared engaging lessons, or the classroom was not noisy, or the teacher prepared engaging lessons and attention was not disrupted. If students are attentive, learning outcomes will improve.",
+    "question": "The classroom was noisy today, does it mean learning outcomes improved?",
+    "answer": "no"
+},
+{
+    "id": 17,
+    "context": "If a programmer writes clean code, the software will be bug-free. If the project is rushed, then code quality will suffer. Either the programmer wrote clean code, or the project was not rushed, or the programmer wrote clean code and code quality did not suffer. If software is bug-free, it will be user-friendly.",
+    "question": "The project was rushed, does it mean the software is user-friendly?",
+    "answer": "yes"
+},
+{
+    "id": 18,
+    "context": "If a programmer writes clean code, the software will be bug-free. If the project is rushed, then code quality will suffer. Either the programmer wrote clean code, or the project was not rushed, or the programmer wrote clean code and code quality did not suffer. If software is bug-free, it will be user-friendly.",
+    "question": "The project was rushed, does it mean the software is user-friendly?",
+    "answer": "no"
+},
+{
+    "id": 19,
+    "context": "If a baker follows the recipe, the cake will rise perfectly. If the oven is faulty, then baking will be uneven. Either the baker followed the recipe, or the oven was not faulty, or the baker followed the recipe and baking was not uneven. If a cake rises perfectly, it will be delicious.",
+    "question": "The oven was faulty, does it mean the cake was delicious?",
+    "answer": "yes"
+},
+{
+    "id": 20,
+    "context": "If a baker follows the recipe, the cake will rise perfectly. If the oven is faulty, then baking will be uneven. Either the baker followed the recipe, or the oven was not faulty, or the baker followed the recipe and baking was not uneven. If a cake rises perfectly, it will be delicious.",
+    "question": "The oven was faulty, does it mean the cake was delicious?",
+    "answer": "no"
+},
+{
+    "id": 21,
+    "context": "If a driver follows traffic rules, the journey will be safe. If the weather is stormy, then visibility will be poor. Either the driver followed traffic rules, or the weather was not stormy, or the driver followed traffic rules and visibility was not poor. If a journey is safe, it will be stress-free.",
+    "question": "The weather was stormy, does it mean the journey was stress-free?",
+    "answer": "yes"
+},
+{
+    "id": 22,
+    "context": "If a driver follows traffic rules, the journey will be safe. If the weather is stormy, then visibility will be poor. Either the driver followed traffic rules, or the weather was not stormy, or the driver followed traffic rules and visibility was not poor. If a journey is safe, it will be stress-free.",
+    "question": "The weather was stormy, does it mean the journey was stress-free?",
+    "answer": "no"
+},
+{
+    "id": 23,
+    "context": "If a scientist conducts thorough experiments, the results will be accurate. If the equipment is faulty, then experiments will be compromised. Either the scientist conducted thorough experiments, or the equipment was not faulty, or the scientist conducted thorough experiments and experiments were not compromised. If results are accurate, the study will be published.",
+    "question": "The equipment was faulty, does it mean the study was published?",
+    "answer": "yes"
+},
+{
+    "id": 24,
+    "context": "If a scientist conducts thorough experiments, the results will be accurate. If the equipment is faulty, then experiments will be compromised. Either the scientist conducted thorough experiments, or the equipment was not faulty, or the scientist conducted thorough experiments and experiments were not compromised. If results are accurate, the study will be published.",
+    "question": "The equipment was faulty, does it mean the study was published?",
+    "answer": "no"
+},
+{
+    "id": 25,
+    "context": "If a manager communicates clearly, the team will be aligned. If the office is chaotic, then communication will be hindered. Either the manager communicated clearly, or the office was not chaotic, or the manager communicated clearly and communication was not hindered. If the team is aligned, projects will succeed.",
+    "question": "The office was chaotic, does it mean the projects succeeded?",
+    "answer": "yes"
+},
+{
+    "id": 26,
+    "context": "If a manager communicates clearly, the team will be aligned. If the office is chaotic, then communication will be hindered. Either the manager communicated clearly, or the office was not chaotic, or the manager communicated clearly and communication was not hindered. If the team is aligned, projects will succeed.",
+    "question": "The office was chaotic, does it mean the projects succeeded?",
+    "answer": "no"
+},
+{
+    "id": 27,
+    "context": "If a designer uses innovative ideas, the product will be unique. If the budget is limited, then creativity will be restricted. Either the designer used innovative ideas, or the budget was not limited, or the designer used innovative ideas and creativity was not restricted. If a product is unique, it will attract customers.",
+    "question": "The budget was limited, does it mean the product attracted customers?",
+    "answer": "yes"
+},
+{
+    "id": 28,
+    "context": "If a designer uses innovative ideas, the product will be unique. If the budget is limited, then creativity will be restricted. Either the designer used innovative ideas, or the budget was not limited, or the designer used innovative ideas and creativity was not restricted. If a product is unique, it will attract customers.",
+    "question": "The budget was limited, does it mean the product attracted customers?",
+    "answer": "no"
+},
+{
+    "id": 29,
+    "context": "If a coach trains the team rigorously, they will win the match. If the weather is unfavorable, then training will be disrupted. Either the coach trained the team rigorously, or the weather was not unfavorable, or the coach trained the team and training was not disrupted. If the team wins the match, they will advance to the finals.",
+    "question": "The weather was unfavorable, does it mean the team advanced to the finals?",
+    "answer": "yes"
+},
+{
+    "id": 30,
+    "context": "If a coach trains the team rigorously, they will win the match. If the weather is unfavorable, then training will be disrupted. Either the coach trained the team rigorously, or the weather was not unfavorable, or the coach trained the team and training was not disrupted. If the team wins the match, they will advance to the finals.",
+    "question": "The weather was unfavorable, does it mean the team advanced to the finals?",
+    "answer": "no"
+},
+{
+    "id": 31,
+    "context": "If a student attends all classes, they will understand the material. If the schedule is hectic, then attendance will be sporadic. Either the student attended all classes, or the schedule was not hectic, or the student attended all classes and attendance was not sporadic. If a student understands the material, they will excel in exams.",
+    "question": "The schedule was hectic, does it mean the student excelled in exams?",
+    "answer": "yes"
+},
+{
+    "id": 32,
+    "context": "If a student attends all classes, they will understand the material. If the schedule is hectic, then attendance will be sporadic. Either the student attended all classes, or the schedule was not hectic, or the student attended all classes and attendance was not sporadic. If a student understands the material, they will excel in exams.",
+    "question": "The schedule was hectic, does it mean the student excelled in exams?",
+    "answer": "no"
+},
+{
+    "id": 33,
+    "context": "If a photographer uses the right lighting, the photos will be stunning. If the weather is cloudy, then lighting will be challenging. Either the photographer used the right lighting, or the weather was not cloudy, or the photographer used the right lighting and lighting was not challenging. If photos are stunning, they will be featured in a gallery.",
+    "question": "The weather was cloudy, does it mean the photos were featured in a gallery?",
+    "answer": "yes"
+},
+{
+    "id": 34,
+    "context": "If a photographer uses the right lighting, the photos will be stunning. If the weather is cloudy, then lighting will be challenging. Either the photographer used the right lighting, or the weather was not cloudy, or the photographer used the right lighting and lighting was not challenging. If photos are stunning, they will be featured in a gallery.",
+    "question": "The weather was cloudy, does it mean the photos were featured in a gallery?",
+    "answer": "no"
+},
+{
+    "id": 35,
+    "context": "If a chef follows the recipe, the meal will be delicious. If the ingredients are expired, then the meal will be spoiled. Either the chef followed the recipe, or the ingredients were not expired, or the chef followed the recipe and the meal was not spoiled. If a meal is delicious, it will be praised by diners.",
+    "question": "The ingredients were expired, does it mean the meal was praised by diners?",
+    "answer": "yes"
+},
+{
+    "id": 36,
+    "context": "If a chef follows the recipe, the meal will be delicious. If the ingredients are expired, then the meal will be spoiled. Either the chef followed the recipe, or the ingredients were not expired, or the chef followed the recipe and the meal was not spoiled. If a meal is delicious, it will be praised by diners.",
+    "question": "The ingredients were expired, does it mean the meal was praised by diners?",
+    "answer": "no"
+},
+{
+    "id": 37,
+    "context": "If a student completes all assignments, they will pass the course. If the assignments are difficult, then extra help will be needed. Either the student completed all assignments, or the assignments were not difficult, or the student completed all assignments and extra help was not needed. If a student passes the course, they will receive a certificate.",
+    "question": "The assignments were difficult, does it mean the student received a certificate?",
+    "answer": "yes"
+},
+{
+    "id": 38,
+    "context": "If a student completes all assignments, they will pass the course. If the assignments are difficult, then extra help will be needed. Either the student completed all assignments, or the assignments were not difficult, or the student completed all assignments and extra help was not needed. If a student passes the course, they will receive a certificate.",
+    "question": "The assignments were difficult, does it mean the student received a certificate?",
+    "answer": "no"
+},
+{
+    "id": 39,
+    "context": "If a developer tests the software thoroughly, it will be reliable. If the deadline is tight, then testing will be rushed. Either the developer tested thoroughly, or the deadline was not tight, or the developer tested thoroughly and testing was not rushed. If software is reliable, it will be trusted by users.",
+    "question": "The deadline was tight, does it mean the software was trusted by users?",
+    "answer": "yes"
+},
+{
+    "id": 40,
+    "context": "If a developer tests the software thoroughly, it will be reliable. If the deadline is tight, then testing will be rushed. Either the developer tested thoroughly, or the deadline was not tight, or the developer tested thoroughly and testing was not rushed. If software is reliable, it will be trusted by users.",
+    "question": "The deadline was tight, does it mean the software was trusted by users?",
+    "answer": "no"
+},
+{
+    "id": 41,
+    "context": "If a musician practices regularly, they will master the piece. If the instrument is broken, then practice will be ineffective. Either the musician practiced regularly, or the instrument was not broken, or the musician practiced regularly and practice was not ineffective. If a musician masters the piece, they will perform confidently.",
+    "question": "The instrument was broken, does it mean the musician performed confidently?",
+    "answer": "yes"
+},
+{
+    "id": 42,
+    "context": "If a musician practices regularly, they will master the piece. If the instrument is broken, then practice will be ineffective. Either the musician practiced regularly, or the instrument was not broken, or the musician practiced regularly and practice was not ineffective. If a musician masters the piece, they will perform confidently.",
+    "question": "The instrument was broken, does it mean the musician performed confidently?",
+    "answer": "no"
+},
+{
+    "id": 43,
+    "context": "If a teacher uses interactive methods, students will be engaged. If the classroom is overcrowded, then engagement will be difficult. Either the teacher used interactive methods, or the classroom was not overcrowded, or the teacher used interactive methods and engagement was not difficult. If students are engaged, they will achieve high grades.",
+    "question": "The classroom was overcrowded, does it mean the students achieved high grades?",
+    "answer": "yes"
+},
+{
+    "id": 44,
+    "context": "If a teacher uses interactive methods, students will be engaged. If the classroom is overcrowded, then engagement will be difficult. Either the teacher used interactive methods, or the classroom was not overcrowded, or the teacher used interactive methods and engagement was not difficult. If students are engaged, they will achieve high grades.",
+    "question": "The classroom was overcrowded, does it mean the students achieved high grades?",
+    "answer": "no"
+},
+{
+    "id": 45,
+    "context": "If a chef uses quality ingredients, the dish will be flavorful. If the supplier is unreliable, then ingredients will be subpar. Either the chef used quality ingredients, or the supplier was not unreliable, or the chef used quality ingredients and ingredients were not subpar. If a dish is flavorful, it will be popular.",
+    "question": "The supplier was unreliable, does it mean the dish was popular?",
+    "answer": "yes"
+},
+{
+    "id": 46,
+    "context": "If a chef uses quality ingredients, the dish will be flavorful. If the supplier is unreliable, then ingredients will be subpar. Either the chef used quality ingredients, or the supplier was not unreliable, or the chef used quality ingredients and ingredients were not subpar. If a dish is flavorful, it will be popular.",
+    "question": "The supplier was unreliable, does it mean the dish was popular?",
+    "answer": "no"
+},
+{
+    "id": 47,
+    "context": "If a student participates in discussions, they will gain insights. If the topic is complex, then participation will be limited. Either the student participated in discussions, or the topic was not complex, or the student participated in discussions and participation was not limited. If a student gains insights, they will excel in projects.",
+    "question": "The topic was complex, does it mean the student excelled in projects?",
+    "answer": "yes"
+},
+{
+    "id": 48,
+    "context": "If a student participates in discussions, they will gain insights. If the topic is complex, then participation will be limited. Either the student participated in discussions, or the topic was not complex, or the student participated in discussions and participation was not limited. If a student gains insights, they will excel in projects.",
+    "question": "The topic was complex, does it mean the student excelled in projects?",
+    "answer": "no"
+},
+{
+    "id": 49,
+    "context": "If a manager sets clear goals, the team will be focused. If the workload is overwhelming, then focus will be lost. Either the manager set clear goals, or the workload was not overwhelming, or the manager set clear goals and focus was not lost. If the team is focused, they will meet deadlines.",
+    "question": "The workload was overwhelming, does it mean the team met deadlines?",
+    "answer": "yes"
+},
+{
+    "id": 50,
+    "context": "If a manager sets clear goals, the team will be focused. If the workload is overwhelming, then focus will be lost. Either the manager set clear goals, or the workload was not overwhelming, or the manager set clear goals and focus was not lost. If the team is focused, they will meet deadlines.",
+    "question": "The workload was overwhelming, does it mean the team met deadlines?",
+    "answer": "no"
+},
+{
+    "id": 51,
+    "context": "If a researcher follows the protocol, the experiment will be valid. If the lab is understaffed, then protocol adherence will be compromised. Either the researcher followed the protocol, or the lab was not understaffed, or the researcher followed the protocol and adherence was not compromised. If an experiment is valid, it will be cited.",
+    "question": "The lab was understaffed, does it mean the experiment was cited?",
+    "answer": "yes"
+},
+{
+    "id": 52,
+    "context": "If a researcher follows the protocol, the experiment will be valid. If the lab is understaffed, then protocol adherence will be compromised. Either the researcher followed the protocol, or the lab was not understaffed, or the researcher followed the protocol and adherence was not compromised. If an experiment is valid, it will be cited.",
+    "question": "The lab was understaffed, does it mean the experiment was cited?",
+    "answer": "no"
+},
+{
+    "id": 53,
+    "context": "If a pilot follows the flight plan, the journey will be smooth. If the weather is turbulent, then deviations will be necessary. Either the pilot followed the flight plan, or the weather was not turbulent, or the pilot followed the flight plan and deviations were not necessary. If the journey is smooth, passengers will be satisfied.",
+    "question": "The weather was turbulent, does it mean the passengers were satisfied?",
+    "answer": "yes"
+},
+{
+    "id": 54,
+    "context": "If a pilot follows the flight plan, the journey will be smooth. If the weather is turbulent, then deviations will be necessary. Either the pilot followed the flight plan, or the weather was not turbulent, or the pilot followed the flight plan and deviations were not necessary. If the journey is smooth, passengers will be satisfied.",
+    "question": "The weather was turbulent, does it mean the passengers were satisfied?",
+    "answer": "no"
+},
+{
+    "id": 55,
+    "context": "If a chef uses organic produce, the meal will be healthy. If the supplier is unreliable, then organic produce will be unavailable. Either the chef used organic produce, or the supplier was not unreliable, or the chef used organic produce and it was available. If a meal is healthy, it will be recommended by nutritionists.",
+    "question": "The supplier was unreliable, does it mean the meal was recommended by nutritionists?",
+    "answer": "yes"
+},
+{
+    "id": 56,
+    "context": "If a chef uses organic produce, the meal will be healthy. If the supplier is unreliable, then organic produce will be unavailable. Either the chef used organic produce, or the supplier was not unreliable, or the chef used organic produce and it was available. If a meal is healthy, it will be recommended by nutritionists.",
+    "question": "The supplier was unreliable, does it mean the meal was recommended by nutritionists?",
+    "answer": "no"
+},
+{
+    "id": 57,
+    "context": "If a student attends workshops, they will gain practical skills. If the workshops are canceled, then alternative learning will be needed. Either the student attended workshops, or the workshops were not canceled, or the student attended workshops and alternatives were not needed. If practical skills are gained, job prospects will improve.",
+    "question": "The workshops were canceled, does it mean job prospects improved?",
+    "answer": "yes"
+},
+{
+    "id": 58,
+    "context": "If a student attends workshops, they will gain practical skills. If the workshops are canceled, then alternative learning will be needed. Either the student attended workshops, or the workshops were not canceled, or the student attended workshops and alternatives were not needed. If practical skills are gained, job prospects will improve.",
+    "question": "The workshops were canceled, does it mean job prospects improved?",
+    "answer": "no"
+},
+{
+    "id": 59,
+    "context": "If a gardener uses compost, the soil will be fertile. If the compost is contaminated, then soil quality will degrade. Either the gardener used compost, or the compost was not contaminated, or the gardener used compost and soil quality did not degrade. If the soil is fertile, plants will thrive.",
+    "question": "The compost was contaminated, does it mean the plants thrived?",
+    "answer": "yes"
+},
+{
+    "id": 60,
+    "context": "If a gardener uses compost, the soil will be fertile. If the compost is contaminated, then soil quality will degrade. Either the gardener used compost, or the compost was not contaminated, or the gardener used compost and soil quality did not degrade. If the soil is fertile, plants will thrive.",
+    "question": "The compost was contaminated, does it mean the plants thrived?",
+    "answer": "no"
+},
+{
+    "id": 61,
+    "context": "If a teacher uses visual aids, students will understand better. If the projector is broken, then visual aids will be ineffective. Either the teacher used visual aids, or the projector was not broken, or the teacher used visual aids and they were effective. If students understand better, test scores will improve.",
+    "question": "The projector was broken, does it mean test scores improved?",
+    "answer": "yes"
+},
+{
+    "id": 62,
+    "context": "If a teacher uses visual aids, students will understand better. If the projector is broken, then visual aids will be ineffective. Either the teacher used visual aids, or the projector was not broken, or the teacher used visual aids and they were effective. If students understand better, test scores will improve.",
+    "question": "The projector was broken, does it mean test scores improved?",
+    "answer": "no"
+},
+{
+    "id": 63,
+    "context": "If a musician practices with a metronome, their timing will be perfect. If the metronome is faulty, then practice will be off-beat. Either the musician practiced with a metronome, or the metronome was not faulty, or the musician practiced with a metronome and practice was on-beat. If timing is perfect, performances will be applauded.",
+    "question": "The metronome was faulty, does it mean performances were applauded?",
+    "answer": "yes"
+},
+{
+    "id": 64,
+    "context": "If a musician practices with a metronome, their timing will be perfect. If the metronome is faulty, then practice will be off-beat. Either the musician practiced with a metronome, or the metronome was not faulty, or the musician practiced with a metronome and practice was on-beat. If timing is perfect, performances will be applauded.",
+    "question": "The metronome was faulty, does it mean performances were applauded?",
+    "answer": "no"
+},
+{
+    "id": 65,
+    "context": "If a writer uses a thesaurus, their vocabulary will be rich. If the thesaurus is outdated, then word choice will be limited. Either the writer used a thesaurus, or the thesaurus was not outdated, or the writer used a thesaurus and word choice was not limited. If vocabulary is rich, the writing will be compelling.",
+    "question": "The thesaurus was outdated, does it mean the writing was compelling?",
+    "answer": "yes"
+},
+{
+    "id": 66,
+    "context": "If a writer uses a thesaurus, their vocabulary will be rich. If the thesaurus is outdated, then word choice will be limited. Either the writer used a thesaurus, or the thesaurus was not outdated, or the writer used a thesaurus and word choice was not limited. If vocabulary is rich, the writing will be compelling.",
+    "question": "The thesaurus was outdated, does it mean the writing was compelling?",
+    "answer": "no"
+},
+{
+    "id": 67,
+    "context": "If a chef uses a sharp knife, the preparation will be efficient. If the knife is dull, then preparation will be slow. Either the chef used a sharp knife, or the knife was not dull, or the chef used a sharp knife and preparation was not slow. If preparation is efficient, meals will be served on time.",
+    "question": "The knife was dull, does it mean meals were served on time?",
+    "answer": "yes"
+},
+{
+    "id": 68,
+    "context": "If a chef uses a sharp knife, the preparation will be efficient. If the knife is dull, then preparation will be slow. Either the chef used a sharp knife, or the knife was not dull, or the chef used a sharp knife and preparation was not slow. If preparation is efficient, meals will be served on time.",
+    "question": "The knife was dull, does it mean meals were served on time?",
+    "answer": "no"
+},
+{
+    "id": 69,
+    "context": "If a student uses a planner, they will be organized. If the planner is lost, then organization will be difficult. Either the student used a planner, or the planner was not lost, or the student used a planner and organization was not difficult. If they are organized, deadlines will be met.",
+    "question": "The planner was lost, does it mean deadlines were met?",
+    "answer": "yes"
+},
+{
+    "id": 70,
+    "context": "If a student uses a planner, they will be organized. If the planner is lost, then organization will be difficult. Either the student used a planner, or the planner was not lost, or the student used a planner and organization was not difficult. If they are organized, deadlines will be met.",
+    "question": "The planner was lost, does it mean deadlines were met?",
+    "answer": "no"
+},
+{
+    "id": 71,
+    "context": "If a manager holds regular meetings, the team will be informed. If the meeting room is unavailable, then meetings will be canceled. Either the manager held regular meetings, or the meeting room was not unavailable, or the manager held meetings and they were not canceled. If the team is informed, projects will progress smoothly.",
+    "question": "The meeting room was unavailable, does it mean projects progressed smoothly?",
+    "answer": "yes"
+},
+{
+    "id": 72,
+    "context": "If a manager holds regular meetings, the team will be informed. If the meeting room is unavailable, then meetings will be canceled. Either the manager held regular meetings, or the meeting room was not unavailable, or the manager held meetings and they were not canceled. If the team is informed, projects will progress smoothly.",
+    "question": "The meeting room was unavailable, does it mean projects progressed smoothly?",
+    "answer": "no"
+},
+{
+    "id": 73,
+    "context": "If a developer uses version control, the code will be manageable. If the repository is corrupted, then version control will fail. Either the developer used version control, or the repository was not corrupted, or the developer used version control and it did not fail. If the code is manageable, updates will be seamless.",
+    "question": "The repository was corrupted, does it mean updates were seamless?",
+    "answer": "yes"
+},
+{
+    "id": 74,
+    "context": "If a developer uses version control, the code will be manageable. If the repository is corrupted, then version control will fail. Either the developer used version control, or the repository was not corrupted, or the developer used version control and it did not fail. If the code is manageable, updates will be seamless.",
+    "question": "The repository was corrupted, does it mean updates were seamless?",
+    "answer": "no"
+},
+{
+    "id": 75,
+    "context": "If a scientist uses precise measurements, the data will be accurate. If the equipment is malfunctioning, then measurements will be off. Either the scientist used precise measurements, or the equipment was not malfunctioning, or the scientist used precise measurements and they were not off. If the data is accurate, conclusions will be valid.",
+    "question": "The equipment was malfunctioning, does it mean conclusions were valid?",
+    "answer": "yes"
+},
+{
+    "id": 76,
+    "context": "If a scientist uses precise measurements, the data will be accurate. If the equipment is malfunctioning, then measurements will be off. Either the scientist used precise measurements, or the equipment was not malfunctioning, or the scientist used precise measurements and they were not off. If the data is accurate, conclusions will be valid.",
+    "question": "The equipment was malfunctioning, does it mean conclusions were valid?",
+    "answer": "no"
+},
+{
+    "id": 77,
+    "context": "If a coach uses motivational speeches, the team will be inspired. If the sound system is broken, then speeches will be inaudible. Either the coach used motivational speeches, or the sound system was not broken, or the coach used speeches and they were audible. If the team is inspired, performance will improve.",
+    "question": "The sound system was broken, does it mean performance improved?",
+    "answer": "yes"
+},
+{
+    "id": 78,
+    "context": "If a coach uses motivational speeches, the team will be inspired. If the sound system is broken, then speeches will be inaudible. Either the coach used motivational speeches, or the sound system was not broken, or the coach used speeches and they were audible. If the team is inspired, performance will improve.",
+    "question": "The sound system was broken, does it mean performance improved?",
+    "answer": "no"
+},
+{
+    "id": 79,
+    "context": "If a photographer uses a tripod, the shots will be steady. If the tripod is broken, then shots will be shaky. Either the photographer used a tripod, or the tripod was not broken, or the photographer used a tripod and shots were not shaky. If the shots are steady, the photos will be professional.",
+    "question": "The tripod was broken, does it mean the photos were professional?",
+    "answer": "yes"
+},
+{
+    "id": 80,
+    "context": "If a photographer uses a tripod, the shots will be steady. If the tripod is broken, then shots will be shaky. Either the photographer used a tripod, or the tripod was not broken, or the photographer used a tripod and shots were not shaky. If the shots are steady, the photos will be professional.",
+    "question": "The tripod was broken, does it mean the photos were professional?",
+    "answer": "no"
+},
+{
+    "id": 81,
+    "context": "If a baker uses fresh yeast, the dough will rise. If the yeast is expired, then the dough will be flat. Either the baker used fresh yeast, or the yeast was not expired, or the baker used fresh yeast and the dough was not flat. If the dough rises, the bread will be fluffy.",
+    "question": "The yeast was expired, does it mean the bread was fluffy?",
+    "answer": "yes"
+},
+{
+    "id": 82,
+    "context": "If a baker uses fresh yeast, the dough will rise. If the yeast is expired, then the dough will be flat. Either the baker used fresh yeast, or the yeast was not expired, or the baker used fresh yeast and the dough was not flat. If the dough rises, the bread will be fluffy.",
+    "question": "The yeast was expired, does it mean the bread was fluffy?",
+    "answer": "no"
+},
+{
+    "id": 83,
+    "context": "If a student uses a study guide, they will be prepared. If the guide is outdated, then preparation will be inadequate. Either the student used a study guide, or the guide was not outdated, or the student used a study guide and preparation was adequate. If they are prepared, exam results will be good.",
+    "question": "The guide was outdated, does it mean exam results were good?",
+    "answer": "yes"
+},
+{
+    "id": 84,
+    "context": "If a student uses a study guide, they will be prepared. If the guide is outdated, then preparation will be inadequate. Either the student used a study guide, or the guide was not outdated, or the student used a study guide and preparation was adequate. If they are prepared, exam results will be good.",
+    "question": "The guide was outdated, does it mean exam results were good?",
+    "answer": "no"
+},
+{
+    "id": 85,
+    "context": "If a manager uses feedback, the team will improve. If feedback is ignored, then improvement will be slow. Either the manager used feedback, or feedback was not ignored, or the manager used feedback and improvement was not slow. If the team improves, productivity will increase.",
+    "question": "Feedback was ignored, does it mean productivity increased?",
+    "answer": "yes"
+},
+{
+    "id": 86,
+    "context": "If a manager uses feedback, the team will improve. If feedback is ignored, then improvement will be slow. Either the manager used feedback, or feedback was not ignored, or the manager used feedback and improvement was not slow. If the team improves, productivity will increase.",
+    "question": "Feedback was ignored, does it mean productivity increased?",
+    "answer": "no"
+},
+{
+    "id": 87,
+    "context": "If a scientist uses a control group, the experiment will be valid. If the control group is compromised, then validity will be questioned. Either the scientist used a control group, or the control group was not compromised, or the scientist used a control group and validity was not questioned. If the experiment is valid, results will be published.",
+    "question": "The control group was compromised, does it mean results were published?",
+    "answer": "yes"
+},
+{
+    "id": 88,
+    "context": "If a scientist uses a control group, the experiment will be valid. If the control group is compromised, then validity will be questioned. Either the scientist used a control group, or the control group was not compromised, or the scientist used a control group and validity was not questioned. If the experiment is valid, results will be published.",
+    "question": "The control group was compromised, does it mean results were published?",
+    "answer": "no"
+},
+{
+    "id": 89,
+    "context": "If a developer uses debugging tools, the code will be error-free. If the tools are outdated, then debugging will be ineffective. Either the developer used debugging tools, or the tools were not outdated, or the developer used debugging tools and debugging was effective. If the code is error-free, the software will be stable.",
+    "question": "The tools were outdated, does it mean the software was stable?",
+    "answer": "yes"
+},
+{
+    "id": 90,
+    "context": "If a developer uses debugging tools, the code will be error-free. If the tools are outdated, then debugging will be ineffective. Either the developer used debugging tools, or the tools were not outdated, or the developer used debugging tools and debugging was effective. If the code is error-free, the software will be stable.",
+    "question": "The tools were outdated, does it mean the software was stable?",
+    "answer": "no"
+},
+{
+    "id": 91,
+    "context": "If a musician uses a tuner, the instrument will be in tune. If the tuner is broken, then tuning will be off. Either the musician used a tuner, or the tuner was not broken, or the musician used a tuner and tuning was not off. If the instrument is in tune, the performance will be harmonious.",
+    "question": "The tuner was broken, does it mean the performance was harmonious?",
+    "answer": "yes"
+},
+{
+    "id": 92,
+    "context": "If a musician uses a tuner, the instrument will be in tune. If the tuner is broken, then tuning will be off. Either the musician used a tuner, or the tuner was not broken, or the musician used a tuner and tuning was not off. If the instrument is in tune, the performance will be harmonious.",
+    "question": "The tuner was broken, does it mean the performance was harmonious?",
+    "answer": "no"
+},
+{
+    "id": 93,
+    "context": "If a teacher uses group activities, students will collaborate. If the classroom is too small, then activities will be limited. Either the teacher used group activities, or the classroom was not too small, or the teacher used activities and they were not limited. If students collaborate, learning will be enhanced.",
+    "question": "The classroom was too small, does it mean learning was enhanced?",
+    "answer": "yes"
+},
+{
+    "id": 94,
+    "context": "If a teacher uses group activities, students will collaborate. If the classroom is too small, then activities will be limited. Either the teacher used group activities, or the classroom was not too small, or the teacher used activities and they were not limited. If students collaborate, learning will be enhanced.",
+    "question": "The classroom was too small, does it mean learning was enhanced?",
+    "answer": "no"
+},
+{
+    "id": 95,
+    "context": "If a chef uses a thermometer, the meat will be cooked perfectly. If the thermometer is inaccurate, then cooking will be uneven. Either the chef used a thermometer, or the thermometer was not inaccurate, or the chef used a thermometer and cooking was even. If the meat is cooked perfectly, the dish will be praised.",
+    "question": "The thermometer was inaccurate, does it mean the dish was praised?",
+    "answer": "yes"
+},
+{
+    "id": 96,
+    "context": "If a chef uses a thermometer, the meat will be cooked perfectly. If the thermometer is inaccurate, then cooking will be uneven. Either the chef used a thermometer, or the thermometer was not inaccurate, or the chef used a thermometer and cooking was even. If the meat is cooked perfectly, the dish will be praised.",
+    "question": "The thermometer was inaccurate, does it mean the dish was praised?",
+    "answer": "no"
+},
+{
+    "id": 97,
+    "context": "If a student uses flashcards, they will memorize facts. If the flashcards are incorrect, then memorization will be flawed. Either the student used flashcards, or the flashcards were not incorrect, or the student used flashcards and memorization was not flawed. If facts are memorized, quiz scores will be high.",
+    "question": "The flashcards were incorrect, does it mean quiz scores were high?",
+    "answer": "yes"
+},
+{
+    "id": 98,
+    "context": "If a student uses flashcards, they will memorize facts. If the flashcards are incorrect, then memorization will be flawed. Either the student used flashcards, or the flashcards were not incorrect, or the student used flashcards and memorization was not flawed. If facts are memorized, quiz scores will be high.",
+    "question": "The flashcards were incorrect, does it mean quiz scores were high?",
+    "answer": "no"
+},
+{
+    "id": 99,
+    "context": "If a manager uses time tracking, the team will be efficient. If the tracking system is down, then efficiency will be hard to measure. Either the manager used time tracking, or the system was not down, or the manager used tracking and efficiency was measurable. If the team is efficient, deadlines will be met.",
+    "question": "The tracking system was down, does it mean deadlines were met?",
+    "answer": "yes"
+},
+{
+    "id": 100,
+    "context": "If a manager uses time tracking, the team will be efficient. If the tracking system is down, then efficiency will be hard to measure. Either the manager used time tracking, or the system was not down, or the manager used tracking and efficiency was measurable. If the team is efficient, deadlines will be met.",
+    "question": "The tracking system was down, does it mean deadlines were met?",
+    "answer": "no"
+}
+]

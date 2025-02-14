@@ -1,0 +1,590 @@
+[
+    {
+        "id": 1,
+        "context": "In the office, meetings can often run long. If there is a long meeting in the morning, someone will miss their coffee break. Also, if the printer is jammed, reports won't print on time. It seems either there will be a long meeting, or the printer will be jammed, or both will happen. But one thing is for sure, if someone misses their coffee break, they will be crabby and unproductive all morning.",
+        "question": "Janet's reports printed on time, was she crabby and unproductive all morning?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In the city, the buses run on a schedule. If the bus driver wakes up on time, he will start his route at 6 AM. Also, if there is no traffic jam, the passengers will get to work early. Either the driver will wake up on time, or there will be light traffic, or maybe both will happen. But one thing is for sure - if the driver starts his route at 6 AM, then the driver will get a bonus.",
+        "question": "John did not get to work early, did the bus driver get a bonus?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "In the bakery, if the oven is preheated, the bread will rise properly. If the dough is kneaded well, the bread will be fluffy. Either the oven will be preheated, or the dough will be kneaded well, or both will happen. But one thing is for sure, if the bread rises properly, it will be sold quickly.",
+        "question": "The bread was sold quickly, did the dough rise properly?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "In the bakery, if the oven is preheated, the bread will rise properly. If the dough is kneaded well, the bread will be fluffy. Either the oven will be preheated, or the dough will be kneaded well, or both will happen. But one thing is for sure, if the bread rises properly, it will be sold quickly.",
+        "question": "The bread was not sold quickly, did the dough rise properly?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "In the garden, if the sun shines, the flowers will bloom. If it rains, the soil will be fertile. Either the sun will shine, or it will rain, or both will happen. But one thing is for sure, if the flowers bloom, the garden will attract butterflies.",
+        "question": "The garden attracted butterflies, did the flowers bloom?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In the garden, if the sun shines, the flowers will bloom. If it rains, the soil will be fertile. Either the sun will shine, or it will rain, or both will happen. But one thing is for sure, if the flowers bloom, the garden will attract butterflies.",
+        "question": "The garden did not attract butterflies, did the flowers bloom?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In the kitchen, if the chef uses fresh ingredients, the dish will taste good. If the recipe is followed, the dish will be well-presented. Either the chef will use fresh ingredients, or the recipe will be followed, or both will happen. But one thing is for sure, if the dish tastes good, it will receive compliments.",
+        "question": "The dish received compliments, did it taste good?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In the kitchen, if the chef uses fresh ingredients, the dish will taste good. If the recipe is followed, the dish will be well-presented. Either the chef will use fresh ingredients, or the recipe will be followed, or both will happen. But one thing is for sure, if the dish tastes good, it will receive compliments.",
+        "question": "The dish did not receive compliments, did it taste good?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "In the library, if the librarian arrives early, the books will be organized. If the computer system is working, the catalog will be updated. Either the librarian will arrive early, or the computer system will work, or both will happen. But one thing is for sure, if the books are organized, the library will be quiet.",
+        "question": "The library was quiet, were the books organized?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "In the library, if the librarian arrives early, the books will be organized. If the computer system is working, the catalog will be updated. Either the librarian will arrive early, or the computer system will work, or both will happen. But one thing is for sure, if the books are organized, the library will be quiet.",
+        "question": "The library was not quiet, were the books organized?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In the workshop, if the tools are sharp, the work will be efficient. If the materials are high quality, the product will be durable. Either the tools will be sharp, or the materials will be high quality, or both will happen. But one thing is for sure, if the work is efficient, the project will finish on time.",
+        "question": "The project finished on time, was the work efficient?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "In the workshop, if the tools are sharp, the work will be efficient. If the materials are high quality, the product will be durable. Either the tools will be sharp, or the materials will be high quality, or both will happen. But one thing is for sure, if the work is efficient, the project will finish on time.",
+        "question": "The project did not finish on time, was the work efficient?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "In the classroom, if the teacher is prepared, the lesson will be engaging. If the students are attentive, the lesson will be productive. Either the teacher will be prepared, or the students will be attentive, or both will happen. But one thing is for sure, if the lesson is engaging, the students will learn.",
+        "question": "The students learned, was the lesson engaging?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "In the classroom, if the teacher is prepared, the lesson will be engaging. If the students are attentive, the lesson will be productive. Either the teacher will be prepared, or the students will be attentive, or both will happen. But one thing is for sure, if the lesson is engaging, the students will learn.",
+        "question": "The students did not learn, was the lesson engaging?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "In the office, if the air conditioning is working, the employees will be comfortable. If the coffee machine is stocked, the employees will be energized. Either the air conditioning will work, or the coffee machine will be stocked, or both will happen. But one thing is for sure, if the employees are comfortable, productivity will increase.",
+        "question": "Productivity increased, were the employees comfortable?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "In the office, if the air conditioning is working, the employees will be comfortable. If the coffee machine is stocked, the employees will be energized. Either the air conditioning will work, or the coffee machine will be stocked, or both will happen. But one thing is for sure, if the employees are comfortable, productivity will increase.",
+        "question": "Productivity did not increase, were the employees comfortable?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "In the park, if the weather is sunny, the children will play outside. If the playground is open, the children will have fun. Either the weather will be sunny, or the playground will be open, or both will happen. But one thing is for sure, if the children play outside, they will be happy.",
+        "question": "The children were happy, did they play outside?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "In the park, if the weather is sunny, the children will play outside. If the playground is open, the children will have fun. Either the weather will be sunny, or the playground will be open, or both will happen. But one thing is for sure, if the children play outside, they will be happy.",
+        "question": "The children were not happy, did they play outside?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "In the restaurant, if the chef is experienced, the food will be delicious. If the ingredients are fresh, the food will be healthy. Either the chef will be experienced, or the ingredients will be fresh, or both will happen. But one thing is for sure, if the food is delicious, customers will return.",
+        "question": "Customers returned, was the food delicious?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "In the restaurant, if the chef is experienced, the food will be delicious. If the ingredients are fresh, the food will be healthy. Either the chef will be experienced, or the ingredients will be fresh, or both will happen. But one thing is for sure, if the food is delicious, customers will return.",
+        "question": "Customers did not return, was the food delicious?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "In the gym, if the trainer is motivating, the workout will be intense. If the equipment is new, the workout will be effective. Either the trainer will be motivating, or the equipment will be new, or both will happen. But one thing is for sure, if the workout is intense, members will be satisfied.",
+        "question": "Members were satisfied, was the workout intense?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "In the gym, if the trainer is motivating, the workout will be intense. If the equipment is new, the workout will be effective. Either the trainer will be motivating, or the equipment will be new, or both will happen. But one thing is for sure, if the workout is intense, members will be satisfied.",
+        "question": "Members were not satisfied, was the workout intense?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "In the theater, if the actors are talented, the play will be captivating. If the script is well-written, the play will be memorable. Either the actors will be talented, or the script will be well-written, or both will happen. But one thing is for sure, if the play is captivating, the audience will applaud.",
+        "question": "The audience applauded, was the play captivating?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "In the theater, if the actors are talented, the play will be captivating. If the script is well-written, the play will be memorable. Either the actors will be talented, or the script will be well-written, or both will happen. But one thing is for sure, if the play is captivating, the audience will applaud.",
+        "question": "The audience did not applaud, was the play captivating?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "In the concert, if the band is rehearsed, the performance will be flawless. If the sound system is perfect, the performance will be enjoyable. Either the band will be rehearsed, or the sound system will be perfect, or both will happen. But one thing is for sure, if the performance is flawless, the crowd will cheer.",
+        "question": "The crowd cheered, was the performance flawless?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "In the concert, if the band is rehearsed, the performance will be flawless. If the sound system is perfect, the performance will be enjoyable. Either the band will be rehearsed, or the sound system will be perfect, or both will happen. But one thing is for sure, if the performance is flawless, the crowd will cheer.",
+        "question": "The crowd did not cheer, was the performance flawless?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "In the hospital, if the doctor is skilled, the surgery will be successful. If the equipment is modern, the surgery will be quick. Either the doctor will be skilled, or the equipment will be modern, or both will happen. But one thing is for sure, if the surgery is successful, the patient will recover.",
+        "question": "The patient recovered, was the surgery successful?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "In the hospital, if the doctor is skilled, the surgery will be successful. If the equipment is modern, the surgery will be quick. Either the doctor will be skilled, or the equipment will be modern, or both will happen. But one thing is for sure, if the surgery is successful, the patient will recover.",
+        "question": "The patient did not recover, was the surgery successful?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "In the factory, if the machines are maintained, the production will be smooth. If the workers are trained, the production will be efficient. Either the machines will be maintained, or the workers will be trained, or both will happen. But one thing is for sure, if the production is smooth, the output will increase.",
+        "question": "The output increased, was the production smooth?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "In the factory, if the machines are maintained, the production will be smooth. If the workers are trained, the production will be efficient. Either the machines will be maintained, or the workers will be trained, or both will happen. But one thing is for sure, if the production is smooth, the output will increase.",
+        "question": "The output did not increase, was the production smooth?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "In the zoo, if the animals are healthy, the visitors will be happy. If the enclosures are clean, the animals will be active. Either the animals will be healthy, or the enclosures will be clean, or both will happen. But one thing is for sure, if the visitors are happy, they will return.",
+        "question": "The visitors returned, were they happy?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "In the zoo, if the animals are healthy, the visitors will be happy. If the enclosures are clean, the animals will be active. Either the animals will be healthy, or the enclosures will be clean, or both will happen. But one thing is for sure, if the visitors are happy, they will return.",
+        "question": "The visitors did not return, were they happy?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "In the hotel, if the staff is friendly, the guests will be satisfied. If the rooms are clean, the guests will be comfortable. Either the staff will be friendly, or the rooms will be clean, or both will happen. But one thing is for sure, if the guests are satisfied, they will leave good reviews.",
+        "question": "The guests left good reviews, were they satisfied?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "In the hotel, if the staff is friendly, the guests will be satisfied. If the rooms are clean, the guests will be comfortable. Either the staff will be friendly, or the rooms will be clean, or both will happen. But one thing is for sure, if the guests are satisfied, they will leave good reviews.",
+        "question": "The guests did not leave good reviews, were they satisfied?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "In the farm, if the crops are watered, they will grow well. If the soil is fertile, the crops will be healthy. Either the crops will be watered, or the soil will be fertile, or both will happen. But one thing is for sure, if the crops grow well, the harvest will be bountiful.",
+        "question": "The harvest was bountiful, did the crops grow well?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "In the farm, if the crops are watered, they will grow well. If the soil is fertile, the crops will be healthy. Either the crops will be watered, or the soil will be fertile, or both will happen. But one thing is for sure, if the crops grow well, the harvest will be bountiful.",
+        "question": "The harvest was not bountiful, did the crops grow well?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "In the museum, if the exhibits are interesting, the visitors will be engaged. If the guides are knowledgeable, the tours will be informative. Either the exhibits will be interesting, or the guides will be knowledgeable, or both will happen. But one thing is for sure, if the visitors are engaged, they will recommend the museum.",
+        "question": "The visitors recommended the museum, were they engaged?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "In the museum, if the exhibits are interesting, the visitors will be engaged. If the guides are knowledgeable, the tours will be informative. Either the exhibits will be interesting, or the guides will be knowledgeable, or both will happen. But one thing is for sure, if the visitors are engaged, they will recommend the museum.",
+        "question": "The visitors did not recommend the museum, were they engaged?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "In the bakery, if the ingredients are fresh, the pastries will be tasty. If the oven is calibrated, the pastries will be perfect. Either the ingredients will be fresh, or the oven will be calibrated, or both will happen. But one thing is for sure, if the pastries are tasty, they will sell out.",
+        "question": "The pastries sold out, were they tasty?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "In the bakery, if the ingredients are fresh, the pastries will be tasty. If the oven is calibrated, the pastries will be perfect. Either the ingredients will be fresh, or the oven will be calibrated, or both will happen. But one thing is for sure, if the pastries are tasty, they will sell out.",
+        "question": "The pastries did not sell out, were they tasty?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "In the garden, if the gardener is diligent, the plants will thrive. If the weather is favorable, the plants will grow fast. Either the gardener will be diligent, or the weather will be favorable, or both will happen. But one thing is for sure, if the plants thrive, the garden will be beautiful.",
+        "question": "The garden was beautiful, did the plants thrive?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "In the garden, if the gardener is diligent, the plants will thrive. If the weather is favorable, the plants will grow fast. Either the gardener will be diligent, or the weather will be favorable, or both will happen. But one thing is for sure, if the plants thrive, the garden will be beautiful.",
+        "question": "The garden was not beautiful, did the plants thrive?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "In the school, if the curriculum is updated, the students will be interested. If the teachers are passionate, the students will be motivated. Either the curriculum will be updated, or the teachers will be passionate, or both will happen. But one thing is for sure, if the students are interested, they will perform well.",
+        "question": "The students performed well, were they interested?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "In the school, if the curriculum is updated, the students will be interested. If the teachers are passionate, the students will be motivated. Either the curriculum will be updated, or the teachers will be passionate, or both will happen. But one thing is for sure, if the students are interested, they will perform well.",
+        "question": "The students did not perform well, were they interested?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "In the office, if the internet is fast, the work will be done quickly. If the software is updated, the work will be efficient. Either the internet will be fast, or the software will be updated, or both will happen. But one thing is for sure, if the work is done quickly, deadlines will be met.",
+        "question": "Deadlines were met, was the work done quickly?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "In the office, if the internet is fast, the work will be done quickly. If the software is updated, the work will be efficient. Either the internet will be fast, or the software will be updated, or both will happen. But one thing is for sure, if the work is done quickly, deadlines will be met.",
+        "question": "Deadlines were not met, was the work done quickly?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "In the lab, if the equipment is calibrated, the experiments will be accurate. If the samples are pure, the results will be reliable. Either the equipment will be calibrated, or the samples will be pure, or both will happen. But one thing is for sure, if the experiments are accurate, the research will be successful.",
+        "question": "The research was successful, were the experiments accurate?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "In the lab, if the equipment is calibrated, the experiments will be accurate. If the samples are pure, the results will be reliable. Either the equipment will be calibrated, or the samples will be pure, or both will happen. But one thing is for sure, if the experiments are accurate, the research will be successful.",
+        "question": "The research was not successful, were the experiments accurate?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "In the market, if the prices are low, the sales will be high. If the products are quality, the customers will be satisfied. Either the prices will be low, or the products will be quality, or both will happen. But one thing is for sure, if the sales are high, the revenue will increase.",
+        "question": "The revenue increased, were the sales high?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "In the market, if the prices are low, the sales will be high. If the products are quality, the customers will be satisfied. Either the prices will be low, or the products will be quality, or both will happen. But one thing is for sure, if the sales are high, the revenue will increase.",
+        "question": "The revenue did not increase, were the sales high?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "In the city, if the roads are clear, the traffic will be smooth. If the signals are working, the traffic will be orderly. Either the roads will be clear, or the signals will be working, or both will happen. But one thing is for sure, if the traffic is smooth, travel time will be reduced.",
+        "question": "Travel time was reduced, was the traffic smooth?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "In the city, if the roads are clear, the traffic will be smooth. If the signals are working, the traffic will be orderly. Either the roads will be clear, or the signals will be working, or both will happen. But one thing is for sure, if the traffic is smooth, travel time will be reduced.",
+        "question": "Travel time was not reduced, was the traffic smooth?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "In the forest, if the trees are healthy, the ecosystem will be balanced. If the animals are thriving, the ecosystem will be stable. Either the trees will be healthy, or the animals will be thriving, or both will happen. But one thing is for sure, if the ecosystem is balanced, biodiversity will increase.",
+        "question": "Biodiversity increased, was the ecosystem balanced?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "In the forest, if the trees are healthy, the ecosystem will be balanced. If the animals are thriving, the ecosystem will be stable. Either the trees will be healthy, or the animals will be thriving, or both will happen. But one thing is for sure, if the ecosystem is balanced, biodiversity will increase.",
+        "question": "Biodiversity did not increase, was the ecosystem balanced?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "In the aquarium, if the water is clean, the fish will be healthy. If the food is nutritious, the fish will grow. Either the water will be clean, or the food will be nutritious, or both will happen. But one thing is for sure, if the fish are healthy, they will be active.",
+        "question": "The fish were active, were they healthy?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "In the aquarium, if the water is clean, the fish will be healthy. If the food is nutritious, the fish will grow. Either the water will be clean, or the food will be nutritious, or both will happen. But one thing is for sure, if the fish are healthy, they will be active.",
+        "question": "The fish were not active, were they healthy?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "In the stadium, if the team is well-prepared, the game will be exciting. If the fans are supportive, the atmosphere will be lively. Either the team will be well-prepared, or the fans will be supportive, or both will happen. But one thing is for sure, if the game is exciting, the stadium will be full.",
+        "question": "The stadium was full, was the game exciting?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "In the stadium, if the team is well-prepared, the game will be exciting. If the fans are supportive, the atmosphere will be lively. Either the team will be well-prepared, or the fans will be supportive, or both will happen. But one thing is for sure, if the game is exciting, the stadium will be full.",
+        "question": "The stadium was not full, was the game exciting?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "In the festival, if the performers are talented, the event will be memorable. If the weather is pleasant, the event will be enjoyable. Either the performers will be talented, or the weather will be pleasant, or both will happen. But one thing is for sure, if the event is memorable, attendees will talk about it.",
+        "question": "Attendees talked about the event, was it memorable?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "In the festival, if the performers are talented, the event will be memorable. If the weather is pleasant, the event will be enjoyable. Either the performers will be talented, or the weather will be pleasant, or both will happen. But one thing is for sure, if the event is memorable, attendees will talk about it.",
+        "question": "Attendees did not talk about the event, was it memorable?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "In the competition, if the participants are skilled, the contest will be tough. If the judges are fair, the contest will be credible. Either the participants will be skilled, or the judges will be fair, or both will happen. But one thing is for sure, if the contest is tough, the winners will be deserving.",
+        "question": "The winners were deserving, was the contest tough?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "In the competition, if the participants are skilled, the contest will be tough. If the judges are fair, the contest will be credible. Either the participants will be skilled, or the judges will be fair, or both will happen. But one thing is for sure, if the contest is tough, the winners will be deserving.",
+        "question": "The winners were not deserving, was the contest tough?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "In the lecture, if the speaker is engaging, the audience will be attentive. If the topic is relevant, the audience will be interested. Either the speaker will be engaging, or the topic will be relevant, or both will happen. But one thing is for sure, if the audience is attentive, the lecture will be successful.",
+        "question": "The lecture was successful, was the audience attentive?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "In the lecture, if the speaker is engaging, the audience will be attentive. If the topic is relevant, the audience will be interested. Either the speaker will be engaging, or the topic will be relevant, or both will happen. But one thing is for sure, if the audience is attentive, the lecture will be successful.",
+        "question": "The lecture was not successful, was the audience attentive?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "In the seminar, if the content is informative, the participants will learn. If the presenter is clear, the participants will understand. Either the content will be informative, or the presenter will be clear, or both will happen. But one thing is for sure, if the participants learn, the seminar will be valuable.",
+        "question": "The seminar was valuable, did the participants learn?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "In the seminar, if the content is informative, the participants will learn. If the presenter is clear, the participants will understand. Either the content will be informative, or the presenter will be clear, or both will happen. But one thing is for sure, if the participants learn, the seminar will be valuable.",
+        "question": "The seminar was not valuable, did the participants learn?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "In the workshop, if the tools are available, the tasks will be completed. If the instructions are clear, the tasks will be done correctly. Either the tools will be available, or the instructions will be clear, or both will happen. But one thing is for sure, if the tasks are completed, the workshop will be productive.",
+        "question": "The workshop was productive, were the tasks completed?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "In the workshop, if the tools are available, the tasks will be completed. If the instructions are clear, the tasks will be done correctly. Either the tools will be available, or the instructions will be clear, or both will happen. But one thing is for sure, if the tasks are completed, the workshop will be productive.",
+        "question": "The workshop was not productive, were the tasks completed?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "If a student studies hard, they will pass the exam. If they attend review sessions, they will understand the material. Either they study hard, attend review sessions, or both. But one thing is for sure, if they pass the exam, they will graduate on time.",
+        "question": "The student graduated on time, did they pass the exam?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "If a student studies hard, they will pass the exam. If they attend review sessions, they will understand the material. Either they study hard, attend review sessions, or both. But one thing is for sure, if they pass the exam, they will graduate on time.",
+        "question": "The student did not graduate on time, did they pass the exam?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "If an athlete trains consistently, they will improve their performance. If they follow a strict diet, they will maintain peak condition. Either they train consistently, follow a strict diet, or both. But one thing is for sure, if they improve their performance, they will qualify for the championship.",
+        "question": "The athlete qualified for the championship, did they improve their performance?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "If an athlete trains consistently, they will improve their performance. If they follow a strict diet, they will maintain peak condition. Either they train consistently, follow a strict diet, or both. But one thing is for sure, if they improve their performance, they will qualify for the championship.",
+        "question": "The athlete did not qualify for the championship, did they improve their performance?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "If a programmer debugs the code, the program will run correctly. If they optimize the algorithm, the program will run efficiently. Either they debug the code, optimize the algorithm, or both. But one thing is for sure, if the program runs correctly, it will be deployed.",
+        "question": "The program was deployed, did it run correctly?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "If a programmer debugs the code, the program will run correctly. If they optimize the algorithm, the program will run efficiently. Either they debug the code, optimize the algorithm, or both. But one thing is for sure, if the program runs correctly, it will be deployed.",
+        "question": "The program was not deployed, did it run correctly?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "If a musician practices regularly, they will perform well in concerts. If they take care of their instrument, it will sound great. Either they practice regularly, take care of their instrument, or both. But one thing is for sure, if they perform well, they will receive a standing ovation.",
+        "question": "The musician received a standing ovation, did they perform well?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "If a musician practices regularly, they will perform well in concerts. If they take care of their instrument, it will sound great. Either they practice regularly, take care of their instrument, or both. But one thing is for sure, if they perform well, they will receive a standing ovation.",
+        "question": "The musician did not receive a standing ovation, did they perform well?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "In the bakery, if the flour is sifted, the cake will be light. If the oven is preheated, the cake will bake evenly. Either the flour will be sifted, or the oven will be preheated, or both will happen. But one thing is for sure, if the cake is light, it will be popular.",
+        "question": "The cake was popular, was it light?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "In the bakery, if the flour is sifted, the cake will be light. If the oven is preheated, the cake will bake evenly. Either the flour will be sifted, or the oven will be preheated, or both will happen. But one thing is for sure, if the cake is light, it will be popular.",
+        "question": "The cake was not popular, was it light?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "In the office, if the project is well-planned, the team will be efficient. If the resources are adequate, the project will be completed on time. Either the project will be well-planned, or the resources will be adequate, or both will happen. But one thing is for sure, if the team is efficient, the project will succeed.",
+        "question": "The project succeeded, was the team efficient?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "In the office, if the project is well-planned, the team will be efficient. If the resources are adequate, the project will be completed on time. Either the project will be well-planned, or the resources will be adequate, or both will happen. But one thing is for sure, if the team is efficient, the project will succeed.",
+        "question": "The project did not succeed, was the team efficient?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "In the garden, if the seeds are planted deeply, the plants will be strong. If the soil is rich, the plants will grow fast. Either the seeds will be planted deeply, or the soil will be rich, or both will happen. But one thing is for sure, if the plants are strong, the garden will flourish.",
+        "question": "The garden flourished, were the plants strong?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "In the garden, if the seeds are planted deeply, the plants will be strong. If the soil is rich, the plants will grow fast. Either the seeds will be planted deeply, or the soil will be rich, or both will happen. But one thing is for sure, if the plants are strong, the garden will flourish.",
+        "question": "The garden did not flourish, were the plants strong?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "In the kitchen, if the spices are fresh, the dish will be flavorful. If the cooking time is perfect, the dish will be tender. Either the spices will be fresh, or the cooking time will be perfect, or both will happen. But one thing is for sure, if the dish is flavorful, it will be praised.",
+        "question": "The dish was praised, was it flavorful?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "In the kitchen, if the spices are fresh, the dish will be flavorful. If the cooking time is perfect, the dish will be tender. Either the spices will be fresh, or the cooking time will be perfect, or both will happen. But one thing is for sure, if the dish is flavorful, it will be praised.",
+        "question": "The dish was not praised, was it flavorful?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "In the workshop, if the blueprint is accurate, the model will be precise. If the materials are top-notch, the model will be durable. Either the blueprint will be accurate, or the materials will be top-notch, or both will happen. But one thing is for sure, if the model is precise, it will be approved.",
+        "question": "The model was approved, was it precise?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "In the workshop, if the blueprint is accurate, the model will be precise. If the materials are top-notch, the model will be durable. Either the blueprint will be accurate, or the materials will be top-notch, or both will happen. But one thing is for sure, if the model is precise, it will be approved.",
+        "question": "The model was not approved, was it precise?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "In the classroom, if the syllabus is clear, the students will be focused. If the teacher is inspiring, the students will be motivated. Either the syllabus will be clear, or the teacher will be inspiring, or both will happen. But one thing is for sure, if the students are focused, they will excel.",
+        "question": "The students excelled, were they focused?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "In the classroom, if the syllabus is clear, the students will be focused. If the teacher is inspiring, the students will be motivated. Either the syllabus will be clear, or the teacher will be inspiring, or both will happen. But one thing is for sure, if the students are focused, they will excel.",
+        "question": "The students did not excel, were they focused?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "In the gym, if the routine is varied, the workout will be effective. If the trainer is supportive, the workout will be enjoyable. Either the routine will be varied, or the trainer will be supportive, or both will happen. But one thing is for sure, if the workout is effective, results will show.",
+        "question": "Results showed, was the workout effective?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "In the gym, if the routine is varied, the workout will be effective. If the trainer is supportive, the workout will be enjoyable. Either the routine will be varied, or the trainer will be supportive, or both will happen. But one thing is for sure, if the workout is effective, results will show.",
+        "question": "Results did not show, was the workout effective?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "In the theater, if the lighting is perfect, the play will be dramatic. If the actors are passionate, the play will be moving. Either the lighting will be perfect, or the actors will be passionate, or both will happen. But one thing is for sure, if the play is dramatic, it will receive standing ovations.",
+        "question": "The play received standing ovations, was it dramatic?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "In the theater, if the lighting is perfect, the play will be dramatic. If the actors are passionate, the play will be moving. Either the lighting will be perfect, or the actors will be passionate, or both will happen. But one thing is for sure, if the play is dramatic, it will receive standing ovations.",
+        "question": "The play did not receive standing ovations, was it dramatic?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "In the concert, if the acoustics are excellent, the music will be clear. If the band is energetic, the performance will be lively. Either the acoustics will be excellent, or the band will be energetic, or both will happen. But one thing is for sure, if the music is clear, the audience will be thrilled.",
+        "question": "The audience was thrilled, was the music clear?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "In the concert, if the acoustics are excellent, the music will be clear. If the band is energetic, the performance will be lively. Either the acoustics will be excellent, or the band will be energetic, or both will happen. But one thing is for sure, if the music is clear, the audience will be thrilled.",
+        "question": "The audience was not thrilled, was the music clear?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "In the hospital, if the diagnosis is accurate, the treatment will be effective. If the staff is attentive, the recovery will be quick. Either the diagnosis will be accurate, or the staff will be attentive, or both will happen. But one thing is for sure, if the treatment is effective, the patient will heal.",
+        "question": "The patient healed, was the treatment effective?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "In the hospital, if the diagnosis is accurate, the treatment will be effective. If the staff is attentive, the recovery will be quick. Either the diagnosis will be accurate, or the staff will be attentive, or both will happen. But one thing is for sure, if the treatment is effective, the patient will heal.",
+        "question": "The patient did not heal, was the treatment effective?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "In the factory, if the process is streamlined, the production will be fast. If the workers are skilled, the production will be high-quality. Either the process will be streamlined, or the workers will be skilled, or both will happen. But one thing is for sure, if the production is fast, the orders will be fulfilled.",
+        "question": "The orders were fulfilled, was the production fast?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "In the factory, if the process is streamlined, the production will be fast. If the workers are skilled, the production will be high-quality. Either the process will be streamlined, or the workers will be skilled, or both will happen. But one thing is for sure, if the production is fast, the orders will be fulfilled.",
+        "question": "The orders were not fulfilled, was the production fast?",
+        "answer": "no"
+    }
+]

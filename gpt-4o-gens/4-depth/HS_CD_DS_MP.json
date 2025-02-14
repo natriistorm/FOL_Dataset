@@ -1,0 +1,590 @@
+[
+    {
+        "id": 1,
+        "context": "Someone wanted a promotion at work. They knew that if they took on extra projects, they could demonstrate their abilities. By showing their abilities, they would be considered for advancement opportunities. Either they took on extra work, or they communicated their goals to their manager, or they did both. If someone communicates their goals, then their manager understands their aspirations.",
+        "question": "James was not considered for a promotion. Then does his manager understand his aspirations?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "Someone wanted to become fluent in a new language. They realized that if they practiced speaking that language daily, their pronunciation and vocabulary would improve. And if those skills improved, they could hold conversations more easily. Either someone practices speaking daily, or they use language-learning software, or they do both. If someone uses language-learning software, they gain exposure to native speakers.",
+        "question": "Emma is not able to hold conversations easily. Does she gain exposure to native speakers through software?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "Someone wanted to improve their health. They knew that if they exercised regularly, they would increase their stamina. By increasing their stamina, they would feel more energetic. Either they exercised regularly, or they improved their diet, or they did both. If someone improves their diet, they consume more nutrients.",
+        "question": "Alex feels more energetic. Did they consume more nutrients?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "Someone wanted to improve their health. They knew that if they exercised regularly, they would increase their stamina. By increasing their stamina, they would feel more energetic. Either they exercised regularly, or they improved their diet, or they did both. If someone improves their diet, they consume more nutrients.",
+        "question": "Alex does not feel more energetic. Did they consume more nutrients?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "Someone wanted to excel in their studies. They realized that if they studied consistently, they would understand the material better. By understanding the material better, they would score higher on exams. Either they studied consistently, or they attended extra classes, or they did both. If someone attends extra classes, they receive additional guidance.",
+        "question": "Taylor scored higher on exams. Did they receive additional guidance?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "Someone wanted to excel in their studies. They realized that if they studied consistently, they would understand the material better. By understanding the material better, they would score higher on exams. Either they studied consistently, or they attended extra classes, or they did both. If someone attends extra classes, they receive additional guidance.",
+        "question": "Taylor did not score higher on exams. Did they receive additional guidance?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "Someone wanted to become a skilled musician. They knew that if they practiced daily, they would improve their technique. By improving their technique, they would perform more confidently. Either they practiced daily, or they took music lessons, or they did both. If someone takes music lessons, they learn new skills.",
+        "question": "Jordan performs more confidently. Did they learn new skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "Someone wanted to become a skilled musician. They knew that if they practiced daily, they would improve their technique. By improving their technique, they would perform more confidently. Either they practiced daily, or they took music lessons, or they did both. If someone takes music lessons, they learn new skills.",
+        "question": "Jordan does not perform more confidently. Did they learn new skills?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "Someone wanted to enhance their cooking skills. They realized that if they tried new recipes, they would expand their culinary knowledge. By expanding their culinary knowledge, they would cook more creatively. Either they tried new recipes, or they watched cooking shows, or they did both. If someone watches cooking shows, they get inspired by chefs.",
+        "question": "Morgan cooks more creatively. Did they get inspired by chefs?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "Someone wanted to enhance their cooking skills. They realized that if they tried new recipes, they would expand their culinary knowledge. By expanding their culinary knowledge, they would cook more creatively. Either they tried new recipes, or they watched cooking shows, or they did both. If someone watches cooking shows, they get inspired by chefs.",
+        "question": "Morgan does not cook more creatively. Did they get inspired by chefs?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "Someone wanted to become a better writer. They knew that if they wrote daily, they would refine their style. By refining their style, they would engage readers more effectively. Either they wrote daily, or they read extensively, or they did both. If someone reads extensively, they gain new perspectives.",
+        "question": "Casey engages readers more effectively. Did they gain new perspectives?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "Someone wanted to become a better writer. They knew that if they wrote daily, they would refine their style. By refining their style, they would engage readers more effectively. Either they wrote daily, or they read extensively, or they did both. If someone reads extensively, they gain new perspectives.",
+        "question": "Casey does not engage readers more effectively. Did they gain new perspectives?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "Someone wanted to improve their public speaking skills. They realized that if they practiced speeches, they would become more articulate. By becoming more articulate, they would captivate their audience. Either they practiced speeches, or they joined a speaking club, or they did both. If someone joins a speaking club, they receive constructive feedback.",
+        "question": "Riley captivates their audience. Did they receive constructive feedback?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "Someone wanted to improve their public speaking skills. They realized that if they practiced speeches, they would become more articulate. By becoming more articulate, they would captivate their audience. Either they practiced speeches, or they joined a speaking club, or they did both. If someone joins a speaking club, they receive constructive feedback.",
+        "question": "Riley does not captivate their audience. Did they receive constructive feedback?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "Someone wanted to become a successful entrepreneur. They knew that if they networked effectively, they would build valuable connections. By building valuable connections, they would find new business opportunities. Either they networked effectively, or they attended business seminars, or they did both. If someone attends business seminars, they learn industry trends.",
+        "question": "Jamie finds new business opportunities. Did they learn industry trends?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "Someone wanted to become a successful entrepreneur. They knew that if they networked effectively, they would build valuable connections. By building valuable connections, they would find new business opportunities. Either they networked effectively, or they attended business seminars, or they did both. If someone attends business seminars, they learn industry trends.",
+        "question": "Jamie does not find new business opportunities. Did they learn industry trends?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "Someone wanted to master a new sport. They realized that if they trained regularly, they would enhance their skills. By enhancing their skills, they would perform better in competitions. Either they trained regularly, or they hired a coach, or they did both. If someone hires a coach, they receive personalized training.",
+        "question": "Sam performs better in competitions. Did they receive personalized training?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "Someone wanted to master a new sport. They realized that if they trained regularly, they would enhance their skills. By enhancing their skills, they would perform better in competitions. Either they trained regularly, or they hired a coach, or they did both. If someone hires a coach, they receive personalized training.",
+        "question": "Sam does not perform better in competitions. Did they receive personalized training?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "Someone wanted to become a proficient coder. They knew that if they practiced coding daily, they would solve problems more efficiently. By solving problems more efficiently, they would complete projects faster. Either they practiced coding daily, or they attended coding bootcamps, or they did both. If someone attends coding bootcamps, they learn from experts.",
+        "question": "Alex completes projects faster. Did they learn from experts?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "Someone wanted to become a proficient coder. They knew that if they practiced coding daily, they would solve problems more efficiently. By solving problems more efficiently, they would complete projects faster. Either they practiced coding daily, or they attended coding bootcamps, or they did both. If someone attends coding bootcamps, they learn from experts.",
+        "question": "Alex does not complete projects faster. Did they learn from experts?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "Someone wanted to improve their photography skills. They realized that if they took photos regularly, they would develop a better eye for composition. By developing a better eye for composition, they would capture stunning images. Either they took photos regularly, or they studied photography books, or they did both. If someone studies photography books, they understand different techniques.",
+        "question": "Jordan captures stunning images. Did they understand different techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "Someone wanted to improve their photography skills. They realized that if they took photos regularly, they would develop a better eye for composition. By developing a better eye for composition, they would capture stunning images. Either they took photos regularly, or they studied photography books, or they did both. If someone studies photography books, they understand different techniques.",
+        "question": "Jordan does not capture stunning images. Did they understand different techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "Someone wanted to become a better gardener. They knew that if they tended to their plants daily, they would notice growth patterns. By noticing growth patterns, they would cultivate a thriving garden. Either they tended to their plants daily, or they attended gardening workshops, or they did both. If someone attends gardening workshops, they learn about plant care.",
+        "question": "Taylor cultivates a thriving garden. Did they learn about plant care?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "Someone wanted to become a better gardener. They knew that if they tended to their plants daily, they would notice growth patterns. By noticing growth patterns, they would cultivate a thriving garden. Either they tended to their plants daily, or they attended gardening workshops, or they did both. If someone attends gardening workshops, they learn about plant care.",
+        "question": "Taylor does not cultivate a thriving garden. Did they learn about plant care?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "Someone wanted to become a skilled artist. They realized that if they practiced drawing daily, they would improve their technique. By improving their technique, they would create more detailed artwork. Either they practiced drawing daily, or they took art classes, or they did both. If someone takes art classes, they receive professional guidance.",
+        "question": "Morgan creates more detailed artwork. Did they receive professional guidance?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "Someone wanted to become a skilled artist. They realized that if they practiced drawing daily, they would improve their technique. By improving their technique, they would create more detailed artwork. Either they practiced drawing daily, or they took art classes, or they did both. If someone takes art classes, they receive professional guidance.",
+        "question": "Morgan does not create more detailed artwork. Did they receive professional guidance?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "Someone wanted to become a better chef. They knew that if they experimented with flavors, they would enhance their culinary skills. By enhancing their culinary skills, they would create unique dishes. Either they experimented with flavors, or they attended culinary school, or they did both. If someone attends culinary school, they learn advanced techniques.",
+        "question": "Casey creates unique dishes. Did they learn advanced techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "Someone wanted to become a better chef. They knew that if they experimented with flavors, they would enhance their culinary skills. By enhancing their culinary skills, they would create unique dishes. Either they experimented with flavors, or they attended culinary school, or they did both. If someone attends culinary school, they learn advanced techniques.",
+        "question": "Casey does not create unique dishes. Did they learn advanced techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "Someone wanted to become a successful investor. They realized that if they researched markets, they would make informed decisions. By making informed decisions, they would increase their returns. Either they researched markets, or they consulted financial advisors, or they did both. If someone consults financial advisors, they gain expert insights.",
+        "question": "Jamie increases their returns. Did they gain expert insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "Someone wanted to become a successful investor. They realized that if they researched markets, they would make informed decisions. By making informed decisions, they would increase their returns. Either they researched markets, or they consulted financial advisors, or they did both. If someone consults financial advisors, they gain expert insights.",
+        "question": "Jamie does not increase their returns. Did they gain expert insights?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "Someone wanted to become a skilled programmer. They knew that if they coded regularly, they would improve their problem-solving skills. By improving their problem-solving skills, they would develop efficient algorithms. Either they coded regularly, or they participated in coding challenges, or they did both. If someone participates in coding challenges, they test their skills.",
+        "question": "Sam develops efficient algorithms. Did they test their skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "Someone wanted to become a skilled programmer. They knew that if they coded regularly, they would improve their problem-solving skills. By improving their problem-solving skills, they would develop efficient algorithms. Either they coded regularly, or they participated in coding challenges, or they did both. If someone participates in coding challenges, they test their skills.",
+        "question": "Sam does not develop efficient algorithms. Did they test their skills?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "Someone wanted to become a proficient speaker. They realized that if they practiced public speaking, they would gain confidence. By gaining confidence, they would deliver impactful speeches. Either they practiced public speaking, or they joined a debate club, or they did both. If someone joins a debate club, they learn to argue effectively.",
+        "question": "Alex delivers impactful speeches. Did they learn to argue effectively?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "Someone wanted to become a proficient speaker. They realized that if they practiced public speaking, they would gain confidence. By gaining confidence, they would deliver impactful speeches. Either they practiced public speaking, or they joined a debate club, or they did both. If someone joins a debate club, they learn to argue effectively.",
+        "question": "Alex does not deliver impactful speeches. Did they learn to argue effectively?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "Someone wanted to become a skilled negotiator. They knew that if they studied negotiation tactics, they would understand strategies better. By understanding strategies better, they would close deals successfully. Either they studied negotiation tactics, or they attended workshops, or they did both. If someone attends workshops, they practice real scenarios.",
+        "question": "Jordan closes deals successfully. Did they practice real scenarios?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "Someone wanted to become a skilled negotiator. They knew that if they studied negotiation tactics, they would understand strategies better. By understanding strategies better, they would close deals successfully. Either they studied negotiation tactics, or they attended workshops, or they did both. If someone attends workshops, they practice real scenarios.",
+        "question": "Jordan does not close deals successfully. Did they practice real scenarios?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "Someone wanted to become a proficient researcher. They realized that if they conducted experiments, they would gather valuable data. By gathering valuable data, they would draw accurate conclusions. Either they conducted experiments, or they reviewed literature, or they did both. If someone reviews literature, they understand existing theories.",
+        "question": "Taylor draws accurate conclusions. Did they understand existing theories?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "Someone wanted to become a proficient researcher. They realized that if they conducted experiments, they would gather valuable data. By gathering valuable data, they would draw accurate conclusions. Either they conducted experiments, or they reviewed literature, or they did both. If someone reviews literature, they understand existing theories.",
+        "question": "Taylor does not draw accurate conclusions. Did they understand existing theories?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "Someone wanted to become a skilled leader. They knew that if they led projects, they would gain experience. By gaining experience, they would inspire their team. Either they led projects, or they attended leadership seminars, or they did both. If someone attends leadership seminars, they learn new management techniques.",
+        "question": "Riley inspires their team. Did they learn new management techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "Someone wanted to become a skilled leader. They knew that if they led projects, they would gain experience. By gaining experience, they would inspire their team. Either they led projects, or they attended leadership seminars, or they did both. If someone attends leadership seminars, they learn new management techniques.",
+        "question": "Riley does not inspire their team. Did they learn new management techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "Someone wanted to become a proficient analyst. They realized that if they analyzed data regularly, they would identify trends. By identifying trends, they would make accurate predictions. Either they analyzed data regularly, or they used analytical software, or they did both. If someone uses analytical software, they process data efficiently.",
+        "question": "Jamie makes accurate predictions. Did they process data efficiently?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "Someone wanted to become a proficient analyst. They realized that if they analyzed data regularly, they would identify trends. By identifying trends, they would make accurate predictions. Either they analyzed data regularly, or they used analytical software, or they did both. If someone uses analytical software, they process data efficiently.",
+        "question": "Jamie does not make accurate predictions. Did they process data efficiently?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "Someone wanted to become a skilled designer. They knew that if they practiced design daily, they would enhance their creativity. By enhancing their creativity, they would produce innovative designs. Either they practiced design daily, or they attended design workshops, or they did both. If someone attends design workshops, they learn new techniques.",
+        "question": "Sam produces innovative designs. Did they learn new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "Someone wanted to become a skilled designer. They knew that if they practiced design daily, they would enhance their creativity. By enhancing their creativity, they would produce innovative designs. Either they practiced design daily, or they attended design workshops, or they did both. If someone attends design workshops, they learn new techniques.",
+        "question": "Sam does not produce innovative designs. Did they learn new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "Someone wanted to become a proficient marketer. They realized that if they studied market trends, they would understand consumer behavior. By understanding consumer behavior, they would create effective campaigns. Either they studied market trends, or they attended marketing courses, or they did both. If someone attends marketing courses, they learn strategic planning.",
+        "question": "Alex creates effective campaigns. Did they learn strategic planning?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "Someone wanted to become a proficient marketer. They realized that if they studied market trends, they would understand consumer behavior. By understanding consumer behavior, they would create effective campaigns. Either they studied market trends, or they attended marketing courses, or they did both. If someone attends marketing courses, they learn strategic planning.",
+        "question": "Alex does not create effective campaigns. Did they learn strategic planning?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "Someone wanted to become a skilled architect. They knew that if they designed buildings regularly, they would improve their architectural skills. By improving their architectural skills, they would create impressive structures. Either they designed buildings regularly, or they studied architecture, or they did both. If someone studies architecture, they learn about structural integrity.",
+        "question": "Jordan creates impressive structures. Did they learn about structural integrity?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "Someone wanted to become a skilled architect. They knew that if they designed buildings regularly, they would improve their architectural skills. By improving their architectural skills, they would create impressive structures. Either they designed buildings regularly, or they studied architecture, or they did both. If someone studies architecture, they learn about structural integrity.",
+        "question": "Jordan does not create impressive structures. Did they learn about structural integrity?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "Someone wanted to become a proficient teacher. They realized that if they prepared lessons thoroughly, they would engage students effectively. By engaging students effectively, they would improve learning outcomes. Either they prepared lessons thoroughly, or they attended teaching workshops, or they did both. If someone attends teaching workshops, they learn new methodologies.",
+        "question": "Taylor improves learning outcomes. Did they learn new methodologies?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "Someone wanted to become a proficient teacher. They realized that if they prepared lessons thoroughly, they would engage students effectively. By engaging students effectively, they would improve learning outcomes. Either they prepared lessons thoroughly, or they attended teaching workshops, or they did both. If someone attends teaching workshops, they learn new methodologies.",
+        "question": "Taylor does not improve learning outcomes. Did they learn new methodologies?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "Someone wanted to become a skilled engineer. They knew that if they worked on projects, they would gain practical experience. By gaining practical experience, they would solve engineering problems efficiently. Either they worked on projects, or they attended engineering seminars, or they did both. If someone attends engineering seminars, they learn about new technologies.",
+        "question": "Riley solves engineering problems efficiently. Did they learn about new technologies?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "Someone wanted to become a skilled engineer. They knew that if they worked on projects, they would gain practical experience. By gaining practical experience, they would solve engineering problems efficiently. Either they worked on projects, or they attended engineering seminars, or they did both. If someone attends engineering seminars, they learn about new technologies.",
+        "question": "Riley does not solve engineering problems efficiently. Did they learn about new technologies?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "Someone wanted to become a skilled chef. They realized that if they experimented with new ingredients, they would enhance their culinary creativity. By enhancing their culinary creativity, they would create unique dishes. Either they experimented with new ingredients, or they attended culinary workshops, or they did both. If someone attends culinary workshops, they learn advanced cooking techniques.",
+        "question": "Jamie creates unique dishes. Did they learn advanced cooking techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "Someone wanted to become a skilled chef. They realized that if they experimented with new ingredients, they would enhance their culinary creativity. By enhancing their culinary creativity, they would create unique dishes. Either they experimented with new ingredients, or they attended culinary workshops, or they did both. If someone attends culinary workshops, they learn advanced cooking techniques.",
+        "question": "Jamie does not create unique dishes. Did they learn advanced cooking techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "Someone wanted to become a proficient linguist. They knew that if they practiced speaking daily, they would improve their fluency. By improving their fluency, they would communicate effectively. Either they practiced speaking daily, or they attended language classes, or they did both. If someone attends language classes, they learn grammar rules.",
+        "question": "Alex communicates effectively. Did they learn grammar rules?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "Someone wanted to become a proficient linguist. They knew that if they practiced speaking daily, they would improve their fluency. By improving their fluency, they would communicate effectively. Either they practiced speaking daily, or they attended language classes, or they did both. If someone attends language classes, they learn grammar rules.",
+        "question": "Alex does not communicate effectively. Did they learn grammar rules?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "Someone wanted to become a skilled photographer. They realized that if they took photos regularly, they would develop a keen eye for detail. By developing a keen eye for detail, they would capture stunning images. Either they took photos regularly, or they attended photography courses, or they did both. If someone attends photography courses, they learn about lighting techniques.",
+        "question": "Jordan captures stunning images. Did they learn about lighting techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "Someone wanted to become a skilled photographer. They realized that if they took photos regularly, they would develop a keen eye for detail. By developing a keen eye for detail, they would capture stunning images. Either they took photos regularly, or they attended photography courses, or they did both. If someone attends photography courses, they learn about lighting techniques.",
+        "question": "Jordan does not capture stunning images. Did they learn about lighting techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "Someone wanted to become a proficient musician. They knew that if they practiced their instrument daily, they would improve their technique. By improving their technique, they would perform confidently. Either they practiced their instrument daily, or they took music lessons, or they did both. If someone takes music lessons, they learn music theory.",
+        "question": "Taylor performs confidently. Did they learn music theory?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "Someone wanted to become a proficient musician. They knew that if they practiced their instrument daily, they would improve their technique. By improving their technique, they would perform confidently. Either they practiced their instrument daily, or they took music lessons, or they did both. If someone takes music lessons, they learn music theory.",
+        "question": "Taylor does not perform confidently. Did they learn music theory?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "Someone wanted to become a skilled athlete. They realized that if they trained consistently, they would enhance their performance. By enhancing their performance, they would win competitions. Either they trained consistently, or they hired a personal coach, or they did both. If someone hires a personal coach, they receive tailored training.",
+        "question": "Riley wins competitions. Did they receive tailored training?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "Someone wanted to become a skilled athlete. They realized that if they trained consistently, they would enhance their performance. By enhancing their performance, they would win competitions. Either they trained consistently, or they hired a personal coach, or they did both. If someone hires a personal coach, they receive tailored training.",
+        "question": "Riley does not win competitions. Did they receive tailored training?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "Someone wanted to become a proficient scientist. They knew that if they conducted experiments regularly, they would gather significant data. By gathering significant data, they would make groundbreaking discoveries. Either they conducted experiments regularly, or they collaborated with other scientists, or they did both. If someone collaborates with other scientists, they gain diverse insights.",
+        "question": "Jamie makes groundbreaking discoveries. Did they gain diverse insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "Someone wanted to become a proficient scientist. They knew that if they conducted experiments regularly, they would gather significant data. By gathering significant data, they would make groundbreaking discoveries. Either they conducted experiments regularly, or they collaborated with other scientists, or they did both. If someone collaborates with other scientists, they gain diverse insights.",
+        "question": "Jamie does not make groundbreaking discoveries. Did they gain diverse insights?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "Someone wanted to become a skilled programmer. They realized that if they coded daily, they would improve their problem-solving skills. By improving their problem-solving skills, they would develop efficient software. Either they coded daily, or they attended programming workshops, or they did both. If someone attends programming workshops, they learn best practices.",
+        "question": "Sam develops efficient software. Did they learn best practices?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "Someone wanted to become a skilled programmer. They realized that if they coded daily, they would improve their problem-solving skills. By improving their problem-solving skills, they would develop efficient software. Either they coded daily, or they attended programming workshops, or they did both. If someone attends programming workshops, they learn best practices.",
+        "question": "Sam does not develop efficient software. Did they learn best practices?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "Someone wanted to become a proficient artist. They knew that if they practiced drawing daily, they would refine their skills. By refining their skills, they would create captivating art. Either they practiced drawing daily, or they attended art classes, or they did both. If someone attends art classes, they learn new techniques.",
+        "question": "Alex creates captivating art. Did they learn new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "Someone wanted to become a proficient artist. They knew that if they practiced drawing daily, they would refine their skills. By refining their skills, they would create captivating art. Either they practiced drawing daily, or they attended art classes, or they did both. If someone attends art classes, they learn new techniques.",
+        "question": "Alex does not create captivating art. Did they learn new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "Someone wanted to become a skilled writer. They realized that if they wrote daily, they would improve their storytelling ability. By improving their storytelling ability, they would engage readers. Either they wrote daily, or they attended writing workshops, or they did both. If someone attends writing workshops, they learn narrative techniques.",
+        "question": "Jordan engages readers. Did they learn narrative techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "Someone wanted to become a skilled writer. They realized that if they wrote daily, they would improve their storytelling ability. By improving their storytelling ability, they would engage readers. Either they wrote daily, or they attended writing workshops, or they did both. If someone attends writing workshops, they learn narrative techniques.",
+        "question": "Jordan does not engage readers. Did they learn narrative techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "Someone wanted to become a proficient teacher. They knew that if they prepared lessons thoroughly, they would engage students. By engaging students, they would improve learning outcomes. Either they prepared lessons thoroughly, or they attended teaching seminars, or they did both. If someone attends teaching seminars, they learn innovative methods.",
+        "question": "Taylor improves learning outcomes. Did they learn innovative methods?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "Someone wanted to become a proficient teacher. They knew that if they prepared lessons thoroughly, they would engage students. By engaging students, they would improve learning outcomes. Either they prepared lessons thoroughly, or they attended teaching seminars, or they did both. If someone attends teaching seminars, they learn innovative methods.",
+        "question": "Taylor does not improve learning outcomes. Did they learn innovative methods?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "Someone wanted to become a skilled leader. They realized that if they led projects, they would gain experience. By gaining experience, they would inspire their team. Either they led projects, or they attended leadership courses, or they did both. If someone attends leadership courses, they learn management strategies.",
+        "question": "Riley inspires their team. Did they learn management strategies?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "Someone wanted to become a skilled leader. They realized that if they led projects, they would gain experience. By gaining experience, they would inspire their team. Either they led projects, or they attended leadership courses, or they did both. If someone attends leadership courses, they learn management strategies.",
+        "question": "Riley does not inspire their team. Did they learn management strategies?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "Someone wanted to become a proficient analyst. They knew that if they analyzed data regularly, they would identify patterns. By identifying patterns, they would make accurate predictions. Either they analyzed data regularly, or they used analytical tools, or they did both. If someone uses analytical tools, they process data efficiently.",
+        "question": "Jamie makes accurate predictions. Did they process data efficiently?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "Someone wanted to become a proficient analyst. They knew that if they analyzed data regularly, they would identify patterns. By identifying patterns, they would make accurate predictions. Either they analyzed data regularly, or they used analytical tools, or they did both. If someone uses analytical tools, they process data efficiently.",
+        "question": "Jamie does not make accurate predictions. Did they process data efficiently?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "Someone wanted to become a skilled negotiator. They realized that if they practiced negotiation tactics, they would understand strategies. By understanding strategies, they would close deals successfully. Either they practiced negotiation tactics, or they attended negotiation workshops, or they did both. If someone attends negotiation workshops, they learn effective communication.",
+        "question": "Sam closes deals successfully. Did they learn effective communication?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "Someone wanted to become a skilled negotiator. They realized that if they practiced negotiation tactics, they would understand strategies. By understanding strategies, they would close deals successfully. Either they practiced negotiation tactics, or they attended negotiation workshops, or they did both. If someone attends negotiation workshops, they learn effective communication.",
+        "question": "Sam does not close deals successfully. Did they learn effective communication?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "Someone wanted to become a proficient researcher. They knew that if they conducted studies, they would gather valuable insights. By gathering valuable insights, they would draw accurate conclusions. Either they conducted studies, or they reviewed academic papers, or they did both. If someone reviews academic papers, they understand existing research.",
+        "question": "Alex draws accurate conclusions. Did they understand existing research?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "Someone wanted to become a proficient researcher. They knew that if they conducted studies, they would gather valuable insights. By gathering valuable insights, they would draw accurate conclusions. Either they conducted studies, or they reviewed academic papers, or they did both. If someone reviews academic papers, they understand existing research.",
+        "question": "Alex does not draw accurate conclusions. Did they understand existing research?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "Someone wanted to become a skilled marketer. They realized that if they studied consumer behavior, they would understand market trends. By understanding market trends, they would create effective campaigns. Either they studied consumer behavior, or they attended marketing seminars, or they did both. If someone attends marketing seminars, they learn strategic planning.",
+        "question": "Jordan creates effective campaigns. Did they learn strategic planning?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "Someone wanted to become a skilled marketer. They realized that if they studied consumer behavior, they would understand market trends. By understanding market trends, they would create effective campaigns. Either they studied consumer behavior, or they attended marketing seminars, or they did both. If someone attends marketing seminars, they learn strategic planning.",
+        "question": "Jordan does not create effective campaigns. Did they learn strategic planning?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "Someone wanted to become a proficient architect. They knew that if they designed buildings regularly, they would improve their architectural skills. By improving their architectural skills, they would create impressive structures. Either they designed buildings regularly, or they studied architecture, or they did both. If someone studies architecture, they learn about structural integrity.",
+        "question": "Taylor creates impressive structures. Did they learn about structural integrity?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "Someone wanted to become a proficient architect. They knew that if they designed buildings regularly, they would improve their architectural skills. By improving their architectural skills, they would create impressive structures. Either they designed buildings regularly, or they studied architecture, or they did both. If someone studies architecture, they learn about structural integrity.",
+        "question": "Taylor does not create impressive structures. Did they learn about structural integrity?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "Someone wanted to become a skilled engineer. They realized that if they worked on projects, they would gain practical experience. By gaining practical experience, they would solve engineering problems efficiently. Either they worked on projects, or they attended engineering seminars, or they did both. If someone attends engineering seminars, they learn about new technologies.",
+        "question": "Riley solves engineering problems efficiently. Did they learn about new technologies?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "Someone wanted to become a skilled engineer. They realized that if they worked on projects, they would gain practical experience. By gaining practical experience, they would solve engineering problems efficiently. Either they worked on projects, or they attended engineering seminars, or they did both. If someone attends engineering seminars, they learn about new technologies.",
+        "question": "Riley does not solve engineering problems efficiently. Did they learn about new technologies?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "Someone wanted to become a proficient chef. They knew that if they experimented with flavors, they would enhance their culinary skills. By enhancing their culinary skills, they would create unique dishes. Either they experimented with flavors, or they attended culinary school, or they did both. If someone attends culinary school, they learn advanced techniques.",
+        "question": "Jamie creates unique dishes. Did they learn advanced techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "Someone wanted to become a proficient chef. They knew that if they experimented with flavors, they would enhance their culinary skills. By enhancing their culinary skills, they would create unique dishes. Either they experimented with flavors, or they attended culinary school, or they did both. If someone attends culinary school, they learn advanced techniques.",
+        "question": "Jamie does not create unique dishes. Did they learn advanced techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "Someone wanted to become a skilled linguist. They realized that if they practiced speaking daily, they would improve their fluency. By improving their fluency, they would communicate effectively. Either they practiced speaking daily, or they attended language classes, or they did both. If someone attends language classes, they learn grammar rules.",
+        "question": "Alex communicates effectively. Did they learn grammar rules?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "Someone wanted to become a skilled linguist. They realized that if they practiced speaking daily, they would improve their fluency. By improving their fluency, they would communicate effectively. Either they practiced speaking daily, or they attended language classes, or they did both. If someone attends language classes, they learn grammar rules.",
+        "question": "Alex does not communicate effectively. Did they learn grammar rules?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "Someone wanted to become a proficient photographer. They knew that if they took photos regularly, they would develop a keen eye for detail. By developing a keen eye for detail, they would capture stunning images. Either they took photos regularly, or they attended photography courses, or they did both. If someone attends photography courses, they learn about lighting techniques.",
+        "question": "Jordan captures stunning images. Did they learn about lighting techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "Someone wanted to become a proficient photographer. They knew that if they took photos regularly, they would develop a keen eye for detail. By developing a keen eye for detail, they would capture stunning images. Either they took photos regularly, or they attended photography courses, or they did both. If someone attends photography courses, they learn about lighting techniques.",
+        "question": "Jordan does not capture stunning images. Did they learn about lighting techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "Someone wanted to become a skilled musician. They realized that if they practiced their instrument daily, they would improve their technique. By improving their technique, they would perform confidently. Either they practiced their instrument daily, or they took music lessons, or they did both. If someone takes music lessons, they learn music theory.",
+        "question": "Taylor performs confidently. Did they learn music theory?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "Someone wanted to become a skilled musician. They realized that if they practiced their instrument daily, they would improve their technique. By improving their technique, they would perform confidently. Either they practiced their instrument daily, or they took music lessons, or they did both. If someone takes music lessons, they learn music theory.",
+        "question": "Taylor does not perform confidently. Did they learn music theory?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "Someone wanted to become a proficient athlete. They knew that if they trained consistently, they would enhance their performance. By enhancing their performance, they would win competitions. Either they trained consistently, or they hired a personal coach, or they did both. If someone hires a personal coach, they receive tailored training.",
+        "question": "Riley wins competitions. Did they receive tailored training?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "Someone wanted to become a proficient athlete. They knew that if they trained consistently, they would enhance their performance. By enhancing their performance, they would win competitions. Either they trained consistently, or they hired a personal coach, or they did both. If someone hires a personal coach, they receive tailored training.",
+        "question": "Riley does not win competitions. Did they receive tailored training?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "Someone wanted to become a skilled scientist. They realized that if they conducted experiments regularly, they would gather significant data. By gathering significant data, they would make groundbreaking discoveries. Either they conducted experiments regularly, or they collaborated with other scientists, or they did both. If someone collaborates with other scientists, they gain diverse insights.",
+        "question": "Jamie makes groundbreaking discoveries. Did they gain diverse insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "Someone wanted to become a skilled scientist. They realized that if they conducted experiments regularly, they would gather significant data. By gathering significant data, they would make groundbreaking discoveries. Either they conducted experiments regularly, or they collaborated with other scientists, or they did both. If someone collaborates with other scientists, they gain diverse insights.",
+        "question": "Jamie does not make groundbreaking discoveries. Did they gain diverse insights?",
+        "answer": "no"
+    }
+]

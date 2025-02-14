@@ -1,0 +1,614 @@
+[
+    {
+        "id": 1,
+        "context": "Someone wanted a promotion at work. They knew that if they took on extra projects, they could demonstrate their abilities. By showing their abilities, they would be considered for advancement opportunities. Either they took on extra work, or they communicated their goals to their manager, or they did both. If someone communicates their goals, then their manager understands their aspirations.",
+        "question": "James was not considered for a promotion. Then does his manager understand his aspirations?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "Someone wanted to become fluent in a new language. They realized that if they practiced speaking that language daily, their pronunciation and vocabulary would improve. And if those skills improved, they could hold conversations more easily. Either someone practices speaking daily, or they use language-learning software, or they do both. If someone uses language-learning software, they gain exposure to native speakers.",
+        "question": "Emma is not able to hold conversations easily. Does she gain exposure to native speakers through software?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "Someone wanted to improve their health. They knew that if they exercised regularly, they would increase their stamina. By increasing their stamina, they would feel more energetic throughout the day. Either they exercised regularly, or they improved their diet, or they did both. If someone improves their diet, they consume more nutrients.",
+        "question": "Alex does not feel more energetic throughout the day. Does Alex consume more nutrients?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "Someone wanted to improve their health. They knew that if they exercised regularly, they would increase their stamina. By increasing their stamina, they would feel more energetic throughout the day. Either they exercised regularly, or they improved their diet, or they did both. If someone improves their diet, they consume more nutrients.",
+        "question": "Alex feels more energetic throughout the day. Does Alex consume more nutrients?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "Someone wanted to become a better cook. They realized that if they practiced cooking new recipes, they would enhance their culinary skills. By enhancing their skills, they could prepare gourmet meals. Either they practiced cooking new recipes, or they attended cooking classes, or they did both. If someone attends cooking classes, they learn from professional chefs.",
+        "question": "Jordan cannot prepare gourmet meals. Do they learn from professional chefs?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "Someone wanted to become a better cook. They realized that if they practiced cooking new recipes, they would enhance their culinary skills. By enhancing their skills, they could prepare gourmet meals. Either they practiced cooking new recipes, or they attended cooking classes, or they did both. If someone attends cooking classes, they learn from professional chefs.",
+        "question": "Jordan can prepare gourmet meals. Do they learn from professional chefs?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "Someone wanted to write a novel. They understood that if they wrote daily, they would develop their writing style. By developing their style, they could complete their novel. Either they wrote daily, or they joined a writer's group, or they did both. If someone joins a writer's group, they receive feedback on their work.",
+        "question": "Taylor has not completed their novel. Do they receive feedback on their work?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "Someone wanted to write a novel. They understood that if they wrote daily, they would develop their writing style. By developing their style, they could complete their novel. Either they wrote daily, or they joined a writer's group, or they did both. If someone joins a writer's group, they receive feedback on their work.",
+        "question": "Taylor has completed their novel. Do they receive feedback on their work?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "Someone wanted to save money for a vacation. They knew that if they reduced their expenses, they would increase their savings. By increasing their savings, they could afford the vacation. Either they reduced their expenses, or they took on a part-time job, or they did both. If someone takes on a part-time job, they earn extra income.",
+        "question": "Morgan cannot afford the vacation. Do they earn extra income?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "Someone wanted to save money for a vacation. They knew that if they reduced their expenses, they would increase their savings. By increasing their savings, they could afford the vacation. Either they reduced their expenses, or they took on a part-time job, or they did both. If someone takes on a part-time job, they earn extra income.",
+        "question": "Morgan can afford the vacation. Do they earn extra income?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "Someone wanted to learn to play the guitar. They realized that if they practiced daily, they would improve their skills. By improving their skills, they could play their favorite songs. Either they practiced daily, or they took online lessons, or they did both. If someone takes online lessons, they learn new techniques.",
+        "question": "Casey cannot play their favorite songs. Do they learn new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "Someone wanted to learn to play the guitar. They realized that if they practiced daily, they would improve their skills. By improving their skills, they could play their favorite songs. Either they practiced daily, or they took online lessons, or they did both. If someone takes online lessons, they learn new techniques.",
+        "question": "Casey can play their favorite songs. Do they learn new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "Someone wanted to improve their public speaking. They knew that if they practiced speaking in front of a mirror, they would gain confidence. By gaining confidence, they could speak fluently in public. Either they practiced in front of a mirror, or they joined a public speaking club, or they did both. If someone joins a public speaking club, they get constructive feedback.",
+        "question": "Jamie cannot speak fluently in public. Do they get constructive feedback?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "Someone wanted to improve their public speaking. They knew that if they practiced speaking in front of a mirror, they would gain confidence. By gaining confidence, they could speak fluently in public. Either they practiced in front of a mirror, or they joined a public speaking club, or they did both. If someone joins a public speaking club, they get constructive feedback.",
+        "question": "Jamie can speak fluently in public. Do they get constructive feedback?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "Someone wanted to become a better photographer. They realized that if they took photos daily, they would improve their technique. By improving their technique, they could capture stunning images. Either they took photos daily, or they attended photography workshops, or they did both. If someone attends photography workshops, they learn from experts.",
+        "question": "Riley cannot capture stunning images. Do they learn from experts?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "Someone wanted to become a better photographer. They realized that if they took photos daily, they would improve their technique. By improving their technique, they could capture stunning images. Either they took photos daily, or they attended photography workshops, or they did both. If someone attends photography workshops, they learn from experts.",
+        "question": "Riley can capture stunning images. Do they learn from experts?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "Someone wanted to run a marathon. They knew that if they trained consistently, they would build endurance. By building endurance, they could complete the marathon. Either they trained consistently, or they followed a nutrition plan, or they did both. If someone follows a nutrition plan, they maintain energy levels.",
+        "question": "Sam cannot complete the marathon. Do they maintain energy levels?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "Someone wanted to run a marathon. They knew that if they trained consistently, they would build endurance. By building endurance, they could complete the marathon. Either they trained consistently, or they followed a nutrition plan, or they did both. If someone follows a nutrition plan, they maintain energy levels.",
+        "question": "Sam can complete the marathon. Do they maintain energy levels?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "Someone wanted to learn to paint. They realized that if they practiced regularly, they would develop their style. By developing their style, they could create beautiful artworks. Either they practiced regularly, or they took art classes, or they did both. If someone takes art classes, they learn new techniques.",
+        "question": "Alexis cannot create beautiful artworks. Do they learn new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "Someone wanted to learn to paint. They realized that if they practiced regularly, they would develop their style. By developing their style, they could create beautiful artworks. Either they practiced regularly, or they took art classes, or they did both. If someone takes art classes, they learn new techniques.",
+        "question": "Alexis can create beautiful artworks. Do they learn new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "Someone wanted to improve their chess skills. They knew that if they studied strategies, they would enhance their gameplay. By enhancing their gameplay, they could win more matches. Either they studied strategies, or they played with experienced players, or they did both. If someone plays with experienced players, they gain practical insights.",
+        "question": "Jordan does not win more matches. Do they gain practical insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "Someone wanted to improve their chess skills. They knew that if they studied strategies, they would enhance their gameplay. By enhancing their gameplay, they could win more matches. Either they studied strategies, or they played with experienced players, or they did both. If someone plays with experienced players, they gain practical insights.",
+        "question": "Jordan wins more matches. Do they gain practical insights?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "Someone wanted to learn to code. They realized that if they practiced coding daily, they would improve their problem-solving skills. By improving their skills, they could build complex applications. Either they practiced coding daily, or they attended coding bootcamps, or they did both. If someone attends coding bootcamps, they learn from industry professionals.",
+        "question": "Taylor cannot build complex applications. Do they learn from industry professionals?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "Someone wanted to learn to code. They realized that if they practiced coding daily, they would improve their problem-solving skills. By improving their skills, they could build complex applications. Either they practiced coding daily, or they attended coding bootcamps, or they did both. If someone attends coding bootcamps, they learn from industry professionals.",
+        "question": "Taylor can build complex applications. Do they learn from industry professionals?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "Someone wanted to improve their singing. They knew that if they practiced vocal exercises, they would strengthen their voice. By strengthening their voice, they could sing higher notes. Either they practiced vocal exercises, or they took singing lessons, or they did both. If someone takes singing lessons, they learn proper techniques.",
+        "question": "Morgan cannot sing higher notes. Do they learn proper techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "Someone wanted to improve their singing. They knew that if they practiced vocal exercises, they would strengthen their voice. By strengthening their voice, they could sing higher notes. Either they practiced vocal exercises, or they took singing lessons, or they did both. If someone takes singing lessons, they learn proper techniques.",
+        "question": "Morgan can sing higher notes. Do they learn proper techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "Someone wanted to become a better gardener. They realized that if they tended to their plants daily, they would improve their gardening skills. By improving their skills, they could grow a thriving garden. Either they tended to their plants daily, or they read gardening books, or they did both. If someone reads gardening books, they learn about plant care.",
+        "question": "Casey cannot grow a thriving garden. Do they learn about plant care?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "Someone wanted to become a better gardener. They realized that if they tended to their plants daily, they would improve their gardening skills. By improving their skills, they could grow a thriving garden. Either they tended to their plants daily, or they read gardening books, or they did both. If someone reads gardening books, they learn about plant care.",
+        "question": "Casey can grow a thriving garden. Do they learn about plant care?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "Someone wanted to improve their drawing skills. They knew that if they sketched daily, they would refine their technique. By refining their technique, they could create detailed illustrations. Either they sketched daily, or they took art workshops, or they did both. If someone takes art workshops, they learn from experienced artists.",
+        "question": "Jamie cannot create detailed illustrations. Do they learn from experienced artists?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "Someone wanted to improve their drawing skills. They knew that if they sketched daily, they would refine their technique. By refining their technique, they could create detailed illustrations. Either they sketched daily, or they took art workshops, or they did both. If someone takes art workshops, they learn from experienced artists.",
+        "question": "Jamie can create detailed illustrations. Do they learn from experienced artists?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "Someone wanted to learn to play the piano. They realized that if they practiced scales daily, they would improve their finger dexterity. By improving their dexterity, they could play complex pieces. Either they practiced scales daily, or they took piano lessons, or they did both. If someone takes piano lessons, they learn from skilled instructors.",
+        "question": "Riley cannot play complex pieces. Do they learn from skilled instructors?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "Someone wanted to learn to play the piano. They realized that if they practiced scales daily, they would improve their finger dexterity. By improving their dexterity, they could play complex pieces. Either they practiced scales daily, or they took piano lessons, or they did both. If someone takes piano lessons, they learn from skilled instructors.",
+        "question": "Riley can play complex pieces. Do they learn from skilled instructors?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "Someone wanted to improve their fitness. They knew that if they worked out regularly, they would build muscle. By building muscle, they could lift heavier weights. Either they worked out regularly, or they followed a protein-rich diet, or they did both. If someone follows a protein-rich diet, they support muscle growth.",
+        "question": "Sam cannot lift heavier weights. Do they support muscle growth?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "Someone wanted to improve their fitness. They knew that if they worked out regularly, they would build muscle. By building muscle, they could lift heavier weights. Either they worked out regularly, or they followed a protein-rich diet, or they did both. If someone follows a protein-rich diet, they support muscle growth.",
+        "question": "Sam can lift heavier weights. Do they support muscle growth?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "Someone wanted to learn to swim. They realized that if they practiced swimming daily, they would improve their technique. By improving their technique, they could swim longer distances. Either they practiced swimming daily, or they took swimming lessons, or they did both. If someone takes swimming lessons, they learn from professional coaches.",
+        "question": "Alexis cannot swim longer distances. Do they learn from professional coaches?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "Someone wanted to learn to swim. They realized that if they practiced swimming daily, they would improve their technique. By improving their technique, they could swim longer distances. Either they practiced swimming daily, or they took swimming lessons, or they did both. If someone takes swimming lessons, they learn from professional coaches.",
+        "question": "Alexis can swim longer distances. Do they learn from professional coaches?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "Someone wanted to improve their baking skills. They knew that if they baked regularly, they would perfect their recipes. By perfecting their recipes, they could bake delicious desserts. Either they baked regularly, or they attended baking classes, or they did both. If someone attends baking classes, they learn from pastry chefs.",
+        "question": "Jordan cannot bake delicious desserts. Do they learn from pastry chefs?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "Someone wanted to improve their baking skills. They knew that if they baked regularly, they would perfect their recipes. By perfecting their recipes, they could bake delicious desserts. Either they baked regularly, or they attended baking classes, or they did both. If someone attends baking classes, they learn from pastry chefs.",
+        "question": "Jordan can bake delicious desserts. Do they learn from pastry chefs?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "Someone wanted to learn to play the violin. They realized that if they practiced daily, they would improve their technique. By improving their technique, they could play complex compositions. Either they practiced daily, or they took violin lessons, or they did both. If someone takes violin lessons, they learn from experienced musicians.",
+        "question": "Taylor cannot play complex compositions. Do they learn from experienced musicians?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "Someone wanted to learn to play the violin. They realized that if they practiced daily, they would improve their technique. By improving their technique, they could play complex compositions. Either they practiced daily, or they took violin lessons, or they did both. If someone takes violin lessons, they learn from experienced musicians.",
+        "question": "Taylor can play complex compositions. Do they learn from experienced musicians?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "Someone wanted to improve their yoga practice. They knew that if they practiced yoga daily, they would increase their flexibility. By increasing their flexibility, they could perform advanced poses. Either they practiced yoga daily, or they attended yoga workshops, or they did both. If someone attends yoga workshops, they learn from certified instructors.",
+        "question": "Morgan cannot perform advanced poses. Do they learn from certified instructors?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "Someone wanted to improve their yoga practice. They knew that if they practiced yoga daily, they would increase their flexibility. By increasing their flexibility, they could perform advanced poses. Either they practiced yoga daily, or they attended yoga workshops, or they did both. If someone attends yoga workshops, they learn from certified instructors.",
+        "question": "Morgan can perform advanced poses. Do they learn from certified instructors?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "Someone wanted to learn to play the drums. They realized that if they practiced drumming daily, they would improve their rhythm. By improving their rhythm, they could play in a band. Either they practiced drumming daily, or they took drumming lessons, or they did both. If someone takes drumming lessons, they learn from professional drummers.",
+        "question": "Casey cannot play in a band. Do they learn from professional drummers?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "Someone wanted to learn to play the drums. They realized that if they practiced drumming daily, they would improve their rhythm. By improving their rhythm, they could play in a band. Either they practiced drumming daily, or they took drumming lessons, or they did both. If someone takes drumming lessons, they learn from professional drummers.",
+        "question": "Casey can play in a band. Do they learn from professional drummers?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "Someone wanted to improve their sewing skills. They knew that if they practiced sewing daily, they would refine their technique. By refining their technique, they could create custom clothing. Either they practiced sewing daily, or they took sewing classes, or they did both. If someone takes sewing classes, they learn from experienced tailors.",
+        "question": "Jamie cannot create custom clothing. Do they learn from experienced tailors?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "Someone wanted to improve their sewing skills. They knew that if they practiced sewing daily, they would refine their technique. By refining their technique, they could create custom clothing. Either they practiced sewing daily, or they took sewing classes, or they did both. If someone takes sewing classes, they learn from experienced tailors.",
+        "question": "Jamie can create custom clothing. Do they learn from experienced tailors?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "Someone wanted to learn to play the flute. They realized that if they practiced daily, they would improve their breath control. By improving their breath control, they could play longer pieces. Either they practiced daily, or they took flute lessons, or they did both. If someone takes flute lessons, they learn from skilled flutists.",
+        "question": "Riley cannot play longer pieces. Do they learn from skilled flutists?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "Someone wanted to learn to play the flute. They realized that if they practiced daily, they would improve their breath control. By improving their breath control, they could play longer pieces. Either they practiced daily, or they took flute lessons, or they did both. If someone takes flute lessons, they learn from skilled flutists.",
+        "question": "Riley can play longer pieces. Do they learn from skilled flutists?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "Someone wanted to improve their knitting skills. They knew that if they knitted daily, they would enhance their technique. By enhancing their technique, they could create intricate patterns. Either they knitted daily, or they joined a knitting club, or they did both. If someone joins a knitting club, they learn from experienced knitters.",
+        "question": "Sam cannot create intricate patterns. Do they learn from experienced knitters?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "Someone wanted to improve their knitting skills. They knew that if they knitted daily, they would enhance their technique. By enhancing their technique, they could create intricate patterns. Either they knitted daily, or they joined a knitting club, or they did both. If someone joins a knitting club, they learn from experienced knitters.",
+        "question": "Sam can create intricate patterns. Do they learn from experienced knitters?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "Someone wanted to learn to play the saxophone. They realized that if they practiced daily, they would improve their tone. By improving their tone, they could perform in concerts. Either they practiced daily, or they took saxophone lessons, or they did both. If someone takes saxophone lessons, they learn from professional musicians.",
+        "question": "Alexis cannot perform in concerts. Do they learn from professional musicians?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "Someone wanted to learn to play the saxophone. They realized that if they practiced daily, they would improve their tone. By improving their tone, they could perform in concerts. Either they practiced daily, or they took saxophone lessons, or they did both. If someone takes saxophone lessons, they learn from professional musicians.",
+        "question": "Alexis can perform in concerts. Do they learn from professional musicians?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "Someone wanted to become a better dancer. They realized that if they practiced daily, they would improve their technique. By improving their technique, they could perform complex routines. Either they practiced daily, or they attended dance workshops, or they did both. If someone attends dance workshops, they learn from professional dancers.",
+        "question": "Jordan cannot perform complex routines. Do they learn from professional dancers?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "Someone wanted to become a better dancer. They realized that if they practiced daily, they would improve their technique. By improving their technique, they could perform complex routines. Either they practiced daily, or they attended dance workshops, or they did both. If someone attends dance workshops, they learn from professional dancers.",
+        "question": "Jordan can perform complex routines. Do they learn from professional dancers?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "Someone wanted to improve their cooking skills. They knew that if they experimented with new recipes, they would expand their culinary repertoire. By expanding their repertoire, they could host elaborate dinner parties. Either they experimented with new recipes, or they took cooking classes, or they did both. If someone takes cooking classes, they learn advanced techniques.",
+        "question": "Taylor cannot host elaborate dinner parties. Do they learn advanced techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "Someone wanted to improve their cooking skills. They knew that if they experimented with new recipes, they would expand their culinary repertoire. By expanding their repertoire, they could host elaborate dinner parties. Either they experimented with new recipes, or they took cooking classes, or they did both. If someone takes cooking classes, they learn advanced techniques.",
+        "question": "Taylor can host elaborate dinner parties. Do they learn advanced techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "Someone wanted to become a better writer. They realized that if they read extensively, they would enhance their vocabulary. By enhancing their vocabulary, they could write more eloquently. Either they read extensively, or they attended writing workshops, or they did both. If someone attends writing workshops, they receive feedback from peers.",
+        "question": "Alex cannot write more eloquently. Do they receive feedback from peers?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "Someone wanted to become a better writer. They realized that if they read extensively, they would enhance their vocabulary. By enhancing their vocabulary, they could write more eloquently. Either they read extensively, or they attended writing workshops, or they did both. If someone attends writing workshops, they receive feedback from peers.",
+        "question": "Alex can write more eloquently. Do they receive feedback from peers?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "Someone wanted to improve their photography skills. They knew that if they practiced regularly, they would develop an eye for detail. By developing an eye for detail, they could capture breathtaking photos. Either they practiced regularly, or they took photography courses, or they did both. If someone takes photography courses, they learn from experts.",
+        "question": "Jamie cannot capture breathtaking photos. Do they learn from experts?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "Someone wanted to improve their photography skills. They knew that if they practiced regularly, they would develop an eye for detail. By developing an eye for detail, they could capture breathtaking photos. Either they practiced regularly, or they took photography courses, or they did both. If someone takes photography courses, they learn from experts.",
+        "question": "Jamie can capture breathtaking photos. Do they learn from experts?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "Someone wanted to become a better musician. They realized that if they practiced their instrument daily, they would improve their skills. By improving their skills, they could perform in concerts. Either they practiced daily, or they took music lessons, or they did both. If someone takes music lessons, they learn from professional musicians.",
+        "question": "Riley cannot perform in concerts. Do they learn from professional musicians?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "Someone wanted to become a better musician. They realized that if they practiced their instrument daily, they would improve their skills. By improving their skills, they could perform in concerts. Either they practiced daily, or they took music lessons, or they did both. If someone takes music lessons, they learn from professional musicians.",
+        "question": "Riley can perform in concerts. Do they learn from professional musicians?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "Someone wanted to improve their painting skills. They knew that if they painted regularly, they would refine their technique. By refining their technique, they could create masterpieces. Either they painted regularly, or they attended art classes, or they did both. If someone attends art classes, they learn from experienced artists.",
+        "question": "Morgan cannot create masterpieces. Do they learn from experienced artists?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "Someone wanted to improve their painting skills. They knew that if they painted regularly, they would refine their technique. By refining their technique, they could create masterpieces. Either they painted regularly, or they attended art classes, or they did both. If someone attends art classes, they learn from experienced artists.",
+        "question": "Morgan can create masterpieces. Do they learn from experienced artists?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "Someone wanted to become a better athlete. They realized that if they trained consistently, they would enhance their performance. By enhancing their performance, they could win competitions. Either they trained consistently, or they followed a strict diet, or they did both. If someone follows a strict diet, they maintain optimal health.",
+        "question": "Sam cannot win competitions. Do they maintain optimal health?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "Someone wanted to become a better athlete. They realized that if they trained consistently, they would enhance their performance. By enhancing their performance, they could win competitions. Either they trained consistently, or they followed a strict diet, or they did both. If someone follows a strict diet, they maintain optimal health.",
+        "question": "Sam can win competitions. Do they maintain optimal health?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "Someone wanted to improve their gardening skills. They knew that if they tended to their garden daily, they would cultivate healthy plants. By cultivating healthy plants, they could grow a beautiful garden. Either they tended to their garden daily, or they read gardening books, or they did both. If someone reads gardening books, they learn advanced techniques.",
+        "question": "Casey cannot grow a beautiful garden. Do they learn advanced techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "Someone wanted to improve their gardening skills. They knew that if they tended to their garden daily, they would cultivate healthy plants. By cultivating healthy plants, they could grow a beautiful garden. Either they tended to their garden daily, or they read gardening books, or they did both. If someone reads gardening books, they learn advanced techniques.",
+        "question": "Casey can grow a beautiful garden. Do they learn advanced techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "Someone wanted to become a better swimmer. They realized that if they practiced swimming daily, they would improve their technique. By improving their technique, they could swim competitively. Either they practiced swimming daily, or they took swimming lessons, or they did both. If someone takes swimming lessons, they learn from professional coaches.",
+        "question": "Alexis cannot swim competitively. Do they learn from professional coaches?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "Someone wanted to become a better swimmer. They realized that if they practiced swimming daily, they would improve their technique. By improving their technique, they could swim competitively. Either they practiced swimming daily, or they took swimming lessons, or they did both. If someone takes swimming lessons, they learn from professional coaches.",
+        "question": "Alexis can swim competitively. Do they learn from professional coaches?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "Someone wanted to improve their language skills. They knew that if they practiced speaking daily, they would become fluent. By becoming fluent, they could communicate effectively. Either they practiced speaking daily, or they used language-learning apps, or they did both. If someone uses language-learning apps, they gain exposure to native speakers.",
+        "question": "Taylor cannot communicate effectively. Do they gain exposure to native speakers?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "Someone wanted to improve their language skills. They knew that if they practiced speaking daily, they would become fluent. By becoming fluent, they could communicate effectively. Either they practiced speaking daily, or they used language-learning apps, or they did both. If someone uses language-learning apps, they gain exposure to native speakers.",
+        "question": "Taylor can communicate effectively. Do they gain exposure to native speakers?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "Someone wanted to become a better chef. They realized that if they experimented with flavors, they would create unique dishes. By creating unique dishes, they could open a restaurant. Either they experimented with flavors, or they attended culinary school, or they did both. If someone attends culinary school, they learn from master chefs.",
+        "question": "Jordan cannot open a restaurant. Do they learn from master chefs?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "Someone wanted to become a better chef. They realized that if they experimented with flavors, they would create unique dishes. By creating unique dishes, they could open a restaurant. Either they experimented with flavors, or they attended culinary school, or they did both. If someone attends culinary school, they learn from master chefs.",
+        "question": "Jordan can open a restaurant. Do they learn from master chefs?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "Someone wanted to improve their coding skills. They knew that if they coded daily, they would enhance their problem-solving abilities. By enhancing their abilities, they could develop innovative software. Either they coded daily, or they attended coding bootcamps, or they did both. If someone attends coding bootcamps, they learn from industry experts.",
+        "question": "Jamie cannot develop innovative software. Do they learn from industry experts?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "Someone wanted to improve their coding skills. They knew that if they coded daily, they would enhance their problem-solving abilities. By enhancing their abilities, they could develop innovative software. Either they coded daily, or they attended coding bootcamps, or they did both. If someone attends coding bootcamps, they learn from industry experts.",
+        "question": "Jamie can develop innovative software. Do they learn from industry experts?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "Someone wanted to become a better singer. They realized that if they practiced vocal exercises, they would improve their range. By improving their range, they could perform on stage. Either they practiced vocal exercises, or they took singing lessons, or they did both. If someone takes singing lessons, they learn from vocal coaches.",
+        "question": "Riley cannot perform on stage. Do they learn from vocal coaches?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "Someone wanted to become a better singer. They realized that if they practiced vocal exercises, they would improve their range. By improving their range, they could perform on stage. Either they practiced vocal exercises, or they took singing lessons, or they did both. If someone takes singing lessons, they learn from vocal coaches.",
+        "question": "Riley can perform on stage. Do they learn from vocal coaches?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "Someone wanted to improve their acting skills. They knew that if they practiced regularly, they would enhance their performance. By enhancing their performance, they could land leading roles. Either they practiced regularly, or they attended acting classes, or they did both. If someone attends acting classes, they learn from experienced actors.",
+        "question": "Morgan cannot land leading roles. Do they learn from experienced actors?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "Someone wanted to improve their acting skills. They knew that if they practiced regularly, they would enhance their performance. By enhancing their performance, they could land leading roles. Either they practiced regularly, or they attended acting classes, or they did both. If someone attends acting classes, they learn from experienced actors.",
+        "question": "Morgan can land leading roles. Do they learn from experienced actors?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "Someone wanted to become a better chess player. They realized that if they studied strategies, they would improve their gameplay. By improving their gameplay, they could win tournaments. Either they studied strategies, or they played with experts, or they did both. If someone plays with experts, they gain valuable insights.",
+        "question": "Sam cannot win tournaments. Do they gain valuable insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "Someone wanted to become a better chess player. They realized that if they studied strategies, they would improve their gameplay. By improving their gameplay, they could win tournaments. Either they studied strategies, or they played with experts, or they did both. If someone plays with experts, they gain valuable insights.",
+        "question": "Sam can win tournaments. Do they gain valuable insights?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "Someone wanted to improve their fitness. They knew that if they exercised regularly, they would increase their strength. By increasing their strength, they could lift heavier weights. Either they exercised regularly, or they followed a nutrition plan, or they did both. If someone follows a nutrition plan, they support muscle growth.",
+        "question": "Casey cannot lift heavier weights. Do they support muscle growth?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "Someone wanted to improve their fitness. They knew that if they exercised regularly, they would increase their strength. By increasing their strength, they could lift heavier weights. Either they exercised regularly, or they followed a nutrition plan, or they did both. If someone follows a nutrition plan, they support muscle growth.",
+        "question": "Casey can lift heavier weights. Do they support muscle growth?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "Someone wanted to become a better programmer. They realized that if they practiced coding daily, they would enhance their skills. By enhancing their skills, they could develop complex applications. Either they practiced coding daily, or they attended programming workshops, or they did both. If someone attends programming workshops, they learn from industry leaders.",
+        "question": "Alex cannot develop complex applications. Do they learn from industry leaders?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "Someone wanted to become a better programmer. They realized that if they practiced coding daily, they would enhance their skills. By enhancing their skills, they could develop complex applications. Either they practiced coding daily, or they attended programming workshops, or they did both. If someone attends programming workshops, they learn from industry leaders.",
+        "question": "Alex can develop complex applications. Do they learn from industry leaders?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "Someone wanted to improve their public speaking. They knew that if they practiced regularly, they would gain confidence. By gaining confidence, they could deliver impactful speeches. Either they practiced regularly, or they joined a public speaking club, or they did both. If someone joins a public speaking club, they receive constructive feedback.",
+        "question": "Taylor cannot deliver impactful speeches. Do they receive constructive feedback?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "Someone wanted to improve their public speaking. They knew that if they practiced regularly, they would gain confidence. By gaining confidence, they could deliver impactful speeches. Either they practiced regularly, or they joined a public speaking club, or they did both. If someone joins a public speaking club, they receive constructive feedback.",
+        "question": "Taylor can deliver impactful speeches. Do they receive constructive feedback?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "Someone wanted to become a better photographer. They realized that if they took photos daily, they would improve their skills. By improving their skills, they could capture stunning images. Either they took photos daily, or they attended photography workshops, or they did both. If someone attends photography workshops, they learn from professionals.",
+        "question": "Jordan cannot capture stunning images. Do they learn from professionals?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "Someone wanted to become a better photographer. They realized that if they took photos daily, they would improve their skills. By improving their skills, they could capture stunning images. Either they took photos daily, or they attended photography workshops, or they did both. If someone attends photography workshops, they learn from professionals.",
+        "question": "Jordan can capture stunning images. Do they learn from professionals?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "Someone wanted to improve their drawing skills. They knew that if they sketched daily, they would refine their technique. By refining their technique, they could create detailed illustrations. Either they sketched daily, or they took art workshops, or they did both. If someone takes art workshops, they learn from experienced artists.",
+        "question": "Jamie cannot create detailed illustrations. Do they learn from experienced artists?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "Someone wanted to improve their drawing skills. They knew that if they sketched daily, they would refine their technique. By refining their technique, they could create detailed illustrations. Either they sketched daily, or they took art workshops, or they did both. If someone takes art workshops, they learn from experienced artists.",
+        "question": "Jamie can create detailed illustrations. Do they learn from experienced artists?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "Someone wanted to learn to play the piano. They realized that if they practiced scales daily, they would improve their finger dexterity. By improving their dexterity, they could play complex pieces. Either they practiced scales daily, or they took piano lessons, or they did both. If someone takes piano lessons, they learn from skilled instructors.",
+        "question": "Riley cannot play complex pieces. Do they learn from skilled instructors?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "Someone wanted to learn to play the piano. They realized that if they practiced scales daily, they would improve their finger dexterity. By improving their dexterity, they could play complex pieces. Either they practiced scales daily, or they took piano lessons, or they did both. If someone takes piano lessons, they learn from skilled instructors.",
+        "question": "Riley can play complex pieces. Do they learn from skilled instructors?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "Someone wanted to improve their fitness. They knew that if they worked out regularly, they would build muscle. By building muscle, they could lift heavier weights. Either they worked out regularly, or they followed a protein-rich diet, or they did both. If someone follows a protein-rich diet, they support muscle growth.",
+        "question": "Sam cannot lift heavier weights. Do they support muscle growth?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "Someone wanted to improve their fitness. They knew that if they worked out regularly, they would build muscle. By building muscle, they could lift heavier weights. Either they worked out regularly, or they followed a protein-rich diet, or they did both. If someone follows a protein-rich diet, they support muscle growth.",
+        "question": "Sam can lift heavier weights. Do they support muscle growth?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "Someone wanted to learn to swim. They realized that if they practiced swimming daily, they would improve their technique. By improving their technique, they could swim longer distances. Either they practiced swimming daily, or they took swimming lessons, or they did both. If someone takes swimming lessons, they learn from professional coaches.",
+        "question": "Alexis cannot swim longer distances. Do they learn from professional coaches?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "Someone wanted to learn to swim. They realized that if they practiced swimming daily, they would improve their technique. By improving their technique, they could swim longer distances. Either they practiced swimming daily, or they took swimming lessons, or they did both. If someone takes swimming lessons, they learn from professional coaches.",
+        "question": "Alexis can swim longer distances. Do they learn from professional coaches?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "Someone wanted to improve their baking skills. They knew that if they baked regularly, they would perfect their recipes. By perfecting their recipes, they could bake delicious desserts. Either they baked regularly, or they attended baking classes, or they did both. If someone attends baking classes, they learn from pastry chefs.",
+        "question": "Jordan cannot bake delicious desserts. Do they learn from pastry chefs?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "Someone wanted to improve their baking skills. They knew that if they baked regularly, they would perfect their recipes. By perfecting their recipes, they could bake delicious desserts. Either they baked regularly, or they attended baking classes, or they did both. If someone attends baking classes, they learn from pastry chefs.",
+        "question": "Jordan can bake delicious desserts. Do they learn from pastry chefs?",
+        "answer": "no"
+    },
+    {
+        "id": 101,
+        "context": "Someone wanted to learn to play the violin. They realized that if they practiced daily, they would improve their technique. By improving their technique, they could play complex compositions. Either they practiced daily, or they took violin lessons, or they did both. If someone takes violin lessons, they learn from experienced musicians.",
+        "question": "Taylor cannot play complex compositions. Do they learn from experienced musicians?",
+        "answer": "yes"
+    },
+    {
+        "id": 102,
+        "context": "Someone wanted to learn to play the violin. They realized that if they practiced daily, they would improve their technique. By improving their technique, they could play complex compositions. Either they practiced daily, or they took violin lessons, or they did both. If someone takes violin lessons, they learn from experienced musicians.",
+        "question": "Taylor can play complex compositions. Do they learn from experienced musicians?",
+        "answer": "no"
+    }
+]

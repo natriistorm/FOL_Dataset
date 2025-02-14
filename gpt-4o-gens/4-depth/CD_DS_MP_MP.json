@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "If someone studies hard, they will pass the exam. If the exam is very difficult, they will need extra time. Either they studied hard, or the exam was difficult, or maybe both. If they needed extra time, they had to request an extension. And if they requested an extension, they got additional time.",
+        "question": "Alex did not pass the exam. Did they get additional time?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If someone studies hard, they will pass the exam. If the exam is very difficult, they will need extra time. Either they studied hard, or the exam was difficult, or maybe both. If they needed extra time, they had to request an extension. And if they requested an extension, they got additional time.",
+        "question": "Alex passed the exam. Did they get additional time?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If a store has a sale, customers will shop more. If there is bad weather, fewer people will visit. Either the store has a sale, or the weather is bad, or maybe both. If fewer people visit, the store's revenue drops. And if the revenue drops, they cut employee hours.",
+        "question": "The store's revenue dropped. Did they cut employee hours?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If a store has a sale, customers will shop more. If there is bad weather, fewer people will visit. Either the store has a sale, or the weather is bad, or maybe both. If fewer people visit, the store's revenue drops. And if the revenue drops, they cut employee hours.",
+        "question": "The store's revenue did not drop. Did they cut employee hours?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If someone eats too much sugar, they will gain weight. If they exercise regularly, they will maintain their weight. Either they eat too much sugar, or they exercise, or maybe both. If they gain weight, they need to go on a diet. And if they go on a diet, they will eat healthier meals.",
+        "question": "They gained weight. Did they eat healthier meals?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If someone eats too much sugar, they will gain weight. If they exercise regularly, they will maintain their weight. Either they eat too much sugar, or they exercise, or maybe both. If they gain weight, they need to go on a diet. And if they go on a diet, they will eat healthier meals.",
+        "question": "They did not gain weight. Did they eat healthier meals?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If a company invests in new technology, it will increase productivity. If there is an economic downturn, they will struggle financially. Either they invest in new technology, or the economy declines, or maybe both. If they struggle financially, they will lay off workers. And if they lay off workers, unemployment rises.",
+        "question": "The company struggled financially. Did unemployment rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "If a company invests in new technology, it will increase productivity. If there is an economic downturn, they will struggle financially. Either they invest in new technology, or the economy declines, or maybe both. If they struggle financially, they will lay off workers. And if they lay off workers, unemployment rises.",
+        "question": "The company did not struggle financially. Did unemployment rise?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If a student participates in extracurricular activities, they will develop social skills. If they focus entirely on academics, they will excel in studies. Either they participate in extracurricular activities, or they focus on academics, or maybe both. If they develop social skills, they will make more friends. And if they make more friends, they will feel more connected.",
+        "question": "The student developed social skills. Did they feel more connected?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If a student participates in extracurricular activities, they will develop social skills. If they focus entirely on academics, they will excel in studies. Either they participate in extracurricular activities, or they focus on academics, or maybe both. If they develop social skills, they will make more friends. And if they make more friends, they will feel more connected.",
+        "question": "The student did not develop social skills. Did they feel more connected?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a person saves money, they will have financial security. If they invest wisely, they will grow their wealth. Either they save money, or they invest wisely, or maybe both. If they grow their wealth, they can retire early. And if they retire early, they will travel the world.",
+        "question": "They grew their wealth. Did they travel the world?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a person saves money, they will have financial security. If they invest wisely, they will grow their wealth. Either they save money, or they invest wisely, or maybe both. If they grow their wealth, they can retire early. And if they retire early, they will travel the world.",
+        "question": "They did not grow their wealth. Did they travel the world?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a person eats a balanced diet, they will stay healthy. If they exercise regularly, they will be fit. Either they eat a balanced diet, or they exercise regularly, or maybe both. If they stay healthy, they will have more energy. And if they have more energy, they will be more productive.",
+        "question": "They stayed healthy. Were they more productive?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a person eats a balanced diet, they will stay healthy. If they exercise regularly, they will be fit. Either they eat a balanced diet, or they exercise regularly, or maybe both. If they stay healthy, they will have more energy. And if they have more energy, they will be more productive.",
+        "question": "They did not stay healthy. Were they more productive?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If a student attends all classes, they will understand the material. If they do all assignments, they will pass the course. Either they attend all classes, or they do all assignments, or maybe both. If they pass the course, they will graduate on time. And if they graduate on time, they will start their career.",
+        "question": "They passed the course. Did they start their career?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If a student attends all classes, they will understand the material. If they do all assignments, they will pass the course. Either they attend all classes, or they do all assignments, or maybe both. If they pass the course, they will graduate on time. And if they graduate on time, they will start their career.",
+        "question": "They did not pass the course. Did they start their career?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a person learns a new language, they will expand their job opportunities. If they travel abroad, they will gain cultural experiences. Either they learn a new language, or they travel abroad, or maybe both. If they gain cultural experiences, they will become more adaptable. And if they become more adaptable, they will succeed in diverse environments.",
+        "question": "They gained cultural experiences. Did they succeed in diverse environments?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If a person learns a new language, they will expand their job opportunities. If they travel abroad, they will gain cultural experiences. Either they learn a new language, or they travel abroad, or maybe both. If they gain cultural experiences, they will become more adaptable. And if they become more adaptable, they will succeed in diverse environments.",
+        "question": "They did not gain cultural experiences. Did they succeed in diverse environments?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If a person practices mindfulness, they will reduce stress. If they get enough sleep, they will improve their mood. Either they practice mindfulness, or they get enough sleep, or maybe both. If they improve their mood, they will have better relationships. And if they have better relationships, they will feel more fulfilled.",
+        "question": "They improved their mood. Did they feel more fulfilled?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "If a person practices mindfulness, they will reduce stress. If they get enough sleep, they will improve their mood. Either they practice mindfulness, or they get enough sleep, or maybe both. If they improve their mood, they will have better relationships. And if they have better relationships, they will feel more fulfilled.",
+        "question": "They did not improve their mood. Did they feel more fulfilled?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "If a person volunteers, they will gain new skills. If they network, they will meet influential people. Either they volunteer, or they network, or maybe both. If they meet influential people, they will get job offers. And if they get job offers, they will advance their career.",
+        "question": "They met influential people. Did they advance their career?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "If a person volunteers, they will gain new skills. If they network, they will meet influential people. Either they volunteer, or they network, or maybe both. If they meet influential people, they will get job offers. And if they get job offers, they will advance their career.",
+        "question": "They did not meet influential people. Did they advance their career?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "If a person reads regularly, they will improve their vocabulary. If they write daily, they will enhance their communication skills. Either they read regularly, or they write daily, or maybe both. If they enhance their communication skills, they will excel in interviews. And if they excel in interviews, they will secure a job.",
+        "question": "They enhanced their communication skills. Did they secure a job?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "If a person reads regularly, they will improve their vocabulary. If they write daily, they will enhance their communication skills. Either they read regularly, or they write daily, or maybe both. If they enhance their communication skills, they will excel in interviews. And if they excel in interviews, they will secure a job.",
+        "question": "They did not enhance their communication skills. Did they secure a job?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "If a person meditates, they will increase their focus. If they plan their day, they will manage time better. Either they meditate, or they plan their day, or maybe both. If they manage time better, they will achieve their goals. And if they achieve their goals, they will feel accomplished.",
+        "question": "They managed time better. Did they feel accomplished?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "If a person meditates, they will increase their focus. If they plan their day, they will manage time better. Either they meditate, or they plan their day, or maybe both. If they manage time better, they will achieve their goals. And if they achieve their goals, they will feel accomplished.",
+        "question": "They did not manage time better. Did they feel accomplished?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "If a person learns to cook, they will eat healthier. If they budget their expenses, they will save money. Either they learn to cook, or they budget their expenses, or maybe both. If they save money, they can invest in their future. And if they invest in their future, they will secure financial stability.",
+        "question": "They saved money. Did they secure financial stability?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "If a person learns to cook, they will eat healthier. If they budget their expenses, they will save money. Either they learn to cook, or they budget their expenses, or maybe both. If they save money, they can invest in their future. And if they invest in their future, they will secure financial stability.",
+        "question": "They did not save money. Did they secure financial stability?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "If a person takes a course, they will gain knowledge. If they apply what they learn, they will improve their skills. Either they take a course, or they apply what they learn, or maybe both. If they improve their skills, they will get a promotion. And if they get a promotion, they will earn a higher salary.",
+        "question": "They improved their skills. Did they earn a higher salary?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "If a person takes a course, they will gain knowledge. If they apply what they learn, they will improve their skills. Either they take a course, or they apply what they learn, or maybe both. If they improve their skills, they will get a promotion. And if they get a promotion, they will earn a higher salary.",
+        "question": "They did not improve their skills. Did they earn a higher salary?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "If a person adopts a pet, they will have companionship. If they join a club, they will meet new people. Either they adopt a pet, or they join a club, or maybe both. If they meet new people, they will expand their social circle. And if they expand their social circle, they will feel less lonely.",
+        "question": "They met new people. Did they feel less lonely?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "If a person adopts a pet, they will have companionship. If they join a club, they will meet new people. Either they adopt a pet, or they join a club, or maybe both. If they meet new people, they will expand their social circle. And if they expand their social circle, they will feel less lonely.",
+        "question": "They did not meet new people. Did they feel less lonely?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "If a person takes a vacation, they will relax. If they disconnect from work, they will recharge. Either they take a vacation, or they disconnect from work, or maybe both. If they recharge, they will return more productive. And if they return more productive, they will achieve better results.",
+        "question": "They recharged. Did they achieve better results?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "If a person takes a vacation, they will relax. If they disconnect from work, they will recharge. Either they take a vacation, or they disconnect from work, or maybe both. If they recharge, they will return more productive. And if they return more productive, they will achieve better results.",
+        "question": "They did not recharge. Did they achieve better results?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "If a person attends a workshop, they will learn new techniques. If they practice regularly, they will master the skills. Either they attend a workshop, or they practice regularly, or maybe both. If they master the skills, they will create better projects. And if they create better projects, they will gain recognition.",
+        "question": "They mastered the skills. Did they gain recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "If a person attends a workshop, they will learn new techniques. If they practice regularly, they will master the skills. Either they attend a workshop, or they practice regularly, or maybe both. If they master the skills, they will create better projects. And if they create better projects, they will gain recognition.",
+        "question": "They did not master the skills. Did they gain recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "If a person sets goals, they will have direction. If they stay motivated, they will work hard. Either they set goals, or they stay motivated, or maybe both. If they work hard, they will achieve success. And if they achieve success, they will inspire others.",
+        "question": "They worked hard. Did they inspire others?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "If a person sets goals, they will have direction. If they stay motivated, they will work hard. Either they set goals, or they stay motivated, or maybe both. If they work hard, they will achieve success. And if they achieve success, they will inspire others.",
+        "question": "They did not work hard. Did they inspire others?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "If a person learns to play an instrument, they will develop discipline. If they join a band, they will improve teamwork skills. Either they learn to play an instrument, or they join a band, or maybe both. If they improve teamwork skills, they will collaborate effectively. And if they collaborate effectively, they will produce great music.",
+        "question": "They improved teamwork skills. Did they produce great music?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "If a person learns to play an instrument, they will develop discipline. If they join a band, they will improve teamwork skills. Either they learn to play an instrument, or they join a band, or maybe both. If they improve teamwork skills, they will collaborate effectively. And if they collaborate effectively, they will produce great music.",
+        "question": "They did not improve teamwork skills. Did they produce great music?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "If a person takes care of their garden, they will have fresh produce. If they compost, they will enrich the soil. Either they take care of their garden, or they compost, or maybe both. If they enrich the soil, they will grow healthy plants. And if they grow healthy plants, they will enjoy a bountiful harvest.",
+        "question": "They enriched the soil. Did they enjoy a bountiful harvest?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "If a person takes care of their garden, they will have fresh produce. If they compost, they will enrich the soil. Either they take care of their garden, or they compost, or maybe both. If they enrich the soil, they will grow healthy plants. And if they grow healthy plants, they will enjoy a bountiful harvest.",
+        "question": "They did not enrich the soil. Did they enjoy a bountiful harvest?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "If a person attends networking events, they will meet industry leaders. If they follow up, they will build relationships. Either they attend networking events, or they follow up, or maybe both. If they build relationships, they will receive mentorship. And if they receive mentorship, they will advance in their career.",
+        "question": "They built relationships. Did they advance in their career?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "If a person attends networking events, they will meet industry leaders. If they follow up, they will build relationships. Either they attend networking events, or they follow up, or maybe both. If they build relationships, they will receive mentorship. And if they receive mentorship, they will advance in their career.",
+        "question": "They did not build relationships. Did they advance in their career?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "If a person practices public speaking, they will gain confidence. If they receive feedback, they will improve their delivery. Either they practice public speaking, or they receive feedback, or maybe both. If they improve their delivery, they will captivate audiences. And if they captivate audiences, they will become a sought-after speaker.",
+        "question": "They improved their delivery. Did they become a sought-after speaker?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "If a person practices public speaking, they will gain confidence. If they receive feedback, they will improve their delivery. Either they practice public speaking, or they receive feedback, or maybe both. If they improve their delivery, they will captivate audiences. And if they captivate audiences, they will become a sought-after speaker.",
+        "question": "They did not improve their delivery. Did they become a sought-after speaker?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "If a person learns to code, they will develop problem-solving skills. If they work on projects, they will gain practical experience. Either they learn to code, or they work on projects, or maybe both. If they gain practical experience, they will build a portfolio. And if they build a portfolio, they will attract job offers.",
+        "question": "They gained practical experience. Did they attract job offers?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "If a person learns to code, they will develop problem-solving skills. If they work on projects, they will gain practical experience. Either they learn to code, or they work on projects, or maybe both. If they gain practical experience, they will build a portfolio. And if they build a portfolio, they will attract job offers.",
+        "question": "They did not gain practical experience. Did they attract job offers?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "If a person takes photography classes, they will improve their skills. If they practice regularly, they will develop an eye for detail. Either they take photography classes, or they practice regularly, or maybe both. If they develop an eye for detail, they will create stunning images. And if they create stunning images, they will win photography contests.",
+        "question": "They developed an eye for detail. Did they win photography contests?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "If a person takes photography classes, they will improve their skills. If they practice regularly, they will develop an eye for detail. Either they take photography classes, or they practice regularly, or maybe both. If they develop an eye for detail, they will create stunning images. And if they create stunning images, they will win photography contests.",
+        "question": "They did not develop an eye for detail. Did they win photography contests?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "If a person learns to paint, they will express creativity. If they join an art community, they will receive feedback. Either they learn to paint, or they join an art community, or maybe both. If they receive feedback, they will refine their technique. And if they refine their technique, they will exhibit their work.",
+        "question": "They received feedback. Did they exhibit their work?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "If a person learns to paint, they will express creativity. If they join an art community, they will receive feedback. Either they learn to paint, or they join an art community, or maybe both. If they receive feedback, they will refine their technique. And if they refine their technique, they will exhibit their work.",
+        "question": "They did not receive feedback. Did they exhibit their work?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "If a person studies history, they will understand past events. If they analyze current trends, they will predict future outcomes. Either they study history, or they analyze current trends, or maybe both. If they predict future outcomes, they will make informed decisions. And if they make informed decisions, they will lead effectively.",
+        "question": "They predicted future outcomes. Did they lead effectively?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "If a person studies history, they will understand past events. If they analyze current trends, they will predict future outcomes. Either they study history, or they analyze current trends, or maybe both. If they predict future outcomes, they will make informed decisions. And if they make informed decisions, they will lead effectively.",
+        "question": "They did not predict future outcomes. Did they lead effectively?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "If a person practices yoga, they will increase flexibility. If they meditate, they will find inner peace. Either they practice yoga, or they meditate, or maybe both. If they find inner peace, they will reduce anxiety. And if they reduce anxiety, they will improve their mental health.",
+        "question": "They found inner peace. Did they improve their mental health?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "If a person practices yoga, they will increase flexibility. If they meditate, they will find inner peace. Either they practice yoga, or they meditate, or maybe both. If they find inner peace, they will reduce anxiety. And if they reduce anxiety, they will improve their mental health.",
+        "question": "They did not find inner peace. Did they improve their mental health?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "If a person learns to dance, they will improve coordination. If they perform on stage, they will gain confidence. Either they learn to dance, or they perform on stage, or maybe both. If they gain confidence, they will take on new challenges. And if they take on new challenges, they will grow personally.",
+        "question": "They gained confidence. Did they grow personally?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "If a person learns to dance, they will improve coordination. If they perform on stage, they will gain confidence. Either they learn to dance, or they perform on stage, or maybe both. If they gain confidence, they will take on new challenges. And if they take on new challenges, they will grow personally.",
+        "question": "They did not gain confidence. Did they grow personally?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "If a person learns to cook, they will enjoy homemade meals. If they invite friends over, they will strengthen friendships. Either they learn to cook, or they invite friends over, or maybe both. If they strengthen friendships, they will have a supportive network. And if they have a supportive network, they will feel happier.",
+        "question": "They strengthened friendships. Did they feel happier?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "If a person learns to cook, they will enjoy homemade meals. If they invite friends over, they will strengthen friendships. Either they learn to cook, or they invite friends over, or maybe both. If they strengthen friendships, they will have a supportive network. And if they have a supportive network, they will feel happier.",
+        "question": "They did not strengthen friendships. Did they feel happier?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "If a person learns to swim, they will improve their fitness. If they join a swim team, they will make new friends. Either they learn to swim, or they join a swim team, or maybe both. If they make new friends, they will feel more supported. And if they feel more supported, they will have higher self-esteem.",
+        "question": "They made new friends. Did they have higher self-esteem?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "If a person learns to swim, they will improve their fitness. If they join a swim team, they will make new friends. Either they learn to swim, or they join a swim team, or maybe both. If they make new friends, they will feel more supported. And if they feel more supported, they will have higher self-esteem.",
+        "question": "They did not make new friends. Did they have higher self-esteem?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "If a person takes a cooking class, they will learn new recipes. If they practice cooking, they will improve their skills. Either they take a cooking class, or they practice cooking, or maybe both. If they improve their skills, they will cook delicious meals. And if they cook delicious meals, they will impress their guests.",
+        "question": "They improved their skills. Did they impress their guests?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "If a person takes a cooking class, they will learn new recipes. If they practice cooking, they will improve their skills. Either they take a cooking class, or they practice cooking, or maybe both. If they improve their skills, they will cook delicious meals. And if they cook delicious meals, they will impress their guests.",
+        "question": "They did not improve their skills. Did they impress their guests?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "If a person attends a seminar, they will gain knowledge. If they network with others, they will expand their contacts. Either they attend a seminar, or they network with others, or maybe both. If they expand their contacts, they will have more opportunities. And if they have more opportunities, they will advance their career.",
+        "question": "They expanded their contacts. Did they advance their career?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "If a person attends a seminar, they will gain knowledge. If they network with others, they will expand their contacts. Either they attend a seminar, or they network with others, or maybe both. If they expand their contacts, they will have more opportunities. And if they have more opportunities, they will advance their career.",
+        "question": "They did not expand their contacts. Did they advance their career?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "If a person practices meditation, they will find peace. If they read self-help books, they will gain insights. Either they practice meditation, or they read self-help books, or maybe both. If they gain insights, they will improve their mindset. And if they improve their mindset, they will achieve personal growth.",
+        "question": "They gained insights. Did they achieve personal growth?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "If a person practices meditation, they will find peace. If they read self-help books, they will gain insights. Either they practice meditation, or they read self-help books, or maybe both. If they gain insights, they will improve their mindset. And if they improve their mindset, they will achieve personal growth.",
+        "question": "They did not gain insights. Did they achieve personal growth?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "If a person takes a photography course, they will learn techniques. If they practice photography, they will develop an eye for detail. Either they take a photography course, or they practice photography, or maybe both. If they develop an eye for detail, they will capture stunning images. And if they capture stunning images, they will win awards.",
+        "question": "They developed an eye for detail. Did they win awards?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "If a person takes a photography course, they will learn techniques. If they practice photography, they will develop an eye for detail. Either they take a photography course, or they practice photography, or maybe both. If they develop an eye for detail, they will capture stunning images. And if they capture stunning images, they will win awards.",
+        "question": "They did not develop an eye for detail. Did they win awards?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "If a person learns to play chess, they will improve their strategy skills. If they compete in tournaments, they will gain experience. Either they learn to play chess, or they compete in tournaments, or maybe both. If they gain experience, they will win matches. And if they win matches, they will earn recognition.",
+        "question": "They gained experience. Did they earn recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "If a person learns to play chess, they will improve their strategy skills. If they compete in tournaments, they will gain experience. Either they learn to play chess, or they compete in tournaments, or maybe both. If they gain experience, they will win matches. And if they win matches, they will earn recognition.",
+        "question": "They did not gain experience. Did they earn recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "If a person takes a writing workshop, they will enhance their writing skills. If they write daily, they will develop a unique style. Either they take a writing workshop, or they write daily, or maybe both. If they develop a unique style, they will publish their work. And if they publish their work, they will gain a readership.",
+        "question": "They developed a unique style. Did they gain a readership?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "If a person takes a writing workshop, they will enhance their writing skills. If they write daily, they will develop a unique style. Either they take a writing workshop, or they write daily, or maybe both. If they develop a unique style, they will publish their work. And if they publish their work, they will gain a readership.",
+        "question": "They did not develop a unique style. Did they gain a readership?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "If a person learns to garden, they will grow their own food. If they compost, they will enrich the soil. Either they learn to garden, or they compost, or maybe both. If they enrich the soil, they will have a thriving garden. And if they have a thriving garden, they will enjoy fresh produce.",
+        "question": "They enriched the soil. Did they enjoy fresh produce?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "If a person learns to garden, they will grow their own food. If they compost, they will enrich the soil. Either they learn to garden, or they compost, or maybe both. If they enrich the soil, they will have a thriving garden. And if they have a thriving garden, they will enjoy fresh produce.",
+        "question": "They did not enrich the soil. Did they enjoy fresh produce?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "If a person takes a dance class, they will improve their coordination. If they perform in shows, they will gain confidence. Either they take a dance class, or they perform in shows, or maybe both. If they gain confidence, they will take on more challenging roles. And if they take on more challenging roles, they will excel in their performances.",
+        "question": "They gained confidence. Did they excel in their performances?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "If a person takes a dance class, they will improve their coordination. If they perform in shows, they will gain confidence. Either they take a dance class, or they perform in shows, or maybe both. If they gain confidence, they will take on more challenging roles. And if they take on more challenging roles, they will excel in their performances.",
+        "question": "They did not gain confidence. Did they excel in their performances?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "If a person learns to code, they will develop technical skills. If they build projects, they will gain practical experience. Either they learn to code, or they build projects, or maybe both. If they gain practical experience, they will create a portfolio. And if they create a portfolio, they will attract job offers.",
+        "question": "They gained practical experience. Did they attract job offers?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "If a person learns to code, they will develop technical skills. If they build projects, they will gain practical experience. Either they learn to code, or they build projects, or maybe both. If they gain practical experience, they will create a portfolio. And if they create a portfolio, they will attract job offers.",
+        "question": "They did not gain practical experience. Did they attract job offers?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "If a person takes a public speaking course, they will improve their communication skills. If they practice regularly, they will gain confidence. Either they take a public speaking course, or they practice regularly, or maybe both. If they gain confidence, they will captivate audiences. And if they captivate audiences, they will become a sought-after speaker.",
+        "question": "They gained confidence. Did they become a sought-after speaker?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "If a person takes a public speaking course, they will improve their communication skills. If they practice regularly, they will gain confidence. Either they take a public speaking course, or they practice regularly, or maybe both. If they gain confidence, they will captivate audiences. And if they captivate audiences, they will become a sought-after speaker.",
+        "question": "They did not gain confidence. Did they become a sought-after speaker?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "If a person learns to play a musical instrument, they will develop discipline. If they join a band, they will improve teamwork skills. Either they learn to play a musical instrument, or they join a band, or maybe both. If they improve teamwork skills, they will collaborate effectively. And if they collaborate effectively, they will produce great music.",
+        "question": "They improved teamwork skills. Did they produce great music?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "If a person learns to play a musical instrument, they will develop discipline. If they join a band, they will improve teamwork skills. Either they learn to play a musical instrument, or they join a band, or maybe both. If they improve teamwork skills, they will collaborate effectively. And if they collaborate effectively, they will produce great music.",
+        "question": "They did not improve teamwork skills. Did they produce great music?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "If a person takes a leadership course, they will learn management skills. If they lead a team, they will gain experience. Either they take a leadership course, or they lead a team, or maybe both. If they gain experience, they will manage projects successfully. And if they manage projects successfully, they will earn promotions.",
+        "question": "They gained experience. Did they earn promotions?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "If a person takes a leadership course, they will learn management skills. If they lead a team, they will gain experience. Either they take a leadership course, or they lead a team, or maybe both. If they gain experience, they will manage projects successfully. And if they manage projects successfully, they will earn promotions.",
+        "question": "They did not gain experience. Did they earn promotions?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "If a person learns to paint, they will express creativity. If they join an art community, they will receive feedback. Either they learn to paint, or they join an art community, or maybe both. If they receive feedback, they will refine their technique. And if they refine their technique, they will exhibit their work.",
+        "question": "They received feedback. Did they exhibit their work?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "If a person learns to paint, they will express creativity. If they join an art community, they will receive feedback. Either they learn to paint, or they join an art community, or maybe both. If they receive feedback, they will refine their technique. And if they refine their technique, they will exhibit their work.",
+        "question": "They did not receive feedback. Did they exhibit their work?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "If a person studies history, they will understand past events. If they analyze current trends, they will predict future outcomes. Either they study history, or they analyze current trends, or maybe both. If they predict future outcomes, they will make informed decisions. And if they make informed decisions, they will lead effectively.",
+        "question": "They predicted future outcomes. Did they lead effectively?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "If a person studies history, they will understand past events. If they analyze current trends, they will predict future outcomes. Either they study history, or they analyze current trends, or maybe both. If they predict future outcomes, they will make informed decisions. And if they make informed decisions, they will lead effectively.",
+        "question": "They did not predict future outcomes. Did they lead effectively?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "If a person practices yoga, they will increase flexibility. If they meditate, they will find inner peace. Either they practice yoga, or they meditate, or maybe both. If they find inner peace, they will reduce anxiety. And if they reduce anxiety, they will improve their mental health.",
+        "question": "They found inner peace. Did they improve their mental health?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "If a person practices yoga, they will increase flexibility. If they meditate, they will find inner peace. Either they practice yoga, or they meditate, or maybe both. If they find inner peace, they will reduce anxiety. And if they reduce anxiety, they will improve their mental health.",
+        "question": "They did not find inner peace. Did they improve their mental health?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "If a person learns to dance, they will improve coordination. If they perform on stage, they will gain confidence. Either they learn to dance, or they perform on stage, or maybe both. If they gain confidence, they will take on new challenges. And if they take on new challenges, they will grow personally.",
+        "question": "They gained confidence. Did they grow personally?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "If a person learns to dance, they will improve coordination. If they perform on stage, they will gain confidence. Either they learn to dance, or they perform on stage, or maybe both. If they gain confidence, they will take on new challenges. And if they take on new challenges, they will grow personally.",
+        "question": "They did not gain confidence. Did they grow personally?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "If a person learns to cook, they will enjoy homemade meals. If they invite friends over, they will strengthen friendships. Either they learn to cook, or they invite friends over, or maybe both. If they strengthen friendships, they will have a supportive network. And if they have a supportive network, they will feel happier.",
+        "question": "They strengthened friendships. Did they feel happier?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "If a person learns to cook, they will enjoy homemade meals. If they invite friends over, they will strengthen friendships. Either they learn to cook, or they invite friends over, or maybe both. If they strengthen friendships, they will have a supportive network. And if they have a supportive network, they will feel happier.",
+        "question": "They did not strengthen friendships. Did they feel happier?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "If a person takes a vacation, they will relax. If they disconnect from work, they will recharge. Either they take a vacation, or they disconnect from work, or maybe both. If they recharge, they will return more productive. And if they return more productive, they will achieve better results.",
+        "question": "They recharged. Did they achieve better results?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "If a person takes a vacation, they will relax. If they disconnect from work, they will recharge. Either they take a vacation, or they disconnect from work, or maybe both. If they recharge, they will return more productive. And if they return more productive, they will achieve better results.",
+        "question": "They did not recharge. Did they achieve better results?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "If a person attends a workshop, they will learn new techniques. If they practice regularly, they will master the skills. Either they attend a workshop, or they practice regularly, or maybe both. If they master the skills, they will create better projects. And if they create better projects, they will gain recognition.",
+        "question": "They mastered the skills. Did they gain recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "If a person attends a workshop, they will learn new techniques. If they practice regularly, they will master the skills. Either they attend a workshop, or they practice regularly, or maybe both. If they master the skills, they will create better projects. And if they create better projects, they will gain recognition.",
+        "question": "They did not master the skills. Did they gain recognition?",
+        "answer": "no"
+    }
+]

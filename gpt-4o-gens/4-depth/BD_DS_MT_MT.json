@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "It was a cold winter day. It is known that if it snowed recently, then there would be snow on the ground. People build snowman when there's snow. If someone builds a snowman, then they play outside. They were certain that either it snowed recently, or they did not play outside. Everyone knows that if it is christmas season, then snowman is built. If it is December, then it is christmas season.",
+        "question": "There was no snow on the ground today, then is it December this month?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "People make breakfast in the morning. They know that if the stove is on, the kitchen gets hot. They wanted to make pancakes, too. If someone makes pancakes, they use the stove. Either the stove was on, or they did not use the stove. Everyone knows that if someone is hungry, they make pancakes. If Sam did not eat dinner last night, he was hungry this morning.",
+        "question": "The kitchen did not get hot, did Sam eat dinner last night?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If the sun is shining, then it is daytime. If it is daytime, then the birds are singing. If the birds are singing, then the cat is awake. Either the sun is shining, or the cat is not awake.",
+        "question": "The cat is awake, is it daytime?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If the sun is shining, then it is daytime. If it is daytime, then the birds are singing. If the birds are singing, then the cat is awake. Either the sun is shining, or the cat is not awake.",
+        "question": "The cat is not awake, is it daytime?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If the car is running, then the engine is on. If the engine is on, then the lights are on. If the lights are on, then the battery is charged. Either the car is running, or the battery is not charged.",
+        "question": "The battery is charged, is the engine on?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If the car is running, then the engine is on. If the engine is on, then the lights are on. If the lights are on, then the battery is charged. Either the car is running, or the battery is not charged.",
+        "question": "The battery is not charged, is the engine on?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If the computer is on, then the monitor is on. If the monitor is on, then the keyboard is active. If the keyboard is active, then the user is typing. Either the computer is on, or the user is not typing.",
+        "question": "The user is typing, is the monitor on?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "If the computer is on, then the monitor is on. If the monitor is on, then the keyboard is active. If the keyboard is active, then the user is typing. Either the computer is on, or the user is not typing.",
+        "question": "The user is not typing, is the monitor on?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If the oven is on, then the kitchen is warm. If the kitchen is warm, then the bread is baking. If the bread is baking, then the timer is set. Either the oven is on, or the timer is not set.",
+        "question": "The timer is set, is the kitchen warm?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If the oven is on, then the kitchen is warm. If the kitchen is warm, then the bread is baking. If the bread is baking, then the timer is set. Either the oven is on, or the timer is not set.",
+        "question": "The timer is not set, is the kitchen warm?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If the phone is charged, then the screen is on. If the screen is on, then the notifications are visible. If the notifications are visible, then the user is alerted. Either the phone is charged, or the user is not alerted.",
+        "question": "The user is alerted, is the screen on?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If the phone is charged, then the screen is on. If the screen is on, then the notifications are visible. If the notifications are visible, then the user is alerted. Either the phone is charged, or the user is not alerted.",
+        "question": "The user is not alerted, is the screen on?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If the heater is on, then the room is warm. If the room is warm, then the windows are foggy. If the windows are foggy, then the curtains are drawn. Either the heater is on, or the curtains are not drawn.",
+        "question": "The curtains are drawn, are the windows foggy?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If the heater is on, then the room is warm. If the room is warm, then the windows are foggy. If the windows are foggy, then the curtains are drawn. Either the heater is on, or the curtains are not drawn.",
+        "question": "The curtains are not drawn, are the windows foggy?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If the light is on, then the room is bright. If the room is bright, then the plants are growing. If the plants are growing, then the gardener is happy. Either the light is on, or the gardener is not happy.",
+        "question": "The gardener is happy, are the plants growing?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If the light is on, then the room is bright. If the room is bright, then the plants are growing. If the plants are growing, then the gardener is happy. Either the light is on, or the gardener is not happy.",
+        "question": "The gardener is not happy, are the plants growing?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If the alarm is set, then the clock is ticking. If the clock is ticking, then the time is correct. If the time is correct, then the schedule is followed. Either the alarm is set, or the schedule is not followed.",
+        "question": "The schedule is followed, is the time correct?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If the alarm is set, then the clock is ticking. If the clock is ticking, then the time is correct. If the time is correct, then the schedule is followed. Either the alarm is set, or the schedule is not followed.",
+        "question": "The schedule is not followed, is the time correct?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If the book is open, then the lamp is on. If the lamp is on, then the room is lit. If the room is lit, then the reader is reading. Either the book is open, or the reader is not reading.",
+        "question": "The reader is reading, is the room lit?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "If the book is open, then the lamp is on. If the lamp is on, then the room is lit. If the room is lit, then the reader is reading. Either the book is open, or the reader is not reading.",
+        "question": "The reader is not reading, is the room lit?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "If the door is open, then the air is flowing. If the air is flowing, then the room is cool. If the room is cool, then the fan is off. Either the door is open, or the fan is not off.",
+        "question": "The fan is off, is the room cool?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "If the door is open, then the air is flowing. If the air is flowing, then the room is cool. If the room is cool, then the fan is off. Either the door is open, or the fan is not off.",
+        "question": "The fan is not off, is the room cool?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "If the coffee is brewed, then the aroma is strong. If the aroma is strong, then the guests are awake. If the guests are awake, then the breakfast is served. Either the coffee is brewed, or the breakfast is not served.",
+        "question": "The breakfast is served, are the guests awake?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "If the coffee is brewed, then the aroma is strong. If the aroma is strong, then the guests are awake. If the guests are awake, then the breakfast is served. Either the coffee is brewed, or the breakfast is not served.",
+        "question": "The breakfast is not served, are the guests awake?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "If the music is playing, then the speakers are on. If the speakers are on, then the volume is high. If the volume is high, then the neighbors are complaining. Either the music is playing, or the neighbors are not complaining.",
+        "question": "The neighbors are complaining, is the volume high?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "If the music is playing, then the speakers are on. If the speakers are on, then the volume is high. If the volume is high, then the neighbors are complaining. Either the music is playing, or the neighbors are not complaining.",
+        "question": "The neighbors are not complaining, is the volume high?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "If the rain is falling, then the ground is wet. If the ground is wet, then the shoes are muddy. If the shoes are muddy, then the floor is dirty. Either the rain is falling, or the floor is not dirty.",
+        "question": "The floor is dirty, are the shoes muddy?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "If the rain is falling, then the ground is wet. If the ground is wet, then the shoes are muddy. If the shoes are muddy, then the floor is dirty. Either the rain is falling, or the floor is not dirty.",
+        "question": "The floor is not dirty, are the shoes muddy?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "If the fire is burning, then the smoke is rising. If the smoke is rising, then the alarm is sounding. If the alarm is sounding, then the fire brigade is called. Either the fire is burning, or the fire brigade is not called.",
+        "question": "The fire brigade is called, is the alarm sounding?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "If the fire is burning, then the smoke is rising. If the smoke is rising, then the alarm is sounding. If the alarm is sounding, then the fire brigade is called. Either the fire is burning, or the fire brigade is not called.",
+        "question": "The fire brigade is not called, is the alarm sounding?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "If the wind is blowing, then the leaves are rustling. If the leaves are rustling, then the trees are swaying. If the trees are swaying, then the birds are flying. Either the wind is blowing, or the birds are not flying.",
+        "question": "The birds are flying, are the trees swaying?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "If the wind is blowing, then the leaves are rustling. If the leaves are rustling, then the trees are swaying. If the trees are swaying, then the birds are flying. Either the wind is blowing, or the birds are not flying.",
+        "question": "The birds are not flying, are the trees swaying?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "If the bell is ringing, then the class is starting. If the class is starting, then the students are seated. If the students are seated, then the teacher is teaching. Either the bell is ringing, or the teacher is not teaching.",
+        "question": "The teacher is teaching, are the students seated?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "If the bell is ringing, then the class is starting. If the class is starting, then the students are seated. If the students are seated, then the teacher is teaching. Either the bell is ringing, or the teacher is not teaching.",
+        "question": "The teacher is not teaching, are the students seated?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "If the cake is baking, then the oven is hot. If the oven is hot, then the kitchen is warm. If the kitchen is warm, then the chef is sweating. Either the cake is baking, or the chef is not sweating.",
+        "question": "The chef is sweating, is the kitchen warm?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "If the cake is baking, then the oven is hot. If the oven is hot, then the kitchen is warm. If the kitchen is warm, then the chef is sweating. Either the cake is baking, or the chef is not sweating.",
+        "question": "The chef is not sweating, is the kitchen warm?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "If the movie is playing, then the screen is bright. If the screen is bright, then the audience is watching. If the audience is watching, then the popcorn is eaten. Either the movie is playing, or the popcorn is not eaten.",
+        "question": "The popcorn is eaten, is the audience watching?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "If the movie is playing, then the screen is bright. If the screen is bright, then the audience is watching. If the audience is watching, then the popcorn is eaten. Either the movie is playing, or the popcorn is not eaten.",
+        "question": "The popcorn is not eaten, is the audience watching?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "If the water is boiling, then the steam is rising. If the steam is rising, then the lid is rattling. If the lid is rattling, then the pot is hot. Either the water is boiling, or the pot is not hot.",
+        "question": "The pot is hot, is the lid rattling?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "If the water is boiling, then the steam is rising. If the steam is rising, then the lid is rattling. If the lid is rattling, then the pot is hot. Either the water is boiling, or the pot is not hot.",
+        "question": "The pot is not hot, is the lid rattling?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "If the dog is barking, then the gate is open. If the gate is open, then the yard is accessible. If the yard is accessible, then the children are playing. Either the dog is barking, or the children are not playing.",
+        "question": "The children are playing, is the yard accessible?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "If the dog is barking, then the gate is open. If the gate is open, then the yard is accessible. If the yard is accessible, then the children are playing. Either the dog is barking, or the children are not playing.",
+        "question": "The children are not playing, is the yard accessible?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "If the train is moving, then the tracks are clear. If the tracks are clear, then the signals are green. If the signals are green, then the passengers are boarding. Either the train is moving, or the passengers are not boarding.",
+        "question": "The passengers are boarding, are the signals green?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "If the train is moving, then the tracks are clear. If the tracks are clear, then the signals are green. If the signals are green, then the passengers are boarding. Either the train is moving, or the passengers are not boarding.",
+        "question": "The passengers are not boarding, are the signals green?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "If the sun is setting, then the sky is red. If the sky is red, then the stars are visible. If the stars are visible, then the telescope is used. Either the sun is setting, or the telescope is not used.",
+        "question": "The telescope is used, are the stars visible?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "If the sun is setting, then the sky is red. If the sky is red, then the stars are visible. If the stars are visible, then the telescope is used. Either the sun is setting, or the telescope is not used.",
+        "question": "The telescope is not used, are the stars visible?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "If the ice is melting, then the water is dripping. If the water is dripping, then the floor is wet. If the floor is wet, then the mop is used. Either the ice is melting, or the mop is not used.",
+        "question": "The mop is used, is the floor wet?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "If the ice is melting, then the water is dripping. If the water is dripping, then the floor is wet. If the floor is wet, then the mop is used. Either the ice is melting, or the mop is not used.",
+        "question": "The mop is not used, is the floor wet?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "If the snow is falling, then the roads are slippery. If the roads are slippery, then the cars are slow. If the cars are slow, then the traffic is heavy. Either the snow is falling, or the traffic is not heavy.",
+        "question": "The traffic is heavy, are the cars slow?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "If the snow is falling, then the roads are slippery. If the roads are slippery, then the cars are slow. If the cars are slow, then the traffic is heavy. Either the snow is falling, or the traffic is not heavy.",
+        "question": "The traffic is not heavy, are the cars slow?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "If the river is flowing, then the fish are swimming. If the fish are swimming, then the fishermen are fishing. If the fishermen are fishing, then the nets are cast. Either the river is flowing, or the nets are not cast.",
+        "question": "The nets are cast, are the fishermen fishing?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "If the river is flowing, then the fish are swimming. If the fish are swimming, then the fishermen are fishing. If the fishermen are fishing, then the nets are cast. Either the river is flowing, or the nets are not cast.",
+        "question": "The nets are not cast, are the fishermen fishing?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "If the wind is howling, then the shutters are closed. If the shutters are closed, then the house is dark. If the house is dark, then the lights are on. Either the wind is howling, or the lights are not on.",
+        "question": "The lights are on, is the house dark?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "If the wind is howling, then the shutters are closed. If the shutters are closed, then the house is dark. If the house is dark, then the lights are on. Either the wind is howling, or the lights are not on.",
+        "question": "The lights are not on, is the house dark?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "If the moon is full, then the night is bright. If the night is bright, then the stars are dim. If the stars are dim, then the telescope is adjusted. Either the moon is full, or the telescope is not adjusted.",
+        "question": "The telescope is adjusted, are the stars dim?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "If the moon is full, then the night is bright. If the night is bright, then the stars are dim. If the stars are dim, then the telescope is adjusted. Either the moon is full, or the telescope is not adjusted.",
+        "question": "The telescope is not adjusted, are the stars dim?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "If the bread is baking, then the aroma is strong. If the aroma is strong, then the neighbors are curious. If the neighbors are curious, then the doorbell rings. Either the bread is baking, or the doorbell does not ring.",
+        "question": "The doorbell rings, are the neighbors curious?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "If the bread is baking, then the aroma is strong. If the aroma is strong, then the neighbors are curious. If the neighbors are curious, then the doorbell rings. Either the bread is baking, or the doorbell does not ring.",
+        "question": "The doorbell does not ring, are the neighbors curious?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "If the sun is shining, then the flowers are blooming. If the flowers are blooming, then the bees are buzzing. If the bees are buzzing, then the honey is made. Either the sun is shining, or the honey is not made.",
+        "question": "The honey is made, are the bees buzzing?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "If the sun is shining, then the flowers are blooming. If the flowers are blooming, then the bees are buzzing. If the bees are buzzing, then the honey is made. Either the sun is shining, or the honey is not made.",
+        "question": "The honey is not made, are the bees buzzing?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "If the rain is pouring, then the umbrella is open. If the umbrella is open, then the clothes are dry. If the clothes are dry, then the person is comfortable. Either the rain is pouring, or the person is not comfortable.",
+        "question": "The person is comfortable, are the clothes dry?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "If the rain is pouring, then the umbrella is open. If the umbrella is open, then the clothes are dry. If the clothes are dry, then the person is comfortable. Either the rain is pouring, or the person is not comfortable.",
+        "question": "The person is not comfortable, are the clothes dry?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "If the coffee is brewing, then the aroma is inviting. If the aroma is inviting, then the guests are arriving. If the guests are arriving, then the party is starting. Either the coffee is brewing, or the party is not starting.",
+        "question": "The party is starting, are the guests arriving?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "If the coffee is brewing, then the aroma is inviting. If the aroma is inviting, then the guests are arriving. If the guests are arriving, then the party is starting. Either the coffee is brewing, or the party is not starting.",
+        "question": "The party is not starting, are the guests arriving?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "If the snow is falling, then the ground is white. If the ground is white, then the children are sledding. If the children are sledding, then the hill is busy. Either the snow is falling, or the hill is not busy.",
+        "question": "The hill is busy, are the children sledding?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "If the snow is falling, then the ground is white. If the ground is white, then the children are sledding. If the children are sledding, then the hill is busy. Either the snow is falling, or the hill is not busy.",
+        "question": "The hill is not busy, are the children sledding?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "If the sun is rising, then the sky is pink. If the sky is pink, then the birds are chirping. If the birds are chirping, then the morning is peaceful. Either the sun is rising, or the morning is not peaceful.",
+        "question": "The morning is peaceful, are the birds chirping?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "If the sun is rising, then the sky is pink. If the sky is pink, then the birds are chirping. If the birds are chirping, then the morning is peaceful. Either the sun is rising, or the morning is not peaceful.",
+        "question": "The morning is not peaceful, are the birds chirping?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "If the wind is blowing, then the kite is flying. If the kite is flying, then the children are laughing. If the children are laughing, then the park is lively. Either the wind is blowing, or the park is not lively.",
+        "question": "The park is lively, are the children laughing?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "If the wind is blowing, then the kite is flying. If the kite is flying, then the children are laughing. If the children are laughing, then the park is lively. Either the wind is blowing, or the park is not lively.",
+        "question": "The park is not lively, are the children laughing?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "If the fire is crackling, then the room is warm. If the room is warm, then the family is gathered. If the family is gathered, then the stories are told. Either the fire is crackling, or the stories are not told.",
+        "question": "The stories are told, is the family gathered?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "If the fire is crackling, then the room is warm. If the room is warm, then the family is gathered. If the family is gathered, then the stories are told. Either the fire is crackling, or the stories are not told.",
+        "question": "The stories are not told, is the family gathered?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "If the rain is falling, then the roof is leaking. If the roof is leaking, then the floor is wet. If the floor is wet, then the mop is used. Either the rain is falling, or the mop is not used.",
+        "question": "The mop is used, is the floor wet?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "If the rain is falling, then the roof is leaking. If the roof is leaking, then the floor is wet. If the floor is wet, then the mop is used. Either the rain is falling, or the mop is not used.",
+        "question": "The mop is not used, is the floor wet?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "If the sun is shining, then the grass is green. If the grass is green, then the cows are grazing. If the cows are grazing, then the farmer is working. Either the sun is shining, or the farmer is not working.",
+        "question": "The farmer is working, are the cows grazing?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "If the sun is shining, then the grass is green. If the grass is green, then the cows are grazing. If the cows are grazing, then the farmer is working. Either the sun is shining, or the farmer is not working.",
+        "question": "The farmer is not working, are the cows grazing?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "If the moon is shining, then the night is clear. If the night is clear, then the stars are visible. If the stars are visible, then the astronomer is observing. Either the moon is shining, or the astronomer is not observing.",
+        "question": "The astronomer is observing, are the stars visible?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "If the moon is shining, then the night is clear. If the night is clear, then the stars are visible. If the stars are visible, then the astronomer is observing. Either the moon is shining, or the astronomer is not observing.",
+        "question": "The astronomer is not observing, are the stars visible?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "If the coffee is brewing, then the aroma is strong. If the aroma is strong, then the guests are arriving. If the guests are arriving, then the party is lively. Either the coffee is brewing, or the party is not lively.",
+        "question": "The party is lively, are the guests arriving?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "If the coffee is brewing, then the aroma is strong. If the aroma is strong, then the guests are arriving. If the guests are arriving, then the party is lively. Either the coffee is brewing, or the party is not lively.",
+        "question": "The party is not lively, are the guests arriving?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "If the sun is setting, then the sky is orange. If the sky is orange, then the evening is calm. If the evening is calm, then the dinner is served. Either the sun is setting, or the dinner is not served.",
+        "question": "The dinner is served, is the evening calm?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "If the sun is setting, then the sky is orange. If the sky is orange, then the evening is calm. If the evening is calm, then the dinner is served. Either the sun is setting, or the dinner is not served.",
+        "question": "The dinner is not served, is the evening calm?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "If the wind is blowing, then the leaves are rustling. If the leaves are rustling, then the trees are swaying. If the trees are swaying, then the birds are flying. Either the wind is blowing, or the birds are not flying.",
+        "question": "The birds are flying, are the trees swaying?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "If the wind is blowing, then the leaves are rustling. If the leaves are rustling, then the trees are swaying. If the trees are swaying, then the birds are flying. Either the wind is blowing, or the birds are not flying.",
+        "question": "The birds are not flying, are the trees swaying?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "If the rain is pouring, then the streets are wet. If the streets are wet, then the cars are slow. If the cars are slow, then the traffic is heavy. Either the rain is pouring, or the traffic is not heavy.",
+        "question": "The traffic is heavy, are the cars slow?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "If the rain is pouring, then the streets are wet. If the streets are wet, then the cars are slow. If the cars are slow, then the traffic is heavy. Either the rain is pouring, or the traffic is not heavy.",
+        "question": "The traffic is not heavy, are the cars slow?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "If the fire is burning, then the smoke is rising. If the smoke is rising, then the alarm is sounding. If the alarm is sounding, then the fire brigade is called. Either the fire is burning, or the fire brigade is not called.",
+        "question": "The fire brigade is called, is the alarm sounding?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "If the fire is burning, then the smoke is rising. If the smoke is rising, then the alarm is sounding. If the alarm is sounding, then the fire brigade is called. Either the fire is burning, or the fire brigade is not called.",
+        "question": "The fire brigade is not called, is the alarm sounding?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "If the sun is shining, then the day is bright. If the day is bright, then the sunglasses are worn. If the sunglasses are worn, then the eyes are protected. Either the sun is shining, or the eyes are not protected.",
+        "question": "The eyes are protected, are the sunglasses worn?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "If the sun is shining, then the day is bright. If the day is bright, then the sunglasses are worn. If the sunglasses are worn, then the eyes are protected. Either the sun is shining, or the eyes are not protected.",
+        "question": "The eyes are not protected, are the sunglasses worn?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "If the moon is full, then the night is bright. If the night is bright, then the stars are dim. If the stars are dim, then the telescope is adjusted. Either the moon is full, or the telescope is not adjusted.",
+        "question": "The telescope is adjusted, are the stars dim?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "If the moon is full, then the night is bright. If the night is bright, then the stars are dim. If the stars are dim, then the telescope is adjusted. Either the moon is full, or the telescope is not adjusted.",
+        "question": "The telescope is not adjusted, are the stars dim?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "If the coffee is brewing, then the aroma is strong. If the aroma is strong, then the guests are arriving. If the guests are arriving, then the party is lively. Either the coffee is brewing, or the party is not lively.",
+        "question": "The party is lively, are the guests arriving?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "If the coffee is brewing, then the aroma is strong. If the aroma is strong, then the guests are arriving. If the guests are arriving, then the party is lively. Either the coffee is brewing, or the party is not lively.",
+        "question": "The party is not lively, are the guests arriving?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "If the sun is setting, then the sky is orange. If the sky is orange, then the evening is calm. If the evening is calm, then the dinner is served. Either the sun is setting, or the dinner is not served.",
+        "question": "The dinner is served, is the evening calm?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "If the sun is setting, then the sky is orange. If the sky is orange, then the evening is calm. If the evening is calm, then the dinner is served. Either the sun is setting, or the dinner is not served.",
+        "question": "The dinner is not served, is the evening calm?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "If the wind is blowing, then the leaves are rustling. If the leaves are rustling, then the trees are swaying. If the trees are swaying, then the birds are flying. Either the wind is blowing, or the birds are not flying.",
+        "question": "The birds are flying, are the trees swaying?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "If the wind is blowing, then the leaves are rustling. If the leaves are rustling, then the trees are swaying. If the trees are swaying, then the birds are flying. Either the wind is blowing, or the birds are not flying.",
+        "question": "The birds are not flying, are the trees swaying?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "If the rain is pouring, then the streets are wet. If the streets are wet, then the cars are slow. If the cars are slow, then the traffic is heavy. Either the rain is pouring, or the traffic is not heavy.",
+        "question": "The traffic is heavy, are the cars slow?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "If the rain is pouring, then the streets are wet. If the streets are wet, then the cars are slow. If the cars are slow, then the traffic is heavy. Either the rain is pouring, or the traffic is not heavy.",
+        "question": "The traffic is not heavy, are the cars slow?",
+        "answer": "no"
+    }
+]
