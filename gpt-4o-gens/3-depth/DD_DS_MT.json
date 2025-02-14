@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "In the criminal justice system, officers of the law sought to create a just society. They knew upholding ethical practices led to a trustworthy system, and solving crimes resulted in safer communities. However, some communities remained unsafe while in others, trust in the system declined. It seemed that either crimes went unsolved or unethical practices persisted. They knew if an officer had integrity, they would be ethical.",
+        "question": "Mark solves criminal cases. From the context, is it true that Mark has integrity as a law enforcement officer?",
+        "answer": "no"
+    },
+    {
+        "id": 2,
+        "context": "In a large company, the employees were eager to get promotions and salary raises. They knew that if they worked hard, they would impress their managers, and if they took on extra projects, they would gain valuable experience. However, not every employee got promoted or gained new skills. Either someone was not getting promotions, or someone was not gaining experience. An ambitious employee understood that if they networked within the company, they would be able to take on extra projects.",
+        "question": "Mark works hard in his job. From the context, is it true that Mark networks within the company?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "In a bustling tech startup, developers knew that if they implemented agile methodologies, they would increase productivity. They also knew that if they adopted new technologies, they would stay competitive. However, not all teams were productive or competitive. It seemed that either some teams were not productive, or some were not competitive. A diligent developer understood that if they attended workshops, they would adopt new technologies.",
+        "question": "Alex attends workshops regularly. From the context, is it true that Alex's team is competitive?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "In a bustling tech startup, developers knew that if they implemented agile methodologies, they would increase productivity. They also knew that if they adopted new technologies, they would stay competitive. However, not all teams were productive or competitive. It seemed that either some teams were not productive, or some were not competitive. A diligent developer understood that if they attended workshops, they would adopt new technologies.",
+        "question": "Alex does not attend workshops regularly. From the context, is it true that Alex's team is competitive?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "In a university, students were aware that if they studied consistently, they would excel in exams. They also knew that if they participated in group discussions, they would enhance their understanding. However, not all students excelled or had a deep understanding. It seemed that either some students did not excel, or some did not have a deep understanding. A dedicated student realized that if they attended all classes, they would participate in group discussions.",
+        "question": "Jamie attends all classes. From the context, is it true that Jamie has a deep understanding?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In a university, students were aware that if they studied consistently, they would excel in exams. They also knew that if they participated in group discussions, they would enhance their understanding. However, not all students excelled or had a deep understanding. It seemed that either some students did not excel, or some did not have a deep understanding. A dedicated student realized that if they attended all classes, they would participate in group discussions.",
+        "question": "Jamie does not attend all classes. From the context, is it true that Jamie has a deep understanding?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In a marketing firm, employees knew that if they conducted thorough market research, they would create effective campaigns. They also knew that if they collaborated with creative teams, they would produce innovative content. However, not all campaigns were effective or innovative. It seemed that either some campaigns were not effective, or some were not innovative. A proactive marketer understood that if they attended brainstorming sessions, they would collaborate with creative teams.",
+        "question": "Taylor attends brainstorming sessions. From the context, is it true that Taylor's campaigns are innovative?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "In a marketing firm, employees knew that if they conducted thorough market research, they would create effective campaigns. They also knew that if they collaborated with creative teams, they would produce innovative content. However, not all campaigns were effective or innovative. It seemed that either some campaigns were not effective, or some were not innovative. A proactive marketer understood that if they attended brainstorming sessions, they would collaborate with creative teams.",
+        "question": "Taylor does not attend brainstorming sessions. From the context, is it true that Taylor's campaigns are innovative?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "In a hospital, doctors knew that if they followed up with patients, they would improve recovery rates. They also knew that if they attended medical conferences, they would stay updated with the latest treatments. However, not all patients recovered well or received the latest treatments. It seemed that either some patients did not recover well, or some did not receive the latest treatments. A committed doctor realized that if they read medical journals, they would attend medical conferences.",
+        "question": "Jordan reads medical journals regularly. From the context, is it true that Jordan's patients receive the latest treatments?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "In a hospital, doctors knew that if they followed up with patients, they would improve recovery rates. They also knew that if they attended medical conferences, they would stay updated with the latest treatments. However, not all patients recovered well or received the latest treatments. It seemed that either some patients did not recover well, or some did not receive the latest treatments. A committed doctor realized that if they read medical journals, they would attend medical conferences.",
+        "question": "Jordan does not read medical journals regularly. From the context, is it true that Jordan's patients receive the latest treatments?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In a publishing house, editors knew that if they reviewed manuscripts thoroughly, they would ensure high-quality publications. They also knew that if they attended literary events, they would discover new authors. However, not all publications were high-quality or featured new authors. It seemed that either some publications were not high-quality, or some did not feature new authors. A meticulous editor realized that if they networked with authors, they would attend literary events.",
+        "question": "Morgan networks with authors regularly. From the context, is it true that Morgan discovers new authors?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "In a publishing house, editors knew that if they reviewed manuscripts thoroughly, they would ensure high-quality publications. They also knew that if they attended literary events, they would discover new authors. However, not all publications were high-quality or featured new authors. It seemed that either some publications were not high-quality, or some did not feature new authors. A meticulous editor realized that if they networked with authors, they would attend literary events.",
+        "question": "Morgan does not network with authors regularly. From the context, is it true that Morgan discovers new authors?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "In a culinary school, chefs knew that if they practiced new recipes, they would enhance their skills. They also knew that if they attended culinary workshops, they would learn innovative techniques. However, not all chefs enhanced their skills or learned innovative techniques. It seemed that either some chefs did not enhance their skills, or some did not learn innovative techniques. A passionate chef realized that if they experimented in the kitchen, they would attend culinary workshops.",
+        "question": "Casey experiments in the kitchen regularly. From the context, is it true that Casey learns innovative techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "In a culinary school, chefs knew that if they practiced new recipes, they would enhance their skills. They also knew that if they attended culinary workshops, they would learn innovative techniques. However, not all chefs enhanced their skills or learned innovative techniques. It seemed that either some chefs did not enhance their skills, or some did not learn innovative techniques. A passionate chef realized that if they experimented in the kitchen, they would attend culinary workshops.",
+        "question": "Casey does not experiment in the kitchen regularly. From the context, is it true that Casey learns innovative techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "In a design studio, artists knew that if they explored different styles, they would expand their portfolios. They also knew that if they collaborated with other artists, they would gain new perspectives. However, not all portfolios were expansive or included new perspectives. It seemed that either some portfolios were not expansive, or some did not include new perspectives. A creative artist realized that if they attended art exhibitions, they would collaborate with other artists.",
+        "question": "Riley attends art exhibitions regularly. From the context, is it true that Riley gains new perspectives?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "In a design studio, artists knew that if they explored different styles, they would expand their portfolios. They also knew that if they collaborated with other artists, they would gain new perspectives. However, not all portfolios were expansive or included new perspectives. It seemed that either some portfolios were not expansive, or some did not include new perspectives. A creative artist realized that if they attended art exhibitions, they would collaborate with other artists.",
+        "question": "Riley does not attend art exhibitions regularly. From the context, is it true that Riley gains new perspectives?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "In a research lab, scientists knew that if they conducted experiments rigorously, they would achieve accurate results. They also knew that if they published their findings, they would gain recognition. However, not all results were accurate or recognized. It seemed that either some results were not accurate, or some were not recognized. A diligent scientist realized that if they attended conferences, they would publish their findings.",
+        "question": "Sam attends conferences regularly. From the context, is it true that Sam gains recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "In a research lab, scientists knew that if they conducted experiments rigorously, they would achieve accurate results. They also knew that if they published their findings, they would gain recognition. However, not all results were accurate or recognized. It seemed that either some results were not accurate, or some were not recognized. A diligent scientist realized that if they attended conferences, they would publish their findings.",
+        "question": "Sam does not attend conferences regularly. From the context, is it true that Sam gains recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "In a music academy, students knew that if they practiced daily, they would master their instruments. They also knew that if they performed in recitals, they would gain confidence. However, not all students mastered their instruments or gained confidence. It seemed that either some students did not master their instruments, or some did not gain confidence. A dedicated student realized that if they joined the school band, they would perform in recitals.",
+        "question": "Jordan joins the school band. From the context, is it true that Jordan gains confidence?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "In a music academy, students knew that if they practiced daily, they would master their instruments. They also knew that if they performed in recitals, they would gain confidence. However, not all students mastered their instruments or gained confidence. It seemed that either some students did not master their instruments, or some did not gain confidence. A dedicated student realized that if they joined the school band, they would perform in recitals.",
+        "question": "Jordan does not join the school band. From the context, is it true that Jordan gains confidence?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "In a law firm, attorneys knew that if they prepared cases thoroughly, they would win trials. They also knew that if they attended legal seminars, they would stay informed about new laws. However, not all cases were won or informed by new laws. It seemed that either some cases were not won, or some were not informed by new laws. A diligent attorney realized that if they read legal journals, they would attend legal seminars.",
+        "question": "Alex reads legal journals regularly. From the context, is it true that Alex stays informed about new laws?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "In a law firm, attorneys knew that if they prepared cases thoroughly, they would win trials. They also knew that if they attended legal seminars, they would stay informed about new laws. However, not all cases were won or informed by new laws. It seemed that either some cases were not won, or some were not informed by new laws. A diligent attorney realized that if they read legal journals, they would attend legal seminars.",
+        "question": "Alex does not read legal journals regularly. From the context, is it true that Alex stays informed about new laws?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "In a fitness center, trainers knew that if they designed personalized workout plans, they would achieve client satisfaction. They also knew that if they attended fitness workshops, they would learn new techniques. However, not all clients were satisfied or learned new techniques. It seemed that either some clients were not satisfied, or some did not learn new techniques. A committed trainer realized that if they practiced new routines, they would attend fitness workshops.",
+        "question": "Taylor practices new routines regularly. From the context, is it true that Taylor learns new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "In a fitness center, trainers knew that if they designed personalized workout plans, they would achieve client satisfaction. They also knew that if they attended fitness workshops, they would learn new techniques. However, not all clients were satisfied or learned new techniques. It seemed that either some clients were not satisfied, or some did not learn new techniques. A committed trainer realized that if they practiced new routines, they would attend fitness workshops.",
+        "question": "Taylor does not practice new routines regularly. From the context, is it true that Taylor learns new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "In a software company, engineers knew that if they wrote clean code, they would reduce bugs. They also knew that if they participated in code reviews, they would improve their skills. However, not all code was bug-free or improved skills. It seemed that either some code was not bug-free, or some skills were not improved. A dedicated engineer realized that if they contributed to open-source projects, they would participate in code reviews.",
+        "question": "Jamie contributes to open-source projects. From the context, is it true that Jamie improves their skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "In a software company, engineers knew that if they wrote clean code, they would reduce bugs. They also knew that if they participated in code reviews, they would improve their skills. However, not all code was bug-free or improved skills. It seemed that either some code was not bug-free, or some skills were not improved. A dedicated engineer realized that if they contributed to open-source projects, they would participate in code reviews.",
+        "question": "Jamie does not contribute to open-source projects. From the context, is it true that Jamie improves their skills?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "In a theater group, actors knew that if they rehearsed regularly, they would deliver compelling performances. They also knew that if they attended acting workshops, they would refine their techniques. However, not all performances were compelling or techniques refined. It seemed that either some performances were not compelling, or some techniques were not refined. A passionate actor realized that if they practiced improvisation, they would attend acting workshops.",
+        "question": "Morgan practices improvisation regularly. From the context, is it true that Morgan refines their techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "In a theater group, actors knew that if they rehearsed regularly, they would deliver compelling performances. They also knew that if they attended acting workshops, they would refine their techniques. However, not all performances were compelling or techniques refined. It seemed that either some performances were not compelling, or some techniques were not refined. A passionate actor realized that if they practiced improvisation, they would attend acting workshops.",
+        "question": "Morgan does not practice improvisation regularly. From the context, is it true that Morgan refines their techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "In a school, teachers knew that if they used interactive teaching methods, they would engage students. They also knew that if they attended educational seminars, they would learn new strategies. However, not all students were engaged or new strategies learned. It seemed that either some students were not engaged, or some strategies were not learned. A dedicated teacher realized that if they incorporated technology in lessons, they would attend educational seminars.",
+        "question": "Jordan incorporates technology in lessons. From the context, is it true that Jordan learns new strategies?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "In a school, teachers knew that if they used interactive teaching methods, they would engage students. They also knew that if they attended educational seminars, they would learn new strategies. However, not all students were engaged or new strategies learned. It seemed that either some students were not engaged, or some strategies were not learned. A dedicated teacher realized that if they incorporated technology in lessons, they would attend educational seminars.",
+        "question": "Jordan does not incorporate technology in lessons. From the context, is it true that Jordan learns new strategies?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "In a fashion house, designers knew that if they researched trends, they would create popular collections. They also knew that if they attended fashion shows, they would gain inspiration. However, not all collections were popular or inspired. It seemed that either some collections were not popular, or some were not inspired. A creative designer realized that if they sketched daily, they would attend fashion shows.",
+        "question": "Casey sketches daily. From the context, is it true that Casey gains inspiration?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "In a fashion house, designers knew that if they researched trends, they would create popular collections. They also knew that if they attended fashion shows, they would gain inspiration. However, not all collections were popular or inspired. It seemed that either some collections were not popular, or some were not inspired. A creative designer realized that if they sketched daily, they would attend fashion shows.",
+        "question": "Casey does not sketch daily. From the context, is it true that Casey gains inspiration?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "In a film studio, directors knew that if they planned scenes meticulously, they would produce captivating movies. They also knew that if they collaborated with talented actors, they would enhance performances. However, not all movies were captivating or performances enhanced. It seemed that either some movies were not captivating, or some performances were not enhanced. A visionary director realized that if they attended casting calls, they would collaborate with talented actors.",
+        "question": "Riley attends casting calls regularly. From the context, is it true that Riley enhances performances?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "In a film studio, directors knew that if they planned scenes meticulously, they would produce captivating movies. They also knew that if they collaborated with talented actors, they would enhance performances. However, not all movies were captivating or performances enhanced. It seemed that either some movies were not captivating, or some performances were not enhanced. A visionary director realized that if they attended casting calls, they would collaborate with talented actors.",
+        "question": "Riley does not attend casting calls regularly. From the context, is it true that Riley enhances performances?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "In a startup, entrepreneurs knew that if they pitched ideas effectively, they would attract investors. They also knew that if they attended networking events, they would expand their connections. However, not all ideas attracted investors or connections expanded. It seemed that either some ideas did not attract investors, or some connections were not expanded. A resourceful entrepreneur realized that if they joined business forums, they would attend networking events.",
+        "question": "Sam joins business forums regularly. From the context, is it true that Sam expands their connections?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "In a startup, entrepreneurs knew that if they pitched ideas effectively, they would attract investors. They also knew that if they attended networking events, they would expand their connections. However, not all ideas attracted investors or connections expanded. It seemed that either some ideas did not attract investors, or some connections were not expanded. A resourceful entrepreneur realized that if they joined business forums, they would attend networking events.",
+        "question": "Sam does not join business forums regularly. From the context, is it true that Sam expands their connections?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "In a community center, volunteers knew that if they organized events, they would engage the community. They also knew that if they attended training sessions, they would improve their skills. However, not all events engaged the community or skills improved. It seemed that either some events did not engage the community, or some skills were not improved. A dedicated volunteer realized that if they participated in workshops, they would attend training sessions.",
+        "question": "Alex participates in workshops regularly. From the context, is it true that Alex improves their skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "In a community center, volunteers knew that if they organized events, they would engage the community. They also knew that if they attended training sessions, they would improve their skills. However, not all events engaged the community or skills improved. It seemed that either some events did not engage the community, or some skills were not improved. A dedicated volunteer realized that if they participated in workshops, they would attend training sessions.",
+        "question": "Alex does not participate in workshops regularly. From the context, is it true that Alex improves their skills?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "In a robotics club, members knew that if they built prototypes, they would enhance their technical skills. They also knew that if they participated in competitions, they would gain recognition. However, not all prototypes enhanced skills or gained recognition. It seemed that either some prototypes did not enhance skills, or some did not gain recognition. A passionate member realized that if they joined project teams, they would participate in competitions.",
+        "question": "Taylor joins project teams regularly. From the context, is it true that Taylor gains recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "In a robotics club, members knew that if they built prototypes, they would enhance their technical skills. They also knew that if they participated in competitions, they would gain recognition. However, not all prototypes enhanced skills or gained recognition. It seemed that either some prototypes did not enhance skills, or some did not gain recognition. A passionate member realized that if they joined project teams, they would participate in competitions.",
+        "question": "Taylor does not join project teams regularly. From the context, is it true that Taylor gains recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "In a language school, teachers knew that if they used immersive techniques, they would improve student fluency. They also knew that if they attended language workshops, they would learn new teaching methods. However, not all students improved fluency or new methods learned. It seemed that either some students did not improve fluency, or some methods were not learned. A dedicated teacher realized that if they practiced with native speakers, they would attend language workshops.",
+        "question": "Jamie practices with native speakers regularly. From the context, is it true that Jamie learns new teaching methods?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "In a language school, teachers knew that if they used immersive techniques, they would improve student fluency. They also knew that if they attended language workshops, they would learn new teaching methods. However, not all students improved fluency or new methods learned. It seemed that either some students did not improve fluency, or some methods were not learned. A dedicated teacher realized that if they practiced with native speakers, they would attend language workshops.",
+        "question": "Jamie does not practice with native speakers regularly. From the context, is it true that Jamie learns new teaching methods?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "In a photography club, members knew that if they experimented with lighting, they would capture stunning images. They also knew that if they attended photography seminars, they would learn advanced techniques. However, not all images were stunning or techniques advanced. It seemed that either some images were not stunning, or some techniques were not advanced. A creative photographer realized that if they joined photo walks, they would attend photography seminars.",
+        "question": "Morgan joins photo walks regularly. From the context, is it true that Morgan learns advanced techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "In a photography club, members knew that if they experimented with lighting, they would capture stunning images. They also knew that if they attended photography seminars, they would learn advanced techniques. However, not all images were stunning or techniques advanced. It seemed that either some images were not stunning, or some techniques were not advanced. A creative photographer realized that if they joined photo walks, they would attend photography seminars.",
+        "question": "Morgan does not join photo walks regularly. From the context, is it true that Morgan learns advanced techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "In a debate club, members knew that if they researched topics thoroughly, they would win debates. They also knew that if they attended debate workshops, they would refine their arguments. However, not all debates were won or arguments refined. It seemed that either some debates were not won, or some arguments were not refined. A passionate debater realized that if they practiced public speaking, they would attend debate workshops.",
+        "question": "Riley practices public speaking regularly. From the context, is it true that Riley refines their arguments?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "In a debate club, members knew that if they researched topics thoroughly, they would win debates. They also knew that if they attended debate workshops, they would refine their arguments. However, not all debates were won or arguments refined. It seemed that either some debates were not won, or some arguments were not refined. A passionate debater realized that if they practiced public speaking, they would attend debate workshops.",
+        "question": "Riley does not practice public speaking regularly. From the context, is it true that Riley refines their arguments?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "In a gardening club, members knew that if they used organic fertilizers, they would grow healthy plants. They also knew that if they attended gardening workshops, they would learn new techniques. However, not all plants were healthy or techniques learned. It seemed that either some plants were not healthy, or some techniques were not learned. A dedicated gardener realized that if they experimented with different seeds, they would attend gardening workshops.",
+        "question": "Sam experiments with different seeds regularly. From the context, is it true that Sam learns new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "In a gardening club, members knew that if they used organic fertilizers, they would grow healthy plants. They also knew that if they attended gardening workshops, they would learn new techniques. However, not all plants were healthy or techniques learned. It seemed that either some plants were not healthy, or some techniques were not learned. A dedicated gardener realized that if they experimented with different seeds, they would attend gardening workshops.",
+        "question": "Sam does not experiment with different seeds regularly. From the context, is it true that Sam learns new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "In a coding bootcamp, students knew that if they practiced coding daily, they would build strong programming skills. They also knew that if they attended hackathons, they would gain practical experience. However, not all students built strong skills or gained practical experience. It seemed that either some students did not build strong skills, or some did not gain practical experience. A committed student realized that if they joined coding challenges, they would attend hackathons.",
+        "question": "Alex joins coding challenges regularly. From the context, is it true that Alex gains practical experience?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "In a coding bootcamp, students knew that if they practiced coding daily, they would build strong programming skills. They also knew that if they attended hackathons, they would gain practical experience. However, not all students built strong skills or gained practical experience. It seemed that either some students did not build strong skills, or some did not gain practical experience. A committed student realized that if they joined coding challenges, they would attend hackathons.",
+        "question": "Alex does not join coding challenges regularly. From the context, is it true that Alex gains practical experience?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "In a writing club, members knew that if they wrote daily, they would improve their writing skills. They also knew that if they attended writing workshops, they would learn new techniques. However, not all members improved their skills or learned new techniques. It seemed that either some members did not improve their skills, or some did not learn new techniques. A passionate writer realized that if they read extensively, they would attend writing workshops.",
+        "question": "Taylor reads extensively. From the context, is it true that Taylor learns new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "In a writing club, members knew that if they wrote daily, they would improve their writing skills. They also knew that if they attended writing workshops, they would learn new techniques. However, not all members improved their skills or learned new techniques. It seemed that either some members did not improve their skills, or some did not learn new techniques. A passionate writer realized that if they read extensively, they would attend writing workshops.",
+        "question": "Taylor does not read extensively. From the context, is it true that Taylor learns new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "In a dance academy, instructors knew that if they practiced choreography daily, they would perfect their routines. They also knew that if they attended dance workshops, they would learn new styles. However, not all routines were perfect or styles learned. It seemed that either some routines were not perfect, or some styles were not learned. A dedicated dancer realized that if they practiced with a partner, they would attend dance workshops.",
+        "question": "Jordan practices with a partner regularly. From the context, is it true that Jordan learns new styles?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "In a dance academy, instructors knew that if they practiced choreography daily, they would perfect their routines. They also knew that if they attended dance workshops, they would learn new styles. However, not all routines were perfect or styles learned. It seemed that either some routines were not perfect, or some styles were not learned. A dedicated dancer realized that if they practiced with a partner, they would attend dance workshops.",
+        "question": "Jordan does not practice with a partner regularly. From the context, is it true that Jordan learns new styles?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "In a culinary institute, chefs knew that if they experimented with spices, they would create unique flavors. They also knew that if they attended culinary expos, they would discover new ingredients. However, not all flavors were unique or ingredients discovered. It seemed that either some flavors were not unique, or some ingredients were not discovered. A passionate chef realized that if they traveled to food festivals, they would attend culinary expos.",
+        "question": "Alex travels to food festivals regularly. From the context, is it true that Alex discovers new ingredients?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "In a culinary institute, chefs knew that if they experimented with spices, they would create unique flavors. They also knew that if they attended culinary expos, they would discover new ingredients. However, not all flavors were unique or ingredients discovered. It seemed that either some flavors were not unique, or some ingredients were not discovered. A passionate chef realized that if they traveled to food festivals, they would attend culinary expos.",
+        "question": "Alex does not travel to food festivals regularly. From the context, is it true that Alex discovers new ingredients?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "In a tech conference, speakers knew that if they prepared engaging presentations, they would captivate the audience. They also knew that if they attended networking sessions, they would make valuable connections. However, not all presentations were engaging or connections made. It seemed that either some presentations were not engaging, or some connections were not made. A skilled speaker realized that if they practiced public speaking, they would attend networking sessions.",
+        "question": "Taylor practices public speaking regularly. From the context, is it true that Taylor makes valuable connections?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "In a tech conference, speakers knew that if they prepared engaging presentations, they would captivate the audience. They also knew that if they attended networking sessions, they would make valuable connections. However, not all presentations were engaging or connections made. It seemed that either some presentations were not engaging, or some connections were not made. A skilled speaker realized that if they practiced public speaking, they would attend networking sessions.",
+        "question": "Taylor does not practice public speaking regularly. From the context, is it true that Taylor makes valuable connections?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "In a music school, instructors knew that if they taught music theory, students would understand compositions better. They also knew that if they organized recitals, students would gain performance experience. However, not all students understood compositions or gained experience. It seemed that either some students did not understand compositions, or some did not gain experience. A dedicated instructor realized that if they held weekly practice sessions, they would organize recitals.",
+        "question": "Jamie holds weekly practice sessions. From the context, is it true that Jamie's students gain performance experience?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "In a music school, instructors knew that if they taught music theory, students would understand compositions better. They also knew that if they organized recitals, students would gain performance experience. However, not all students understood compositions or gained experience. It seemed that either some students did not understand compositions, or some did not gain experience. A dedicated instructor realized that if they held weekly practice sessions, they would organize recitals.",
+        "question": "Jamie does not hold weekly practice sessions. From the context, is it true that Jamie's students gain performance experience?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "In a startup incubator, entrepreneurs knew that if they pitched their ideas effectively, they would secure funding. They also knew that if they attended mentorship programs, they would refine their business models. However, not all ideas secured funding or models refined. It seemed that either some ideas did not secure funding, or some models were not refined. A resourceful entrepreneur realized that if they joined startup competitions, they would attend mentorship programs.",
+        "question": "Morgan joins startup competitions regularly. From the context, is it true that Morgan refines their business models?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "In a startup incubator, entrepreneurs knew that if they pitched their ideas effectively, they would secure funding. They also knew that if they attended mentorship programs, they would refine their business models. However, not all ideas secured funding or models refined. It seemed that either some ideas did not secure funding, or some models were not refined. A resourceful entrepreneur realized that if they joined startup competitions, they would attend mentorship programs.",
+        "question": "Morgan does not join startup competitions regularly. From the context, is it true that Morgan refines their business models?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "In a research institute, scientists knew that if they conducted thorough experiments, they would validate their hypotheses. They also knew that if they published their findings, they would contribute to scientific knowledge. However, not all hypotheses were validated or contributions made. It seemed that either some hypotheses were not validated, or some contributions were not made. A diligent scientist realized that if they collaborated with peers, they would publish their findings.",
+        "question": "Sam collaborates with peers regularly. From the context, is it true that Sam contributes to scientific knowledge?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "In a research institute, scientists knew that if they conducted thorough experiments, they would validate their hypotheses. They also knew that if they published their findings, they would contribute to scientific knowledge. However, not all hypotheses were validated or contributions made. It seemed that either some hypotheses were not validated, or some contributions were not made. A diligent scientist realized that if they collaborated with peers, they would publish their findings.",
+        "question": "Sam does not collaborate with peers regularly. From the context, is it true that Sam contributes to scientific knowledge?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "In a language institute, teachers knew that if they used interactive methods, students would improve their language skills. They also knew that if they organized language clubs, students would practice more. However, not all students improved or practiced. It seemed that either some students did not improve, or some did not practice. A dedicated teacher realized that if they encouraged group activities, they would organize language clubs.",
+        "question": "Alex encourages group activities regularly. From the context, is it true that Alex's students practice more?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "In a language institute, teachers knew that if they used interactive methods, students would improve their language skills. They also knew that if they organized language clubs, students would practice more. However, not all students improved or practiced. It seemed that either some students did not improve, or some did not practice. A dedicated teacher realized that if they encouraged group activities, they would organize language clubs.",
+        "question": "Alex does not encourage group activities regularly. From the context, is it true that Alex's students practice more?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "In a fitness studio, trainers knew that if they personalized workout plans, clients would achieve their goals. They also knew that if they attended fitness seminars, they would learn new techniques. However, not all clients achieved goals or techniques learned. It seemed that either some clients did not achieve goals, or some techniques were not learned. A committed trainer realized that if they updated their knowledge, they would attend fitness seminars.",
+        "question": "Taylor updates their knowledge regularly. From the context, is it true that Taylor learns new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "In a fitness studio, trainers knew that if they personalized workout plans, clients would achieve their goals. They also knew that if they attended fitness seminars, they would learn new techniques. However, not all clients achieved goals or techniques learned. It seemed that either some clients did not achieve goals, or some techniques were not learned. A committed trainer realized that if they updated their knowledge, they would attend fitness seminars.",
+        "question": "Taylor does not update their knowledge regularly. From the context, is it true that Taylor learns new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "In a coding bootcamp, instructors knew that if they provided hands-on projects, students would gain practical skills. They also knew that if they organized hackathons, students would collaborate effectively. However, not all students gained skills or collaborated. It seemed that either some students did not gain skills, or some did not collaborate. A dedicated instructor realized that if they encouraged teamwork, they would organize hackathons.",
+        "question": "Jamie encourages teamwork regularly. From the context, is it true that Jamie's students collaborate effectively?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "In a coding bootcamp, instructors knew that if they provided hands-on projects, students would gain practical skills. They also knew that if they organized hackathons, students would collaborate effectively. However, not all students gained skills or collaborated. It seemed that either some students did not gain skills, or some did not collaborate. A dedicated instructor realized that if they encouraged teamwork, they would organize hackathons.",
+        "question": "Jamie does not encourage teamwork regularly. From the context, is it true that Jamie's students collaborate effectively?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "In a film school, directors knew that if they planned scenes meticulously, they would produce captivating films. They also knew that if they attended film festivals, they would gain industry insights. However, not all films were captivating or insights gained. It seemed that either some films were not captivating, or some insights were not gained. A visionary director realized that if they networked with peers, they would attend film festivals.",
+        "question": "Riley networks with peers regularly. From the context, is it true that Riley gains industry insights?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "In a film school, directors knew that if they planned scenes meticulously, they would produce captivating films. They also knew that if they attended film festivals, they would gain industry insights. However, not all films were captivating or insights gained. It seemed that either some films were not captivating, or some insights were not gained. A visionary director realized that if they networked with peers, they would attend film festivals.",
+        "question": "Riley does not network with peers regularly. From the context, is it true that Riley gains industry insights?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "In a robotics club, members knew that if they built innovative robots, they would win competitions. They also knew that if they attended robotics expos, they would learn new technologies. However, not all robots were innovative or technologies learned. It seemed that either some robots were not innovative, or some technologies were not learned. A passionate member realized that if they joined project teams, they would attend robotics expos.",
+        "question": "Sam joins project teams regularly. From the context, is it true that Sam learns new technologies?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "In a robotics club, members knew that if they built innovative robots, they would win competitions. They also knew that if they attended robotics expos, they would learn new technologies. However, not all robots were innovative or technologies learned. It seemed that either some robots were not innovative, or some technologies were not learned. A passionate member realized that if they joined project teams, they would attend robotics expos.",
+        "question": "Sam does not join project teams regularly. From the context, is it true that Sam learns new technologies?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "In a debate society, members knew that if they researched topics thoroughly, they would win debates. They also knew that if they attended debate workshops, they would refine their arguments. However, not all debates were won or arguments refined. It seemed that either some debates were not won, or some arguments were not refined. A passionate debater realized that if they practiced public speaking, they would attend debate workshops.",
+        "question": "Morgan practices public speaking regularly. From the context, is it true that Morgan refines their arguments?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "In a debate society, members knew that if they researched topics thoroughly, they would win debates. They also knew that if they attended debate workshops, they would refine their arguments. However, not all debates were won or arguments refined. It seemed that either some debates were not won, or some arguments were not refined. A passionate debater realized that if they practiced public speaking, they would attend debate workshops.",
+        "question": "Morgan does not practice public speaking regularly. From the context, is it true that Morgan refines their arguments?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "In a gardening club, members knew that if they used organic fertilizers, they would grow healthy plants. They also knew that if they attended gardening workshops, they would learn new techniques. However, not all plants were healthy or techniques learned. It seemed that either some plants were not healthy, or some techniques were not learned. A dedicated gardener realized that if they experimented with different seeds, they would attend gardening workshops.",
+        "question": "Alex experiments with different seeds regularly. From the context, is it true that Alex learns new techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "In a gardening club, members knew that if they used organic fertilizers, they would grow healthy plants. They also knew that if they attended gardening workshops, they would learn new techniques. However, not all plants were healthy or techniques learned. It seemed that either some plants were not healthy, or some techniques were not learned. A dedicated gardener realized that if they experimented with different seeds, they would attend gardening workshops.",
+        "question": "Alex does not experiment with different seeds regularly. From the context, is it true that Alex learns new techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "In a writing workshop, authors knew that if they wrote daily, they would improve their writing skills. They also knew that if they attended literary events, they would gain inspiration. However, not all skills improved or inspiration gained. It seemed that either some skills did not improve, or some inspiration was not gained. A passionate author realized that if they read extensively, they would attend literary events.",
+        "question": "Taylor reads extensively. From the context, is it true that Taylor gains inspiration?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "In a writing workshop, authors knew that if they wrote daily, they would improve their writing skills. They also knew that if they attended literary events, they would gain inspiration. However, not all skills improved or inspiration gained. It seemed that either some skills did not improve, or some inspiration was not gained. A passionate author realized that if they read extensively, they would attend literary events.",
+        "question": "Taylor does not read extensively. From the context, is it true that Taylor gains inspiration?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "In a photography club, members knew that if they experimented with lighting, they would capture stunning images. They also knew that if they attended photography seminars, they would learn advanced techniques. However, not all images were stunning or techniques advanced. It seemed that either some images were not stunning, or some techniques were not advanced. A creative photographer realized that if they joined photo walks, they would attend photography seminars.",
+        "question": "Jordan joins photo walks regularly. From the context, is it true that Jordan learns advanced techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "In a photography club, members knew that if they experimented with lighting, they would capture stunning images. They also knew that if they attended photography seminars, they would learn advanced techniques. However, not all images were stunning or techniques advanced. It seemed that either some images were not stunning, or some techniques were not advanced. A creative photographer realized that if they joined photo walks, they would attend photography seminars.",
+        "question": "Jordan does not join photo walks regularly. From the context, is it true that Jordan learns advanced techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "In a community center, volunteers knew that if they organized events, they would engage the community. They also knew that if they attended training sessions, they would improve their skills. However, not all events engaged the community or skills improved. It seemed that either some events did not engage the community, or some skills were not improved. A dedicated volunteer realized that if they participated in workshops, they would attend training sessions.",
+        "question": "Riley participates in workshops regularly. From the context, is it true that Riley improves their skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "In a community center, volunteers knew that if they organized events, they would engage the community. They also knew that if they attended training sessions, they would improve their skills. However, not all events engaged the community or skills improved. It seemed that either some events did not engage the community, or some skills were not improved. A dedicated volunteer realized that if they participated in workshops, they would attend training sessions.",
+        "question": "Riley does not participate in workshops regularly. From the context, is it true that Riley improves their skills?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "In a language school, teachers knew that if they used immersive techniques, they would improve student fluency. They also knew that if they attended language workshops, they would learn new teaching methods. However, not all students improved fluency or new methods learned. It seemed that either some students did not improve fluency, or some methods were not learned. A dedicated teacher realized that if they practiced with native speakers, they would attend language workshops.",
+        "question": "Jamie practices with native speakers regularly. From the context, is it true that Jamie learns new teaching methods?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "In a language school, teachers knew that if they used immersive techniques, they would improve student fluency. They also knew that if they attended language workshops, they would learn new teaching methods. However, not all students improved fluency or new methods learned. It seemed that either some students did not improve fluency, or some methods were not learned. A dedicated teacher realized that if they practiced with native speakers, they would attend language workshops.",
+        "question": "Jamie does not practice with native speakers regularly. From the context, is it true that Jamie learns new teaching methods?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "In a software company, engineers knew that if they wrote clean code, they would reduce bugs. They also knew that if they participated in code reviews, they would improve their skills. However, not all code was bug-free or improved skills. It seemed that either some code was not bug-free, or some skills were not improved. A dedicated engineer realized that if they contributed to open-source projects, they would participate in code reviews.",
+        "question": "Alex contributes to open-source projects. From the context, is it true that Alex improves their skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "In a software company, engineers knew that if they wrote clean code, they would reduce bugs. They also knew that if they participated in code reviews, they would improve their skills. However, not all code was bug-free or improved skills. It seemed that either some code was not bug-free, or some skills were not improved. A dedicated engineer realized that if they contributed to open-source projects, they would participate in code reviews.",
+        "question": "Alex does not contribute to open-source projects. From the context, is it true that Alex improves their skills?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "In a theater group, actors knew that if they rehearsed regularly, they would deliver compelling performances. They also knew that if they attended acting workshops, they would refine their techniques. However, not all performances were compelling or techniques refined. It seemed that either some performances were not compelling, or some techniques were not refined. A passionate actor realized that if they practiced improvisation, they would attend acting workshops.",
+        "question": "Taylor practices improvisation regularly. From the context, is it true that Taylor refines their techniques?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "In a theater group, actors knew that if they rehearsed regularly, they would deliver compelling performances. They also knew that if they attended acting workshops, they would refine their techniques. However, not all performances were compelling or techniques refined. It seemed that either some performances were not compelling, or some techniques were not refined. A passionate actor realized that if they practiced improvisation, they would attend acting workshops.",
+        "question": "Taylor does not practice improvisation regularly. From the context, is it true that Taylor refines their techniques?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "In a school, teachers knew that if they used interactive teaching methods, they would engage students. They also knew that if they attended educational seminars, they would learn new strategies. However, not all students were engaged or new strategies learned. It seemed that either some students were not engaged, or some strategies were not learned. A dedicated teacher realized that if they incorporated technology in lessons, they would attend educational seminars.",
+        "question": "Morgan incorporates technology in lessons. From the context, is it true that Morgan learns new strategies?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "In a school, teachers knew that if they used interactive teaching methods, they would engage students. They also knew that if they attended educational seminars, they would learn new strategies. However, not all students were engaged or new strategies learned. It seemed that either some students were not engaged, or some strategies were not learned. A dedicated teacher realized that if they incorporated technology in lessons, they would attend educational seminars.",
+        "question": "Morgan does not incorporate technology in lessons. From the context, is it true that Morgan learns new strategies?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "In a fashion house, designers knew that if they researched trends, they would create popular collections. They also knew that if they attended fashion shows, they would gain inspiration. However, not all collections were popular or inspired. It seemed that either some collections were not popular, or some were not inspired. A creative designer realized that if they sketched daily, they would attend fashion shows.",
+        "question": "Casey sketches daily. From the context, is it true that Casey gains inspiration?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "In a fashion house, designers knew that if they researched trends, they would create popular collections. They also knew that if they attended fashion shows, they would gain inspiration. However, not all collections were popular or inspired. It seemed that either some collections were not popular, or some were not inspired. A creative designer realized that if they sketched daily, they would attend fashion shows.",
+        "question": "Casey does not sketch daily. From the context, is it true that Casey gains inspiration?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "In a film studio, directors knew that if they planned scenes meticulously, they would produce captivating movies. They also knew that if they collaborated with talented actors, they would enhance performances. However, not all movies were captivating or performances enhanced. It seemed that either some movies were not captivating, or some performances were not enhanced. A visionary director realized that if they attended casting calls, they would collaborate with talented actors.",
+        "question": "Jordan attends casting calls regularly. From the context, is it true that Jordan enhances performances?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "In a film studio, directors knew that if they planned scenes meticulously, they would produce captivating movies. They also knew that if they collaborated with talented actors, they would enhance performances. However, not all movies were captivating or performances enhanced. It seemed that either some movies were not captivating, or some performances were not enhanced. A visionary director realized that if they attended casting calls, they would collaborate with talented actors.",
+        "question": "Jordan does not attend casting calls regularly. From the context, is it true that Jordan enhances performances?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "In a startup, entrepreneurs knew that if they pitched ideas effectively, they would attract investors. They also knew that if they attended networking events, they would expand their connections. However, not all ideas attracted investors or connections expanded. It seemed that either some ideas did not attract investors, or some connections were not expanded. A resourceful entrepreneur realized that if they joined business forums, they would attend networking events.",
+        "question": "Riley joins business forums regularly. From the context, is it true that Riley expands their connections?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "In a startup, entrepreneurs knew that if they pitched ideas effectively, they would attract investors. They also knew that if they attended networking events, they would expand their connections. However, not all ideas attracted investors or connections expanded. It seemed that either some ideas did not attract investors, or some connections were not expanded. A resourceful entrepreneur realized that if they joined business forums, they would attend networking events.",
+        "question": "Riley does not join business forums regularly. From the context, is it true that Riley expands their connections?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "In a community center, volunteers knew that if they organized events, they would engage the community. They also knew that if they attended training sessions, they would improve their skills. However, not all events engaged the community or skills improved. It seemed that either some events did not engage the community, or some skills were not improved. A dedicated volunteer realized that if they participated in workshops, they would attend training sessions.",
+        "question": "Sam participates in workshops regularly. From the context, is it true that Sam improves their skills?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "In a community center, volunteers knew that if they organized events, they would engage the community. They also knew that if they attended training sessions, they would improve their skills. However, not all events engaged the community or skills improved. It seemed that either some events did not engage the community, or some skills were not improved. A dedicated volunteer realized that if they participated in workshops, they would attend training sessions.",
+        "question": "Sam does not participate in workshops regularly. From the context, is it true that Sam improves their skills?",
+        "answer": "no"
+    }
+]

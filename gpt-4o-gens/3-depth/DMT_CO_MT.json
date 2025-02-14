@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "If a student misses class, they must review the lecture notes. Also, if a student skips a lesson, they should ask a classmate for help.",
+        "question": "Alex either did not review the lecture notes or did not ask for help. Did Alex miss class?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If a student misses class, they must review the lecture notes. Also, if a student skips a lesson, they should ask a classmate for help.",
+        "question": "Alex either reviewed the lecture notes or asked for help. Did Alex miss class?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If someone wants to enter the building, they must show an ID card. Also, if someone wishes to gain access, they need a security clearance.",
+        "question": "Jordan either did not show an ID or did not have clearance. Was Jordan allowed inside?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If someone wants to enter the building, they must show an ID card. Also, if someone wishes to gain access, they need a security clearance.",
+        "question": "Jordan either showed an ID or had clearance. Was Jordan allowed inside?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If an employee fails to complete their work, they will receive a warning. Also, if an employee neglects their duties, their supervisor will take action.",
+        "question": "Taylor either did not complete their work or neglected their duties. Did Taylor receive a warning?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If an employee fails to complete their work, they will receive a warning. Also, if an employee neglects their duties, their supervisor will take action.",
+        "question": "Taylor either completed their work or fulfilled their duties. Did Taylor receive a warning?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If someone fails to pay their bills, they will get a late fee. Also, if someone does not settle their dues, their credit score will be affected.",
+        "question": "Sam either did not pay their bills or did not settle their dues. Did Sam get a late fee?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "If someone fails to pay their bills, they will get a late fee. Also, if someone does not settle their dues, their credit score will be affected.",
+        "question": "Sam either paid their bills or settled their dues. Did Sam get a late fee?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If a driver exceeds the speed limit, they will get a traffic ticket. Also, if someone is caught speeding, they must attend a driving course.",
+        "question": "Chris either did not receive a ticket or did not attend the course. Did Chris exceed the speed limit?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If a driver exceeds the speed limit, they will get a traffic ticket. Also, if someone is caught speeding, they must attend a driving course.",
+        "question": "Chris either received a ticket or attended the course. Did Chris exceed the speed limit?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a project is delayed, the team must submit a report. Also, if a deadline is missed, the manager needs to be notified.",
+        "question": "Morgan either did not submit a report or did not notify the manager. Was the project delayed?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a project is delayed, the team must submit a report. Also, if a deadline is missed, the manager needs to be notified.",
+        "question": "Morgan either submitted a report or notified the manager. Was the project delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a package is lost, the courier company must issue a refund. Also, if a shipment is misplaced, the sender must be compensated.",
+        "question": "Pat either did not get a refund or did not receive compensation. Was the package lost?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a package is lost, the courier company must issue a refund. Also, if a shipment is misplaced, the sender must be compensated.",
+        "question": "Pat either got a refund or received compensation. Was the package lost?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If a flight is canceled, passengers must be rebooked. Also, if an airline cancels a trip, they must notify all ticket holders.",
+        "question": "Jamie either was not rebooked or was not notified. Was Jamie's flight canceled?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If a flight is canceled, passengers must be rebooked. Also, if an airline cancels a trip, they must notify all ticket holders.",
+        "question": "Jamie either was rebooked or was notified. Was Jamie's flight canceled?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If a university rejects an applicant, they must send a rejection letter. Also, if a student is not admitted, they are informed in writing.",
+        "question": "Casey either did not receive a rejection letter or was not informed in writing. Was Casey rejected?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If a university rejects an applicant, they must send a rejection letter. Also, if a student is not admitted, they are informed in writing.",
+        "question": "Casey either received a rejection letter or was informed in writing. Was Casey rejected?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If a contestant loses the competition, they do not get a prize. Also, if someone does not win, they are not awarded a trophy.",
+        "question": "Jordan either received a prize or was awarded a trophy. Did Jordan lose the competition?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "If a contestant loses the competition, they do not get a prize. Also, if someone does not win, they are not awarded a trophy.",
+        "question": "Jordan either did not receive a prize or was not awarded a trophy. Did Jordan lose the competition?",
+        "answer": "yes"
+    },
+    {
+        "id": 21,
+        "context": "If a tenant fails to pay rent, they will receive an eviction notice. Also, if a renter does not fulfill their lease obligations, they must vacate the premises.",
+        "question": "Alex either did not receive an eviction notice or did not vacate the premises. Did Alex fail to pay rent?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "If a tenant fails to pay rent, they will receive an eviction notice. Also, if a renter does not fulfill their lease obligations, they must vacate the premises.",
+        "question": "Alex either received an eviction notice or vacated the premises. Did Alex fail to pay rent?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "If a student fails the exam, they must retake the course. Also, if a learner does not pass, they are required to attend remedial classes.",
+        "question": "Jordan either did not retake the course or did not attend remedial classes. Did Jordan fail the exam?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "If a student fails the exam, they must retake the course. Also, if a learner does not pass, they are required to attend remedial classes.",
+        "question": "Jordan either retook the course or attended remedial classes. Did Jordan fail the exam?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "If a company misses a deadline, they incur a penalty. Also, if a business fails to deliver on time, they face financial consequences.",
+        "question": "Taylor either did not incur a penalty or did not face financial consequences. Did Taylor's company miss a deadline?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "If a company misses a deadline, they incur a penalty. Also, if a business fails to deliver on time, they face financial consequences.",
+        "question": "Taylor either incurred a penalty or faced financial consequences. Did Taylor's company miss a deadline?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "If a person breaks the law, they are arrested. Also, if someone commits a crime, they are taken into custody.",
+        "question": "Sam either was not arrested or was not taken into custody. Did Sam break the law?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "If a person breaks the law, they are arrested. Also, if someone commits a crime, they are taken into custody.",
+        "question": "Sam either was arrested or was taken into custody. Did Sam break the law?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "If a machine malfunctions, it needs repair. Also, if equipment fails, it requires maintenance.",
+        "question": "Chris either did not repair the machine or did not perform maintenance. Did the machine malfunction?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "If a machine malfunctions, it needs repair. Also, if equipment fails, it requires maintenance.",
+        "question": "Chris either repaired the machine or performed maintenance. Did the machine malfunction?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "If a book is overdue, the borrower pays a fine. Also, if a library item is not returned on time, a fee is charged.",
+        "question": "Morgan either did not pay a fine or was not charged a fee. Was the book overdue?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "If a book is overdue, the borrower pays a fine. Also, if a library item is not returned on time, a fee is charged.",
+        "question": "Morgan either paid a fine or was charged a fee. Was the book overdue?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "If a car fails inspection, it cannot be registered. Also, if a vehicle does not pass, it is not allowed on the road.",
+        "question": "Pat either did not register the car or was not allowed on the road. Did the car fail inspection?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "If a car fails inspection, it cannot be registered. Also, if a vehicle does not pass, it is not allowed on the road.",
+        "question": "Pat either registered the car or was allowed on the road. Did the car fail inspection?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "If a software update is not installed, the system remains vulnerable. Also, if a patch is not applied, security risks persist.",
+        "question": "Jamie either did not install the update or did not apply the patch. Is the system vulnerable?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "If a software update is not installed, the system remains vulnerable. Also, if a patch is not applied, security risks persist.",
+        "question": "Jamie either installed the update or applied the patch. Is the system vulnerable?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "If a contract is breached, legal action is taken. Also, if an agreement is violated, a lawsuit is filed.",
+        "question": "Casey either did not face legal action or was not sued. Was the contract breached?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "If a contract is breached, legal action is taken. Also, if an agreement is violated, a lawsuit is filed.",
+        "question": "Casey either faced legal action or was sued. Was the contract breached?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "If a payment is missed, a late fee is charged. Also, if a bill is not paid, interest is added.",
+        "question": "Jordan either did not pay a late fee or was not charged interest. Was a payment missed?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "If a payment is missed, a late fee is charged. Also, if a bill is not paid, interest is added.",
+        "question": "Jordan either paid a late fee or was charged interest. Was a payment missed?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "If a meeting is canceled, participants are notified. Also, if a session is called off, attendees are informed.",
+        "question": "Alex either was not notified or was not informed. Was the meeting canceled?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "If a meeting is canceled, participants are notified. Also, if a session is called off, attendees are informed.",
+        "question": "Alex either was notified or was informed. Was the meeting canceled?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "If a shipment is delayed, the customer is compensated. Also, if a delivery is late, a refund is issued.",
+        "question": "Taylor either did not receive compensation or was not issued a refund. Was the shipment delayed?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "If a shipment is delayed, the customer is compensated. Also, if a delivery is late, a refund is issued.",
+        "question": "Taylor either received compensation or was issued a refund. Was the shipment delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "If a project is not completed, the deadline is extended. Also, if a task is unfinished, more time is granted.",
+        "question": "Sam either did not get an extension or was not granted more time. Was the project incomplete?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "If a project is not completed, the deadline is extended. Also, if a task is unfinished, more time is granted.",
+        "question": "Sam either got an extension or was granted more time. Was the project incomplete?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "If a student does not submit an assignment, they receive a zero. Also, if homework is not turned in, no credit is given.",
+        "question": "Chris either did not receive a zero or was not denied credit. Did Chris fail to submit the assignment?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "If a student does not submit an assignment, they receive a zero. Also, if homework is not turned in, no credit is given.",
+        "question": "Chris either received a zero or was denied credit. Did Chris fail to submit the assignment?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "If a device is not charged, it will not power on. Also, if a gadget is out of battery, it cannot be used.",
+        "question": "Morgan either did not power on the device or could not use it. Was the device not charged?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "If a device is not charged, it will not power on. Also, if a gadget is out of battery, it cannot be used.",
+        "question": "Morgan either powered on the device or could use it. Was the device not charged?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "If a document is not signed, it is not valid. Also, if a paper lacks a signature, it is not enforceable.",
+        "question": "Pat either did not validate the document or could not enforce it. Was the document unsigned?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "If a document is not signed, it is not valid. Also, if a paper lacks a signature, it is not enforceable.",
+        "question": "Pat either validated the document or could enforce it. Was the document unsigned?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "If a password is incorrect, access is denied. Also, if login credentials are wrong, entry is blocked.",
+        "question": "Jamie either was not denied access or was not blocked. Was the password incorrect?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "If a password is incorrect, access is denied. Also, if login credentials are wrong, entry is blocked.",
+        "question": "Jamie either was denied access or was blocked. Was the password incorrect?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "If a proposal is rejected, it is not funded. Also, if a plan is declined, it does not receive approval.",
+        "question": "Casey either did not receive funding or was not approved. Was the proposal rejected?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "If a proposal is rejected, it is not funded. Also, if a plan is declined, it does not receive approval.",
+        "question": "Casey either received funding or was approved. Was the proposal rejected?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "If a flight is delayed, passengers are compensated. Also, if a trip is postponed, travelers receive vouchers.",
+        "question": "Jordan either did not receive compensation or did not get vouchers. Was the flight delayed?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "If a flight is delayed, passengers are compensated. Also, if a trip is postponed, travelers receive vouchers.",
+        "question": "Jordan either received compensation or got vouchers. Was the flight delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "If a test is not passed, a retake is required. Also, if an exam is failed, another attempt is necessary.",
+        "question": "Alex either did not retake the test or did not attempt again. Was the test not passed?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "If a test is not passed, a retake is required. Also, if an exam is failed, another attempt is necessary.",
+        "question": "Alex either retook the test or attempted again. Was the test not passed?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "If a subscription is not renewed, service is discontinued. Also, if a membership lapses, benefits are lost.",
+        "question": "Taylor either did not renew the subscription or lost benefits. Was the subscription not renewed?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "If a subscription is not renewed, service is discontinued. Also, if a membership lapses, benefits are lost.",
+        "question": "Taylor either renewed the subscription or retained benefits. Was the subscription not renewed?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "If a password is not updated, security is compromised. Also, if credentials are outdated, access is at risk.",
+        "question": "Sam either did not update the password or risked access. Was the password not updated?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "If a password is not updated, security is compromised. Also, if credentials are outdated, access is at risk.",
+        "question": "Sam either updated the password or secured access. Was the password not updated?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "If a report is not submitted, the project is incomplete. Also, if documentation is missing, the task is unfinished.",
+        "question": "Chris either did not submit the report or left the task unfinished. Was the report not submitted?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "If a report is not submitted, the project is incomplete. Also, if documentation is missing, the task is unfinished.",
+        "question": "Chris either submitted the report or completed the task. Was the report not submitted?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "If a payment is not processed, the order is canceled. Also, if a transaction fails, the purchase is voided.",
+        "question": "Morgan either did not process the payment or voided the purchase. Was the payment not processed?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "If a payment is not processed, the order is canceled. Also, if a transaction fails, the purchase is voided.",
+        "question": "Morgan either processed the payment or completed the purchase. Was the payment not processed?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "If a task is not completed, the deadline is missed. Also, if work is unfinished, the schedule is delayed.",
+        "question": "Pat either did not complete the task or delayed the schedule. Was the task not completed?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "If a task is not completed, the deadline is missed. Also, if work is unfinished, the schedule is delayed.",
+        "question": "Pat either completed the task or kept the schedule. Was the task not completed?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "If a student does not attend the seminar, they miss the opportunity to earn extra credit. Also, if a learner skips the session, they forfeit the chance to improve their grade.",
+        "question": "Alex either did not earn extra credit or did not improve their grade. Did Alex miss the seminar?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "If a student does not attend the seminar, they miss the opportunity to earn extra credit. Also, if a learner skips the session, they forfeit the chance to improve their grade.",
+        "question": "Alex either earned extra credit or improved their grade. Did Alex miss the seminar?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "If a device is not updated, it becomes obsolete. Also, if a gadget is not upgraded, it loses compatibility with new software.",
+        "question": "Jamie either did not update the device or lost compatibility. Is the device obsolete?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "If a device is not updated, it becomes obsolete. Also, if a gadget is not upgraded, it loses compatibility with new software.",
+        "question": "Jamie either updated the device or maintained compatibility. Is the device obsolete?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "If a project is not funded, it cannot proceed. Also, if a plan lacks financial support, it is halted.",
+        "question": "Taylor either did not proceed with the project or halted the plan. Was the project not funded?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "If a project is not funded, it cannot proceed. Also, if a plan lacks financial support, it is halted.",
+        "question": "Taylor either proceeded with the project or continued the plan. Was the project not funded?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "If a document is not filed, it is not recorded. Also, if a paper is not submitted, it is not archived.",
+        "question": "Morgan either did not record the document or did not archive it. Was the document not filed?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "If a document is not filed, it is not recorded. Also, if a paper is not submitted, it is not archived.",
+        "question": "Morgan either recorded the document or archived it. Was the document not filed?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "If a meeting is not scheduled, it does not occur. Also, if a session is not planned, it is not held.",
+        "question": "Chris either did not schedule the meeting or did not hold the session. Was the meeting not scheduled?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "If a meeting is not scheduled, it does not occur. Also, if a session is not planned, it is not held.",
+        "question": "Chris either scheduled the meeting or held the session. Was the meeting not scheduled?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "If a payment is not confirmed, the order is not processed. Also, if a transaction is not verified, the purchase is not completed.",
+        "question": "Pat either did not confirm the payment or did not complete the purchase. Was the payment not confirmed?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "If a payment is not confirmed, the order is not processed. Also, if a transaction is not verified, the purchase is not completed.",
+        "question": "Pat either confirmed the payment or completed the purchase. Was the payment not confirmed?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "If a task is not assigned, it is not completed. Also, if a duty is not delegated, it is not performed.",
+        "question": "Jordan either did not assign the task or did not perform the duty. Was the task not assigned?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "If a task is not assigned, it is not completed. Also, if a duty is not delegated, it is not performed.",
+        "question": "Jordan either assigned the task or performed the duty. Was the task not assigned?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "If a contract is not signed, it is not valid. Also, if an agreement is not executed, it is not enforceable.",
+        "question": "Casey either did not sign the contract or did not execute the agreement. Was the contract not signed?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "If a contract is not signed, it is not valid. Also, if an agreement is not executed, it is not enforceable.",
+        "question": "Casey either signed the contract or executed the agreement. Was the contract not signed?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "If a shipment is not tracked, it is lost. Also, if a delivery is not monitored, it is misplaced.",
+        "question": "Sam either did not track the shipment or misplaced the delivery. Was the shipment not tracked?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "If a shipment is not tracked, it is lost. Also, if a delivery is not monitored, it is misplaced.",
+        "question": "Sam either tracked the shipment or monitored the delivery. Was the shipment not tracked?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "If a password is not changed, security is compromised. Also, if credentials are not updated, access is at risk.",
+        "question": "Alex either did not change the password or risked access. Was the password not changed?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "If a password is not changed, security is compromised. Also, if credentials are not updated, access is at risk.",
+        "question": "Alex either changed the password or secured access. Was the password not changed?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "If a report is not reviewed, it is not approved. Also, if a document is not examined, it is not sanctioned.",
+        "question": "Taylor either did not review the report or did not sanction the document. Was the report not reviewed?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "If a report is not reviewed, it is not approved. Also, if a document is not examined, it is not sanctioned.",
+        "question": "Taylor either reviewed the report or sanctioned the document. Was the report not reviewed?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "If a flight is not booked, the trip is not confirmed. Also, if a reservation is not made, the journey is not secured.",
+        "question": "Jamie either did not book the flight or did not secure the journey. Was the flight not booked?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "If a flight is not booked, the trip is not confirmed. Also, if a reservation is not made, the journey is not secured.",
+        "question": "Jamie either booked the flight or secured the journey. Was the flight not booked?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "If a class is not attended, the student does not learn. Also, if a lecture is missed, knowledge is not gained.",
+        "question": "Morgan either did not attend the class or did not gain knowledge. Was the class not attended?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "If a class is not attended, the student does not learn. Also, if a lecture is missed, knowledge is not gained.",
+        "question": "Morgan either attended the class or gained knowledge. Was the class not attended?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "If a bill is not paid, service is interrupted. Also, if an invoice is not settled, access is suspended.",
+        "question": "Chris either did not pay the bill or had access suspended. Was the bill not paid?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "If a bill is not paid, service is interrupted. Also, if an invoice is not settled, access is suspended.",
+        "question": "Chris either paid the bill or maintained access. Was the bill not paid?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "If a test is not taken, the grade is not recorded. Also, if an exam is not completed, the score is not entered.",
+        "question": "Pat either did not take the test or did not have the score entered. Was the test not taken?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "If a test is not taken, the grade is not recorded. Also, if an exam is not completed, the score is not entered.",
+        "question": "Pat either took the test or had the score entered. Was the test not taken?",
+        "answer": "no"
+    }
+]

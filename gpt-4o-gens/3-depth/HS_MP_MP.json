@@ -1,0 +1,626 @@
+[
+    {
+        "id": 1,
+        "context": "A region has been experiencing extreme drought conditions. The authorities warned that if a drought continues, water levels in reservoirs drop significantly. If water levels drop significantly, water rationing is implemented.",
+        "question": "A severe drought continues in California. Is water rationing implemented?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "A region has received normal rainfall this season. The authorities stated that if a drought continues, water levels in reservoirs drop significantly. If water levels drop significantly, water rationing is implemented.",
+        "question": "There is no drought in California. Is water rationing implemented?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "A software development team was working on a complex feature. The manager explained that if development takes too long, deadlines are pushed back. If deadlines are pushed back, client delivery is delayed.",
+        "question": "Development took too long. Was client delivery delayed?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "A software development team was efficient in their workflow. The manager explained that if development takes too long, deadlines are pushed back. If deadlines are pushed back, client delivery is delayed.",
+        "question": "Development was completed on time. Was client delivery delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "A new law was passed requiring strict emissions standards. The government stated that if emissions standards become stricter, some factories must upgrade their equipment. If factories must upgrade, production delays occur.",
+        "question": "The law enforced stricter emissions standards. Did production delays occur?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "A proposed law for stricter emissions standards was not passed. The government stated that if emissions standards become stricter, some factories must upgrade their equipment. If factories must upgrade, production delays occur.",
+        "question": "The law was not passed. Did production delays occur?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "An athlete was training for a marathon. Their coach explained that if someone increases training intensity, endurance improves. If endurance improves, they can complete the marathon successfully.",
+        "question": "The athlete increased training intensity. Did they complete the marathon successfully?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "An athlete followed a relaxed training plan. Their coach explained that if someone increases training intensity, endurance improves. If endurance improves, they can complete the marathon successfully.",
+        "question": "The athlete did not increase training intensity. Did they complete the marathon successfully?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "A researcher was conducting a chemical experiment. They noted that if a specific compound is added, a reaction occurs. If a reaction occurs, a color change is observed.",
+        "question": "The researcher added the compound. Was a color change observed?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "A researcher was conducting a chemical experiment. They noted that if a specific compound is added, a reaction occurs. If a reaction occurs, a color change is observed.",
+        "question": "The researcher did not add the compound. Was a color change observed?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "A university announced that if a student completes all required courses, they are eligible to graduate. If they are eligible to graduate, they receive a diploma.",
+        "question": "Alice completed all required courses. Did she receive a diploma?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "A university announced that if a student completes all required courses, they are eligible to graduate. If they are eligible to graduate, they receive a diploma.",
+        "question": "Alice did not complete all required courses. Did she receive a diploma?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "A factory was testing its machinery. The engineers knew that if the main motor fails, the assembly line stops. If the assembly line stops, production halts.",
+        "question": "The main motor failed. Did production halt?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "A factory was testing its machinery. The engineers knew that if the main motor fails, the assembly line stops. If the assembly line stops, production halts.",
+        "question": "The main motor did not fail. Did production halt?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "A store manager explained that if customer demand increases, they need to order more stock. If more stock is ordered, warehouse space is reduced.",
+        "question": "Customer demand increased. Was warehouse space reduced?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "A store manager explained that if customer demand increases, they need to order more stock. If more stock is ordered, warehouse space is reduced.",
+        "question": "Customer demand did not increase. Was warehouse space reduced?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "A city implemented a policy that if public transport fees rise, fewer people use buses. If fewer people use buses, the revenue decreases.",
+        "question": "Public transport fees increased. Did revenue decrease?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "A city implemented a policy that if public transport fees rise, fewer people use buses. If fewer people use buses, the revenue decreases.",
+        "question": "Public transport fees remained the same. Did revenue decrease?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "A bank had a policy that if an account balance is negative, an overdraft fee is applied. If an overdraft fee is applied, the account holder is notified.",
+        "question": "The account balance was negative. Was the account holder notified?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "A bank had a policy that if an account balance is negative, an overdraft fee is applied. If an overdraft fee is applied, the account holder is notified.",
+        "question": "The account balance was positive. Was the account holder notified?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "A company announced that if a new product is launched, marketing efforts increase. If marketing efforts increase, sales rise. If sales rise, profits grow.",
+        "question": "The new product was launched. Did profits grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "A company announced that if a new product is launched, marketing efforts increase. If marketing efforts increase, sales rise. If sales rise, profits grow.",
+        "question": "The new product was not launched. Did profits grow?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "A school policy states that if a student attends all classes, they understand the material. If they understand the material, they pass the exam. If they pass the exam, they advance to the next grade.",
+        "question": "The student attended all classes. Did they advance to the next grade?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "A school policy states that if a student attends all classes, they understand the material. If they understand the material, they pass the exam. If they pass the exam, they advance to the next grade.",
+        "question": "The student did not attend all classes. Did they advance to the next grade?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "A tech company declared that if a software update is released, system performance improves. If system performance improves, user satisfaction increases. If user satisfaction increases, customer retention is higher.",
+        "question": "The software update was released. Was customer retention higher?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "A tech company declared that if a software update is released, system performance improves. If system performance improves, user satisfaction increases. If user satisfaction increases, customer retention is higher.",
+        "question": "The software update was not released. Was customer retention higher?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "A health guideline suggests that if a person exercises regularly, their fitness level improves. If their fitness level improves, their energy levels increase. If their energy levels increase, they are more productive.",
+        "question": "The person exercised regularly. Were they more productive?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "A health guideline suggests that if a person exercises regularly, their fitness level improves. If their fitness level improves, their energy levels increase. If their energy levels increase, they are more productive.",
+        "question": "The person did not exercise regularly. Were they more productive?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "A financial advisor explained that if an investor diversifies their portfolio, risk is reduced. If risk is reduced, potential losses decrease. If potential losses decrease, financial stability is achieved.",
+        "question": "The investor diversified their portfolio. Was financial stability achieved?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "A financial advisor explained that if an investor diversifies their portfolio, risk is reduced. If risk is reduced, potential losses decrease. If potential losses decrease, financial stability is achieved.",
+        "question": "The investor did not diversify their portfolio. Was financial stability achieved?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "A chef noted that if a dish is cooked with fresh ingredients, its flavor is enhanced. If its flavor is enhanced, customer satisfaction increases. If customer satisfaction increases, restaurant reviews improve.",
+        "question": "The dish was cooked with fresh ingredients. Did restaurant reviews improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "A chef noted that if a dish is cooked with fresh ingredients, its flavor is enhanced. If its flavor is enhanced, customer satisfaction increases. If customer satisfaction increases, restaurant reviews improve.",
+        "question": "The dish was not cooked with fresh ingredients. Did restaurant reviews improve?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "A project manager stated that if a team meets all deadlines, project quality is maintained. If project quality is maintained, client satisfaction is high. If client satisfaction is high, future contracts are secured.",
+        "question": "The team met all deadlines. Were future contracts secured?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "A project manager stated that if a team meets all deadlines, project quality is maintained. If project quality is maintained, client satisfaction is high. If client satisfaction is high, future contracts are secured.",
+        "question": "The team did not meet all deadlines. Were future contracts secured?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "A gardener explained that if plants are watered regularly, they grow healthily. If they grow healthily, they produce more flowers. If they produce more flowers, the garden looks beautiful.",
+        "question": "The plants were watered regularly. Did the garden look beautiful?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "A gardener explained that if plants are watered regularly, they grow healthily. If they grow healthily, they produce more flowers. If they produce more flowers, the garden looks beautiful.",
+        "question": "The plants were not watered regularly. Did the garden look beautiful?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "A teacher mentioned that if students participate in group discussions, their understanding deepens. If their understanding deepens, their grades improve. If their grades improve, they receive academic awards.",
+        "question": "The students participated in group discussions. Did they receive academic awards?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "A teacher mentioned that if students participate in group discussions, their understanding deepens. If their understanding deepens, their grades improve. If their grades improve, they receive academic awards.",
+        "question": "The students did not participate in group discussions. Did they receive academic awards?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "A weather forecast indicated that if a storm approaches, wind speeds increase. If wind speeds increase, trees may fall. If trees fall, power outages occur.",
+        "question": "A storm approached. Did power outages occur?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "A weather forecast indicated that if a storm approaches, wind speeds increase. If wind speeds increase, trees may fall. If trees fall, power outages occur.",
+        "question": "A storm did not approach. Did power outages occur?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "A nutritionist advised that if a person eats a balanced diet, their health improves. If their health improves, their immune system strengthens. If their immune system strengthens, they fall sick less often.",
+        "question": "The person ate a balanced diet. Did they fall sick less often?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "A nutritionist advised that if a person eats a balanced diet, their health improves. If their health improves, their immune system strengthens. If their immune system strengthens, they fall sick less often.",
+        "question": "The person did not eat a balanced diet. Did they fall sick less often?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "A city planner noted that if public parks are maintained, community engagement increases. If community engagement increases, local events are more successful. If local events are more successful, tourism boosts.",
+        "question": "Public parks were maintained. Did tourism boost?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "A city planner noted that if public parks are maintained, community engagement increases. If community engagement increases, local events are more successful. If local events are more successful, tourism boosts.",
+        "question": "Public parks were not maintained. Did tourism boost?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "A scientist observed that if a chemical is heated, its reaction rate increases. If its reaction rate increases, the experiment completes faster. If the experiment completes faster, results are obtained sooner.",
+        "question": "The chemical was heated. Were results obtained sooner?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "A scientist observed that if a chemical is heated, its reaction rate increases. If its reaction rate increases, the experiment completes faster. If the experiment completes faster, results are obtained sooner.",
+        "question": "The chemical was not heated. Were results obtained sooner?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "A coach explained that if a player practices daily, their skills improve. If their skills improve, their performance in matches is better. If their performance in matches is better, they win more games.",
+        "question": "The player practiced daily. Did they win more games?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "A coach explained that if a player practices daily, their skills improve. If their skills improve, their performance in matches is better. If their performance in matches is better, they win more games.",
+        "question": "The player did not practice daily. Did they win more games?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "A business analyst stated that if a company invests in technology, operational efficiency increases. If operational efficiency increases, costs are reduced. If costs are reduced, profit margins expand.",
+        "question": "The company invested in technology. Did profit margins expand?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "A business analyst stated that if a company invests in technology, operational efficiency increases. If operational efficiency increases, costs are reduced. If costs are reduced, profit margins expand.",
+        "question": "The company did not invest in technology. Did profit margins expand?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "A wildlife expert noted that if a habitat is preserved, animal populations stabilize. If animal populations stabilize, biodiversity is maintained. If biodiversity is maintained, ecosystem health improves.",
+        "question": "The habitat was preserved. Did ecosystem health improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "A wildlife expert noted that if a habitat is preserved, animal populations stabilize. If animal populations stabilize, biodiversity is maintained. If biodiversity is maintained, ecosystem health improves.",
+        "question": "The habitat was not preserved. Did ecosystem health improve?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "A musician explained that if a song is well-composed, it resonates with listeners. If it resonates with listeners, it gains popularity. If it gains popularity, it tops the charts.",
+        "question": "The song was well-composed. Did it top the charts?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "A musician explained that if a song is well-composed, it resonates with listeners. If it resonates with listeners, it gains popularity. If it gains popularity, it tops the charts.",
+        "question": "The song was not well-composed. Did it top the charts?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "A real estate agent mentioned that if a property is renovated, its value increases. If its value increases, it attracts more buyers. If it attracts more buyers, it sells quickly.",
+        "question": "The property was renovated. Did it sell quickly?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "A real estate agent mentioned that if a property is renovated, its value increases. If its value increases, it attracts more buyers. If it attracts more buyers, it sells quickly.",
+        "question": "The property was not renovated. Did it sell quickly?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "A fashion designer stated that if a collection is innovative, it captures media attention. If it captures media attention, brand visibility increases. If brand visibility increases, sales rise.",
+        "question": "The collection was innovative. Did sales rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "A fashion designer stated that if a collection is innovative, it captures media attention. If it captures media attention, brand visibility increases. If brand visibility increases, sales rise.",
+        "question": "The collection was not innovative. Did sales rise?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "A travel agency noted that if a destination is promoted, tourist interest grows. If tourist interest grows, bookings increase. If bookings increase, revenue rises.",
+        "question": "The destination was promoted. Did revenue rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "A travel agency noted that if a destination is promoted, tourist interest grows. If tourist interest grows, bookings increase. If bookings increase, revenue rises.",
+        "question": "The destination was not promoted. Did revenue rise?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "A film producer explained that if a movie has a strong storyline, it engages audiences. If it engages audiences, it receives positive reviews. If it receives positive reviews, box office earnings increase.",
+        "question": "The movie had a strong storyline. Did box office earnings increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "A film producer explained that if a movie has a strong storyline, it engages audiences. If it engages audiences, it receives positive reviews. If it receives positive reviews, box office earnings increase.",
+        "question": "The movie did not have a strong storyline. Did box office earnings increase?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "A software engineer noted that if code is optimized, application speed improves. If application speed improves, user experience is enhanced. If user experience is enhanced, user retention increases.",
+        "question": "The code was optimized. Did user retention increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "A software engineer noted that if code is optimized, application speed improves. If application speed improves, user experience is enhanced. If user experience is enhanced, user retention increases.",
+        "question": "The code was not optimized. Did user retention increase?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "A marketing expert stated that if a campaign is targeted, conversion rates improve. If conversion rates improve, sales increase. If sales increase, market share grows.",
+        "question": "The campaign was targeted. Did market share grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "A marketing expert stated that if a campaign is targeted, conversion rates improve. If conversion rates improve, sales increase. If sales increase, market share grows.",
+        "question": "The campaign was not targeted. Did market share grow?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "A teacher explained that if students complete their homework, their understanding improves. If their understanding improves, their test scores increase. If their test scores increase, they receive scholarships.",
+        "question": "The students completed their homework. Did they receive scholarships?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "A teacher explained that if students complete their homework, their understanding improves. If their understanding improves, their test scores increase. If their test scores increase, they receive scholarships.",
+        "question": "The students did not complete their homework. Did they receive scholarships?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "A fitness trainer noted that if a client follows a workout plan, their strength increases. If their strength increases, their performance in competitions improves. If their performance in competitions improves, they win medals.",
+        "question": "The client followed the workout plan. Did they win medals?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "A fitness trainer noted that if a client follows a workout plan, their strength increases. If their strength increases, their performance in competitions improves. If their performance in competitions improves, they win medals.",
+        "question": "The client did not follow the workout plan. Did they win medals?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "A university policy states that if a student attends workshops, their skills improve. If their skills improve, their employability increases. If their employability increases, they secure jobs faster.",
+        "question": "The student attended workshops. Did they secure jobs faster?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "A university policy states that if a student attends workshops, their skills improve. If their skills improve, their employability increases. If their employability increases, they secure jobs faster.",
+        "question": "The student did not attend workshops. Did they secure jobs faster?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "A chef explained that if a recipe is followed precisely, the dish tastes better. If the dish tastes better, customer satisfaction increases. If customer satisfaction increases, repeat business grows.",
+        "question": "The recipe was followed precisely. Did repeat business grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "A chef explained that if a recipe is followed precisely, the dish tastes better. If the dish tastes better, customer satisfaction increases. If customer satisfaction increases, repeat business grows.",
+        "question": "The recipe was not followed precisely. Did repeat business grow?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "A tech startup noted that if they innovate, market interest increases. If market interest increases, investment opportunities grow. If investment opportunities grow, the company expands.",
+        "question": "The startup innovated. Did the company expand?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "A tech startup noted that if they innovate, market interest increases. If market interest increases, investment opportunities grow. If investment opportunities grow, the company expands.",
+        "question": "The startup did not innovate. Did the company expand?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "A teacher stated that if students read daily, their vocabulary improves. If their vocabulary improves, their writing skills enhance. If their writing skills enhance, their essays score higher.",
+        "question": "The students read daily. Did their essays score higher?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "A teacher stated that if students read daily, their vocabulary improves. If their vocabulary improves, their writing skills enhance. If their writing skills enhance, their essays score higher.",
+        "question": "The students did not read daily. Did their essays score higher?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "A business consultant advised that if a company reduces waste, operational costs decrease. If operational costs decrease, profit margins increase. If profit margins increase, shareholder value rises.",
+        "question": "The company reduced waste. Did shareholder value rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "A business consultant advised that if a company reduces waste, operational costs decrease. If operational costs decrease, profit margins increase. If profit margins increase, shareholder value rises.",
+        "question": "The company did not reduce waste. Did shareholder value rise?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "A scientist noted that if a hypothesis is tested thoroughly, data accuracy improves. If data accuracy improves, research findings are reliable. If research findings are reliable, scientific knowledge advances.",
+        "question": "The hypothesis was tested thoroughly. Did scientific knowledge advance?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "A scientist noted that if a hypothesis is tested thoroughly, data accuracy improves. If data accuracy improves, research findings are reliable. If research findings are reliable, scientific knowledge advances.",
+        "question": "The hypothesis was not tested thoroughly. Did scientific knowledge advance?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "A musician explained that if an album is promoted well, it reaches a wider audience. If it reaches a wider audience, sales increase. If sales increase, the artist gains recognition.",
+        "question": "The album was promoted well. Did the artist gain recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "A musician explained that if an album is promoted well, it reaches a wider audience. If it reaches a wider audience, sales increase. If sales increase, the artist gains recognition.",
+        "question": "The album was not promoted well. Did the artist gain recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "A financial planner stated that if a person saves regularly, their financial security improves. If their financial security improves, stress levels decrease. If stress levels decrease, quality of life enhances.",
+        "question": "The person saved regularly. Did their quality of life enhance?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "A financial planner stated that if a person saves regularly, their financial security improves. If their financial security improves, stress levels decrease. If stress levels decrease, quality of life enhances.",
+        "question": "The person did not save regularly. Did their quality of life enhance?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "A coach noted that if a team practices teamwork, their coordination improves. If their coordination improves, their game strategy is effective. If their game strategy is effective, they win matches.",
+        "question": "The team practiced teamwork. Did they win matches?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "A coach noted that if a team practices teamwork, their coordination improves. If their coordination improves, their game strategy is effective. If their game strategy is effective, they win matches.",
+        "question": "The team did not practice teamwork. Did they win matches?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "A city planner explained that if public transport is improved, traffic congestion decreases. If traffic congestion decreases, air quality improves. If air quality improves, public health benefits.",
+        "question": "Public transport was improved. Did public health benefit?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "A city planner explained that if public transport is improved, traffic congestion decreases. If traffic congestion decreases, air quality improves. If air quality improves, public health benefits.",
+        "question": "Public transport was not improved. Did public health benefit?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "A teacher noted that if students engage in critical thinking, their problem-solving skills improve. If their problem-solving skills improve, their academic performance increases. If their academic performance increases, they receive honors.",
+        "question": "The students engaged in critical thinking. Did they receive honors?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "A teacher noted that if students engage in critical thinking, their problem-solving skills improve. If their problem-solving skills improve, their academic performance increases. If their academic performance increases, they receive honors.",
+        "question": "The students did not engage in critical thinking. Did they receive honors?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "A nutritionist advised that if a person drinks enough water, their metabolism improves. If their metabolism improves, they have more energy. If they have more energy, their productivity increases.",
+        "question": "The person drank enough water. Did their productivity increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "A nutritionist advised that if a person drinks enough water, their metabolism improves. If their metabolism improves, they have more energy. If they have more energy, their productivity increases.",
+        "question": "The person did not drink enough water. Did their productivity increase?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "A wildlife conservationist noted that if a species is protected, its population stabilizes. If its population stabilizes, biodiversity is maintained. If biodiversity is maintained, ecosystem balance is achieved.",
+        "question": "The species was protected. Was ecosystem balance achieved?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "A wildlife conservationist noted that if a species is protected, its population stabilizes. If its population stabilizes, biodiversity is maintained. If biodiversity is maintained, ecosystem balance is achieved.",
+        "question": "The species was not protected. Was ecosystem balance achieved?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "A software developer explained that if a program is debugged, its reliability increases. If its reliability increases, user satisfaction improves. If user satisfaction improves, the software gains popularity.",
+        "question": "The program was debugged. Did the software gain popularity?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "A software developer explained that if a program is debugged, its reliability increases. If its reliability increases, user satisfaction improves. If user satisfaction improves, the software gains popularity.",
+        "question": "The program was not debugged. Did the software gain popularity?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "A business strategist noted that if a company adopts sustainable practices, its brand image improves. If its brand image improves, customer loyalty increases. If customer loyalty increases, sales grow.",
+        "question": "The company adopted sustainable practices. Did sales grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "A business strategist noted that if a company adopts sustainable practices, its brand image improves. If its brand image improves, customer loyalty increases. If customer loyalty increases, sales grow.",
+        "question": "The company did not adopt sustainable practices. Did sales grow?",
+        "answer": "no"
+    },
+    {
+        "id": 101,
+        "context": "A health expert stated that if a person gets enough sleep, their cognitive function improves. If their cognitive function improves, their decision-making is better. If their decision-making is better, their work performance increases.",
+        "question": "The person got enough sleep. Did their work performance increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 102,
+        "context": "A health expert stated that if a person gets enough sleep, their cognitive function improves. If their cognitive function improves, their decision-making is better. If their decision-making is better, their work performance increases.",
+        "question": "The person did not get enough sleep. Did their work performance increase?",
+        "answer": "no"
+    },
+    {
+        "id": 103,
+        "context": "A marketing manager explained that if a product is advertised effectively, brand awareness increases. If brand awareness increases, market share grows. If market share grows, profits rise.",
+        "question": "The product was advertised effectively. Did profits rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 104,
+        "context": "A marketing manager explained that if a product is advertised effectively, brand awareness increases. If brand awareness increases, market share grows. If market share grows, profits rise.",
+        "question": "The product was not advertised effectively. Did profits rise?",
+        "answer": "no"
+    }
+]

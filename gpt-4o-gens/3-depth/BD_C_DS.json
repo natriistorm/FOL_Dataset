@@ -1,0 +1,608 @@
+[
+    {
+        "id": 1,
+        "context": "In a family, kids know that if they eat their vegetables, they can have dessert after dinner. Parents know that if they take the kids to the park, the kids will play on the playground equipment. Either the kids eat vegetables, or they don't get to play at the park.",
+        "question": "The parents took their kids to the park today. Did the kids have desert for dinner?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In a company, employees know that if they complete their projects on time, they receive a bonus. Managers know that if they organize team-building activities, the team will work more efficiently. Either the employees complete their projects on time, or they don't participate in team-building activities.",
+        "question": "The managers organized team-building activities this month. Did the employees receive a bonus?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "In a company, employees know that if they complete their projects on time, they receive a bonus. Managers know that if they organize team-building activities, the team will work more efficiently. Either the employees complete their projects on time, or they don't participate in team-building activities.",
+        "question": "The managers organized team-building activities this month. Did the employees receive a bonus?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "In a school, students know that if they submit their homework on time, they can attend the field trip. Teachers know that if they conduct extra classes, students will perform better in exams. Either the students submit their homework on time, or they don't attend the extra classes.",
+        "question": "The teachers conducted extra classes this semester. Did the students attend the field trip?",
+        "answer": "yes"
+    },
+    {
+        "id": 5,
+        "context": "In a school, students know that if they submit their homework on time, they can attend the field trip. Teachers know that if they conduct extra classes, students will perform better in exams. Either the students submit their homework on time, or they don't attend the extra classes.",
+        "question": "The teachers conducted extra classes this semester. Did the students attend the field trip?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "In a neighborhood, residents know that if they recycle regularly, they receive a discount on their utility bills. The community association knows that if they organize clean-up drives, the neighborhood stays clean. Either the residents recycle regularly, or they don't participate in clean-up drives.",
+        "question": "The community association organized clean-up drives this month. Did the residents receive a discount on their utility bills?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "In a neighborhood, residents know that if they recycle regularly, they receive a discount on their utility bills. The community association knows that if they organize clean-up drives, the neighborhood stays clean. Either the residents recycle regularly, or they don't participate in clean-up drives.",
+        "question": "The community association organized clean-up drives this month. Did the residents receive a discount on their utility bills?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "In a sports club, members know that if they attend all training sessions, they can participate in the tournament. Coaches know that if they hold strategy meetings, the team performs better. Either the members attend all training sessions, or they don't attend strategy meetings.",
+        "question": "The coaches held strategy meetings this season. Did the members participate in the tournament?",
+        "answer": "yes"
+    },
+    {
+        "id": 9,
+        "context": "In a sports club, members know that if they attend all training sessions, they can participate in the tournament. Coaches know that if they hold strategy meetings, the team performs better. Either the members attend all training sessions, or they don't attend strategy meetings.",
+        "question": "The coaches held strategy meetings this season. Did the members participate in the tournament?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "In a university, students know that if they pass all their courses, they can graduate. Professors know that if they offer extra credit assignments, students are more engaged. Either the students pass all their courses, or they don't complete extra credit assignments.",
+        "question": "The professors offered extra credit assignments this semester. Did the students graduate?",
+        "answer": "yes"
+    },
+    {
+        "id": 11,
+        "context": "In a university, students know that if they pass all their courses, they can graduate. Professors know that if they offer extra credit assignments, students are more engaged. Either the students pass all their courses, or they don't complete extra credit assignments.",
+        "question": "The professors offered extra credit assignments this semester. Did the students graduate?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "In a restaurant, chefs know that if they prepare dishes on time, they receive positive reviews. Managers know that if they host special events, more customers visit. Either the chefs prepare dishes on time, or they don't participate in special events.",
+        "question": "The managers hosted special events this month. Did the chefs receive positive reviews?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "In a restaurant, chefs know that if they prepare dishes on time, they receive positive reviews. Managers know that if they host special events, more customers visit. Either the chefs prepare dishes on time, or they don't participate in special events.",
+        "question": "The managers hosted special events this month. Did the chefs receive positive reviews?",
+        "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "In a tech company, developers know that if they meet their deadlines, they get a promotion. Team leads know that if they conduct code reviews, the code quality improves. Either the developers meet their deadlines, or they don't participate in code reviews.",
+        "question": "The team leads conducted code reviews this quarter. Did the developers get a promotion?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "In a tech company, developers know that if they meet their deadlines, they get a promotion. Team leads know that if they conduct code reviews, the code quality improves. Either the developers meet their deadlines, or they don't participate in code reviews.",
+        "question": "The team leads conducted code reviews this quarter. Did the developers get a promotion?",
+        "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "In a hospital, nurses know that if they complete their rounds on time, they receive commendations. Doctors know that if they hold case discussions, patient care improves. Either the nurses complete their rounds on time, or they don't attend case discussions.",
+        "question": "The doctors held case discussions this week. Did the nurses receive commendations?",
+        "answer": "yes"
+    },
+    {
+        "id": 17,
+        "context": "In a hospital, nurses know that if they complete their rounds on time, they receive commendations. Doctors know that if they hold case discussions, patient care improves. Either the nurses complete their rounds on time, or they don't attend case discussions.",
+        "question": "The doctors held case discussions this week. Did the nurses receive commendations?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "In a library, staff know that if they organize books properly, they receive appreciation from visitors. The management knows that if they host reading sessions, more people visit. Either the staff organize books properly, or they don't participate in reading sessions.",
+        "question": "The management hosted reading sessions this month. Did the staff receive appreciation?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "In a library, staff know that if they organize books properly, they receive appreciation from visitors. The management knows that if they host reading sessions, more people visit. Either the staff organize books properly, or they don't participate in reading sessions.",
+        "question": "The management hosted reading sessions this month. Did the staff receive appreciation?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "In a factory, workers know that if they meet production targets, they receive a bonus. Supervisors know that if they conduct safety drills, the workplace is safer. Either the workers meet production targets, or they don't participate in safety drills.",
+        "question": "The supervisors conducted safety drills this quarter. Did the workers receive a bonus?",
+        "answer": "yes"
+    },
+    {
+        "id": 21,
+        "context": "In a factory, workers know that if they meet production targets, they receive a bonus. Supervisors know that if they conduct safety drills, the workplace is safer. Either the workers meet production targets, or they don't participate in safety drills.",
+        "question": "The supervisors conducted safety drills this quarter. Did the workers receive a bonus?",
+        "answer": "no"
+    },
+    {
+        "id": 22,
+        "context": "In a retail store, employees know that if they achieve sales targets, they receive a commission. Managers know that if they hold promotional events, sales increase. Either the employees achieve sales targets, or they don't participate in promotional events.",
+        "question": "The managers held promotional events this month. Did the employees receive a commission?",
+        "answer": "yes"
+    },
+    {
+        "id": 23,
+        "context": "In a retail store, employees know that if they achieve sales targets, they receive a commission. Managers know that if they hold promotional events, sales increase. Either the employees achieve sales targets, or they don't participate in promotional events.",
+        "question": "The managers held promotional events this month. Did the employees receive a commission?",
+        "answer": "no"
+    },
+    {
+        "id": 24,
+        "context": "In a theater, actors know that if they rehearse regularly, they receive positive reviews. Directors know that if they hold script readings, the performance improves. Either the actors rehearse regularly, or they don't participate in script readings.",
+        "question": "The directors held script readings this season. Did the actors receive positive reviews?",
+        "answer": "yes"
+    },
+    {
+        "id": 25,
+        "context": "In a theater, actors know that if they rehearse regularly, they receive positive reviews. Directors know that if they hold script readings, the performance improves. Either the actors rehearse regularly, or they don't participate in script readings.",
+        "question": "The directors held script readings this season. Did the actors receive positive reviews?",
+        "answer": "no"
+    },
+    {
+        "id": 26,
+        "context": "In a gym, members know that if they attend all sessions, they achieve their fitness goals. Trainers know that if they conduct workshops, members are more motivated. Either the members attend all sessions, or they don't participate in workshops.",
+        "question": "The trainers conducted workshops this month. Did the members achieve their fitness goals?",
+        "answer": "yes"
+    },
+    {
+        "id": 27,
+        "context": "In a gym, members know that if they attend all sessions, they achieve their fitness goals. Trainers know that if they conduct workshops, members are more motivated. Either the members attend all sessions, or they don't participate in workshops.",
+        "question": "The trainers conducted workshops this month. Did the members achieve their fitness goals?",
+        "answer": "no"
+    },
+    {
+        "id": 28,
+        "context": "In a music school, students know that if they practice daily, they perform well in recitals. Instructors know that if they hold masterclasses, students improve faster. Either the students practice daily, or they don't attend masterclasses.",
+        "question": "The instructors held masterclasses this term. Did the students perform well in recitals?",
+        "answer": "yes"
+    },
+    {
+        "id": 29,
+        "context": "In a music school, students know that if they practice daily, they perform well in recitals. Instructors know that if they hold masterclasses, students improve faster. Either the students practice daily, or they don't attend masterclasses.",
+        "question": "The instructors held masterclasses this term. Did the students perform well in recitals?",
+        "answer": "no"
+    },
+    {
+        "id": 30,
+        "context": "In a dance academy, dancers know that if they attend all rehearsals, they perform in the showcase. Choreographers know that if they conduct feedback sessions, the performance quality improves. Either the dancers attend all rehearsals, or they don't participate in feedback sessions.",
+        "question": "The choreographers conducted feedback sessions this season. Did the dancers perform in the showcase?",
+        "answer": "yes"
+    },
+    {
+        "id": 31,
+        "context": "In a dance academy, dancers know that if they attend all rehearsals, they perform in the showcase. Choreographers know that if they conduct feedback sessions, the performance quality improves. Either the dancers attend all rehearsals, or they don't participate in feedback sessions.",
+        "question": "The choreographers conducted feedback sessions this season. Did the dancers perform in the showcase?",
+        "answer": "no"
+    },
+    {
+        "id": 32,
+        "context": "In a publishing house, editors know that if they meet deadlines, they receive recognition. Authors know that if they attend writing workshops, their writing improves. Either the editors meet deadlines, or they don't attend writing workshops.",
+        "question": "The authors attended writing workshops this year. Did the editors receive recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 33,
+        "context": "In a publishing house, editors know that if they meet deadlines, they receive recognition. Authors know that if they attend writing workshops, their writing improves. Either the editors meet deadlines, or they don't attend writing workshops.",
+        "question": "The authors attended writing workshops this year. Did the editors receive recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 34,
+        "context": "In a research lab, scientists know that if they publish their findings, they receive grants. Lab managers know that if they hold brainstorming sessions, innovation increases. Either the scientists publish their findings, or they don't participate in brainstorming sessions.",
+        "question": "The lab managers held brainstorming sessions this quarter. Did the scientists receive grants?",
+        "answer": "yes"
+    },
+    {
+        "id": 35,
+        "context": "In a research lab, scientists know that if they publish their findings, they receive grants. Lab managers know that if they hold brainstorming sessions, innovation increases. Either the scientists publish their findings, or they don't participate in brainstorming sessions.",
+        "question": "The lab managers held brainstorming sessions this quarter. Did the scientists receive grants?",
+        "answer": "no"
+    },
+    {
+        "id": 36,
+        "context": "In a design studio, designers know that if they complete projects on time, they receive accolades. Project leads know that if they hold design critiques, the project quality improves. Either the designers complete projects on time, or they don't participate in design critiques.",
+        "question": "The project leads held design critiques this month. Did the designers receive accolades?",
+        "answer": "yes"
+    },
+    {
+        "id": 37,
+        "context": "In a design studio, designers know that if they complete projects on time, they receive accolades. Project leads know that if they hold design critiques, the project quality improves. Either the designers complete projects on time, or they don't participate in design critiques.",
+        "question": "The project leads held design critiques this month. Did the designers receive accolades?",
+        "answer": "no"
+    },
+    {
+        "id": 38,
+        "context": "In a marketing firm, marketers know that if they achieve campaign goals, they receive bonuses. Team leaders know that if they conduct strategy sessions, campaign effectiveness increases. Either the marketers achieve campaign goals, or they don't participate in strategy sessions.",
+        "question": "The team leaders conducted strategy sessions this quarter. Did the marketers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 39,
+        "context": "In a marketing firm, marketers know that if they achieve campaign goals, they receive bonuses. Team leaders know that if they conduct strategy sessions, campaign effectiveness increases. Either the marketers achieve campaign goals, or they don't participate in strategy sessions.",
+        "question": "The team leaders conducted strategy sessions this quarter. Did the marketers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 40,
+        "context": "In a law firm, lawyers know that if they win cases, they receive promotions. Partners know that if they hold legal seminars, the firm's reputation improves. Either the lawyers win cases, or they don't participate in legal seminars.",
+        "question": "The partners held legal seminars this year. Did the lawyers receive promotions?",
+        "answer": "yes"
+    },
+    {
+        "id": 41,
+        "context": "In a law firm, lawyers know that if they win cases, they receive promotions. Partners know that if they hold legal seminars, the firm's reputation improves. Either the lawyers win cases, or they don't participate in legal seminars.",
+        "question": "The partners held legal seminars this year. Did the lawyers receive promotions?",
+        "answer": "no"
+    },
+    {
+        "id": 42,
+        "context": "In a hotel, staff know that if they maintain high service standards, they receive tips. Management knows that if they organize training sessions, service quality improves. Either the staff maintain high service standards, or they don't attend training sessions.",
+        "question": "The management organized training sessions this month. Did the staff receive tips?",
+        "answer": "yes"
+    },
+    {
+        "id": 43,
+        "context": "In a hotel, staff know that if they maintain high service standards, they receive tips. Management knows that if they organize training sessions, service quality improves. Either the staff maintain high service standards, or they don't attend training sessions.",
+        "question": "The management organized training sessions this month. Did the staff receive tips?",
+        "answer": "no"
+    },
+    {
+        "id": 44,
+        "context": "In a farm, workers know that if they harvest crops on time, they receive bonuses. Farm managers know that if they hold planning meetings, productivity increases. Either the workers harvest crops on time, or they don't participate in planning meetings.",
+        "question": "The farm managers held planning meetings this season. Did the workers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 45,
+        "context": "In a farm, workers know that if they harvest crops on time, they receive bonuses. Farm managers know that if they hold planning meetings, productivity increases. Either the workers harvest crops on time, or they don't participate in planning meetings.",
+        "question": "The farm managers held planning meetings this season. Did the workers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 46,
+        "context": "In a construction company, builders know that if they complete projects on schedule, they receive incentives. Project managers know that if they conduct safety inspections, the site is safer. Either the builders complete projects on schedule, or they don't participate in safety inspections.",
+        "question": "The project managers conducted safety inspections this quarter. Did the builders receive incentives?",
+        "answer": "yes"
+    },
+    {
+        "id": 47,
+        "context": "In a construction company, builders know that if they complete projects on schedule, they receive incentives. Project managers know that if they conduct safety inspections, the site is safer. Either the builders complete projects on schedule, or they don't participate in safety inspections.",
+        "question": "The project managers conducted safety inspections this quarter. Did the builders receive incentives?",
+        "answer": "no"
+    },
+    {
+        "id": 48,
+        "context": "In a logistics company, drivers know that if they deliver packages on time, they receive bonuses. Dispatchers know that if they hold route planning meetings, delivery efficiency improves. Either the drivers deliver packages on time, or they don't participate in route planning meetings.",
+        "question": "The dispatchers held route planning meetings this month. Did the drivers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 49,
+        "context": "In a logistics company, drivers know that if they deliver packages on time, they receive bonuses. Dispatchers know that if they hold route planning meetings, delivery efficiency improves. Either the drivers deliver packages on time, or they don't participate in route planning meetings.",
+        "question": "The dispatchers held route planning meetings this month. Did the drivers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 50,
+        "context": "In a bakery, bakers know that if they bake bread on time, they receive praise from customers. Managers know that if they hold tasting sessions, product quality improves. Either the bakers bake bread on time, or they don't participate in tasting sessions.",
+        "question": "The managers held tasting sessions this week. Did the bakers receive praise?",
+        "answer": "yes"
+    },
+    {
+        "id": 51,
+        "context": "In a bakery, bakers know that if they bake bread on time, they receive praise from customers. Managers know that if they hold tasting sessions, product quality improves. Either the bakers bake bread on time, or they don't participate in tasting sessions.",
+        "question": "The managers held tasting sessions this week. Did the bakers receive praise?",
+        "answer": "no"
+    },
+    {
+        "id": 52,
+        "context": "In a software company, developers know that if they fix bugs promptly, they receive recognition. Project managers know that if they conduct sprint reviews, the project stays on track. Either the developers fix bugs promptly, or they don't attend sprint reviews.",
+        "question": "The project managers conducted sprint reviews this month. Did the developers receive recognition?",
+        "answer": "yes"
+    },
+    {
+        "id": 53,
+        "context": "In a software company, developers know that if they fix bugs promptly, they receive recognition. Project managers know that if they conduct sprint reviews, the project stays on track. Either the developers fix bugs promptly, or they don't attend sprint reviews.",
+        "question": "The project managers conducted sprint reviews this month. Did the developers receive recognition?",
+        "answer": "no"
+    },
+    {
+        "id": 54,
+        "context": "In a university, researchers know that if they publish papers, they receive funding. Department heads know that if they organize conferences, academic collaboration increases. Either the researchers publish papers, or they don't participate in conferences.",
+        "question": "The department heads organized conferences this year. Did the researchers receive funding?",
+        "answer": "yes"
+    },
+    {
+        "id": 55,
+        "context": "In a university, researchers know that if they publish papers, they receive funding. Department heads know that if they organize conferences, academic collaboration increases. Either the researchers publish papers, or they don't participate in conferences.",
+        "question": "The department heads organized conferences this year. Did the researchers receive funding?",
+        "answer": "no"
+    },
+    {
+        "id": 56,
+        "context": "In a retail chain, sales associates know that if they meet their sales targets, they receive bonuses. Store managers know that if they hold inventory checks, stock levels are maintained. Either the sales associates meet their sales targets, or they don't participate in inventory checks.",
+        "question": "The store managers held inventory checks this quarter. Did the sales associates receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 57,
+        "context": "In a retail chain, sales associates know that if they meet their sales targets, they receive bonuses. Store managers know that if they hold inventory checks, stock levels are maintained. Either the sales associates meet their sales targets, or they don't participate in inventory checks.",
+        "question": "The store managers held inventory checks this quarter. Did the sales associates receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 58,
+        "context": "In a hospital, doctors know that if they complete their rounds, they receive commendations. Administrators know that if they conduct patient satisfaction surveys, service quality improves. Either the doctors complete their rounds, or they don't participate in surveys.",
+        "question": "The administrators conducted patient satisfaction surveys this month. Did the doctors receive commendations?",
+        "answer": "yes"
+    },
+    {
+        "id": 59,
+        "context": "In a hospital, doctors know that if they complete their rounds, they receive commendations. Administrators know that if they conduct patient satisfaction surveys, service quality improves. Either the doctors complete their rounds, or they don't participate in surveys.",
+        "question": "The administrators conducted patient satisfaction surveys this month. Did the doctors receive commendations?",
+        "answer": "no"
+    },
+    {
+        "id": 60,
+        "context": "In a publishing company, editors know that if they meet deadlines, they receive bonuses. Publishers know that if they hold book launches, sales increase. Either the editors meet deadlines, or they don't participate in book launches.",
+        "question": "The publishers held book launches this quarter. Did the editors receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 61,
+        "context": "In a publishing company, editors know that if they meet deadlines, they receive bonuses. Publishers know that if they hold book launches, sales increase. Either the editors meet deadlines, or they don't participate in book launches.",
+        "question": "The publishers held book launches this quarter. Did the editors receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 62,
+        "context": "In a tech startup, engineers know that if they innovate, they receive stock options. Founders know that if they hold hackathons, creativity is boosted. Either the engineers innovate, or they don't participate in hackathons.",
+        "question": "The founders held hackathons this year. Did the engineers receive stock options?",
+        "answer": "yes"
+    },
+    {
+        "id": 63,
+        "context": "In a tech startup, engineers know that if they innovate, they receive stock options. Founders know that if they hold hackathons, creativity is boosted. Either the engineers innovate, or they don't participate in hackathons.",
+        "question": "The founders held hackathons this year. Did the engineers receive stock options?",
+        "answer": "no"
+    },
+    {
+        "id": 64,
+        "context": "In a school, teachers know that if they complete lesson plans, they receive bonuses. Principals know that if they hold parent-teacher meetings, student performance improves. Either the teachers complete lesson plans, or they don't participate in meetings.",
+        "question": "The principals held parent-teacher meetings this semester. Did the teachers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 65,
+        "context": "In a school, teachers know that if they complete lesson plans, they receive bonuses. Principals know that if they hold parent-teacher meetings, student performance improves. Either the teachers complete lesson plans, or they don't participate in meetings.",
+        "question": "The principals held parent-teacher meetings this semester. Did the teachers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 66,
+        "context": "In a gym, trainers know that if they conduct all sessions, they receive bonuses. Gym owners know that if they hold fitness challenges, member engagement increases. Either the trainers conduct all sessions, or they don't participate in challenges.",
+        "question": "The gym owners held fitness challenges this month. Did the trainers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 67,
+        "context": "In a gym, trainers know that if they conduct all sessions, they receive bonuses. Gym owners know that if they hold fitness challenges, member engagement increases. Either the trainers conduct all sessions, or they don't participate in challenges.",
+        "question": "The gym owners held fitness challenges this month. Did the trainers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 68,
+        "context": "In a restaurant, chefs know that if they create new dishes, they receive accolades. Restaurant owners know that if they host culinary events, customer interest increases. Either the chefs create new dishes, or they don't participate in events.",
+        "question": "The restaurant owners hosted culinary events this month. Did the chefs receive accolades?",
+        "answer": "yes"
+    },
+    {
+        "id": 69,
+        "context": "In a restaurant, chefs know that if they create new dishes, they receive accolades. Restaurant owners know that if they host culinary events, customer interest increases. Either the chefs create new dishes, or they don't participate in events.",
+        "question": "The restaurant owners hosted culinary events this month. Did the chefs receive accolades?",
+        "answer": "no"
+    },
+    {
+        "id": 70,
+        "context": "In a theater, actors know that if they attend rehearsals, they receive positive reviews. Directors know that if they hold workshops, performance quality improves. Either the actors attend rehearsals, or they don't participate in workshops.",
+        "question": "The directors held workshops this season. Did the actors receive positive reviews?",
+        "answer": "yes"
+    },
+    {
+        "id": 71,
+        "context": "In a theater, actors know that if they attend rehearsals, they receive positive reviews. Directors know that if they hold workshops, performance quality improves. Either the actors attend rehearsals, or they don't participate in workshops.",
+        "question": "The directors held workshops this season. Did the actors receive positive reviews?",
+        "answer": "no"
+    },
+    {
+        "id": 72,
+        "context": "In a music school, instructors know that if they conduct all classes, they receive bonuses. School administrators know that if they hold recitals, student performance improves. Either the instructors conduct all classes, or they don't participate in recitals.",
+        "question": "The school administrators held recitals this term. Did the instructors receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 73,
+        "context": "In a music school, instructors know that if they conduct all classes, they receive bonuses. School administrators know that if they hold recitals, student performance improves. Either the instructors conduct all classes, or they don't participate in recitals.",
+        "question": "The school administrators held recitals this term. Did the instructors receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 74,
+        "context": "In a logistics company, drivers know that if they deliver on time, they receive bonuses. Dispatch managers know that if they hold route optimization meetings, delivery efficiency improves. Either the drivers deliver on time, or they don't participate in meetings.",
+        "question": "The dispatch managers held route optimization meetings this month. Did the drivers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 75,
+        "context": "In a logistics company, drivers know that if they deliver on time, they receive bonuses. Dispatch managers know that if they hold route optimization meetings, delivery efficiency improves. Either the drivers deliver on time, or they don't participate in meetings.",
+        "question": "The dispatch managers held route optimization meetings this month. Did the drivers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 76,
+        "context": "In a marketing agency, marketers know that if they achieve campaign goals, they receive bonuses. Team leaders know that if they conduct brainstorming sessions, creativity increases. Either the marketers achieve campaign goals, or they don't participate in sessions.",
+        "question": "The team leaders conducted brainstorming sessions this quarter. Did the marketers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 77,
+        "context": "In a marketing agency, marketers know that if they achieve campaign goals, they receive bonuses. Team leaders know that if they conduct brainstorming sessions, creativity increases. Either the marketers achieve campaign goals, or they don't participate in sessions.",
+        "question": "The team leaders conducted brainstorming sessions this quarter. Did the marketers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 78,
+        "context": "In a design firm, designers know that if they meet project deadlines, they receive bonuses. Project managers know that if they hold design critiques, project quality improves. Either the designers meet project deadlines, or they don't participate in critiques.",
+        "question": "The project managers held design critiques this month. Did the designers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 79,
+        "context": "In a design firm, designers know that if they meet project deadlines, they receive bonuses. Project managers know that if they hold design critiques, project quality improves. Either the designers meet project deadlines, or they don't participate in critiques.",
+        "question": "The project managers held design critiques this month. Did the designers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 80,
+        "context": "In a law firm, attorneys know that if they win cases, they receive bonuses. Partners know that if they hold legal workshops, the firm's reputation improves. Either the attorneys win cases, or they don't participate in workshops.",
+        "question": "The partners held legal workshops this year. Did the attorneys receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 81,
+        "context": "In a law firm, attorneys know that if they win cases, they receive bonuses. Partners know that if they hold legal workshops, the firm's reputation improves. Either the attorneys win cases, or they don't participate in workshops.",
+        "question": "The partners held legal workshops this year. Did the attorneys receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 82,
+        "context": "In a hotel, staff know that if they maintain high service standards, they receive bonuses. Management knows that if they organize training sessions, service quality improves. Either the staff maintain high service standards, or they don't attend training sessions.",
+        "question": "The management organized training sessions this month. Did the staff receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 83,
+        "context": "In a hotel, staff know that if they maintain high service standards, they receive bonuses. Management knows that if they organize training sessions, service quality improves. Either the staff maintain high service standards, or they don't attend training sessions.",
+        "question": "The management organized training sessions this month. Did the staff receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 84,
+        "context": "In a farm, workers know that if they harvest crops on time, they receive bonuses. Farm managers know that if they hold planning meetings, productivity increases. Either the workers harvest crops on time, or they don't participate in planning meetings.",
+        "question": "The farm managers held planning meetings this season. Did the workers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 85,
+        "context": "In a farm, workers know that if they harvest crops on time, they receive bonuses. Farm managers know that if they hold planning meetings, productivity increases. Either the workers harvest crops on time, or they don't participate in planning meetings.",
+        "question": "The farm managers held planning meetings this season. Did the workers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 86,
+        "context": "In a construction company, builders know that if they complete projects on schedule, they receive incentives. Project managers know that if they conduct safety inspections, the site is safer. Either the builders complete projects on schedule, or they don't participate in safety inspections.",
+        "question": "The project managers conducted safety inspections this quarter. Did the builders receive incentives?",
+        "answer": "yes"
+    },
+    {
+        "id": 87,
+        "context": "In a construction company, builders know that if they complete projects on schedule, they receive incentives. Project managers know that if they conduct safety inspections, the site is safer. Either the builders complete projects on schedule, or they don't participate in safety inspections.",
+        "question": "The project managers conducted safety inspections this quarter. Did the builders receive incentives?",
+        "answer": "no"
+    },
+    {
+        "id": 88,
+        "context": "In a logistics company, drivers know that if they deliver packages on time, they receive bonuses. Dispatchers know that if they hold route planning meetings, delivery efficiency improves. Either the drivers deliver packages on time, or they don't participate in route planning meetings.",
+        "question": "The dispatchers held route planning meetings this month. Did the drivers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 89,
+        "context": "In a logistics company, drivers know that if they deliver packages on time, they receive bonuses. Dispatchers know that if they hold route planning meetings, delivery efficiency improves. Either the drivers deliver packages on time, or they don't participate in route planning meetings.",
+        "question": "The dispatchers held route planning meetings this month. Did the drivers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 90,
+        "context": "In a bakery, bakers know that if they bake bread on time, they receive praise from customers. Managers know that if they hold tasting sessions, product quality improves. Either the bakers bake bread on time, or they don't participate in tasting sessions.",
+        "question": "The managers held tasting sessions this week. Did the bakers receive praise?",
+        "answer": "yes"
+    },
+    {
+        "id": 91,
+        "context": "In a bakery, bakers know that if they bake bread on time, they receive praise from customers. Managers know that if they hold tasting sessions, product quality improves. Either the bakers bake bread on time, or they don't participate in tasting sessions.",
+        "question": "The managers held tasting sessions this week. Did the bakers receive praise?",
+        "answer": "no"
+    },
+    {
+        "id": 92,
+        "context": "In a research lab, scientists know that if they publish their findings, they receive grants. Lab managers know that if they hold brainstorming sessions, innovation increases. Either the scientists publish their findings, or they don't participate in brainstorming sessions.",
+        "question": "The lab managers held brainstorming sessions this quarter. Did the scientists receive grants?",
+        "answer": "yes"
+    },
+    {
+        "id": 93,
+        "context": "In a research lab, scientists know that if they publish their findings, they receive grants. Lab managers know that if they hold brainstorming sessions, innovation increases. Either the scientists publish their findings, or they don't participate in brainstorming sessions.",
+        "question": "The lab managers held brainstorming sessions this quarter. Did the scientists receive grants?",
+        "answer": "no"
+    },
+    {
+        "id": 94,
+        "context": "In a design studio, designers know that if they complete projects on time, they receive accolades. Project leads know that if they hold design critiques, the project quality improves. Either the designers complete projects on time, or they don't participate in design critiques.",
+        "question": "The project leads held design critiques this month. Did the designers receive accolades?",
+        "answer": "yes"
+    },
+    {
+        "id": 95,
+        "context": "In a design studio, designers know that if they complete projects on time, they receive accolades. Project leads know that if they hold design critiques, the project quality improves. Either the designers complete projects on time, or they don't participate in design critiques.",
+        "question": "The project leads held design critiques this month. Did the designers receive accolades?",
+        "answer": "no"
+    },
+    {
+        "id": 96,
+        "context": "In a marketing firm, marketers know that if they achieve campaign goals, they receive bonuses. Team leaders know that if they conduct strategy sessions, campaign effectiveness increases. Either the marketers achieve campaign goals, or they don't participate in strategy sessions.",
+        "question": "The team leaders conducted strategy sessions this quarter. Did the marketers receive bonuses?",
+        "answer": "yes"
+    },
+    {
+        "id": 97,
+        "context": "In a marketing firm, marketers know that if they achieve campaign goals, they receive bonuses. Team leaders know that if they conduct strategy sessions, campaign effectiveness increases. Either the marketers achieve campaign goals, or they don't participate in strategy sessions.",
+        "question": "The team leaders conducted strategy sessions this quarter. Did the marketers receive bonuses?",
+        "answer": "no"
+    },
+    {
+        "id": 98,
+        "context": "In a law firm, lawyers know that if they win cases, they receive promotions. Partners know that if they hold legal seminars, the firm's reputation improves. Either the lawyers win cases, or they don't participate in legal seminars.",
+        "question": "The partners held legal seminars this year. Did the lawyers receive promotions?",
+        "answer": "yes"
+    },
+    {
+        "id": 99,
+        "context": "In a law firm, lawyers know that if they win cases, they receive promotions. Partners know that if they hold legal seminars, the firm's reputation improves. Either the lawyers win cases, or they don't participate in legal seminars.",
+        "question": "The partners held legal seminars this year. Did the lawyers receive promotions?",
+        "answer": "no"
+    },
+    {
+        "id": 100,
+        "context": "In a hotel, staff know that if they maintain high service standards, they receive tips. Management knows that if they organize training sessions, service quality improves. Either the staff maintain high service standards, or they don't attend training sessions.",
+        "question": "The management organized training sessions this month. Did the staff receive tips?",
+        "answer": "yes"
+    },
+    {
+        "id": 101,
+        "context": "In a hotel, staff know that if they maintain high service standards, they receive tips. Management knows that if they organize training sessions, service quality improves. Either the staff maintain high service standards, or they don't attend training sessions.",
+        "question": "The management organized training sessions this month. Did the staff receive tips?",
+        "answer": "no"
+    }
+]

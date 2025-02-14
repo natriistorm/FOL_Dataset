@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "context": "If it rains, the roads get wet. If the roads get wet, driving becomes difficult. If there's a snowstorm, flights get delayed. If flights get delayed, travelers get frustrated. Today, either it rained, or there was a snowstorm, or both.",
+        "question": "Driving was easy today. Were travelers frustrated?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "If it rains, the roads get wet. If the roads get wet, driving becomes difficult. If there's a snowstorm, flights get delayed. If flights get delayed, travelers get frustrated. Today, either it rained, or there was a snowstorm, or both.",
+        "question": "Driving was easy today. Were flights delayed?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "If a project is urgent, deadlines get tighter. If deadlines get tighter, employees feel stressed. If management is disorganized, meetings run late. If meetings run late, work gets delayed. Today, either the project was urgent, or management was disorganized, or both.",
+        "question": "Work was delayed today. Did employees feel stressed?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "If a project is urgent, deadlines get tighter. If deadlines get tighter, employees feel stressed. If management is disorganized, meetings run late. If meetings run late, work gets delayed. Today, either the project was urgent, or management was disorganized, or both.",
+        "question": "Employees were relaxed today. Did meetings run late?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "If the internet goes down, online meetings get canceled. If online meetings get canceled, deadlines get pushed back. If the power goes out, all work stops. If all work stops, productivity decreases. Today, either the internet went down, or the power went out, or both.",
+        "question": "Deadlines remained unchanged today. Did productivity decrease?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "If the internet goes down, online meetings get canceled. If online meetings get canceled, deadlines get pushed back. If the power goes out, all work stops. If all work stops, productivity decreases. Today, either the internet went down, or the power went out, or both.",
+        "question": "Deadlines remained unchanged today. Did online meetings get canceled?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "If a train is delayed, commuters get late. If commuters get late, work schedules are disrupted. If a bus is overcrowded, some passengers must wait. If passengers wait, frustration increases. Today, either a train was delayed, or a bus was overcrowded, or both.",
+        "question": "Work schedules were normal today. Was frustration high?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "If a train is delayed, commuters get late. If commuters get late, work schedules are disrupted. If a bus is overcrowded, some passengers must wait. If passengers wait, frustration increases. Today, either a train was delayed, or a bus was overcrowded, or both.",
+        "question": "Work schedules were normal today. Were commuters late?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "If a flu spreads, many employees call in sick. If many employees call in sick, project timelines suffer. If a security breach happens, system access gets restricted. If system access is restricted, IT teams work overtime. Today, either a flu spread, or a security breach happened, or both.",
+        "question": "Project timelines were fine today. Did IT teams work overtime?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "If a flu spreads, many employees call in sick. If many employees call in sick, project timelines suffer. If a security breach happens, system access gets restricted. If system access is restricted, IT teams work overtime. Today, either a flu spread, or a security breach happened, or both.",
+        "question": "Project timelines were fine today. Did many employees call in sick?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "If a sports team loses, fans get disappointed. If fans get disappointed, ticket sales drop. If a major sponsor pulls out, funding decreases. If funding decreases, player salaries are affected. Today, either the team lost, or a sponsor pulled out, or both.",
+        "question": "Ticket sales remained high today. Were player salaries affected?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "If a sports team loses, fans get disappointed. If fans get disappointed, ticket sales drop. If a major sponsor pulls out, funding decreases. If funding decreases, player salaries are affected. Today, either the team lost, or a sponsor pulled out, or both.",
+        "question": "Ticket sales remained high today. Did fans get disappointed?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "If a supply shipment is delayed, production slows down. If production slows down, deliveries take longer. If factory equipment fails, repairs take time. If repairs take time, costs increase. Today, either a shipment was delayed, or equipment failed, or both.",
+        "question": "Deliveries were on time today. Did costs increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "If a supply shipment is delayed, production slows down. If production slows down, deliveries take longer. If factory equipment fails, repairs take time. If repairs take time, costs increase. Today, either a shipment was delayed, or equipment failed, or both.",
+        "question": "Deliveries were on time today. Did production slow down?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "If a crime rate rises, people feel unsafe. If people feel unsafe, they move away. If taxes increase, businesses relocate. If businesses relocate, job opportunities decrease. Today, either the crime rate rose, or taxes increased, or both.",
+        "question": "Job opportunities were stable today. Did people move away?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "If a crime rate rises, people feel unsafe. If people feel unsafe, they move away. If taxes increase, businesses relocate. If businesses relocate, job opportunities decrease. Today, either the crime rate rose, or taxes increased, or both.",
+        "question": "Job opportunities were stable today. Did businesses relocate?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "If an athlete trains hard, their stamina improves. If their stamina improves, their performance in competitions increases. If they lack motivation, they skip training. If they skip training, their performance declines. Today, either they trained hard, or they lacked motivation, or both.",
+        "question": "Their performance declined today. Did their stamina improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "If an athlete trains hard, their stamina improves. If their stamina improves, their performance in competitions increases. If they lack motivation, they skip training. If they skip training, their performance declines. Today, either they trained hard, or they lacked motivation, or both.",
+        "question": "Their performance declined today. Did they skip training?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "If the sun is strong, temperatures rise. If temperatures rise, ice melts. If a storm approaches, strong winds develop. If strong winds develop, flights get canceled. Today, either the sun was strong, or a storm approached, or both.",
+        "question": "Ice did not melt today. Were flights canceled?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "If the sun is strong, temperatures rise. If temperatures rise, ice melts. If a storm approaches, strong winds develop. If strong winds develop, flights get canceled. Today, either the sun was strong, or a storm approached, or both.",
+        "question": "Ice did not melt today. Did temperatures rise?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "If a river floods, nearby areas get submerged. If nearby areas get submerged, transportation is disrupted. If a heatwave occurs, water levels drop. If water levels drop, irrigation is affected. Today, either the river flooded, or a heatwave occurred, or both.",
+        "question": "Transportation was smooth today. Was irrigation affected?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "If a river floods, nearby areas get submerged. If nearby areas get submerged, transportation is disrupted. If a heatwave occurs, water levels drop. If water levels drop, irrigation is affected. Today, either the river flooded, or a heatwave occurred, or both.",
+        "question": "Transportation was smooth today. Were nearby areas submerged?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "If a software update fails, system performance degrades. If system performance degrades, user satisfaction drops. If a new feature is added, user engagement increases. If user engagement increases, revenue grows. Today, either the update failed, or a new feature was added, or both.",
+        "question": "User satisfaction was high today. Did revenue grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "If a software update fails, system performance degrades. If system performance degrades, user satisfaction drops. If a new feature is added, user engagement increases. If user engagement increases, revenue grows. Today, either the update failed, or a new feature was added, or both.",
+        "question": "User satisfaction was high today. Did system performance degrade?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "If a forest fire spreads, wildlife is endangered. If wildlife is endangered, conservation efforts intensify. If a rainstorm occurs, fire risks decrease. If fire risks decrease, tourism increases. Today, either a forest fire spread, or a rainstorm occurred, or both.",
+        "question": "Conservation efforts were minimal today. Did tourism increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "If a forest fire spreads, wildlife is endangered. If wildlife is endangered, conservation efforts intensify. If a rainstorm occurs, fire risks decrease. If fire risks decrease, tourism increases. Today, either a forest fire spread, or a rainstorm occurred, or both.",
+        "question": "Conservation efforts were minimal today. Was wildlife endangered?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "If a market crashes, investments lose value. If investments lose value, retirement plans are affected. If a new market opens, investment opportunities grow. If investment opportunities grow, economic growth accelerates. Today, either the market crashed, or a new market opened, or both.",
+        "question": "Retirement plans were secure today. Did economic growth accelerate?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "If a market crashes, investments lose value. If investments lose value, retirement plans are affected. If a new market opens, investment opportunities grow. If investment opportunities grow, economic growth accelerates. Today, either the market crashed, or a new market opened, or both.",
+        "question": "Retirement plans were secure today. Did investments lose value?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "If a volcano erupts, air travel is disrupted. If air travel is disrupted, tourism declines. If a festival is held, local businesses thrive. If local businesses thrive, employment rises. Today, either a volcano erupted, or a festival was held, or both.",
+        "question": "Tourism was booming today. Did employment rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "If a volcano erupts, air travel is disrupted. If air travel is disrupted, tourism declines. If a festival is held, local businesses thrive. If local businesses thrive, employment rises. Today, either a volcano erupted, or a festival was held, or both.",
+        "question": "Tourism was booming today. Was air travel disrupted?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "If a drought persists, water restrictions are imposed. If water restrictions are imposed, agricultural output decreases. If a new reservoir is built, water supply stabilizes. If water supply stabilizes, agricultural output increases. Today, either a drought persisted, or a new reservoir was built, or both.",
+        "question": "Agricultural output was high today. Did water supply stabilize?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "If a drought persists, water restrictions are imposed. If water restrictions are imposed, agricultural output decreases. If a new reservoir is built, water supply stabilizes. If water supply stabilizes, agricultural output increases. Today, either a drought persisted, or a new reservoir was built, or both.",
+        "question": "Agricultural output was high today. Were water restrictions imposed?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "If a power plant shuts down, energy supply is reduced. If energy supply is reduced, electricity prices rise. If a wind farm is expanded, renewable energy increases. If renewable energy increases, electricity prices fall. Today, either a power plant shut down, or a wind farm was expanded, or both.",
+        "question": "Electricity prices were low today. Did renewable energy increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "If a power plant shuts down, energy supply is reduced. If energy supply is reduced, electricity prices rise. If a wind farm is expanded, renewable energy increases. If renewable energy increases, electricity prices fall. Today, either a power plant shut down, or a wind farm was expanded, or both.",
+        "question": "Electricity prices were low today. Was energy supply reduced?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "If a political scandal breaks, public trust erodes. If public trust erodes, voter turnout decreases. If a popular leader emerges, public enthusiasm grows. If public enthusiasm grows, voter turnout increases. Today, either a scandal broke, or a popular leader emerged, or both.",
+        "question": "Voter turnout was high today. Did public enthusiasm grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "If a political scandal breaks, public trust erodes. If public trust erodes, voter turnout decreases. If a popular leader emerges, public enthusiasm grows. If public enthusiasm grows, voter turnout increases. Today, either a scandal broke, or a popular leader emerged, or both.",
+        "question": "Voter turnout was high today. Did public trust erode?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "If a new competitor enters the market, prices drop. If prices drop, consumer spending increases. If a monopoly forms, prices rise. If prices rise, consumer spending decreases. Today, either a new competitor entered, or a monopoly formed, or both.",
+        "question": "Consumer spending was low today. Did prices drop?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "If a new competitor enters the market, prices drop. If prices drop, consumer spending increases. If a monopoly forms, prices rise. If prices rise, consumer spending decreases. Today, either a new competitor entered, or a monopoly formed, or both.",
+        "question": "Consumer spending was low today. Did prices rise?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "If a celebrity endorses a product, sales increase. If sales increase, market share grows. If a product recall happens, sales decrease. If sales decrease, market share shrinks. Today, either a celebrity endorsed a product, or a recall happened, or both.",
+        "question": "Market share shrank today. Did sales increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "If a celebrity endorses a product, sales increase. If sales increase, market share grows. If a product recall happens, sales decrease. If sales decrease, market share shrinks. Today, either a celebrity endorsed a product, or a recall happened, or both.",
+        "question": "Market share shrank today. Did a product recall happen?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "If a new law is passed, regulations tighten. If regulations tighten, compliance costs rise. If a tax cut is implemented, business profits increase. If business profits increase, investments grow. Today, either a new law was passed, or a tax cut was implemented, or both.",
+        "question": "Compliance costs were low today. Did investments grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "If a new law is passed, regulations tighten. If regulations tighten, compliance costs rise. If a tax cut is implemented, business profits increase. If business profits increase, investments grow. Today, either a new law was passed, or a tax cut was implemented, or both.",
+        "question": "Compliance costs were low today. Did regulations tighten?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "If a new technology is adopted, productivity improves. If productivity improves, costs decrease. If a cyber attack occurs, data security is compromised. If data security is compromised, costs increase. Today, either a new technology was adopted, or a cyber attack occurred, or both.",
+        "question": "Costs were high today. Did productivity improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "If a new technology is adopted, productivity improves. If productivity improves, costs decrease. If a cyber attack occurs, data security is compromised. If data security is compromised, costs increase. Today, either a new technology was adopted, or a cyber attack occurred, or both.",
+        "question": "Costs were high today. Was data security compromised?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "If a new policy is introduced, public opinion shifts. If public opinion shifts, media coverage changes. If a major event occurs, public attention is diverted. If public attention is diverted, media coverage decreases. Today, either a new policy was introduced, or a major event occurred, or both.",
+        "question": "Media coverage was extensive today. Did public opinion shift?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "If a new policy is introduced, public opinion shifts. If public opinion shifts, media coverage changes. If a major event occurs, public attention is diverted. If public attention is diverted, media coverage decreases. Today, either a new policy was introduced, or a major event occurred, or both.",
+        "question": "Media coverage was extensive today. Was public attention diverted?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "If a new drug is approved, treatment options expand. If treatment options expand, patient outcomes improve. If a health crisis emerges, resources are strained. If resources are strained, patient outcomes worsen. Today, either a new drug was approved, or a health crisis emerged, or both.",
+        "question": "Patient outcomes were poor today. Did treatment options expand?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "If a new drug is approved, treatment options expand. If treatment options expand, patient outcomes improve. If a health crisis emerges, resources are strained. If resources are strained, patient outcomes worsen. Today, either a new drug was approved, or a health crisis emerged, or both.",
+        "question": "Patient outcomes were poor today. Were resources strained?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "If a new infrastructure project starts, traffic congestion increases. If traffic congestion increases, commute times lengthen. If a new public transport line opens, traffic congestion decreases. If traffic congestion decreases, commute times shorten. Today, either a new project started, or a new line opened, or both.",
+        "question": "Commute times were short today. Did traffic congestion decrease?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "If a new infrastructure project starts, traffic congestion increases. If traffic congestion increases, commute times lengthen. If a new public transport line opens, traffic congestion decreases. If traffic congestion decreases, commute times shorten. Today, either a new project started, or a new line opened, or both.",
+        "question": "Commute times were short today. Did traffic congestion increase?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "If a new educational program is launched, student enrollment rises. If student enrollment rises, funding increases. If a budget cut is announced, resources are limited. If resources are limited, funding decreases. Today, either a new program was launched, or a budget cut was announced, or both.",
+        "question": "Funding was high today. Did student enrollment rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "If a new educational program is launched, student enrollment rises. If student enrollment rises, funding increases. If a budget cut is announced, resources are limited. If resources are limited, funding decreases. Today, either a new program was launched, or a budget cut was announced, or both.",
+        "question": "Funding was high today. Were resources limited?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "If a new art exhibition opens, cultural interest grows. If cultural interest grows, museum attendance increases. If a major renovation occurs, museum sections close. If museum sections close, attendance decreases. Today, either a new exhibition opened, or a renovation occurred, or both.",
+        "question": "Museum attendance was low today. Did cultural interest grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "If a new art exhibition opens, cultural interest grows. If cultural interest grows, museum attendance increases. If a major renovation occurs, museum sections close. If museum sections close, attendance decreases. Today, either a new exhibition opened, or a renovation occurred, or both.",
+        "question": "Museum attendance was low today. Did museum sections close?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "If a new restaurant opens, dining options expand. If dining options expand, customer satisfaction improves. If a food safety issue arises, dining options contract. If dining options contract, customer satisfaction declines. Today, either a new restaurant opened, or a food safety issue arose, or both.",
+        "question": "Customer satisfaction was low today. Did dining options expand?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "If a new restaurant opens, dining options expand. If dining options expand, customer satisfaction improves. If a food safety issue arises, dining options contract. If dining options contract, customer satisfaction declines. Today, either a new restaurant opened, or a food safety issue arose, or both.",
+        "question": "Customer satisfaction was low today. Did a food safety issue arise?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "If a new movie is released, cinema attendance increases. If cinema attendance increases, concession sales rise. If a streaming service launches, cinema attendance decreases. If cinema attendance decreases, concession sales fall. Today, either a new movie was released, or a streaming service launched, or both.",
+        "question": "Concession sales were high today. Did cinema attendance increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "If a new movie is released, cinema attendance increases. If cinema attendance increases, concession sales rise. If a streaming service launches, cinema attendance decreases. If cinema attendance decreases, concession sales fall. Today, either a new movie was released, or a streaming service launched, or both.",
+        "question": "Concession sales were high today. Did a streaming service launch?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "If a new book is published, readership grows. If readership grows, author popularity increases. If a plagiarism scandal occurs, readership declines. If readership declines, author popularity decreases. Today, either a new book was published, or a plagiarism scandal occurred, or both.",
+        "question": "Author popularity was low today. Did readership grow?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "If a new book is published, readership grows. If readership grows, author popularity increases. If a plagiarism scandal occurs, readership declines. If readership declines, author popularity decreases. Today, either a new book was published, or a plagiarism scandal occurred, or both.",
+        "question": "Author popularity was low today. Did a plagiarism scandal occur?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "If a new fashion trend emerges, retail sales increase. If retail sales increase, stock prices rise. If a recession hits, retail sales decrease. If retail sales decrease, stock prices fall. Today, either a new trend emerged, or a recession hit, or both.",
+        "question": "Stock prices were high today. Did retail sales increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "If a new fashion trend emerges, retail sales increase. If retail sales increase, stock prices rise. If a recession hits, retail sales decrease. If retail sales decrease, stock prices fall. Today, either a new trend emerged, or a recession hit, or both.",
+        "question": "Stock prices were high today. Did a recession hit?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "If a new video game is released, gaming hours increase. If gaming hours increase, online traffic surges. If a server outage occurs, gaming hours decrease. If gaming hours decrease, online traffic drops. Today, either a new game was released, or a server outage occurred, or both.",
+        "question": "Online traffic was low today. Did gaming hours increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "If a new video game is released, gaming hours increase. If gaming hours increase, online traffic surges. If a server outage occurs, gaming hours decrease. If gaming hours decrease, online traffic drops. Today, either a new game was released, or a server outage occurred, or both.",
+        "question": "Online traffic was low today. Did a server outage occur?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "If a new fitness program is launched, gym memberships rise. If gym memberships rise, health awareness increases. If a health scare occurs, gym memberships fall. If gym memberships fall, health awareness decreases. Today, either a new program was launched, or a health scare occurred, or both.",
+        "question": "Health awareness was low today. Did gym memberships rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "If a new fitness program is launched, gym memberships rise. If gym memberships rise, health awareness increases. If a health scare occurs, gym memberships fall. If gym memberships fall, health awareness decreases. Today, either a new program was launched, or a health scare occurred, or both.",
+        "question": "Health awareness was low today. Did a health scare occur?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "If a new smartphone is released, tech sales increase. If tech sales increase, market competition intensifies. If a supply chain issue arises, tech sales decrease. If tech sales decrease, market competition weakens. Today, either a new smartphone was released, or a supply chain issue arose, or both.",
+        "question": "Market competition was weak today. Did tech sales increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "If a new smartphone is released, tech sales increase. If tech sales increase, market competition intensifies. If a supply chain issue arises, tech sales decrease. If tech sales decrease, market competition weakens. Today, either a new smartphone was released, or a supply chain issue arose, or both.",
+        "question": "Market competition was weak today. Did a supply chain issue arise?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "If a new concert is announced, ticket sales surge. If ticket sales surge, venue bookings increase. If a pandemic hits, ticket sales plummet. If ticket sales plummet, venue bookings decrease. Today, either a concert was announced, or a pandemic hit, or both.",
+        "question": "Venue bookings were low today. Did ticket sales surge?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "If a new concert is announced, ticket sales surge. If ticket sales surge, venue bookings increase. If a pandemic hits, ticket sales plummet. If ticket sales plummet, venue bookings decrease. Today, either a concert was announced, or a pandemic hit, or both.",
+        "question": "Venue bookings were low today. Did a pandemic hit?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "If a new highway is constructed, traffic congestion eases. If traffic congestion eases, commute times decrease. If a major accident occurs, traffic congestion worsens. If traffic congestion worsens, commute times increase. Today, either a new highway was constructed, or a major accident occurred, or both.",
+        "question": "Commute times were long today. Did traffic congestion ease?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "If a new highway is constructed, traffic congestion eases. If traffic congestion eases, commute times decrease. If a major accident occurs, traffic congestion worsens. If traffic congestion worsens, commute times increase. Today, either a new highway was constructed, or a major accident occurred, or both.",
+        "question": "Commute times were long today. Did a major accident occur?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "If a new vaccine is developed, disease spread is controlled. If disease spread is controlled, public health improves. If a virus mutates, disease spread increases. If disease spread increases, public health declines. Today, either a new vaccine was developed, or a virus mutated, or both.",
+        "question": "Public health was poor today. Was disease spread controlled?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "If a new vaccine is developed, disease spread is controlled. If disease spread is controlled, public health improves. If a virus mutates, disease spread increases. If disease spread increases, public health declines. Today, either a new vaccine was developed, or a virus mutated, or both.",
+        "question": "Public health was poor today. Did a virus mutate?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "If a new shopping mall opens, local economy boosts. If local economy boosts, job opportunities increase. If a recession hits, local economy suffers. If local economy suffers, job opportunities decrease. Today, either a new mall opened, or a recession hit, or both.",
+        "question": "Job opportunities were scarce today. Did the local economy boost?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "If a new shopping mall opens, local economy boosts. If local economy boosts, job opportunities increase. If a recession hits, local economy suffers. If local economy suffers, job opportunities decrease. Today, either a new mall opened, or a recession hit, or both.",
+        "question": "Job opportunities were scarce today. Did a recession hit?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "If a new park is inaugurated, community activities increase. If community activities increase, social bonds strengthen. If a crime wave hits, community activities decrease. If community activities decrease, social bonds weaken. Today, either a new park was inaugurated, or a crime wave hit, or both.",
+        "question": "Social bonds were weak today. Did community activities increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "If a new park is inaugurated, community activities increase. If community activities increase, social bonds strengthen. If a crime wave hits, community activities decrease. If community activities decrease, social bonds weaken. Today, either a new park was inaugurated, or a crime wave hit, or both.",
+        "question": "Social bonds were weak today. Did a crime wave hit?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "If a new school is built, educational access improves. If educational access improves, literacy rates rise. If a natural disaster strikes, educational access declines. If educational access declines, literacy rates fall. Today, either a new school was built, or a natural disaster struck, or both.",
+        "question": "Literacy rates were low today. Did educational access improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "If a new school is built, educational access improves. If educational access improves, literacy rates rise. If a natural disaster strikes, educational access declines. If educational access declines, literacy rates fall. Today, either a new school was built, or a natural disaster struck, or both.",
+        "question": "Literacy rates were low today. Did a natural disaster strike?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "If a new energy policy is implemented, carbon emissions decrease. If carbon emissions decrease, air quality improves. If industrial activity increases, carbon emissions rise. If carbon emissions rise, air quality worsens. Today, either a new policy was implemented, or industrial activity increased, or both.",
+        "question": "Air quality was poor today. Did carbon emissions decrease?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "If a new energy policy is implemented, carbon emissions decrease. If carbon emissions decrease, air quality improves. If industrial activity increases, carbon emissions rise. If carbon emissions rise, air quality worsens. Today, either a new policy was implemented, or industrial activity increased, or both.",
+        "question": "Air quality was poor today. Did industrial activity increase?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "If a new art gallery opens, cultural tourism increases. If cultural tourism increases, local businesses thrive. If a political unrest occurs, cultural tourism decreases. If cultural tourism decreases, local businesses suffer. Today, either a new gallery opened, or political unrest occurred, or both.",
+        "question": "Local businesses suffered today. Did cultural tourism increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "If a new art gallery opens, cultural tourism increases. If cultural tourism increases, local businesses thrive. If a political unrest occurs, cultural tourism decreases. If cultural tourism decreases, local businesses suffer. Today, either a new gallery opened, or political unrest occurred, or both.",
+        "question": "Local businesses suffered today. Did political unrest occur?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "If a new sports facility is built, athletic participation rises. If athletic participation rises, community health improves. If a health crisis emerges, athletic participation falls. If athletic participation falls, community health declines. Today, either a new facility was built, or a health crisis emerged, or both.",
+        "question": "Community health was poor today. Did athletic participation rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "If a new sports facility is built, athletic participation rises. If athletic participation rises, community health improves. If a health crisis emerges, athletic participation falls. If athletic participation falls, community health declines. Today, either a new facility was built, or a health crisis emerged, or both.",
+        "question": "Community health was poor today. Did a health crisis emerge?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "If a new transportation system is introduced, travel efficiency improves. If travel efficiency improves, commuter satisfaction increases. If fuel prices rise, travel efficiency decreases. If travel efficiency decreases, commuter satisfaction declines. Today, either a new system was introduced, or fuel prices rose, or both.",
+        "question": "Commuter satisfaction was low today. Did travel efficiency improve?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "If a new transportation system is introduced, travel efficiency improves. If travel efficiency improves, commuter satisfaction increases. If fuel prices rise, travel efficiency decreases. If travel efficiency decreases, commuter satisfaction declines. Today, either a new system was introduced, or fuel prices rose, or both.",
+        "question": "Commuter satisfaction was low today. Did fuel prices rise?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "If a new environmental regulation is enforced, pollution levels drop. If pollution levels drop, biodiversity improves. If industrial expansion occurs, pollution levels rise. If pollution levels rise, biodiversity declines. Today, either a new regulation was enforced, or industrial expansion occurred, or both.",
+        "question": "Biodiversity was poor today. Did pollution levels drop?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "If a new environmental regulation is enforced, pollution levels drop. If pollution levels drop, biodiversity improves. If industrial expansion occurs, pollution levels rise. If pollution levels rise, biodiversity declines. Today, either a new regulation was enforced, or industrial expansion occurred, or both.",
+        "question": "Biodiversity was poor today. Did industrial expansion occur?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "If a new housing project is completed, housing availability increases. If housing availability increases, rental prices decrease. If a housing shortage occurs, housing availability decreases. If housing availability decreases, rental prices increase. Today, either a new project was completed, or a housing shortage occurred, or both.",
+        "question": "Rental prices were high today. Did housing availability increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "If a new housing project is completed, housing availability increases. If housing availability increases, rental prices decrease. If a housing shortage occurs, housing availability decreases. If housing availability decreases, rental prices increase. Today, either a new project was completed, or a housing shortage occurred, or both.",
+        "question": "Rental prices were high today. Did a housing shortage occur?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "If a new tech startup launches, innovation accelerates. If innovation accelerates, market dynamics change. If a tech bubble bursts, innovation slows. If innovation slows, market dynamics stagnate. Today, either a new startup launched, or a tech bubble burst, or both.",
+        "question": "Market dynamics were stagnant today. Did innovation accelerate?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "If a new tech startup launches, innovation accelerates. If innovation accelerates, market dynamics change. If a tech bubble bursts, innovation slows. If innovation slows, market dynamics stagnate. Today, either a new startup launched, or a tech bubble burst, or both.",
+        "question": "Market dynamics were stagnant today. Did a tech bubble burst?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "If a new agricultural technique is adopted, crop yields increase. If crop yields increase, food prices decrease. If a pest outbreak occurs, crop yields decrease. If crop yields decrease, food prices increase. Today, either a new technique was adopted, or a pest outbreak occurred, or both.",
+        "question": "Food prices were high today. Did crop yields increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "If a new agricultural technique is adopted, crop yields increase. If crop yields increase, food prices decrease. If a pest outbreak occurs, crop yields decrease. If crop yields decrease, food prices increase. Today, either a new technique was adopted, or a pest outbreak occurred, or both.",
+        "question": "Food prices were high today. Did a pest outbreak occur?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "If a new fashion line is launched, brand visibility increases. If brand visibility increases, sales grow. If a supply chain disruption occurs, brand visibility decreases. If brand visibility decreases, sales fall. Today, either a new line was launched, or a supply chain disruption occurred, or both.",
+        "question": "Sales were low today. Did brand visibility increase?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "If a new fashion line is launched, brand visibility increases. If brand visibility increases, sales grow. If a supply chain disruption occurs, brand visibility decreases. If brand visibility decreases, sales fall. Today, either a new line was launched, or a supply chain disruption occurred, or both.",
+        "question": "Sales were low today. Did a supply chain disruption occur?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "If a new music album is released, streaming numbers rise. If streaming numbers rise, artist popularity increases. If a copyright issue arises, streaming numbers fall. If streaming numbers fall, artist popularity decreases. Today, either a new album was released, or a copyright issue arose, or both.",
+        "question": "Artist popularity was low today. Did streaming numbers rise?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "If a new music album is released, streaming numbers rise. If streaming numbers rise, artist popularity increases. If a copyright issue arises, streaming numbers fall. If streaming numbers fall, artist popularity decreases. Today, either a new album was released, or a copyright issue arose, or both.",
+        "question": "Artist popularity was low today. Did a copyright issue arise?",
+        "answer": "no"
+    }
+]

@@ -1,0 +1,608 @@
+[
+    {
+        "id": 1,
+        "context": "In science class, students do different experiments each week. If they study biology, they will look at cells under a microscope. Also, if they study chemistry, they will mix chemicals together. It seems either they will study biology, or chemistry, or possibly both this week.",
+        "question": "If the students did not look at cells under a microscope, then did they mix chemicals together in chemistry class?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "In art class, students either paint landscapes or sculpt clay models. If they paint landscapes, they will use watercolors. If they sculpt clay models, they will use a pottery wheel. This week, they will either paint landscapes or sculpt clay models, or possibly both.",
+        "question": "If the students did not use watercolors, then did they use a pottery wheel?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "In art class, students either paint landscapes or sculpt clay models. If they paint landscapes, they will use watercolors. If they sculpt clay models, they will use a pottery wheel. This week, they will either paint landscapes or sculpt clay models, or possibly both.",
+        "question": "If the students did not use a pottery wheel, then did they use watercolors?",
+        "answer": "no"
+    },
+    {
+        "id": 4,
+        "context": "In music class, students either play the piano or the guitar. If they play the piano, they will learn a classical piece. If they play the guitar, they will learn a rock song. This week, they will either play the piano or the guitar, or possibly both.",
+        "question": "If the students did not learn a classical piece, then did they learn a rock song?",
+        "answer": "yes"
+    },
+    {
+        "id": 5,
+        "context": "In music class, students either play the piano or the guitar. If they play the piano, they will learn a classical piece. If they play the guitar, they will learn a rock song. This week, they will either play the piano or the guitar, or possibly both.",
+        "question": "If the students did not learn a rock song, then did they learn a classical piece?",
+        "answer": "no"
+    },
+    {
+        "id": 6,
+        "context": "In gym class, students either play basketball or soccer. If they play basketball, they will practice dribbling. If they play soccer, they will practice passing. This week, they will either play basketball or soccer, or possibly both.",
+        "question": "If the students did not practice dribbling, then did they practice passing?",
+        "answer": "yes"
+    },
+    {
+        "id": 7,
+        "context": "In gym class, students either play basketball or soccer. If they play basketball, they will practice dribbling. If they play soccer, they will practice passing. This week, they will either play basketball or soccer, or possibly both.",
+        "question": "If the students did not practice passing, then did they practice dribbling?",
+        "answer": "no"
+    },
+    {
+        "id": 8,
+        "context": "In cooking class, students either bake bread or make pasta. If they bake bread, they will use yeast. If they make pasta, they will use flour. This week, they will either bake bread or make pasta, or possibly both.",
+        "question": "If the students did not use yeast, then did they use flour?",
+        "answer": "yes"
+    },
+    {
+        "id": 9,
+        "context": "In cooking class, students either bake bread or make pasta. If they bake bread, they will use yeast. If they make pasta, they will use flour. This week, they will either bake bread or make pasta, or possibly both.",
+        "question": "If the students did not use flour, then did they use yeast?",
+        "answer": "no"
+    },
+    {
+        "id": 10,
+        "context": "In drama class, students either perform a play or a monologue. If they perform a play, they will rehearse in groups. If they perform a monologue, they will rehearse individually. This week, they will either perform a play or a monologue, or possibly both.",
+        "question": "If the students did not rehearse in groups, then did they rehearse individually?",
+        "answer": "yes"
+    },
+    {
+        "id": 11,
+        "context": "In drama class, students either perform a play or a monologue. If they perform a play, they will rehearse in groups. If they perform a monologue, they will rehearse individually. This week, they will either perform a play or a monologue, or possibly both.",
+        "question": "If the students did not rehearse individually, then did they rehearse in groups?",
+        "answer": "no"
+    },
+    {
+        "id": 12,
+        "context": "In history class, students either study ancient Egypt or ancient Greece. If they study ancient Egypt, they will learn about pyramids. If they study ancient Greece, they will learn about philosophers. This week, they will either study ancient Egypt or ancient Greece, or possibly both.",
+        "question": "If the students did not learn about pyramids, then did they learn about philosophers?",
+        "answer": "yes"
+    },
+    {
+        "id": 13,
+        "context": "In history class, students either study ancient Egypt or ancient Greece. If they study ancient Egypt, they will learn about pyramids. If they study ancient Greece, they will learn about philosophers. This week, they will either study ancient Egypt or ancient Greece, or possibly both.",
+        "question": "If the students did not learn about philosophers, then did they learn about pyramids?",
+        "answer": "no"
+    },
+    {
+        "id": 14,
+        "context": "In geography class, students either study mountains or rivers. If they study mountains, they will learn about the Himalayas. If they study rivers, they will learn about the Amazon. This week, they will either study mountains or rivers, or possibly both.",
+        "question": "If the students did not learn about the Himalayas, then did they learn about the Amazon?",
+        "answer": "yes"
+    },
+    {
+        "id": 15,
+        "context": "In geography class, students either study mountains or rivers. If they study mountains, they will learn about the Himalayas. If they study rivers, they will learn about the Amazon. This week, they will either study mountains or rivers, or possibly both.",
+        "question": "If the students did not learn about the Amazon, then did they learn about the Himalayas?",
+        "answer": "no"
+    },
+    {
+        "id": 16,
+        "context": "In computer science class, students either learn programming or networking. If they learn programming, they will write code. If they learn networking, they will set up routers. This week, they will either learn programming or networking, or possibly both.",
+        "question": "If the students did not write code, then did they set up routers?",
+        "answer": "yes"
+    },
+    {
+        "id": 17,
+        "context": "In computer science class, students either learn programming or networking. If they learn programming, they will write code. If they learn networking, they will set up routers. This week, they will either learn programming or networking, or possibly both.",
+        "question": "If the students did not set up routers, then did they write code?",
+        "answer": "no"
+    },
+    {
+        "id": 18,
+        "context": "In literature class, students either read novels or poetry. If they read novels, they will discuss characters. If they read poetry, they will analyze themes. This week, they will either read novels or poetry, or possibly both.",
+        "question": "If the students did not discuss characters, then did they analyze themes?",
+        "answer": "yes"
+    },
+    {
+        "id": 19,
+        "context": "In literature class, students either read novels or poetry. If they read novels, they will discuss characters. If they read poetry, they will analyze themes. This week, they will either read novels or poetry, or possibly both.",
+        "question": "If the students did not analyze themes, then did they discuss characters?",
+        "answer": "no"
+    },
+    {
+        "id": 20,
+        "context": "In biology class, students either study mammals or reptiles. If they study mammals, they will learn about warm-blooded animals. If they study reptiles, they will learn about cold-blooded animals. This week, they will either study mammals or reptiles, or possibly both.",
+        "question": "If the students did not learn about warm-blooded animals, then did they learn about cold-blooded animals?",
+        "answer": "yes"
+    },
+    {
+        "id": 21,
+        "context": "In biology class, students either study mammals or reptiles. If they study mammals, they will learn about warm-blooded animals. If they study reptiles, they will learn about cold-blooded animals. This week, they will either study mammals or reptiles, or possibly both.",
+        "question": "If the students did not learn about cold-blooded animals, then did they learn about warm-blooded animals?",
+        "answer": "no"
+    },
+    {
+        "id": 22,
+        "context": "In chemistry class, students either study acids or bases. If they study acids, they will learn about pH levels. If they study bases, they will learn about neutralization. This week, they will either study acids or bases, or possibly both.",
+        "question": "If the students did not learn about pH levels, then did they learn about neutralization?",
+        "answer": "yes"
+    },
+    {
+        "id": 23,
+        "context": "In chemistry class, students either study acids or bases. If they study acids, they will learn about pH levels. If they study bases, they will learn about neutralization. This week, they will either study acids or bases, or possibly both.",
+        "question": "If the students did not learn about neutralization, then did they learn about pH levels?",
+        "answer": "no"
+    },
+    {
+        "id": 24,
+        "context": "In physics class, students either study motion or energy. If they study motion, they will learn about velocity. If they study energy, they will learn about potential energy. This week, they will either study motion or energy, or possibly both.",
+        "question": "If the students did not learn about velocity, then did they learn about potential energy?",
+        "answer": "yes"
+    },
+    {
+        "id": 25,
+        "context": "In physics class, students either study motion or energy. If they study motion, they will learn about velocity. If they study energy, they will learn about potential energy. This week, they will either study motion or energy, or possibly both.",
+        "question": "If the students did not learn about potential energy, then did they learn about velocity?",
+        "answer": "no"
+    },
+    {
+        "id": 26,
+        "context": "In economics class, students either study microeconomics or macroeconomics. If they study microeconomics, they will learn about supply and demand. If they study macroeconomics, they will learn about GDP. This week, they will either study microeconomics or macroeconomics, or possibly both.",
+        "question": "If the students did not learn about supply and demand, then did they learn about GDP?",
+        "answer": "yes"
+    },
+    {
+        "id": 27,
+        "context": "In economics class, students either study microeconomics or macroeconomics. If they study microeconomics, they will learn about supply and demand. If they study macroeconomics, they will learn about GDP. This week, they will either study microeconomics or macroeconomics, or possibly both.",
+        "question": "If the students did not learn about GDP, then did they learn about supply and demand?",
+        "answer": "no"
+    },
+    {
+        "id": 28,
+        "context": "In psychology class, students either study behaviorism or cognitive psychology. If they study behaviorism, they will learn about conditioning. If they study cognitive psychology, they will learn about memory. This week, they will either study behaviorism or cognitive psychology, or possibly both.",
+        "question": "If the students did not learn about conditioning, then did they learn about memory?",
+        "answer": "yes"
+    },
+    {
+        "id": 29,
+        "context": "In psychology class, students either study behaviorism or cognitive psychology. If they study behaviorism, they will learn about conditioning. If they study cognitive psychology, they will learn about memory. This week, they will either study behaviorism or cognitive psychology, or possibly both.",
+        "question": "If the students did not learn about memory, then did they learn about conditioning?",
+        "answer": "no"
+    },
+    {
+        "id": 30,
+        "context": "In sociology class, students either study social structures or social change. If they study social structures, they will learn about institutions. If they study social change, they will learn about revolutions. This week, they will either study social structures or social change, or possibly both.",
+        "question": "If the students did not learn about institutions, then did they learn about revolutions?",
+        "answer": "yes"
+    },
+    {
+        "id": 31,
+        "context": "In sociology class, students either study social structures or social change. If they study social structures, they will learn about institutions. If they study social change, they will learn about revolutions. This week, they will either study social structures or social change, or possibly both.",
+        "question": "If the students did not learn about revolutions, then did they learn about institutions?",
+        "answer": "no"
+    },
+    {
+        "id": 32,
+        "context": "In philosophy class, students either study ethics or metaphysics. If they study ethics, they will learn about moral theories. If they study metaphysics, they will learn about existence. This week, they will either study ethics or metaphysics, or possibly both.",
+        "question": "If the students did not learn about moral theories, then did they learn about existence?",
+        "answer": "yes"
+    },
+    {
+        "id": 33,
+        "context": "In philosophy class, students either study ethics or metaphysics. If they study ethics, they will learn about moral theories. If they study metaphysics, they will learn about existence. This week, they will either study ethics or metaphysics, or possibly both.",
+        "question": "If the students did not learn about existence, then did they learn about moral theories?",
+        "answer": "no"
+    },
+    {
+        "id": 34,
+        "context": "In environmental science class, students either study ecosystems or climate change. If they study ecosystems, they will learn about biodiversity. If they study climate change, they will learn about greenhouse gases. This week, they will either study ecosystems or climate change, or possibly both.",
+        "question": "If the students did not learn about biodiversity, then did they learn about greenhouse gases?",
+        "answer": "yes"
+    },
+    {
+        "id": 35,
+        "context": "In environmental science class, students either study ecosystems or climate change. If they study ecosystems, they will learn about biodiversity. If they study climate change, they will learn about greenhouse gases. This week, they will either study ecosystems or climate change, or possibly both.",
+        "question": "If the students did not learn about greenhouse gases, then did they learn about biodiversity?",
+        "answer": "no"
+    },
+    {
+        "id": 36,
+        "context": "In political science class, students either study democracy or authoritarianism. If they study democracy, they will learn about elections. If they study authoritarianism, they will learn about power consolidation. This week, they will either study democracy or authoritarianism, or possibly both.",
+        "question": "If the students did not learn about elections, then did they learn about power consolidation?",
+        "answer": "yes"
+    },
+    {
+        "id": 37,
+        "context": "In political science class, students either study democracy or authoritarianism. If they study democracy, they will learn about elections. If they study authoritarianism, they will learn about power consolidation. This week, they will either study democracy or authoritarianism, or possibly both.",
+        "question": "If the students did not learn about power consolidation, then did they learn about elections?",
+        "answer": "no"
+    },
+    {
+        "id": 38,
+        "context": "In anthropology class, students either study human evolution or cultural anthropology. If they study human evolution, they will learn about fossils. If they study cultural anthropology, they will learn about rituals. This week, they will either study human evolution or cultural anthropology, or possibly both.",
+        "question": "If the students did not learn about fossils, then did they learn about rituals?",
+        "answer": "yes"
+    },
+    {
+        "id": 39,
+        "context": "In anthropology class, students either study human evolution or cultural anthropology. If they study human evolution, they will learn about fossils. If they study cultural anthropology, they will learn about rituals. This week, they will either study human evolution or cultural anthropology, or possibly both.",
+        "question": "If the students did not learn about rituals, then did they learn about fossils?",
+        "answer": "no"
+    },
+    {
+        "id": 40,
+        "context": "In linguistics class, students either study phonetics or syntax. If they study phonetics, they will learn about sounds. If they study syntax, they will learn about sentence structure. This week, they will either study phonetics or syntax, or possibly both.",
+        "question": "If the students did not learn about sounds, then did they learn about sentence structure?",
+        "answer": "yes"
+    },
+    {
+        "id": 41,
+        "context": "In linguistics class, students either study phonetics or syntax. If they study phonetics, they will learn about sounds. If they study syntax, they will learn about sentence structure. This week, they will either study phonetics or syntax, or possibly both.",
+        "question": "If the students did not learn about sentence structure, then did they learn about sounds?",
+        "answer": "no"
+    },
+    {
+        "id": 42,
+        "context": "In astronomy class, students either study stars or planets. If they study stars, they will learn about constellations. If they study planets, they will learn about orbits. This week, they will either study stars or planets, or possibly both.",
+        "question": "If the students did not learn about constellations, then did they learn about orbits?",
+        "answer": "yes"
+    },
+    {
+        "id": 43,
+        "context": "In astronomy class, students either study stars or planets. If they study stars, they will learn about constellations. If they study planets, they will learn about orbits. This week, they will either study stars or planets, or possibly both.",
+        "question": "If the students did not learn about orbits, then did they learn about constellations?",
+        "answer": "no"
+    },
+    {
+        "id": 44,
+        "context": "In art history class, students either study Renaissance art or modern art. If they study Renaissance art, they will learn about Michelangelo. If they study modern art, they will learn about Picasso. This week, they will either study Renaissance art or modern art, or possibly both.",
+        "question": "If the students did not learn about Michelangelo, then did they learn about Picasso?",
+        "answer": "yes"
+    },
+    {
+        "id": 45,
+        "context": "In art history class, students either study Renaissance art or modern art. If they study Renaissance art, they will learn about Michelangelo. If they study modern art, they will learn about Picasso. This week, they will either study Renaissance art or modern art, or possibly both.",
+        "question": "If the students did not learn about Picasso, then did they learn about Michelangelo?",
+        "answer": "no"
+    },
+    {
+        "id": 46,
+        "context": "In architecture class, students either study Gothic architecture or Baroque architecture. If they study Gothic architecture, they will learn about cathedrals. If they study Baroque architecture, they will learn about palaces. This week, they will either study Gothic architecture or Baroque architecture, or possibly both.",
+        "question": "If the students did not learn about cathedrals, then did they learn about palaces?",
+        "answer": "yes"
+    },
+    {
+        "id": 47,
+        "context": "In architecture class, students either study Gothic architecture or Baroque architecture. If they study Gothic architecture, they will learn about cathedrals. If they study Baroque architecture, they will learn about palaces. This week, they will either study Gothic architecture or Baroque architecture, or possibly both.",
+        "question": "If the students did not learn about palaces, then did they learn about cathedrals?",
+        "answer": "no"
+    },
+    {
+        "id": 48,
+        "context": "In zoology class, students either study mammals or birds. If they study mammals, they will learn about fur. If they study birds, they will learn about feathers. This week, they will either study mammals or birds, or possibly both.",
+        "question": "If the students did not learn about fur, then did they learn about feathers?",
+        "answer": "yes"
+    },
+    {
+        "id": 49,
+        "context": "In zoology class, students either study mammals or birds. If they study mammals, they will learn about fur. If they study birds, they will learn about feathers. This week, they will either study mammals or birds, or possibly both.",
+        "question": "If the students did not learn about feathers, then did they learn about fur?",
+        "answer": "no"
+    },
+    {
+        "id": 50,
+        "context": "In botany class, students either study flowers or trees. If they study flowers, they will learn about petals. If they study trees, they will learn about bark. This week, they will either study flowers or trees, or possibly both.",
+        "question": "If the students did not learn about petals, then did they learn about bark?",
+        "answer": "yes"
+    },
+    {
+        "id": 51,
+        "context": "In botany class, students either study flowers or trees. If they study flowers, they will learn about petals. If they study trees, they will learn about bark. This week, they will either study flowers or trees, or possibly both.",
+        "question": "If the students did not learn about bark, then did they learn about petals?",
+        "answer": "no"
+    },
+    {
+        "id": 52,
+        "context": "In the animal kingdom, lions either hunt zebras or wildebeests. If they hunt zebras, they will stalk in the grasslands. If they hunt wildebeests, they will ambush near waterholes. This week, they will either hunt zebras or wildebeests, or possibly both.",
+        "question": "If the lions did not stalk in the grasslands, then did they ambush near waterholes?",
+        "answer": "yes"
+    },
+    {
+        "id": 53,
+        "context": "In the animal kingdom, lions either hunt zebras or wildebeests. If they hunt zebras, they will stalk in the grasslands. If they hunt wildebeests, they will ambush near waterholes. This week, they will either hunt zebras or wildebeests, or possibly both.",
+        "question": "If the lions did not ambush near waterholes, then did they stalk in the grasslands?",
+        "answer": "no"
+    },
+    {
+        "id": 54,
+        "context": "In the tech industry, companies either develop software or hardware. If they develop software, they will focus on coding. If they develop hardware, they will focus on manufacturing. This quarter, they will either develop software or hardware, or possibly both.",
+        "question": "If the companies did not focus on coding, then did they focus on manufacturing?",
+        "answer": "yes"
+    },
+    {
+        "id": 55,
+        "context": "In the tech industry, companies either develop software or hardware. If they develop software, they will focus on coding. If they develop hardware, they will focus on manufacturing. This quarter, they will either develop software or hardware, or possibly both.",
+        "question": "If the companies did not focus on manufacturing, then did they focus on coding?",
+        "answer": "no"
+    },
+    {
+        "id": 56,
+        "context": "In the culinary world, chefs either prepare Italian cuisine or French cuisine. If they prepare Italian cuisine, they will use olive oil. If they prepare French cuisine, they will use butter. This month, they will either prepare Italian or French cuisine, or possibly both.",
+        "question": "If the chefs did not use olive oil, then did they use butter?",
+        "answer": "yes"
+    },
+    {
+        "id": 57,
+        "context": "In the culinary world, chefs either prepare Italian cuisine or French cuisine. If they prepare Italian cuisine, they will use olive oil. If they prepare French cuisine, they will use butter. This month, they will either prepare Italian or French cuisine, or possibly both.",
+        "question": "If the chefs did not use butter, then did they use olive oil?",
+        "answer": "no"
+    },
+    {
+        "id": 58,
+        "context": "In the automotive industry, manufacturers either produce electric cars or hybrid cars. If they produce electric cars, they will focus on battery technology. If they produce hybrid cars, they will focus on fuel efficiency. This year, they will either produce electric or hybrid cars, or possibly both.",
+        "question": "If the manufacturers did not focus on battery technology, then did they focus on fuel efficiency?",
+        "answer": "yes"
+    },
+    {
+        "id": 59,
+        "context": "In the automotive industry, manufacturers either produce electric cars or hybrid cars. If they produce electric cars, they will focus on battery technology. If they produce hybrid cars, they will focus on fuel efficiency. This year, they will either produce electric or hybrid cars, or possibly both.",
+        "question": "If the manufacturers did not focus on fuel efficiency, then did they focus on battery technology?",
+        "answer": "no"
+    },
+    {
+        "id": 60,
+        "context": "In the publishing world, authors either write fiction or non-fiction. If they write fiction, they will create characters. If they write non-fiction, they will conduct research. This season, they will either write fiction or non-fiction, or possibly both.",
+        "question": "If the authors did not create characters, then did they conduct research?",
+        "answer": "yes"
+    },
+    {
+        "id": 61,
+        "context": "In the publishing world, authors either write fiction or non-fiction. If they write fiction, they will create characters. If they write non-fiction, they will conduct research. This season, they will either write fiction or non-fiction, or possibly both.",
+        "question": "If the authors did not conduct research, then did they create characters?",
+        "answer": "no"
+    },
+    {
+        "id": 62,
+        "context": "In the fashion industry, designers either create summer collections or winter collections. If they create summer collections, they will use light fabrics. If they create winter collections, they will use wool. This year, they will either create summer or winter collections, or possibly both.",
+        "question": "If the designers did not use light fabrics, then did they use wool?",
+        "answer": "yes"
+    },
+    {
+        "id": 63,
+        "context": "In the fashion industry, designers either create summer collections or winter collections. If they create summer collections, they will use light fabrics. If they create winter collections, they will use wool. This year, they will either create summer or winter collections, or possibly both.",
+        "question": "If the designers did not use wool, then did they use light fabrics?",
+        "answer": "no"
+    },
+    {
+        "id": 64,
+        "context": "In the film industry, directors either make action movies or dramas. If they make action movies, they will use special effects. If they make dramas, they will focus on dialogue. This year, they will either make action movies or dramas, or possibly both.",
+        "question": "If the directors did not use special effects, then did they focus on dialogue?",
+        "answer": "yes"
+    },
+    {
+        "id": 65,
+        "context": "In the film industry, directors either make action movies or dramas. If they make action movies, they will use special effects. If they make dramas, they will focus on dialogue. This year, they will either make action movies or dramas, or possibly both.",
+        "question": "If the directors did not focus on dialogue, then did they use special effects?",
+        "answer": "no"
+    },
+    {
+        "id": 66,
+        "context": "In the music industry, bands either release albums or singles. If they release albums, they will go on tour. If they release singles, they will promote on social media. This year, they will either release albums or singles, or possibly both.",
+        "question": "If the bands did not go on tour, then did they promote on social media?",
+        "answer": "yes"
+    },
+    {
+        "id": 67,
+        "context": "In the music industry, bands either release albums or singles. If they release albums, they will go on tour. If they release singles, they will promote on social media. This year, they will either release albums or singles, or possibly both.",
+        "question": "If the bands did not promote on social media, then did they go on tour?",
+        "answer": "no"
+    },
+    {
+        "id": 68,
+        "context": "In the agricultural sector, farmers either grow wheat or corn. If they grow wheat, they will harvest in summer. If they grow corn, they will harvest in autumn. This year, they will either grow wheat or corn, or possibly both.",
+        "question": "If the farmers did not harvest in summer, then did they harvest in autumn?",
+        "answer": "yes"
+    },
+    {
+        "id": 69,
+        "context": "In the agricultural sector, farmers either grow wheat or corn. If they grow wheat, they will harvest in summer. If they grow corn, they will harvest in autumn. This year, they will either grow wheat or corn, or possibly both.",
+        "question": "If the farmers did not harvest in autumn, then did they harvest in summer?",
+        "answer": "no"
+    },
+    {
+        "id": 70,
+        "context": "In the healthcare industry, hospitals either focus on surgery or rehabilitation. If they focus on surgery, they will use operating rooms. If they focus on rehabilitation, they will use therapy rooms. This year, they will either focus on surgery or rehabilitation, or possibly both.",
+        "question": "If the hospitals did not use operating rooms, then did they use therapy rooms?",
+        "answer": "yes"
+    },
+    {
+        "id": 71,
+        "context": "In the healthcare industry, hospitals either focus on surgery or rehabilitation. If they focus on surgery, they will use operating rooms. If they focus on rehabilitation, they will use therapy rooms. This year, they will either focus on surgery or rehabilitation, or possibly both.",
+        "question": "If the hospitals did not use therapy rooms, then did they use operating rooms?",
+        "answer": "no"
+    },
+    {
+        "id": 72,
+        "context": "In the construction industry, companies either build residential or commercial properties. If they build residential properties, they will use bricks. If they build commercial properties, they will use steel. This year, they will either build residential or commercial properties, or possibly both.",
+        "question": "If the companies did not use bricks, then did they use steel?",
+        "answer": "yes"
+    },
+    {
+        "id": 73,
+        "context": "In the construction industry, companies either build residential or commercial properties. If they build residential properties, they will use bricks. If they build commercial properties, they will use steel. This year, they will either build residential or commercial properties, or possibly both.",
+        "question": "If the companies did not use steel, then did they use bricks?",
+        "answer": "no"
+    },
+    {
+        "id": 74,
+        "context": "In the travel industry, agencies either offer beach vacations or mountain retreats. If they offer beach vacations, they will include snorkeling. If they offer mountain retreats, they will include hiking. This season, they will either offer beach vacations or mountain retreats, or possibly both.",
+        "question": "If the agencies did not include snorkeling, then did they include hiking?",
+        "answer": "yes"
+    },
+    {
+        "id": 75,
+        "context": "In the travel industry, agencies either offer beach vacations or mountain retreats. If they offer beach vacations, they will include snorkeling. If they offer mountain retreats, they will include hiking. This season, they will either offer beach vacations or mountain retreats, or possibly both.",
+        "question": "If the agencies did not include hiking, then did they include snorkeling?",
+        "answer": "no"
+    },
+    {
+        "id": 76,
+        "context": "In the education sector, schools either focus on STEM or arts. If they focus on STEM, they will emphasize mathematics. If they focus on arts, they will emphasize creativity. This year, they will either focus on STEM or arts, or possibly both.",
+        "question": "If the schools did not emphasize mathematics, then did they emphasize creativity?",
+        "answer": "yes"
+    },
+    {
+        "id": 77,
+        "context": "In the education sector, schools either focus on STEM or arts. If they focus on STEM, they will emphasize mathematics. If they focus on arts, they will emphasize creativity. This year, they will either focus on STEM or arts, or possibly both.",
+        "question": "If the schools did not emphasize creativity, then did they emphasize mathematics?",
+        "answer": "no"
+    },
+    {
+        "id": 78,
+        "context": "In the retail industry, stores either sell electronics or clothing. If they sell electronics, they will offer warranties. If they sell clothing, they will offer discounts. This season, they will either sell electronics or clothing, or possibly both.",
+        "question": "If the stores did not offer warranties, then did they offer discounts?",
+        "answer": "yes"
+    },
+    {
+        "id": 79,
+        "context": "In the retail industry, stores either sell electronics or clothing. If they sell electronics, they will offer warranties. If they sell clothing, they will offer discounts. This season, they will either sell electronics or clothing, or possibly both.",
+        "question": "If the stores did not offer discounts, then did they offer warranties?",
+        "answer": "no"
+    },
+    {
+        "id": 80,
+        "context": "In the financial sector, banks either provide loans or investment services. If they provide loans, they will assess credit scores. If they provide investment services, they will assess market trends. This year, they will either provide loans or investment services, or possibly both.",
+        "question": "If the banks did not assess credit scores, then did they assess market trends?",
+        "answer": "yes"
+    },
+    {
+        "id": 81,
+        "context": "In the financial sector, banks either provide loans or investment services. If they provide loans, they will assess credit scores. If they provide investment services, they will assess market trends. This year, they will either provide loans or investment services, or possibly both.",
+        "question": "If the banks did not assess market trends, then did they assess credit scores?",
+        "answer": "no"
+    },
+    {
+        "id": 82,
+        "context": "In the energy sector, companies either produce solar power or wind power. If they produce solar power, they will install panels. If they produce wind power, they will install turbines. This year, they will either produce solar or wind power, or possibly both.",
+        "question": "If the companies did not install panels, then did they install turbines?",
+        "answer": "yes"
+    },
+    {
+        "id": 83,
+        "context": "In the energy sector, companies either produce solar power or wind power. If they produce solar power, they will install panels. If they produce wind power, they will install turbines. This year, they will either produce solar or wind power, or possibly both.",
+        "question": "If the companies did not install turbines, then did they install panels?",
+        "answer": "no"
+    },
+    {
+        "id": 84,
+        "context": "In the telecommunications industry, providers either offer internet services or mobile services. If they offer internet services, they will provide routers. If they offer mobile services, they will provide SIM cards. This year, they will either offer internet or mobile services, or possibly both.",
+        "question": "If the providers did not provide routers, then did they provide SIM cards?",
+        "answer": "yes"
+    },
+    {
+        "id": 85,
+        "context": "In the telecommunications industry, providers either offer internet services or mobile services. If they offer internet services, they will provide routers. If they offer mobile services, they will provide SIM cards. This year, they will either offer internet or mobile services, or possibly both.",
+        "question": "If the providers did not provide SIM cards, then did they provide routers?",
+        "answer": "no"
+    },
+    {
+        "id": 86,
+        "context": "In the logistics industry, companies either transport goods by air or by sea. If they transport by air, they will use cargo planes. If they transport by sea, they will use cargo ships. This year, they will either transport by air or by sea, or possibly both.",
+        "question": "If the companies did not use cargo planes, then did they use cargo ships?",
+        "answer": "yes"
+    },
+    {
+        "id": 87,
+        "context": "In the logistics industry, companies either transport goods by air or by sea. If they transport by air, they will use cargo planes. If they transport by sea, they will use cargo ships. This year, they will either transport by air or by sea, or possibly both.",
+        "question": "If the companies did not use cargo ships, then did they use cargo planes?",
+        "answer": "no"
+    },
+    {
+        "id": 88,
+        "context": "In the hospitality industry, hotels either offer spa services or gym facilities. If they offer spa services, they will provide massages. If they offer gym facilities, they will provide personal trainers. This year, they will either offer spa services or gym facilities, or possibly both.",
+        "question": "If the hotels did not provide massages, then did they provide personal trainers?",
+        "answer": "yes"
+    },
+    {
+        "id": 89,
+        "context": "In the hospitality industry, hotels either offer spa services or gym facilities. If they offer spa services, they will provide massages. If they offer gym facilities, they will provide personal trainers. This year, they will either offer spa services or gym facilities, or possibly both.",
+        "question": "If the hotels did not provide personal trainers, then did they provide massages?",
+        "answer": "no"
+    },
+    {
+        "id": 90,
+        "context": "In the entertainment industry, theaters either show movies or plays. If they show movies, they will use projectors. If they show plays, they will use stages. This year, they will either show movies or plays, or possibly both.",
+        "question": "If the theaters did not use projectors, then did they use stages?",
+        "answer": "yes"
+    },
+    {
+        "id": 91,
+        "context": "In the entertainment industry, theaters either show movies or plays. If they show movies, they will use projectors. If they show plays, they will use stages. This year, they will either show movies or plays, or possibly both.",
+        "question": "If the theaters did not use stages, then did they use projectors?",
+        "answer": "no"
+    },
+    {
+        "id": 92,
+        "context": "In the real estate market, agents either sell houses or apartments. If they sell houses, they will focus on yards. If they sell apartments, they will focus on balconies. This year, they will either sell houses or apartments, or possibly both.",
+        "question": "If the agents did not focus on yards, then did they focus on balconies?",
+        "answer": "yes"
+    },
+    {
+        "id": 93,
+        "context": "In the real estate market, agents either sell houses or apartments. If they sell houses, they will focus on yards. If they sell apartments, they will focus on balconies. This year, they will either sell houses or apartments, or possibly both.",
+        "question": "If the agents did not focus on balconies, then did they focus on yards?",
+        "answer": "no"
+    },
+    {
+        "id": 94,
+        "context": "In the gaming industry, developers either create console games or mobile games. If they create console games, they will use high-end graphics. If they create mobile games, they will use touch controls. This year, they will either create console or mobile games, or possibly both.",
+        "question": "If the developers did not use high-end graphics, then did they use touch controls?",
+        "answer": "yes"
+    },
+    {
+        "id": 95,
+        "context": "In the gaming industry, developers either create console games or mobile games. If they create console games, they will use high-end graphics. If they create mobile games, they will use touch controls. This year, they will either create console or mobile games, or possibly both.",
+        "question": "If the developers did not use touch controls, then did they use high-end graphics?",
+        "answer": "no"
+    },
+    {
+        "id": 96,
+        "context": "In the pharmaceutical industry, companies either develop vaccines or antibiotics. If they develop vaccines, they will conduct clinical trials. If they develop antibiotics, they will conduct lab tests. This year, they will either develop vaccines or antibiotics, or possibly both.",
+        "question": "If the companies did not conduct clinical trials, then did they conduct lab tests?",
+        "answer": "yes"
+    },
+    {
+        "id": 97,
+        "context": "In the pharmaceutical industry, companies either develop vaccines or antibiotics. If they develop vaccines, they will conduct clinical trials. If they develop antibiotics, they will conduct lab tests. This year, they will either develop vaccines or antibiotics, or possibly both.",
+        "question": "If the companies did not conduct lab tests, then did they conduct clinical trials?",
+        "answer": "no"
+    },
+    {
+        "id": 98,
+        "context": "In the aerospace industry, engineers either design rockets or satellites. If they design rockets, they will focus on propulsion. If they design satellites, they will focus on communication systems. This year, they will either design rockets or satellites, or possibly both.",
+        "question": "If the engineers did not focus on propulsion, then did they focus on communication systems?",
+        "answer": "yes"
+    },
+    {
+        "id": 99,
+        "context": "In the aerospace industry, engineers either design rockets or satellites. If they design rockets, they will focus on propulsion. If they design satellites, they will focus on communication systems. This year, they will either design rockets or satellites, or possibly both.",
+        "question": "If the engineers did not focus on communication systems, then did they focus on propulsion?",
+        "answer": "no"
+    },
+    {
+        "id": 100,
+        "context": "In the defense industry, contractors either develop weapons or defense systems. If they develop weapons, they will focus on firepower. If they develop defense systems, they will focus on protection. This year, they will either develop weapons or defense systems, or possibly both.",
+        "question": "If the contractors did not focus on firepower, then did they focus on protection?",
+        "answer": "yes"
+    },
+    {
+        "id": 101,
+        "context": "In the defense industry, contractors either develop weapons or defense systems. If they develop weapons, they will focus on firepower. If they develop defense systems, they will focus on protection. This year, they will either develop weapons or defense systems, or possibly both.",
+        "question": "If the contractors did not focus on protection, then did they focus on firepower?",
+        "answer": "no"
+    }
+]

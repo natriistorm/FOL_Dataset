@@ -1,0 +1,614 @@
+[
+    {
+        "id": 1,
+        "context": "Every team will want to win the championship this season. They knew that if they trained hard, their skills would improve. And with improved skills, they could start winning more games. However either they were not training hard enough, or injuries had impacted the team, or both were true.",
+        "question": "The team keeps losing games. Have injuries impacted them?",
+        "answer": "yes"
+    },
+    {
+        "id": 2,
+        "context": "Newbie players want to become a better at chess. They understood that if they studied chess strategies, their game would improve. And if their game improved, they could compete in tournaments. However, either they studied chess diligently, or they practiced regularly with other players, or maybe both.",
+        "question": "John is not ready for chess tournaments. Does he practice regularly with other players?",
+        "answer": "yes"
+    },
+    {
+        "id": 3,
+        "context": "The students wanted to excel in their exams. They knew that if they studied consistently, their understanding would deepen. And with a deeper understanding, they could achieve higher grades. However, either they were not studying consistently, or they were distracted by other activities, or both were true.",
+        "question": "The students are not achieving high grades. Are they distracted by other activities?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "The students wanted to excel in their exams. They knew that if they studied consistently, their understanding would deepen. And with a deeper understanding, they could achieve higher grades. However, either they were not studying consistently, or they were distracted by other activities, or both were true.",
+        "question": "The students are achieving high grades. Are they distracted by other activities?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "The startup aimed to secure funding. They realized that if they developed a strong business plan, investors would be interested. And with investor interest, they could secure the necessary funds. However, either they did not develop a strong business plan, or the market conditions were unfavorable, or both were true.",
+        "question": "The startup is struggling to secure funding. Are the market conditions unfavorable?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "The startup aimed to secure funding. They realized that if they developed a strong business plan, investors would be interested. And with investor interest, they could secure the necessary funds. However, either they did not develop a strong business plan, or the market conditions were unfavorable, or both were true.",
+        "question": "The startup has secured funding. Are the market conditions unfavorable?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "The athlete wanted to qualify for the Olympics. They understood that if they trained with a top coach, their performance would improve. And with improved performance, they could qualify for the Olympics. However, either they were not training with a top coach, or they were not following the training regimen, or both were true.",
+        "question": "The athlete did not qualify for the Olympics. Are they not following the training regimen?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "The athlete wanted to qualify for the Olympics. They understood that if they trained with a top coach, their performance would improve. And with improved performance, they could qualify for the Olympics. However, either they were not training with a top coach, or they were not following the training regimen, or both were true.",
+        "question": "The athlete qualified for the Olympics. Are they not following the training regimen?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "The chef wanted to win the cooking competition. They knew that if they experimented with new recipes, their culinary skills would enhance. And with enhanced skills, they could win the competition. However, either they were not experimenting with new recipes, or they lacked the necessary ingredients, or both were true.",
+        "question": "The chef did not win the competition. Do they lack the necessary ingredients?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "The chef wanted to win the cooking competition. They knew that if they experimented with new recipes, their culinary skills would enhance. And with enhanced skills, they could win the competition. However, either they were not experimenting with new recipes, or they lacked the necessary ingredients, or both were true.",
+        "question": "The chef won the competition. Do they lack the necessary ingredients?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "The musician wanted to release a hit album. They realized that if they collaborated with famous artists, their music would gain popularity. And with increased popularity, they could release a hit album. However, either they were not collaborating with famous artists, or their music style was not appealing, or both were true.",
+        "question": "The musician's album is not a hit. Is their music style not appealing?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "The musician wanted to release a hit album. They realized that if they collaborated with famous artists, their music would gain popularity. And with increased popularity, they could release a hit album. However, either they were not collaborating with famous artists, or their music style was not appealing, or both were true.",
+        "question": "The musician's album is a hit. Is their music style not appealing?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "The writer wanted to publish a bestselling novel. They understood that if they wrote daily, their storytelling would improve. And with improved storytelling, they could publish a bestseller. However, either they were not writing daily, or they lacked inspiration, or both were true.",
+        "question": "The writer's novel is not a bestseller. Do they lack inspiration?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "The writer wanted to publish a bestselling novel. They understood that if they wrote daily, their storytelling would improve. And with improved storytelling, they could publish a bestseller. However, either they were not writing daily, or they lacked inspiration, or both were true.",
+        "question": "The writer's novel is a bestseller. Do they lack inspiration?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "The gardener wanted to grow a lush garden. They knew that if they watered the plants regularly, the garden would flourish. And with a flourishing garden, they could enjoy a lush landscape. However, either they were not watering the plants regularly, or the soil quality was poor, or both were true.",
+        "question": "The garden is not lush. Is the soil quality poor?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "The gardener wanted to grow a lush garden. They knew that if they watered the plants regularly, the garden would flourish. And with a flourishing garden, they could enjoy a lush landscape. However, either they were not watering the plants regularly, or the soil quality was poor, or both were true.",
+        "question": "The garden is lush. Is the soil quality poor?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "The programmer wanted to develop a successful app. They realized that if they focused on user feedback, the app would improve. And with an improved app, they could achieve success. However, either they were not focusing on user feedback, or the app's features were not innovative, or both were true.",
+        "question": "The app is not successful. Are the app's features not innovative?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "The programmer wanted to develop a successful app. They realized that if they focused on user feedback, the app would improve. And with an improved app, they could achieve success. However, either they were not focusing on user feedback, or the app's features were not innovative, or both were true.",
+        "question": "The app is successful. Are the app's features not innovative?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "The teacher wanted to inspire their students. They understood that if they used interactive teaching methods, student engagement would increase. And with increased engagement, they could inspire their students. However, either they were not using interactive methods, or the students were not interested, or both were true.",
+        "question": "The students are not inspired. Are the students not interested?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "The teacher wanted to inspire their students. They understood that if they used interactive teaching methods, student engagement would increase. And with increased engagement, they could inspire their students. However, either they were not using interactive methods, or the students were not interested, or both were true.",
+        "question": "The students are inspired. Are the students not interested?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "The artist wanted to hold a successful exhibition. They knew that if they created unique artworks, the exhibition would attract visitors. And with more visitors, they could hold a successful exhibition. However, either they were not creating unique artworks, or the location was not ideal, or both were true.",
+        "question": "The exhibition is not successful. Is the location not ideal?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "The artist wanted to hold a successful exhibition. They knew that if they created unique artworks, the exhibition would attract visitors. And with more visitors, they could hold a successful exhibition. However, either they were not creating unique artworks, or the location was not ideal, or both were true.",
+        "question": "The exhibition is successful. Is the location not ideal?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "The entrepreneur wanted to launch a popular product. They realized that if they conducted thorough market research, the product would meet consumer needs. And with a product that meets needs, they could launch a popular product. However, either they were not conducting thorough research, or the product design was flawed, or both were true.",
+        "question": "The product is not popular. Is the product design flawed?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "The entrepreneur wanted to launch a popular product. They realized that if they conducted thorough market research, the product would meet consumer needs. And with a product that meets needs, they could launch a popular product. However, either they were not conducting thorough research, or the product design was flawed, or both were true.",
+        "question": "The product is popular. Is the product design flawed?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "The scientist wanted to make a groundbreaking discovery. They understood that if they conducted experiments meticulously, they would gather significant data. And with significant data, they could make a groundbreaking discovery. However, either they were not conducting experiments meticulously, or the hypothesis was incorrect, or both were true.",
+        "question": "The scientist has not made a groundbreaking discovery. Is the hypothesis incorrect?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "The scientist wanted to make a groundbreaking discovery. They understood that if they conducted experiments meticulously, they would gather significant data. And with significant data, they could make a groundbreaking discovery. However, either they were not conducting experiments meticulously, or the hypothesis was incorrect, or both were true.",
+        "question": "The scientist has made a groundbreaking discovery. Is the hypothesis incorrect?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "The athlete wanted to break the world record. They knew that if they followed a strict diet, their performance would peak. And with peak performance, they could break the world record. However, either they were not following a strict diet, or their training intensity was insufficient, or both were true.",
+        "question": "The athlete did not break the world record. Is their training intensity insufficient?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "The athlete wanted to break the world record. They knew that if they followed a strict diet, their performance would peak. And with peak performance, they could break the world record. However, either they were not following a strict diet, or their training intensity was insufficient, or both were true.",
+        "question": "The athlete broke the world record. Is their training intensity insufficient?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "The director wanted to produce an award-winning film. They realized that if they hired talented actors, the film's quality would be exceptional. And with exceptional quality, they could produce an award-winning film. However, either they were not hiring talented actors, or the script was not compelling, or both were true.",
+        "question": "The film did not win any awards. Is the script not compelling?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "The director wanted to produce an award-winning film. They realized that if they hired talented actors, the film's quality would be exceptional. And with exceptional quality, they could produce an award-winning film. However, either they were not hiring talented actors, or the script was not compelling, or both were true.",
+        "question": "The film won awards. Is the script not compelling?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "The researcher wanted to publish in a top journal. They understood that if they conducted a thorough literature review, their study would be robust. And with a robust study, they could publish in a top journal. However, either they were not conducting a thorough review, or the study design was flawed, or both were true.",
+        "question": "The study was not published in a top journal. Is the study design flawed?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "The researcher wanted to publish in a top journal. They understood that if they conducted a thorough literature review, their study would be robust. And with a robust study, they could publish in a top journal. However, either they were not conducting a thorough review, or the study design was flawed, or both were true.",
+        "question": "The study was published in a top journal. Is the study design flawed?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "The chef wanted to open a successful restaurant. They knew that if they crafted a unique menu, the restaurant would attract customers. And with more customers, they could open a successful restaurant. However, either they were not crafting a unique menu, or the location was not accessible, or both were true.",
+        "question": "The restaurant is not successful. Is the location not accessible?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "The chef wanted to open a successful restaurant. They knew that if they crafted a unique menu, the restaurant would attract customers. And with more customers, they could open a successful restaurant. However, either they were not crafting a unique menu, or the location was not accessible, or both were true.",
+        "question": "The restaurant is successful. Is the location not accessible?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "The author wanted to win a literary award. They realized that if they wrote a compelling narrative, the book would captivate readers. And with captivated readers, they could win a literary award. However, either they were not writing a compelling narrative, or the book's theme was not original, or both were true.",
+        "question": "The book did not win a literary award. Is the book's theme not original?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "The author wanted to win a literary award. They realized that if they wrote a compelling narrative, the book would captivate readers. And with captivated readers, they could win a literary award. However, either they were not writing a compelling narrative, or the book's theme was not original, or both were true.",
+        "question": "The book won a literary award. Is the book's theme not original?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "The engineer wanted to design an innovative product. They understood that if they incorporated cutting-edge technology, the product would stand out. And with a standout product, they could design something innovative. However, either they were not incorporating cutting-edge technology, or the design was not user-friendly, or both were true.",
+        "question": "The product is not innovative. Is the design not user-friendly?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "The engineer wanted to design an innovative product. They understood that if they incorporated cutting-edge technology, the product would stand out. And with a standout product, they could design something innovative. However, either they were not incorporating cutting-edge technology, or the design was not user-friendly, or both were true.",
+        "question": "The product is innovative. Is the design not user-friendly?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "The manager wanted to improve team productivity. They knew that if they implemented new software, efficiency would increase. And with increased efficiency, they could improve productivity. However, either they were not implementing new software, or the team was not adapting to changes, or both were true.",
+        "question": "The team's productivity has not improved. Is the team not adapting to changes?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "The manager wanted to improve team productivity. They knew that if they implemented new software, efficiency would increase. And with increased efficiency, they could improve productivity. However, either they were not implementing new software, or the team was not adapting to changes, or both were true.",
+        "question": "The team's productivity has improved. Is the team not adapting to changes?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "The student wanted to win the science fair. They realized that if they conducted a unique experiment, the judges would be impressed. And with impressed judges, they could win the science fair. However, either they were not conducting a unique experiment, or the presentation was not clear, or both were true.",
+        "question": "The student did not win the science fair. Is the presentation not clear?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "The student wanted to win the science fair. They realized that if they conducted a unique experiment, the judges would be impressed. And with impressed judges, they could win the science fair. However, either they were not conducting a unique experiment, or the presentation was not clear, or both were true.",
+        "question": "The student won the science fair. Is the presentation not clear?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "The company wanted to increase market share. They understood that if they launched a new marketing campaign, brand awareness would rise. And with increased brand awareness, they could increase market share. However, either they were not launching a new campaign, or the campaign was not effective, or both were true.",
+        "question": "The market share has not increased. Is the campaign not effective?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "The company wanted to increase market share. They understood that if they launched a new marketing campaign, brand awareness would rise. And with increased brand awareness, they could increase market share. However, either they were not launching a new campaign, or the campaign was not effective, or both were true.",
+        "question": "The market share has increased. Is the campaign not effective?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "The developer wanted to create a popular game. They knew that if they included engaging gameplay, players would be attracted. And with more players, they could create a popular game. However, either they were not including engaging gameplay, or the graphics were not appealing, or both were true.",
+        "question": "The game is not popular. Are the graphics not appealing?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "The developer wanted to create a popular game. They knew that if they included engaging gameplay, players would be attracted. And with more players, they could create a popular game. However, either they were not including engaging gameplay, or the graphics were not appealing, or both were true.",
+        "question": "The game is popular. Are the graphics not appealing?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "The photographer wanted to win a prestigious award. They realized that if they captured unique perspectives, their work would stand out. And with standout work, they could win an award. However, either they were not capturing unique perspectives, or the competition was too strong, or both were true.",
+        "question": "The photographer did not win the award. Is the competition too strong?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "The photographer wanted to win a prestigious award. They realized that if they captured unique perspectives, their work would stand out. And with standout work, they could win an award. However, either they were not capturing unique perspectives, or the competition was too strong, or both were true.",
+        "question": "The photographer won the award. Is the competition too strong?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "The volunteer wanted to make a significant impact. They understood that if they organized community events, participation would increase. And with increased participation, they could make a significant impact. However, either they were not organizing events, or the community was not interested, or both were true.",
+        "question": "The volunteer has not made a significant impact. Is the community not interested?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "The volunteer wanted to make a significant impact. They understood that if they organized community events, participation would increase. And with increased participation, they could make a significant impact. However, either they were not organizing events, or the community was not interested, or both were true.",
+        "question": "The volunteer has made a significant impact. Is the community not interested?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "The architect wanted to design an iconic building. They knew that if they used sustainable materials, the design would be innovative. And with an innovative design, they could create an iconic building. However, either they were not using sustainable materials, or the design was not practical, or both were true.",
+        "question": "The building is not iconic. Is the design not practical?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "The architect wanted to design an iconic building. They knew that if they used sustainable materials, the design would be innovative. And with an innovative design, they could create an iconic building. However, either they were not using sustainable materials, or the design was not practical, or both were true.",
+        "question": "The building is iconic. Is the design not practical?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "The scientist wanted to develop a new vaccine. They realized that if they conducted extensive trials, the vaccine would be effective. And with an effective vaccine, they could achieve approval. However, either they were not conducting extensive trials, or the vaccine formula was flawed, or both were true.",
+        "question": "The vaccine is not approved. Is the vaccine formula flawed?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "The scientist wanted to develop a new vaccine. They realized that if they conducted extensive trials, the vaccine would be effective. And with an effective vaccine, they could achieve approval. However, either they were not conducting extensive trials, or the vaccine formula was flawed, or both were true.",
+        "question": "The vaccine is approved. Is the vaccine formula flawed?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "The athlete wanted to win the marathon. They knew that if they followed a rigorous training schedule, their endurance would increase. And with increased endurance, they could win the marathon. However, either they were not following the training schedule, or their diet was not balanced, or both were true.",
+        "question": "The athlete did not win the marathon. Is their diet not balanced?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "The athlete wanted to win the marathon. They knew that if they followed a rigorous training schedule, their endurance would increase. And with increased endurance, they could win the marathon. However, either they were not following the training schedule, or their diet was not balanced, or both were true.",
+        "question": "The athlete won the marathon. Is their diet not balanced?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "The chef wanted to create a signature dish. They realized that if they experimented with flavors, the dish would be unique. And with a unique dish, they could create a signature dish. However, either they were not experimenting with flavors, or the ingredients were not fresh, or both were true.",
+        "question": "The dish is not unique. Are the ingredients not fresh?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "The chef wanted to create a signature dish. They realized that if they experimented with flavors, the dish would be unique. And with a unique dish, they could create a signature dish. However, either they were not experimenting with flavors, or the ingredients were not fresh, or both were true.",
+        "question": "The dish is unique. Are the ingredients not fresh?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "The musician wanted to compose a hit song. They knew that if they collaborated with a renowned producer, the song would be catchy. And with a catchy song, they could compose a hit. However, either they were not collaborating with a producer, or the melody was not appealing, or both were true.",
+        "question": "The song is not a hit. Is the melody not appealing?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "The musician wanted to compose a hit song. They knew that if they collaborated with a renowned producer, the song would be catchy. And with a catchy song, they could compose a hit. However, either they were not collaborating with a producer, or the melody was not appealing, or both were true.",
+        "question": "The song is a hit. Is the melody not appealing?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "The writer wanted to finish their novel. They realized that if they wrote consistently, the novel would be completed. And with a completed novel, they could publish it. However, either they were not writing consistently, or they lacked motivation, or both were true.",
+        "question": "The novel is not completed. Do they lack motivation?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "The writer wanted to finish their novel. They realized that if they wrote consistently, the novel would be completed. And with a completed novel, they could publish it. However, either they were not writing consistently, or they lacked motivation, or both were true.",
+        "question": "The novel is completed. Do they lack motivation?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "The gardener wanted to grow rare flowers. They knew that if they used special fertilizers, the flowers would bloom. And with blooming flowers, they could grow rare varieties. However, either they were not using special fertilizers, or the climate was not suitable, or both were true.",
+        "question": "The flowers are not blooming. Is the climate not suitable?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "The gardener wanted to grow rare flowers. They knew that if they used special fertilizers, the flowers would bloom. And with blooming flowers, they could grow rare varieties. However, either they were not using special fertilizers, or the climate was not suitable, or both were true.",
+        "question": "The flowers are blooming. Is the climate not suitable?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "The programmer wanted to launch a new software. They realized that if they tested thoroughly, the software would be bug-free. And with bug-free software, they could launch it successfully. However, either they were not testing thoroughly, or the code was not optimized, or both were true.",
+        "question": "The software is not bug-free. Is the code not optimized?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "The programmer wanted to launch a new software. They realized that if they tested thoroughly, the software would be bug-free. And with bug-free software, they could launch it successfully. However, either they were not testing thoroughly, or the code was not optimized, or both were true.",
+        "question": "The software is bug-free. Is the code not optimized?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "The teacher wanted to improve student grades. They knew that if they provided extra tutoring, grades would improve. And with improved grades, they could achieve better results. However, either they were not providing extra tutoring, or the students were not attending, or both were true.",
+        "question": "The grades have not improved. Are the students not attending?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "The teacher wanted to improve student grades. They knew that if they provided extra tutoring, grades would improve. And with improved grades, they could achieve better results. However, either they were not providing extra tutoring, or the students were not attending, or both were true.",
+        "question": "The grades have improved. Are the students not attending?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "The artist wanted to create a masterpiece. They realized that if they practiced daily, their skills would improve. And with improved skills, they could create a masterpiece. However, either they were not practicing daily, or they lacked inspiration, or both were true.",
+        "question": "The masterpiece is not created. Do they lack inspiration?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "The artist wanted to create a masterpiece. They realized that if they practiced daily, their skills would improve. And with improved skills, they could create a masterpiece. However, either they were not practicing daily, or they lacked inspiration, or both were true.",
+        "question": "The masterpiece is created. Do they lack inspiration?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "The entrepreneur wanted to expand their business. They knew that if they invested in marketing, their customer base would grow. And with a growing customer base, they could expand. However, either they were not investing in marketing, or the market was saturated, or both were true.",
+        "question": "The business is not expanding. Is the market saturated?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "The entrepreneur wanted to expand their business. They knew that if they invested in marketing, their customer base would grow. And with a growing customer base, they could expand. However, either they were not investing in marketing, or the market was saturated, or both were true.",
+        "question": "The business is expanding. Is the market saturated?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "The scientist wanted to publish groundbreaking research. They realized that if they gathered sufficient data, their research would be credible. And with credible research, they could publish it. However, either they were not gathering sufficient data, or the methodology was flawed, or both were true.",
+        "question": "The research is not published. Is the methodology flawed?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "The scientist wanted to publish groundbreaking research. They realized that if they gathered sufficient data, their research would be credible. And with credible research, they could publish it. However, either they were not gathering sufficient data, or the methodology was flawed, or both were true.",
+        "question": "The research is published. Is the methodology flawed?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "The athlete wanted to improve their ranking. They knew that if they trained harder, their performance would enhance. And with enhanced performance, they could improve their ranking. However, either they were not training harder, or they were not focused, or both were true.",
+        "question": "The ranking has not improved. Are they not focused?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "The athlete wanted to improve their ranking. They knew that if they trained harder, their performance would enhance. And with enhanced performance, they could improve their ranking. However, either they were not training harder, or they were not focused, or both were true.",
+        "question": "The ranking has improved. Are they not focused?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "The director wanted to create a blockbuster movie. They realized that if they hired a famous cast, the movie would attract audiences. And with attracted audiences, they could create a blockbuster. However, either they were not hiring a famous cast, or the storyline was not engaging, or both were true.",
+        "question": "The movie is not a blockbuster. Is the storyline not engaging?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "The director wanted to create a blockbuster movie. They realized that if they hired a famous cast, the movie would attract audiences. And with attracted audiences, they could create a blockbuster. However, either they were not hiring a famous cast, or the storyline was not engaging, or both were true.",
+        "question": "The movie is a blockbuster. Is the storyline not engaging?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "The researcher wanted to develop a new theory. They knew that if they analyzed existing data, they could find patterns. And with identified patterns, they could develop a new theory. However, either they were not analyzing data, or the data was not reliable, or both were true.",
+        "question": "The new theory is not developed. Is the data not reliable?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "The researcher wanted to develop a new theory. They knew that if they analyzed existing data, they could find patterns. And with identified patterns, they could develop a new theory. However, either they were not analyzing data, or the data was not reliable, or both were true.",
+        "question": "The new theory is developed. Is the data not reliable?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "The chef wanted to win a culinary award. They realized that if they perfected their technique, their dishes would be exceptional. And with exceptional dishes, they could win an award. However, either they were not perfecting their technique, or the competition was too strong, or both were true.",
+        "question": "The award is not won. Is the competition too strong?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "The chef wanted to win a culinary award. They realized that if they perfected their technique, their dishes would be exceptional. And with exceptional dishes, they could win an award. However, either they were not perfecting their technique, or the competition was too strong, or both were true.",
+        "question": "The award is won. Is the competition too strong?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "The musician wanted to perform at a prestigious venue. They knew that if they practiced diligently, their performance would be flawless. And with a flawless performance, they could perform at the venue. However, either they were not practicing diligently, or their repertoire was not diverse, or both were true.",
+        "question": "The performance is not flawless. Is the repertoire not diverse?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "The musician wanted to perform at a prestigious venue. They knew that if they practiced diligently, their performance would be flawless. And with a flawless performance, they could perform at the venue. However, either they were not practicing diligently, or their repertoire was not diverse, or both were true.",
+        "question": "The performance is flawless. Is the repertoire not diverse?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "The author wanted to publish a series of novels. They realized that if they planned the storyline, the series would be cohesive. And with a cohesive series, they could publish it. However, either they were not planning the storyline, or the characters were not developed, or both were true.",
+        "question": "The series is not cohesive. Are the characters not developed?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "The author wanted to publish a series of novels. They realized that if they planned the storyline, the series would be cohesive. And with a cohesive series, they could publish it. However, either they were not planning the storyline, or the characters were not developed, or both were true.",
+        "question": "The series is cohesive. Are the characters not developed?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "The engineer wanted to create a sustainable product. They knew that if they used eco-friendly materials, the product would be sustainable. And with a sustainable product, they could meet environmental standards. However, either they were not using eco-friendly materials, or the design was not efficient, or both were true.",
+        "question": "The product is not sustainable. Is the design not efficient?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "The engineer wanted to create a sustainable product. They knew that if they used eco-friendly materials, the product would be sustainable. And with a sustainable product, they could meet environmental standards. However, either they were not using eco-friendly materials, or the design was not efficient, or both were true.",
+        "question": "The product is sustainable. Is the design not efficient?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "The manager wanted to boost team morale. They realized that if they organized team-building activities, morale would improve. And with improved morale, they could boost productivity. However, either they were not organizing activities, or the team was not participating, or both were true.",
+        "question": "The morale has not improved. Is the team not participating?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "The manager wanted to boost team morale. They realized that if they organized team-building activities, morale would improve. And with improved morale, they could boost productivity. However, either they were not organizing activities, or the team was not participating, or both were true.",
+        "question": "The morale has improved. Is the team not participating?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "The student wanted to excel in mathematics. They knew that if they practiced problems daily, their skills would improve. And with improved skills, they could excel. However, either they were not practicing daily, or they were not understanding the concepts, or both were true.",
+        "question": "The student is not excelling. Are they not understanding the concepts?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "The student wanted to excel in mathematics. They knew that if they practiced problems daily, their skills would improve. And with improved skills, they could excel. However, either they were not practicing daily, or they were not understanding the concepts, or both were true.",
+        "question": "The student is excelling. Are they not understanding the concepts?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "The company wanted to launch a successful ad campaign. They realized that if they targeted the right audience, the campaign would be effective. And with an effective campaign, they could increase sales. However, either they were not targeting the right audience, or the ad content was not engaging, or both were true.",
+        "question": "The campaign is not effective. Is the ad content not engaging?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "The company wanted to launch a successful ad campaign. They realized that if they targeted the right audience, the campaign would be effective. And with an effective campaign, they could increase sales. However, either they were not targeting the right audience, or the ad content was not engaging, or both were true.",
+        "question": "The campaign is effective. Is the ad content not engaging?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "The developer wanted to create a secure application. They knew that if they implemented encryption, the application would be secure. And with a secure application, they could protect user data. However, either they were not implementing encryption, or the security protocols were outdated, or both were true.",
+        "question": "The application is not secure. Are the security protocols outdated?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "The developer wanted to create a secure application. They knew that if they implemented encryption, the application would be secure. And with a secure application, they could protect user data. However, either they were not implementing encryption, or the security protocols were outdated, or both were true.",
+        "question": "The application is secure. Are the security protocols outdated?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "The photographer wanted to capture stunning landscapes. They realized that if they used the right equipment, the photos would be breathtaking. And with breathtaking photos, they could capture stunning landscapes. However, either they were not using the right equipment, or the lighting was not ideal, or both were true.",
+        "question": "The photos are not breathtaking. Is the lighting not ideal?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "The photographer wanted to capture stunning landscapes. They realized that if they used the right equipment, the photos would be breathtaking. And with breathtaking photos, they could capture stunning landscapes. However, either they were not using the right equipment, or the lighting was not ideal, or both were true.",
+        "question": "The photos are breathtaking. Is the lighting not ideal?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "The volunteer wanted to organize a successful charity event. They knew that if they secured enough sponsors, the event would be successful. And with a successful event, they could raise significant funds. However, either they were not securing sponsors, or the event planning was not thorough, or both were true.",
+        "question": "The event is not successful. Is the event planning not thorough?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "The volunteer wanted to organize a successful charity event. They knew that if they secured enough sponsors, the event would be successful. And with a successful event, they could raise significant funds. However, either they were not securing sponsors, or the event planning was not thorough, or both were true.",
+        "question": "The event is successful. Is the event planning not thorough?",
+        "answer": "no"
+    },
+    {
+        "id": 101,
+        "context": "The architect wanted to design a modern building. They realized that if they incorporated innovative designs, the building would be modern. And with a modern building, they could attract clients. However, either they were not incorporating innovative designs, or the materials were not suitable, or both were true.",
+        "question": "The building is not modern. Are the materials not suitable?",
+        "answer": "yes"
+    },
+    {
+        "id": 102,
+        "context": "The architect wanted to design a modern building. They realized that if they incorporated innovative designs, the building would be modern. And with a modern building, they could attract clients. However, either they were not incorporating innovative designs, or the materials were not suitable, or both were true.",
+        "question": "The building is modern. Are the materials not suitable?",
+        "answer": "no"
+    }
+]

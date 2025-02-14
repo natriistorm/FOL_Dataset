@@ -1,0 +1,602 @@
+[
+    {
+        "id": 2,
+        "context": "In the library, if it was Tuesday, then the new books would be on display. If the librarian finished cataloging, then the books could be borrowed. They were sure that either it was Tuesday, or the books were not borrowed. It is known in the library that if a librarian is efficient, they finish cataloging on time.",
+        "question": "If the new books were not on display, is Alex an efficient librarian?",
+        "answer": "no"
+    },
+    {
+        "id": 3,
+        "context": "In the library, if it was Tuesday, then the new books would be on display. If the librarian finished cataloging, then the books could be borrowed. They were sure that either it was Tuesday, or the books were not borrowed. It is known in the library that if a librarian is efficient, they finish cataloging on time.",
+        "question": "If the new books were on display, is Alex an efficient librarian?",
+        "answer": "yes"
+    },
+    {
+        "id": 4,
+        "context": "At the bakery, if it was Friday, then the special pastries would be available. If the baker completed the order, then the pastries could be sold. They were confident that either it was Friday, or the pastries were not sold. It is known at the bakery that if a baker is skilled, they complete orders on time.",
+        "question": "If the special pastries were not available, is Jamie a skilled baker?",
+        "answer": "no"
+    },
+    {
+        "id": 5,
+        "context": "At the bakery, if it was Friday, then the special pastries would be available. If the baker completed the order, then the pastries could be sold. They were confident that either it was Friday, or the pastries were not sold. It is known at the bakery that if a baker is skilled, they complete orders on time.",
+        "question": "If the special pastries were available, is Jamie a skilled baker?",
+        "answer": "yes"
+    },
+    {
+        "id": 6,
+        "context": "In the school, if it was Wednesday, then the science project would be presented. If the students finished their preparations, then they could present. They were certain that either it was Wednesday, or the project was not presented. It is known at the school that if a student is diligent, they finish preparations on time.",
+        "question": "If the science project was not presented, is Taylor a diligent student?",
+        "answer": "no"
+    },
+    {
+        "id": 7,
+        "context": "In the school, if it was Wednesday, then the science project would be presented. If the students finished their preparations, then they could present. They were certain that either it was Wednesday, or the project was not presented. It is known at the school that if a student is diligent, they finish preparations on time.",
+        "question": "If the science project was presented, is Taylor a diligent student?",
+        "answer": "yes"
+    },
+    {
+        "id": 8,
+        "context": "At the gym, if it was Saturday, then the yoga class would be held. If the instructor arrived on time, then the class could start. They were sure that either it was Saturday, or the class did not start. It is known at the gym that if an instructor is punctual, they arrive on time.",
+        "question": "If the yoga class was not held, is Morgan a punctual instructor?",
+        "answer": "no"
+    },
+    {
+        "id": 9,
+        "context": "At the gym, if it was Saturday, then the yoga class would be held. If the instructor arrived on time, then the class could start. They were sure that either it was Saturday, or the class did not start. It is known at the gym that if an instructor is punctual, they arrive on time.",
+        "question": "If the yoga class was held, is Morgan a punctual instructor?",
+        "answer": "yes"
+    },
+    {
+        "id": 10,
+        "context": "In the restaurant, if it was Sunday, then the brunch menu would be available. If the chef prepared the dishes, then they could serve brunch. They were certain that either it was Sunday, or brunch was not served. It is known at the restaurant that if a chef is talented, they prepare dishes on time.",
+        "question": "If the brunch menu was not available, is Jordan a talented chef?",
+        "answer": "no"
+    },
+    {
+        "id": 11,
+        "context": "In the restaurant, if it was Sunday, then the brunch menu would be available. If the chef prepared the dishes, then they could serve brunch. They were certain that either it was Sunday, or brunch was not served. It is known at the restaurant that if a chef is talented, they prepare dishes on time.",
+        "question": "If the brunch menu was available, is Jordan a talented chef?",
+        "answer": "yes"
+    },
+    {
+        "id": 12,
+        "context": "At the concert hall, if it was Thursday, then the orchestra would perform. If the musicians rehearsed, then they could perform. They were sure that either it was Thursday, or the performance did not happen. It is known at the concert hall that if a musician is dedicated, they rehearse on time.",
+        "question": "If the orchestra did not perform, is Casey a dedicated musician?",
+        "answer": "no"
+    },
+    {
+        "id": 13,
+        "context": "At the concert hall, if it was Thursday, then the orchestra would perform. If the musicians rehearsed, then they could perform. They were sure that either it was Thursday, or the performance did not happen. It is known at the concert hall that if a musician is dedicated, they rehearse on time.",
+        "question": "If the orchestra performed, is Casey a dedicated musician?",
+        "answer": "yes"
+    },
+    {
+        "id": 14,
+        "context": "In the office, if it was Monday, then the weekly report would be submitted. If the analyst completed the analysis, then they could submit the report. They were certain that either it was Monday, or the report was not submitted. It is known in the office that if an analyst is thorough, they complete analysis on time.",
+        "question": "If the weekly report was not submitted, is Riley a thorough analyst?",
+        "answer": "no"
+    },
+    {
+        "id": 15,
+        "context": "In the office, if it was Monday, then the weekly report would be submitted. If the analyst completed the analysis, then they could submit the report. They were certain that either it was Monday, or the report was not submitted. It is known in the office that if an analyst is thorough, they complete analysis on time.",
+        "question": "If the weekly report was submitted, is Riley a thorough analyst?",
+        "answer": "yes"
+    },
+    {
+        "id": 16,
+        "context": "At the art gallery, if it was Friday, then the new exhibition would open. If the curator finished the setup, then they could open the exhibition. They were sure that either it was Friday, or the exhibition did not open. It is known at the gallery that if a curator is organized, they finish setups on time.",
+        "question": "If the new exhibition did not open, is Avery an organized curator?",
+        "answer": "no"
+    },
+    {
+        "id": 17,
+        "context": "At the art gallery, if it was Friday, then the new exhibition would open. If the curator finished the setup, then they could open the exhibition. They were sure that either it was Friday, or the exhibition did not open. It is known at the gallery that if a curator is organized, they finish setups on time.",
+        "question": "If the new exhibition opened, is Avery an organized curator?",
+        "answer": "yes"
+    },
+    {
+        "id": 18,
+        "context": "In the workshop, if it was Tuesday, then the new project would start. If the engineer completed the design, then they could start the project. They were certain that either it was Tuesday, or the project did not start. It is known in the workshop that if an engineer is innovative, they complete designs on time.",
+        "question": "If the new project did not start, is Jordan an innovative engineer?",
+        "answer": "no"
+    },
+    {
+        "id": 19,
+        "context": "In the workshop, if it was Tuesday, then the new project would start. If the engineer completed the design, then they could start the project. They were certain that either it was Tuesday, or the project did not start. It is known in the workshop that if an engineer is innovative, they complete designs on time.",
+        "question": "If the new project started, is Jordan an innovative engineer?",
+        "answer": "yes"
+    },
+    {
+        "id": 20,
+        "context": "At the theater, if it was Saturday, then the play would be performed. If the actors memorized their lines, then they could perform. They were sure that either it was Saturday, or the play did not happen. It is known at the theater that if an actor is professional, they memorize lines on time.",
+        "question": "If the play was not performed, is Taylor a professional actor?",
+        "answer": "no"
+    },
+    {
+        "id": 21,
+        "context": "At the theater, if it was Saturday, then the play would be performed. If the actors memorized their lines, then they could perform. They were sure that either it was Saturday, or the play did not happen. It is known at the theater that if an actor is professional, they memorize lines on time.",
+        "question": "If the play was performed, is Taylor a professional actor?",
+        "answer": "yes"
+    },
+    {
+        "id": 22,
+        "context": "In the lab, if it was Thursday, then the experiment would be conducted. If the scientist prepared the materials, then they could conduct the experiment. They were certain that either it was Thursday, or the experiment did not happen. It is known in the lab that if a scientist is meticulous, they prepare materials on time.",
+        "question": "If the experiment was not conducted, is Alex a meticulous scientist?",
+        "answer": "no"
+    },
+    {
+        "id": 23,
+        "context": "In the lab, if it was Thursday, then the experiment would be conducted. If the scientist prepared the materials, then they could conduct the experiment. They were certain that either it was Thursday, or the experiment did not happen. It is known in the lab that if a scientist is meticulous, they prepare materials on time.",
+        "question": "If the experiment was conducted, is Alex a meticulous scientist?",
+        "answer": "yes"
+    },
+    {
+        "id": 24,
+        "context": "At the conference, if it was Wednesday, then the keynote speech would be delivered. If the speaker prepared the presentation, then they could deliver the speech. They were sure that either it was Wednesday, or the speech was not delivered. It is known at the conference that if a speaker is prepared, they prepare presentations on time.",
+        "question": "If the keynote speech was not delivered, is Morgan a prepared speaker?",
+        "answer": "no"
+    },
+    {
+        "id": 25,
+        "context": "At the conference, if it was Wednesday, then the keynote speech would be delivered. If the speaker prepared the presentation, then they could deliver the speech. They were sure that either it was Wednesday, or the speech was not delivered. It is known at the conference that if a speaker is prepared, they prepare presentations on time.",
+        "question": "If the keynote speech was delivered, is Morgan a prepared speaker?",
+        "answer": "yes"
+    },
+    {
+        "id": 26,
+        "context": "In the clinic, if it was Monday, then the health check-up would be conducted. If the doctor completed the paperwork, then they could conduct the check-up. They were certain that either it was Monday, or the check-up did not happen. It is known in the clinic that if a doctor is efficient, they complete paperwork on time.",
+        "question": "If the health check-up was not conducted, is Riley an efficient doctor?",
+        "answer": "no"
+    },
+    {
+        "id": 27,
+        "context": "In the clinic, if it was Monday, then the health check-up would be conducted. If the doctor completed the paperwork, then they could conduct the check-up. They were certain that either it was Monday, or the check-up did not happen. It is known in the clinic that if a doctor is efficient, they complete paperwork on time.",
+        "question": "If the health check-up was conducted, is Riley an efficient doctor?",
+        "answer": "yes"
+    },
+    {
+        "id": 28,
+        "context": "At the farm, if it was Sunday, then the harvest would begin. If the farmer prepared the equipment, then they could start the harvest. They were sure that either it was Sunday, or the harvest did not start. It is known at the farm that if a farmer is diligent, they prepare equipment on time.",
+        "question": "If the harvest did not begin, is Jamie a diligent farmer?",
+        "answer": "no"
+    },
+    {
+        "id": 29,
+        "context": "At the farm, if it was Sunday, then the harvest would begin. If the farmer prepared the equipment, then they could start the harvest. They were sure that either it was Sunday, or the harvest did not start. It is known at the farm that if a farmer is diligent, they prepare equipment on time.",
+        "question": "If the harvest began, is Jamie a diligent farmer?",
+        "answer": "yes"
+    },
+    {
+        "id": 30,
+        "context": "In the factory, if it was Friday, then the new product line would launch. If the manager approved the designs, then they could launch the product. They were certain that either it was Friday, or the product did not launch. It is known in the factory that if a manager is decisive, they approve designs on time.",
+        "question": "If the new product line did not launch, is Casey a decisive manager?",
+        "answer": "no"
+    },
+    {
+        "id": 31,
+        "context": "In the factory, if it was Friday, then the new product line would launch. If the manager approved the designs, then they could launch the product. They were certain that either it was Friday, or the product did not launch. It is known in the factory that if a manager is decisive, they approve designs on time.",
+        "question": "If the new product line launched, is Casey a decisive manager?",
+        "answer": "yes"
+    },
+    {
+        "id": 32,
+        "context": "At the university, if it was Thursday, then the seminar would be held. If the professor prepared the lecture, then they could hold the seminar. They were sure that either it was Thursday, or the seminar did not happen. It is known at the university that if a professor is knowledgeable, they prepare lectures on time.",
+        "question": "If the seminar was not held, is Alex a knowledgeable professor?",
+        "answer": "no"
+    },
+    {
+        "id": 33,
+        "context": "At the university, if it was Thursday, then the seminar would be held. If the professor prepared the lecture, then they could hold the seminar. They were sure that either it was Thursday, or the seminar did not happen. It is known at the university that if a professor is knowledgeable, they prepare lectures on time.",
+        "question": "If the seminar was held, is Alex a knowledgeable professor?",
+        "answer": "yes"
+    },
+    {
+        "id": 34,
+        "context": "In the hospital, if it was Wednesday, then the surgery would be performed. If the surgeon prepared the tools, then they could perform the surgery. They were certain that either it was Wednesday, or the surgery did not happen. It is known in the hospital that if a surgeon is skilled, they prepare tools on time.",
+        "question": "If the surgery was not performed, is Morgan a skilled surgeon?",
+        "answer": "no"
+    },
+    {
+        "id": 35,
+        "context": "In the hospital, if it was Wednesday, then the surgery would be performed. If the surgeon prepared the tools, then they could perform the surgery. They were certain that either it was Wednesday, or the surgery did not happen. It is known in the hospital that if a surgeon is skilled, they prepare tools on time.",
+        "question": "If the surgery was performed, is Morgan a skilled surgeon?",
+        "answer": "yes"
+    },
+    {
+        "id": 36,
+        "context": "At the zoo, if it was Tuesday, then the animal show would take place. If the zookeeper trained the animals, then they could hold the show. They were sure that either it was Tuesday, or the show did not happen. It is known at the zoo that if a zookeeper is attentive, they train animals on time.",
+        "question": "If the animal show did not take place, is Riley an attentive zookeeper?",
+        "answer": "no"
+    },
+    {
+        "id": 37,
+        "context": "At the zoo, if it was Tuesday, then the animal show would take place. If the zookeeper trained the animals, then they could hold the show. They were sure that either it was Tuesday, or the show did not happen. It is known at the zoo that if a zookeeper is attentive, they train animals on time.",
+        "question": "If the animal show took place, is Riley an attentive zookeeper?",
+        "answer": "yes"
+    },
+    {
+        "id": 38,
+        "context": "In the park, if it was Saturday, then the festival would occur. If the organizer set up the tents, then they could hold the festival. They were certain that either it was Saturday, or the festival did not happen. It is known in the park that if an organizer is efficient, they set up tents on time.",
+        "question": "If the festival did not occur, is Jamie an efficient organizer?",
+        "answer": "no"
+    },
+    {
+        "id": 39,
+        "context": "In the park, if it was Saturday, then the festival would occur. If the organizer set up the tents, then they could hold the festival. They were certain that either it was Saturday, or the festival did not happen. It is known in the park that if an organizer is efficient, they set up tents on time.",
+        "question": "If the festival occurred, is Jamie an efficient organizer?",
+        "answer": "yes"
+    },
+    {
+        "id": 40,
+        "context": "At the airport, if it was Sunday, then the flight would depart. If the pilot completed the checklist, then they could depart. They were sure that either it was Sunday, or the flight did not depart. It is known at the airport that if a pilot is responsible, they complete checklists on time.",
+        "question": "If the flight did not depart, is Casey a responsible pilot?",
+        "answer": "no"
+    },
+    {
+        "id": 41,
+        "context": "At the airport, if it was Sunday, then the flight would depart. If the pilot completed the checklist, then they could depart. They were sure that either it was Sunday, or the flight did not depart. It is known at the airport that if a pilot is responsible, they complete checklists on time.",
+        "question": "If the flight departed, is Casey a responsible pilot?",
+        "answer": "yes"
+    },
+    {
+        "id": 42,
+        "context": "In the museum, if it was Monday, then the new exhibit would open. If the curator arranged the artifacts, then they could open the exhibit. They were certain that either it was Monday, or the exhibit did not open. It is known in the museum that if a curator is meticulous, they arrange artifacts on time.",
+        "question": "If the new exhibit did not open, is Taylor a meticulous curator?",
+        "answer": "no"
+    },
+    {
+        "id": 43,
+        "context": "In the museum, if it was Monday, then the new exhibit would open. If the curator arranged the artifacts, then they could open the exhibit. They were certain that either it was Monday, or the exhibit did not open. It is known in the museum that if a curator is meticulous, they arrange artifacts on time.",
+        "question": "If the new exhibit opened, is Taylor a meticulous curator?",
+        "answer": "yes"
+    },
+    {
+        "id": 44,
+        "context": "At the stadium, if it was Friday, then the match would be played. If the coach prepared the team, then they could play the match. They were sure that either it was Friday, or the match did not happen. It is known at the stadium that if a coach is strategic, they prepare teams on time.",
+        "question": "If the match was not played, is Alex a strategic coach?",
+        "answer": "no"
+    },
+    {
+        "id": 45,
+        "context": "At the stadium, if it was Friday, then the match would be played. If the coach prepared the team, then they could play the match. They were sure that either it was Friday, or the match did not happen. It is known at the stadium that if a coach is strategic, they prepare teams on time.",
+        "question": "If the match was played, is Alex a strategic coach?",
+        "answer": "yes"
+    },
+    {
+        "id": 46,
+        "context": "In the office, if it was Thursday, then the presentation would be given. If the employee finished the slides, then they could give the presentation. They were certain that either it was Thursday, or the presentation was not given. It is known in the office that if an employee is efficient, they finish slides on time.",
+        "question": "If the presentation was not given, is Morgan an efficient employee?",
+        "answer": "no"
+    },
+    {
+        "id": 47,
+        "context": "In the office, if it was Thursday, then the presentation would be given. If the employee finished the slides, then they could give the presentation. They were certain that either it was Thursday, or the presentation was not given. It is known in the office that if an employee is efficient, they finish slides on time.",
+        "question": "If the presentation was given, is Morgan an efficient employee?",
+        "answer": "yes"
+    },
+    {
+        "id": 48,
+        "context": "At the school, if it was Wednesday, then the exam would be held. If the teacher prepared the questions, then they could hold the exam. They were sure that either it was Wednesday, or the exam did not happen. It is known at the school that if a teacher is organized, they prepare questions on time.",
+        "question": "If the exam was not held, is Riley an organized teacher?",
+        "answer": "no"
+    },
+    {
+        "id": 49,
+        "context": "At the school, if it was Wednesday, then the exam would be held. If the teacher prepared the questions, then they could hold the exam. They were sure that either it was Wednesday, or the exam did not happen. It is known at the school that if a teacher is organized, they prepare questions on time.",
+        "question": "If the exam was held, is Riley an organized teacher?",
+        "answer": "yes"
+    },
+    {
+        "id": 50,
+        "context": "In the workshop, if it was Tuesday, then the training session would occur. If the trainer prepared the materials, then they could hold the session. They were certain that either it was Tuesday, or the session did not happen. It is known in the workshop that if a trainer is prepared, they prepare materials on time.",
+        "question": "If the training session did not occur, is Jamie a prepared trainer?",
+        "answer": "no"
+    },
+    {
+        "id": 51,
+        "context": "In the workshop, if it was Tuesday, then the training session would occur. If the trainer prepared the materials, then they could hold the session. They were certain that either it was Tuesday, or the session did not happen. It is known in the workshop that if a trainer is prepared, they prepare materials on time.",
+        "question": "If the training session occurred, is Jamie a prepared trainer?",
+        "answer": "yes"
+    },
+    {
+        "id": 52,
+        "context": "In the garden, if it was Monday, then the flowers would be watered. If the gardener completed the task, then the flowers would bloom. They were certain that either it was Monday, or the flowers did not bloom. It is known in the garden that if a gardener is attentive, they complete tasks on time.",
+        "question": "If the flowers were not watered, is Sam an attentive gardener?",
+        "answer": "no"
+    },
+    {
+        "id": 53,
+        "context": "In the garden, if it was Monday, then the flowers would be watered. If the gardener completed the task, then the flowers would bloom. They were certain that either it was Monday, or the flowers did not bloom. It is known in the garden that if a gardener is attentive, they complete tasks on time.",
+        "question": "If the flowers were watered, is Sam an attentive gardener?",
+        "answer": "yes"
+    },
+    {
+        "id": 54,
+        "context": "At the beach, if it was Sunday, then the lifeguard would be on duty. If the lifeguard was present, then the beach would be safe. They were sure that either it was Sunday, or the beach was not safe. It is known at the beach that if a lifeguard is responsible, they are present on time.",
+        "question": "If the lifeguard was not on duty, is Alex a responsible lifeguard?",
+        "answer": "no"
+    },
+    {
+        "id": 55,
+        "context": "At the beach, if it was Sunday, then the lifeguard would be on duty. If the lifeguard was present, then the beach would be safe. They were sure that either it was Sunday, or the beach was not safe. It is known at the beach that if a lifeguard is responsible, they are present on time.",
+        "question": "If the lifeguard was on duty, is Alex a responsible lifeguard?",
+        "answer": "yes"
+    },
+    {
+        "id": 56,
+        "context": "In the kitchen, if it was Thursday, then the cake would be baked. If the chef followed the recipe, then the cake would be delicious. They were certain that either it was Thursday, or the cake was not delicious. It is known in the kitchen that if a chef is skilled, they follow recipes accurately.",
+        "question": "If the cake was not baked, is Jamie a skilled chef?",
+        "answer": "no"
+    },
+    {
+        "id": 57,
+        "context": "In the kitchen, if it was Thursday, then the cake would be baked. If the chef followed the recipe, then the cake would be delicious. They were certain that either it was Thursday, or the cake was not delicious. It is known in the kitchen that if a chef is skilled, they follow recipes accurately.",
+        "question": "If the cake was baked, is Jamie a skilled chef?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "context": "At the workshop, if it was Friday, then the new tool would be crafted. If the artisan used the right materials, then the tool would be durable. They were sure that either it was Friday, or the tool was not durable. It is known at the workshop that if an artisan is precise, they use the right materials.",
+        "question": "If the new tool was not crafted, is Taylor a precise artisan?",
+        "answer": "no"
+    },
+    {
+        "id": 59,
+        "context": "At the workshop, if it was Friday, then the new tool would be crafted. If the artisan used the right materials, then the tool would be durable. They were sure that either it was Friday, or the tool was not durable. It is known at the workshop that if an artisan is precise, they use the right materials.",
+        "question": "If the new tool was crafted, is Taylor a precise artisan?",
+        "answer": "yes"
+    },
+    {
+        "id": 60,
+        "context": "In the office, if it was Tuesday, then the meeting would be scheduled. If the assistant sent the invites, then everyone would attend. They were certain that either it was Tuesday, or not everyone attended. It is known in the office that if an assistant is organized, they send invites on time.",
+        "question": "If the meeting was not scheduled, is Morgan an organized assistant?",
+        "answer": "no"
+    },
+    {
+        "id": 61,
+        "context": "In the office, if it was Tuesday, then the meeting would be scheduled. If the assistant sent the invites, then everyone would attend. They were certain that either it was Tuesday, or not everyone attended. It is known in the office that if an assistant is organized, they send invites on time.",
+        "question": "If the meeting was scheduled, is Morgan an organized assistant?",
+        "answer": "yes"
+    },
+    {
+        "id": 62,
+        "context": "At the farm, if it was Wednesday, then the crops would be harvested. If the farmer used the right equipment, then the harvest would be successful. They were sure that either it was Wednesday, or the harvest was not successful. It is known at the farm that if a farmer is experienced, they use the right equipment.",
+        "question": "If the crops were not harvested, is Riley an experienced farmer?",
+        "answer": "no"
+    },
+    {
+        "id": 63,
+        "context": "At the farm, if it was Wednesday, then the crops would be harvested. If the farmer used the right equipment, then the harvest would be successful. They were sure that either it was Wednesday, or the harvest was not successful. It is known at the farm that if a farmer is experienced, they use the right equipment.",
+        "question": "If the crops were harvested, is Riley an experienced farmer?",
+        "answer": "yes"
+    },
+    {
+        "id": 64,
+        "context": "In the lab, if it was Monday, then the experiment would be conducted. If the scientist followed the protocol, then the results would be accurate. They were certain that either it was Monday, or the results were not accurate. It is known in the lab that if a scientist is meticulous, they follow protocols.",
+        "question": "If the experiment was not conducted, is Casey a meticulous scientist?",
+        "answer": "no"
+    },
+    {
+        "id": 65,
+        "context": "In the lab, if it was Monday, then the experiment would be conducted. If the scientist followed the protocol, then the results would be accurate. They were certain that either it was Monday, or the results were not accurate. It is known in the lab that if a scientist is meticulous, they follow protocols.",
+        "question": "If the experiment was conducted, is Casey a meticulous scientist?",
+        "answer": "yes"
+    },
+    {
+        "id": 66,
+        "context": "At the theater, if it was Thursday, then the rehearsal would take place. If the director gave clear instructions, then the actors would perform well. They were sure that either it was Thursday, or the actors did not perform well. It is known at the theater that if a director is clear, they give clear instructions.",
+        "question": "If the rehearsal did not take place, is Alex a clear director?",
+        "answer": "no"
+    },
+    {
+        "id": 67,
+        "context": "At the theater, if it was Thursday, then the rehearsal would take place. If the director gave clear instructions, then the actors would perform well. They were sure that either it was Thursday, or the actors did not perform well. It is known at the theater that if a director is clear, they give clear instructions.",
+        "question": "If the rehearsal took place, is Alex a clear director?",
+        "answer": "yes"
+    },
+    {
+        "id": 68,
+        "context": "In the library, if it was Friday, then the reading session would be held. If the librarian prepared the materials, then the session would be engaging. They were certain that either it was Friday, or the session was not engaging. It is known in the library that if a librarian is creative, they prepare engaging materials.",
+        "question": "If the reading session was not held, is Jamie a creative librarian?",
+        "answer": "no"
+    },
+    {
+        "id": 69,
+        "context": "In the library, if it was Friday, then the reading session would be held. If the librarian prepared the materials, then the session would be engaging. They were certain that either it was Friday, or the session was not engaging. It is known in the library that if a librarian is creative, they prepare engaging materials.",
+        "question": "If the reading session was held, is Jamie a creative librarian?",
+        "answer": "yes"
+    },
+    {
+        "id": 70,
+        "context": "At the gym, if it was Saturday, then the fitness class would be conducted. If the trainer followed the routine, then the class would be effective. They were sure that either it was Saturday, or the class was not effective. It is known at the gym that if a trainer is disciplined, they follow routines.",
+        "question": "If the fitness class was not conducted, is Taylor a disciplined trainer?",
+        "answer": "no"
+    },
+    {
+        "id": 71,
+        "context": "At the gym, if it was Saturday, then the fitness class would be conducted. If the trainer followed the routine, then the class would be effective. They were sure that either it was Saturday, or the class was not effective. It is known at the gym that if a trainer is disciplined, they follow routines.",
+        "question": "If the fitness class was conducted, is Taylor a disciplined trainer?",
+        "answer": "yes"
+    },
+    {
+        "id": 72,
+        "context": "In the restaurant, if it was Sunday, then the special menu would be offered. If the chef prepared the dishes, then the menu would be popular. They were certain that either it was Sunday, or the menu was not popular. It is known in the restaurant that if a chef is innovative, they prepare popular dishes.",
+        "question": "If the special menu was not offered, is Morgan an innovative chef?",
+        "answer": "no"
+    },
+    {
+        "id": 73,
+        "context": "In the restaurant, if it was Sunday, then the special menu would be offered. If the chef prepared the dishes, then the menu would be popular. They were certain that either it was Sunday, or the menu was not popular. It is known in the restaurant that if a chef is innovative, they prepare popular dishes.",
+        "question": "If the special menu was offered, is Morgan an innovative chef?",
+        "answer": "yes"
+    },
+    {
+        "id": 74,
+        "context": "At the concert hall, if it was Wednesday, then the performance would be held. If the conductor rehearsed with the orchestra, then the performance would be outstanding. They were sure that either it was Wednesday, or the performance was not outstanding. It is known at the concert hall that if a conductor is dedicated, they rehearse thoroughly.",
+        "question": "If the performance was not held, is Riley a dedicated conductor?",
+        "answer": "no"
+    },
+    {
+        "id": 75,
+        "context": "At the concert hall, if it was Wednesday, then the performance would be held. If the conductor rehearsed with the orchestra, then the performance would be outstanding. They were sure that either it was Wednesday, or the performance was not outstanding. It is known at the concert hall that if a conductor is dedicated, they rehearse thoroughly.",
+        "question": "If the performance was held, is Riley a dedicated conductor?",
+        "answer": "yes"
+    },
+    {
+        "id": 76,
+        "context": "In the school, if it was Thursday, then the art class would be conducted. If the teacher prepared the materials, then the class would be creative. They were certain that either it was Thursday, or the class was not creative. It is known in the school that if a teacher is inspiring, they prepare creative materials.",
+        "question": "If the art class was not conducted, is Casey an inspiring teacher?",
+        "answer": "no"
+    },
+    {
+        "id": 77,
+        "context": "In the school, if it was Thursday, then the art class would be conducted. If the teacher prepared the materials, then the class would be creative. They were certain that either it was Thursday, or the class was not creative. It is known in the school that if a teacher is inspiring, they prepare creative materials.",
+        "question": "If the art class was conducted, is Casey an inspiring teacher?",
+        "answer": "yes"
+    },
+    {
+        "id": 78,
+        "context": "At the zoo, if it was Monday, then the animal feeding would occur. If the zookeeper followed the schedule, then the animals would be healthy. They were sure that either it was Monday, or the animals were not healthy. It is known at the zoo that if a zookeeper is caring, they follow feeding schedules.",
+        "question": "If the animal feeding did not occur, is Alex a caring zookeeper?",
+        "answer": "no"
+    },
+    {
+        "id": 79,
+        "context": "At the zoo, if it was Monday, then the animal feeding would occur. If the zookeeper followed the schedule, then the animals would be healthy. They were sure that either it was Monday, or the animals were not healthy. It is known at the zoo that if a zookeeper is caring, they follow feeding schedules.",
+        "question": "If the animal feeding occurred, is Alex a caring zookeeper?",
+        "answer": "yes"
+    },
+    {
+        "id": 80,
+        "context": "In the park, if it was Friday, then the community event would be held. If the organizer arranged the activities, then the event would be successful. They were certain that either it was Friday, or the event was not successful. It is known in the park that if an organizer is efficient, they arrange activities well.",
+        "question": "If the community event was not held, is Jamie an efficient organizer?",
+        "answer": "no"
+    },
+    {
+        "id": 81,
+        "context": "In the park, if it was Friday, then the community event would be held. If the organizer arranged the activities, then the event would be successful. They were certain that either it was Friday, or the event was not successful. It is known in the park that if an organizer is efficient, they arrange activities well.",
+        "question": "If the community event was held, is Jamie an efficient organizer?",
+        "answer": "yes"
+    },
+    {
+        "id": 82,
+        "context": "At the airport, if it was Saturday, then the flight would be on time. If the pilot followed the schedule, then the flight would be smooth. They were sure that either it was Saturday, or the flight was not smooth. It is known at the airport that if a pilot is punctual, they follow schedules.",
+        "question": "If the flight was not on time, is Taylor a punctual pilot?",
+        "answer": "no"
+    },
+    {
+        "id": 83,
+        "context": "At the airport, if it was Saturday, then the flight would be on time. If the pilot followed the schedule, then the flight would be smooth. They were sure that either it was Saturday, or the flight was not smooth. It is known at the airport that if a pilot is punctual, they follow schedules.",
+        "question": "If the flight was on time, is Taylor a punctual pilot?",
+        "answer": "yes"
+    },
+    {
+        "id": 84,
+        "context": "In the museum, if it was Tuesday, then the guided tour would be available. If the guide prepared the script, then the tour would be informative. They were certain that either it was Tuesday, or the tour was not informative. It is known in the museum that if a guide is knowledgeable, they prepare informative scripts.",
+        "question": "If the guided tour was not available, is Morgan a knowledgeable guide?",
+        "answer": "no"
+    },
+    {
+        "id": 85,
+        "context": "In the museum, if it was Tuesday, then the guided tour would be available. If the guide prepared the script, then the tour would be informative. They were certain that either it was Tuesday, or the tour was not informative. It is known in the museum that if a guide is knowledgeable, they prepare informative scripts.",
+        "question": "If the guided tour was available, is Morgan a knowledgeable guide?",
+        "answer": "yes"
+    },
+    {
+        "id": 86,
+        "context": "At the stadium, if it was Sunday, then the game would be played. If the coach trained the team, then the game would be exciting. They were sure that either it was Sunday, or the game was not exciting. It is known at the stadium that if a coach is strategic, they train teams effectively.",
+        "question": "If the game was not played, is Riley a strategic coach?",
+        "answer": "no"
+    },
+    {
+        "id": 87,
+        "context": "At the stadium, if it was Sunday, then the game would be played. If the coach trained the team, then the game would be exciting. They were sure that either it was Sunday, or the game was not exciting. It is known at the stadium that if a coach is strategic, they train teams effectively.",
+        "question": "If the game was played, is Riley a strategic coach?",
+        "answer": "yes"
+    },
+    {
+        "id": 88,
+        "context": "In the office, if it was Wednesday, then the report would be reviewed. If the manager checked the details, then the report would be accurate. They were certain that either it was Wednesday, or the report was not accurate. It is known in the office that if a manager is thorough, they check details carefully.",
+        "question": "If the report was not reviewed, is Casey a thorough manager?",
+        "answer": "no"
+    },
+    {
+        "id": 89,
+        "context": "In the office, if it was Wednesday, then the report would be reviewed. If the manager checked the details, then the report would be accurate. They were certain that either it was Wednesday, or the report was not accurate. It is known in the office that if a manager is thorough, they check details carefully.",
+        "question": "If the report was reviewed, is Casey a thorough manager?",
+        "answer": "yes"
+    },
+    {
+        "id": 90,
+        "context": "At the university, if it was Monday, then the lecture would be delivered. If the professor prepared the slides, then the lecture would be engaging. They were sure that either it was Monday, or the lecture was not engaging. It is known at the university that if a professor is engaging, they prepare engaging slides.",
+        "question": "If the lecture was not delivered, is Alex an engaging professor?",
+        "answer": "no"
+    },
+    {
+        "id": 91,
+        "context": "At the university, if it was Monday, then the lecture would be delivered. If the professor prepared the slides, then the lecture would be engaging. They were sure that either it was Monday, or the lecture was not engaging. It is known at the university that if a professor is engaging, they prepare engaging slides.",
+        "question": "If the lecture was delivered, is Alex an engaging professor?",
+        "answer": "yes"
+    },
+    {
+        "id": 92,
+        "context": "In the hospital, if it was Thursday, then the check-up would be conducted. If the nurse followed the procedure, then the check-up would be thorough. They were certain that either it was Thursday, or the check-up was not thorough. It is known in the hospital that if a nurse is diligent, they follow procedures.",
+        "question": "If the check-up was not conducted, is Jamie a diligent nurse?",
+        "answer": "no"
+    },
+    {
+        "id": 93,
+        "context": "In the hospital, if it was Thursday, then the check-up would be conducted. If the nurse followed the procedure, then the check-up would be thorough. They were certain that either it was Thursday, or the check-up was not thorough. It is known in the hospital that if a nurse is diligent, they follow procedures.",
+        "question": "If the check-up was conducted, is Jamie a diligent nurse?",
+        "answer": "yes"
+    },
+    {
+        "id": 94,
+        "context": "At the zoo, if it was Friday, then the animal show would be performed. If the trainer rehearsed with the animals, then the show would be entertaining. They were sure that either it was Friday, or the show was not entertaining. It is known at the zoo that if a trainer is enthusiastic, they rehearse thoroughly.",
+        "question": "If the animal show was not performed, is Taylor an enthusiastic trainer?",
+        "answer": "no"
+    },
+    {
+        "id": 95,
+        "context": "At the zoo, if it was Friday, then the animal show would be performed. If the trainer rehearsed with the animals, then the show would be entertaining. They were sure that either it was Friday, or the show was not entertaining. It is known at the zoo that if a trainer is enthusiastic, they rehearse thoroughly.",
+        "question": "If the animal show was performed, is Taylor an enthusiastic trainer?",
+        "answer": "yes"
+    },
+    {
+        "id": 96,
+        "context": "In the park, if it was Thursday, then the picnic would be organized. If the planner arranged the food, then the picnic would be enjoyable. They were certain that either it was Thursday, or the picnic was not enjoyable. It is known in the park that if a planner is meticulous, they arrange food well.",
+        "question": "If the picnic was not organized, is Morgan a meticulous planner?",
+        "answer": "no"
+    },
+    {
+        "id": 97,
+        "context": "In the park, if it was Thursday, then the picnic would be organized. If the planner arranged the food, then the picnic would be enjoyable. They were certain that either it was Thursday, or the picnic was not enjoyable. It is known in the park that if a planner is meticulous, they arrange food well.",
+        "question": "If the picnic was organized, is Morgan a meticulous planner?",
+        "answer": "yes"
+    },
+    {
+        "id": 98,
+        "context": "At the airport, if it was Friday, then the security check would be efficient. If the officer followed the protocol, then the check would be smooth. They were sure that either it was Friday, or the check was not smooth. It is known at the airport that if an officer is efficient, they follow protocols.",
+        "question": "If the security check was not efficient, is Riley an efficient officer?",
+        "answer": "no"
+    },
+    {
+        "id": 99,
+        "context": "At the airport, if it was Friday, then the security check would be efficient. If the officer followed the protocol, then the check would be smooth. They were sure that either it was Friday, or the check was not smooth. It is known at the airport that if an officer is efficient, they follow protocols.",
+        "question": "If the security check was efficient, is Riley an efficient officer?",
+        "answer": "yes"
+    },
+    {
+        "id": 100,
+        "context": "In the museum, if it was Saturday, then the art exhibit would be open. If the curator arranged the pieces, then the exhibit would be impressive. They were certain that either it was Saturday, or the exhibit was not impressive. It is known in the museum that if a curator is talented, they arrange pieces well.",
+        "question": "If the art exhibit was not open, is Casey a talented curator?",
+        "answer": "no"
+    },
+    {
+        "id": 101,
+        "context": "In the museum, if it was Saturday, then the art exhibit would be open. If the curator arranged the pieces, then the exhibit would be impressive. They were certain that either it was Saturday, or the exhibit was not impressive. It is known in the museum that if a curator is talented, they arrange pieces well.",
+        "question": "If the art exhibit was open, is Casey a talented curator?",
+        "answer": "yes"
+    }
+]
